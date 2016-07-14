@@ -279,17 +279,19 @@ Finally, to confirm that <m>A</m> has an absolute maximum at <m>\theta = \arccos
 \item While there is no single algorithm that works in every situation where optimization is used, in most of the problems we consider, the following steps are helpful: draw a picture and introduce variables; identify the quantity to be optimized and find relationships among the variables; determine a function of a single variable that models the quantity to be optimized; decide the domain on which to consider the function being optimized; use calculus to identify the absolute maximum and/or minimum of the quantity being optimized.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-	\item A rectangular box with a square bottom and closed top is to be made from two materials. The material for the side costs <dollar />1.50 per square foot and the material for the bottom costs <dollar />3.00 per square foot. If you are willing to spend <dollar />15 on the box, what is the largest volume it can contain? Justify your answer completely using calculus.
-	\item A farmer wants to start raising cows, horses, goats, and sheep, and desires to have a rectangular pasture for the animals to graze in. However, no two different kinds of animals can graze together. In order to minimize the amount of fencing she will need, she has decided to enclose a large rectangular area and then divide it into four equally sized pens by adding three segments of fence inside the large rectangle that are parallel to two existing sides. She has decided to purchase 7500 ft of fencing. What is the maximum possible area that each of the four pens will enclose?
-	\item Two vertical poles of heights 60 ft and 80 ft stand on level ground, with their bases 100 ft apart. A cable that is stretched from the top of one pole to some point on the ground between the poles, and then to the top of the other pole. What is the minimum possible length of cable required? Justify your answer completely using calculus.
-	\item A company is designing propane tanks that are cylindrical with hemispherical ends. Assume that the company wants tanks that will hold 1000 cubic feet of gas, and that the ends are more expensive to make, costing <dollar />5 per square foot, while the cylindrical barrel between the ends costs <dollar />2 per square foot. Use calculus to determine the minimum cost to construct such a tank.
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>A rectangular box with a square bottom and closed top is to be made from two materials.  The material for the side costs <dollar />1.50 per square foot and the material for the bottom costs <dollar />3.00 per square foot.  If you are willing to spend <dollar />15 on the box, what is the largest volume it can contain?  Justify your answer completely using calculus.</p></li>
+<li><p>A farmer wants to start raising cows, horses, goats, and sheep, and desires to have a rectangular pasture for the animals to graze in.  However, no two different kinds of animals can graze together.  In order to minimize the amount of fencing she will need, she has decided to enclose a large rectangular area and then divide it into four equally sized pens by adding three segments of fence inside the large rectangle that are parallel to two existing sides.  She has decided to purchase 7500 ft of fencing.  What is the maximum possible area that each of the four pens will enclose?</p></li>
+<li><p>Two vertical poles of heights 60 ft and 80 ft stand on level ground, with their bases 100 ft apart.  A cable that is stretched from the top of one pole to some point on the ground between the poles, and then to the top of the other pole.   What is the minimum possible length of cable required?  Justify your answer completely using calculus.</p></li>
+<li><p>A company is designing propane tanks that are cylindrical with hemispherical ends.   Assume that the company wants tanks that will hold 1000 cubic feet of gas, and that the ends are more expensive to make, costing <dollar />5 per square foot, while the cylindrical barrel between the ends costs <dollar />2 per square foot.  Use calculus to determine the minimum cost to construct such a tank.</p></li>
+</ol>
+
+</ol>
+</exercises>
 </subsection>
 
 </section>

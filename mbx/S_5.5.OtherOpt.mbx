@@ -357,10 +357,12 @@ So, the above observations regarding computer algebra systems lead us to proceed
 \item Computer algebra systems can play an important role in finding antiderivatives, though we must be cautious to use correct input, to watch for unusual or unfamiliar advanced functions that the CAS may cite in its result, and to consider the possibility that a CAS may need further assistance or insight from us in order to answer a particular question.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item For each of the following integrals involving rational functions, (1) use a CAS to find the partial fraction decomposition of the integrand; (2) evaluate the integral of the resulting function without the assistance of technology; (3) use a CAS to evaluate the original integral to test and compare your result in (2).
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>For each of the following integrals involving rational functions, (1) use a CAS to find the partial fraction decomposition of the integrand; (2) evaluate the integral of the resulting function without the assistance of technology; (3) use a CAS to evaluate the original integral to test and compare your result in (2).
 </p>
 
 <ol>
@@ -368,9 +370,8 @@ So, the above observations regarding computer algebra systems lead us to proceed
 <li><m>\ds \int \frac{x^5 + x^2 + 3}{x^3 - 6x^2 + 11x - 6} \, dx</m></li>
 <li><m>\ds \int \frac{x^2 - x - 1}{(x-3)^3} \, dx</m></li>
 </ol>
-
-<p>
-\item For each of the following integrals involving radical functions, (1) use an appropriate <m>u</m>-substitution along with <xref ref="C_9.IntegralTable">Appendix</xref> to evaluate the integral without the assistance of technology, and (2) use a CAS to evaluate the original integral to test and compare your result in (1).
+</li>
+<li><p>For each of the following integrals involving radical functions, (1) use an appropriate <m>u</m>-substitution along with <xref ref="C_9.IntegralTable">Appendix</xref> to evaluate the integral without the assistance of technology, and (2) use a CAS to evaluate the original integral to test and compare your result in (1).
 </p>
 
 <ol>
@@ -379,9 +380,8 @@ So, the above observations regarding computer algebra systems lead us to proceed
 <li><m>\ds \int  e^x \sqrt{4 + e^{2x}} \, dx</m></li>
 <li><m>\ds \int \frac{\tan(x)}{\sqrt{9 - \cos^2(x)}}  \, dx</m></li>
 </ol>
-
-<p>
-\item Consider the indefinite integral given by
+</li>
+<li><p>Consider the indefinite integral given by
 <me>
   \int \frac{\sqrt{x+\sqrt{1+x^2}}}{x} \, dx.
 </me>
@@ -393,12 +393,11 @@ So, the above observations regarding computer algebra systems lead us to proceed
 <li><p>Is there any line in the integral table in <xref ref="C_9.IntegralTable">Appendix</xref> that is helpful for this integral?</p></li>
 <li><p>Evaluate the given integral using <em>WolframAlpha</em>.  What do you observe?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

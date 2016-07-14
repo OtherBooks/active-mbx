@@ -319,10 +319,12 @@ This is an author note.
 </me>
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Let <m>f</m> and <m>g</m> be differentiable functions for which the following information is known: <m>f(2) = 5</m>, <m>g(2) = -3</m>, <m>f'(2) = -1/2</m>, <m>g'(2) = 2</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Let <m>f</m> and <m>g</m> be differentiable functions for which the following information is known:  <m>f(2) = 5</m>, <m>g(2) = -3</m>, <m>f'(2) = -1/2</m>, <m>g'(2) = 2</m>.
 </p>
 
 <ol>
@@ -331,23 +333,22 @@ This is an author note.
 <li><p>Let <m>p</m> be the function defined by the rule <m>p(x) = -2f(x) + \frac{1}{2}g(x)</m>.  Is <m>p</m> increasing, decreasing, or neither at <m>a = 2</m>?  Why?</p></li>
 <li><p>Estimate the value of <m>p(2.03)</m> by using the local linearization of <m>p</m> at the point <m>(2,p(2))</m>.</p></li>
 </ol>
-
-<p>
-\item Let functions <m>p</m> and <m>q</m> be the piecewise linear functions given by their respective graphs in <xref ref="F_2.1.Ez3">Figure</xref>. Use the graphs to answer the following questions.
-</p>
+</li>
+<li><p>Let functions <m>p</m> and <m>q</m> be the piecewise linear functions given by their respective graphs in <xref ref="F_2.1.Ez3">Figure</xref>.  Use the graphs to answer the following questions.
 <figure xml:id="F_2.1.Ez3" >
 <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
 <image width="73%" source="images/2_1_Ez3.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>At what values of <m>x</m> is <m>p</m> not differentiable?  At what values of <m>x</m> is <m>q</m> not differentiable? Why?</p></li>
 <li><p>Let <m>r(x) = p(x) + 2q(x)</m>.  At what values of <m>x</m> is <m>r</m> not differentiable? Why?</p></li>
 <li><p>Determine <m>r'(-2)</m> and <m>r'(0)</m>.</p></li>
 <li><p>Find an equation for the tangent line to <m>y = r(x)</m> at the point <m>(2,r(2))</m>.</p></li>
 </ol>
-
-<p>
-\item Consider the functions <m>r(t) = t^t</m> and <m>s(t) = \arccos(t)</m>, for which you are given the facts that <m>r'(t) = t^t(\ln(t) + 1)</m> and <m>s'(t) = -\frac{1}{\sqrt{1-t^2}}</m>. Do not be concerned with where these derivative formulas come from. We restrict our interest in both functions to the domain <m>0 \lt  t \lt  1</m>.
+</li>
+<li><p>Consider the functions <m>r(t) = t^t</m> and <m>s(t) = \arccos(t)</m>, for which you are given the facts that <m>r'(t) = t^t(\ln(t) + 1)</m> and <m>s'(t) = -\frac{1}{\sqrt{1-t^2}}</m>.  Do not be concerned with where these derivative formulas come from.  We restrict our interest in both functions to the domain <m>0 \lt  t \lt  1</m>.
 </p>
 
 <ol>
@@ -355,9 +356,8 @@ This is an author note.
 <li><p>Find an equation for the tangent line to <m>y = w(t)</m> at the point <m>(\frac{1}{2}, w(\frac{1}{2}))</m>.</p></li>
 <li><p>Let <m>v(t) = t^t + \arccos(t)</m>.  Is <m>v</m> increasing or decreasing at the instant <m>t = \frac{1}{2}</m>?  Why?</p></li>
 </ol>
-
-<p>
-\item Let <m>f(x) = a^x</m>. The goal of this problem is to explore how the value of <m>a</m> affects the derivative of <m>f(x)</m>, without assuming we know the rule for <m>\frac{d}{dx}[a^x]</m> that we have stated and used in earlier work in this section.
+</li>
+<li><p>Let <m>f(x) = a^x</m>.  The goal of this problem is to explore how the value of <m>a</m> affects the derivative of <m>f(x)</m>, without assuming we know the rule for <m>\frac{d}{dx}[a^x]</m> that we have stated and used in earlier work in this section.
 </p>
 
 <ol>
@@ -381,12 +381,11 @@ when <m>a = 2</m>.  Do likewise when <m>a = 3</m>.</p></li>
 <li><p>Compute <m>\ln(2)</m> and <m>\ln(3)</m>.  What does your work in (b) and (c) suggest is true about <m>\frac{d}{dx}[2^x]</m> and <m>\frac{d}{dx}[3^x]</m>.</p></li>
 <li><p>How do your investigations in (d) lead to a particularly important fact about the number <m>e</m>?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

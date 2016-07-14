@@ -221,10 +221,12 @@ This is an author note.
 \item We note that all previously encountered derivative rules still hold, but now may also be applied to functions involving the sine and cosine, plus all of the established meaning of the derivative applies to these trigonometric functions as well.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Suppose that <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> represents the value of a person's investment portfolio in thousands of dollars in year <m>t</m>, where <m>t = 0</m> corresponds to January 1, 2010.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Suppose that <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> represents the value of a person's investment portfolio in thousands of dollars in year <m>t</m>, where <m>t = 0</m> corresponds to January 1, 2010.
 </p>
 
 <ol>
@@ -232,9 +234,8 @@ This is an author note.
 <li><p>Determine the value of <m>V''(2)</m>.  What are the units on this quantity and what does it tell you about how the portfolio's value is changing?</p></li>
 <li><p>On the interval <m>0 \le t \le 20</m>, graph the function <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> and describe its behavior in the context of the problem.  Then, compare the graphs of the functions <m>A(t) = 24 \cdot 1.07^t</m> and <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m>, as well as the graphs of their derivatives <m>A'(t)</m> and <m>V'(t)</m>.  What is the impact of the term <m>6 \sin(t)</m> on the behavior of the function <m>V(t)</m>?</p></li>
 </ol>
-
-<p>
-\item Let <m>f(x) = 3\cos(x) - 2\sin(x) + 6</m>.
+</li>
+<li><p>Let <m>f(x) = 3\cos(x) - 2\sin(x) + 6</m>.
 </p>
 
 <ol>
@@ -243,9 +244,8 @@ This is an author note.
 <li><p>At the point where <m>a = \frac{\pi}{2}</m>, is <m>f</m> increasing, decreasing, or neither?</p></li>
 <li><p>At the point where <m>a = \frac{3\pi}{2}</m>, does the tangent line to <m>y = f(x)</m> lie above the curve, below the curve, or neither?  How can  you answer this question without even graphing the function or the tangent line?</p></li>
 </ol>
-
-<p>
-\item In this exercise, we explore how the limit definition of the derivative more formally shows that <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m>. Letting <m>f(x) = \sin(x)</m>, note that the limit definition of the derivative tells us that
+</li>
+<li><p>In this exercise, we explore how the limit definition of the derivative more formally shows that <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m>.   Letting <m>f(x) = \sin(x)</m>, note that the limit definition of the derivative tells us that
 <me>
   f'(x) = \lim_{h \to 0} \frac{\sin(x+h) - \sin(x)}{h}.
 </me>
@@ -269,12 +269,11 @@ This is an author note.
 <li><p>What do your results in (c) thus tell you about <m>f'(x)</m>?</p></li>
 <li><p>By emulating the steps taken above, use the limit definition of the derivative to argue convincingly that <m>\frac{d}{dx}[\cos(x)] = -\sin(x).</m></p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

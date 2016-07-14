@@ -412,10 +412,12 @@ in an effort to evaluate the original integral <m>\int f(x) g'(x) \, dx</m> by i
 \item When deciding to integrate by parts, we normally have a product of functions present in the integrand and we have to select both <m>u</m> and <m>dv</m>. That selection is guided by the overall principal that we desire the new integral <m>\int v \, du</m> to not be any more difficult or complicated than the original integral <m>\int u \, dv</m>. In addition, it is often helpful to recognize if one of the functions present is much easier to differentiate than antidifferentiate (such as <m>\ln(x)</m>), in which case that function often is best assigned the variable <m>u</m>. For sure, when choosing <m>dv</m>, the corresponding function must be one that we can antidifferentiate.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Let <m>f(t) = te^{-2t}</m> and <m>F(x) = \int_0^x f(t) \, dt</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Let <m>f(t) = te^{-2t}</m> and <m>F(x) = \int_0^x f(t) \, dt</m>.
 </p>
 
 <ol>
@@ -423,9 +425,8 @@ in an effort to evaluate the original integral <m>\int f(x) g'(x) \, dx</m> by i
 <li><p>Use the First FTC to find a formula for <m>F</m> that does not involve an integral.</p></li>
 <li><p>Is <m>F</m> an increasing or decreasing function for <m>x > 0</m>?  Why?</p></li>
 </ol>
-
-<p>
-\item Consider the indefinite integral given by <m>\int e^{2x} \cos(e^x) \, dx</m>.
+</li>
+<li><p>Consider the indefinite integral given by <m>\int e^{2x} \cos(e^x) \, dx</m>.
 </p>
 
 <ol>
@@ -442,14 +443,12 @@ in an effort to evaluate the original integral <m>\int f(x) g'(x) \, dx</m> by i
 </ul>
 </li>
 </ol>
+</li>
+<li><p>For each of the following indefinite integrals, determine whether you would use <m>u</m>-substitution, integration by parts, neither, or both to evaluate the integral.  In each case, write one sentence to explain your reasoning, and include a statement of any substitutions used.  (That is, if you decide in a problem to let <m>u = e^{3x}</m>, you should state that, as well as that <m>du = 3e^{3x} \, dx</m>.)  Finally, use your chosen approach to evaluate each integral.</p></li>
+</ol>
 
-<p>
-\item For each of the following indefinite integrals, determine whether you would use <m>u</m>-substitution, integration by parts, neither, or both to evaluate the integral. In each case, write one sentence to explain your reasoning, and include a statement of any substitutions used. (That is, if you decide in a problem to let <m>u = e^{3x}</m>, you should state that, as well as that <m>du = 3e^{3x} \, dx</m>.) Finally, use your chosen approach to evaluate each integral.
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
-
+</ol>
+</exercises>
 <ol>
 <li><m>\int x^2 \cos(x^3) \, dx</m></li>
 <li><m>\int x^5 \cos(x^3) \, dx</m>  <nbsp />(Hint: <m>x^5 = x^2 \cdot x^3</m>)</li>

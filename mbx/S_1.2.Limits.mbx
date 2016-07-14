@@ -368,10 +368,12 @@ This is an author note.
 \item The instantaneous velocity of a moving object at a fixed time is found by taking the limit of average velocities of the object over shorter and shorter time intervals that all contain the time of interest.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the function whose formula is <m>\ds f(x) = \frac{16-x^4}{x^2-4}</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the function whose formula is <m>\ds f(x) = \frac{16-x^4}{x^2-4}</m>.
 </p>
 
 <ol>
@@ -383,9 +385,8 @@ This is an author note.
 <li><p>True or false: <m>\frac{16-x^4}{x^2-4} = -4-x^2.</m>  Why?  How is this equality connected to your work above with the function <m>f</m>?</p></li>
 <li><p>Based on all of your work above, construct an accurate, labeled graph of <m>y = f(x)</m> on the interval <m>[1,3]</m>, and write a sentence that explains what you now know about <m>\ds \lim_{x \to 2} \frac{16-x^4}{x^2-4}</m>.</p></li>
 </ol>
-
-<p>
-\item Let <m>\ds g(x) = -\frac{|x+3|}{x+3}</m>.
+</li>
+<li><p>Let <m>\ds g(x) = -\frac{|x+3|}{x+3}</m>.
 </p>
 
 <ol>
@@ -398,14 +399,14 @@ This is an author note.
 <li><p>True or false: <m>-\frac{|x+3|}{x+3} = -1.</m>  Why?  How is this equality connected to your work above with the function <m>g</m>?</p></li>
 <li><p>Based on all of your work above, construct an accurate, labeled graph of <m>y = g(x)</m> on the interval <m>[-4,-2]</m>, and write a sentence that explains what you now know about <m>\ds \lim_{x \to -3} g(x)</m>.</p></li>
 </ol>
-
-<p>
-\item For each of the following prompts, sketch a graph on the provided axes of a function that has the stated properties.
-</p>
+</li>
+<li><p>For each of the following prompts, sketch a graph on the provided axes of a function that has the stated properties.
 <figure xml:id="F_1.2.Ez3" >
 <caption>Axes for plotting <m>y = f(x)</m> in (a) and <m>y = g(x)</m> in (b).</caption>
 <image width="73%" source="images/1_2_Ez3.png" />
 </figure>
+</p>
+
 <ol>
 <li><m>y = f(x)</m> such that
 <ul>
@@ -423,9 +424,8 @@ This is an author note.
 </ul>
 </li>
 </ol>
-
-<p>
-\item A bungee jumper dives from a tower at time <m>t=0</m>. Her height <m>s</m> in feet at time <m>t</m> in seconds is given by <m>s(t) = 100\cos(0.75t) \cdot e^{-0.2t}+100</m>.
+</li>
+<li><p>A bungee jumper dives from a tower at time <m>t=0</m>. Her height  <m>s</m> in feet at time <m>t</m> in seconds is given by <m>s(t) = 100\cos(0.75t) \cdot e^{-0.2t}+100</m>.
 </p>
 
 <ol>
@@ -434,12 +434,11 @@ This is an author note.
 <li><p>Use computing technology to estimate the value of the limit as <m>h \to 0</m> of the quantity you found in (a).</p></li>
 <li><p>What is the meaning of the value of the limit in (b)?  What are its units?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

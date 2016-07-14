@@ -409,10 +409,12 @@ That is, <m>f</m> is the derivative of <m>F</m>, and <m>F</m> is an antiderivati
 A key part of choosing the expression in <m>x</m> to be represented by <m>u</m> is the identification of a function-derivative pair. To do so, we often look for an <q>inner</q> function <m>g(x)</m> that is part of a composite function, while investigating whether <m>g'(x)</m> (or a constant multiple of <m>g'(x)</m>) is present as a multiplying factor of the integrand.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item This problem centers on finding antiderivatives for the basic trigonometric functions other than <m>\sin(x)</m> and <m>\cos(x)</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>This problem centers on finding antiderivatives for the basic trigonometric functions other than <m>\sin(x)</m> and <m>\cos(x)</m>.
 </p>
 
 <ol>
@@ -427,9 +429,8 @@ Evaluate this integral using the substitution <m>u = \sec(x) + \tan(x)</m>.</p><
 <li><p>Combine your work in (c) and (d) to determine <m>\int \sec(x) \, dx</m>.</p></li>
 <li><p>Using (c)-(e) as a guide, evaluate <m>\ds \int \csc(x) \, dx</m>.</p></li>
 </ol>
-
-<p>
-\item Consider the indefinite integral <m>\ds \int x \sqrt{x-1} \, dx.</m>
+</li>
+<li><p>Consider the indefinite integral <m>\ds \int x \sqrt{x-1} \, dx.</m>
 </p>
 
 <ol>
@@ -438,9 +439,8 @@ Evaluate this integral using the substitution <m>u = \sec(x) + \tan(x)</m>.</p><
 <li><p>Evaluate the integral in (b) by noting that <m>\sqrt{u} = u^{1/2}</m> and observing that it is now possible to rewrite the integrand in <m>u</m> by expanding through multiplication.</p></li>
 <li><p>Evaluate each of the integrals <m>\ds \int x^2 \sqrt{x-1} \, dx</m> and <m>\ds \int x \sqrt{x^2 - 1} \, dx</m>.  Write a paragraph to discuss the similarities among the three indefinite integrals in this problem and the role of substitution and algebraic rearrangement in each.</p></li>
 </ol>
-
-<p>
-\item Consider the indefinite integral <m>\ds \int \sin^3(x) \, dx</m>.
+</li>
+<li><p>Consider the indefinite integral <m>\ds \int \sin^3(x) \, dx</m>.
 </p>
 
 <ol>
@@ -450,16 +450,12 @@ Evaluate this integral using the substitution <m>u = \sec(x) + \tan(x)</m>.</p><
 <li><p>Use your work in (a)-(c) to evaluate the  indefinite integral <m>\ds \int \sin^3(x) \, dx</m>.</p></li>
 <li><p>Use a similar approach to evaluate <m>\ds \int \cos^3(x) \, dx</m>.</p></li>
 </ol>
-
-<p>
-\item For the town of Mathland, MI, residential power consumption has shown certain trends over recent years. Based on data reflecting average usage, engineers at the power company have modeled the town's rate of energy consumption by the function
+</li>
+<li><p>For the town of Mathland, MI, residential power consumption has shown certain trends over recent years.  Based on data reflecting average usage, engineers at the power company have modeled the town's rate of energy consumption by the function
 <me>
   r(t) = 4 + \sin(0.263t + 4.7) + \cos(0.526t+9.4).
 </me>
-</p>
-
-<p>
-Here, <m>t</m> measures time in hours after midnight on a typical weekday, and <m>r</m> is the rate of consumption in megawatts<fn>The unit <em>megawatt</em> is itself a rate, which measures energy consumption per unit time.  A <em>megawatt-hour</em> is the total amount of energy that is equivalent to a constant stream of 1 megawatt of power being sustained for 1 hour.</fn> at time <m>t</m>.
+Here, <m>t</m> measures time in hours after midnight on a typical weekday, and <m>r</m> is the rate of consumption in megawatts<fn>The unit <em>megawatt</em> is itself a rate, which measures energy consumption per unit time.  A <em>megawatt-hour</em> is the total amount of energy that is equivalent to a constant stream of 1 megawatt of power being sustained for 1 hour.</fn> at time <m>t</m>. 
 Units are critical throughout this problem.
 </p>
 
@@ -469,12 +465,11 @@ Units are critical throughout this problem.
 <li><p>Determine the exact amount of power Mathland consumes in a typical day.</p></li>
 <li><p>What is Mathland's average rate of energy consumption in a given 24-hour period?  What are the units on this quantity?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

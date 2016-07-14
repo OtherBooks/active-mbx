@@ -277,10 +277,12 @@ equilibrium solutions. These may be classified as stable or
 unstable, depending on the behavior of nearby solutions.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the differential equation
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the differential equation
 <me>
   \frac{dy}{dt} = t-y.
 </me>
@@ -297,19 +299,20 @@ unstable, depending on the behavior of nearby solutions.
     have sketched, what is the relationship between <m>t</m> and <m>y</m> at a
     point where a solution has a local minimum?</p></li>
 </ol>
-
-<p>
-\item Consider the situation from problem 2 of <xref ref="S_7.1.DEIntro">Section</xref>: Suppose
-that the population of a particular species is
-described by the function <m>P(t)</m>, where <m>P</m> is expressed in
-millions. Suppose further that the population's rate of change is
-governed by the differential equation
+</li>
+<li><p>Consider the situation from problem 2 of <xref ref="S_7.1.DEIntro">Section</xref>:  Suppose
+    that the population of a particular species is  
+    described by the function <m>P(t)</m>, where <m>P</m> is expressed in
+    millions.  Suppose further that the population's rate of change is
+    governed by the differential equation
 <me>
   \frac{dP}{dt} = f(P)
 </me>
 where <m>f(P)</m> is the function graphed below.
+
+    <image width="73%" source="images/7_1_threshold.png" />
 </p>
-<image width="73%" source="images/7_1_threshold.png" />
+
 <ol>
 <li><p>Sketch a slope field for this differential equation.  You do
     not have enough information to determine the actual slopes, but
@@ -325,12 +328,11 @@ where <m>f(P)</m> is the function graphed below.
     as <q>growth with a threshold.</q>  Explain why this characterization makes sense by considering
     solutions whose inital value is close to 1.</p></li>
 </ol>
-
-<p>
-\item The population of a species of fish in a lake is <m>P(t)</m> where
-<m>P</m> is measured in thousands of fish and <m>t</m> is measured in
-months. The growth of the population is described by the
-differential equation
+</li>
+<li><p>The population of a species of fish in a lake is <m>P(t)</m> where
+    <m>P</m> is measured in thousands of fish and <m>t</m> is measured in
+    months.  The growth of the population is described by the
+    differential equation
 <me>
   \frac{dP}{dt} = f(P) = P(6-P).
 </me>
@@ -356,10 +358,9 @@ differential equation
     population?  If fish are removed at this maximum rate, what is the
     eventual population of fish?</p></li>
 </ol>
-
-<p>
-\item Let <m>y(t)</m> be the number of thousands of mice that live on a
-farm; assume time <m>t</m> is measured in years.<fn>This problem is based on an ecological analysis
+</li>
+<li><p>Let <m>y(t)</m> be the number of thousands of mice that live on a
+    farm;  assume time <m>t</m> is measured in years.<fn>This problem is based on an ecological analysis
     presented in a research paper by C.S. Hollings:  The Components of
     Predation as Revealed by a Study of Small Mammal Predation of the
     European Pine Sawfly, <em>Canadian Entomology</em> <b>91</b>: 283-320.</fn>
@@ -389,12 +390,11 @@ thousand mice per year.  Explain how this modifies the
 <li><p>What is the largest number of cats for which the mice
     population can survive?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

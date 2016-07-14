@@ -364,10 +364,12 @@ which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, w
 \item Given a twice differentiable function <m>f</m>, if we have a horizontal tangent line at <m>x = p</m> and <m>f''(p)</m> is nonzero, then the fact that <m>f''</m> tells us the concavity of <m>f</m> will determine whether <m>f</m> has a maximum or minimum at <m>x = p</m>. In particular, if <m>f'(p) = 0</m> and <m>f''(p) \lt  0</m>, then <m>f</m> is concave down at <m>p</m> and <m>f</m> has a local maximum there, while if <m>f'(p) = 0</m> and <m>f''(p) > 0</m>, then <m>f</m> has a local minimum at <m>p</m>. If <m>f'(p) = 0</m> and <m>f''(p) = 0</m>, then the second derivative does not tell us whether <m>f</m> has a local extreme at <m>p</m> or not.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item This problem concerns a function about which the following information is known:
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>This problem concerns a function about which the following information is known:
 </p>
 
 <ul>
@@ -385,9 +387,8 @@ which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, w
 <li><p>Construct a second derivative sign chart for <m>f</m>.  Clearly identify where <m>f</m> is concave up and concave down, as well as all inflection points.</p></li>
 <li><p>On the left-hand axes, sketch a possible graph of <m>y = f(x)</m>.</p></li>
 </ol>
-
-<p>
-\item Suppose that <m>g</m> is a differentiable function and <m>g'(2) = 0</m>. In addition, suppose that on <m>1 \lt  x\lt  2</m> and <m>2 \lt  x \lt  3</m> it is known that <m>g'(x)</m> is positive.
+</li>
+<li><p>Suppose that <m>g</m> is a differentiable function and <m>g'(2) = 0</m>.  In addition, suppose that on <m>1 \lt  x\lt  2</m> and <m>2 \lt  x \lt  3</m> it is known that <m>g'(x)</m> is positive.
 </p>
 
 <ol>
@@ -395,23 +396,22 @@ which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, w
 <li><p>Suppose that <m>g''(x)</m> exists for every <m>x</m> such that <m>1 \lt  x \lt  3</m>.  Reasoning graphically, describe the behavior of <m>g''(x)</m> for <m>x</m>-values near <m>2</m>.</p></li>
 <li><p>Besides being a critical number of <m>g</m>, what is special about the value <m>x = 2</m> in terms of the behavior of the graph of <m>g</m>?</p></li>
 </ol>
-
-<p>
-\item Suppose that <m>h</m> is a differentiable function whose first derivative is given by the graph in <xref ref="F_3.1.Ez3">Figure</xref>.
-</p>
+</li>
+<li><p>Suppose that <m>h</m> is a differentiable function whose first derivative is given by the graph in <xref ref="F_3.1.Ez3">Figure</xref>.
 <figure xml:id="F_3.1.Ez3" >
 <caption>The graph of <m>y = h'(x)</m>.</caption>
 <image width="73%" source="images/3_1_Ez3.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>How many real number solutions can the equation <m>h(x) = 0</m> have?  Why?</p></li>
 <li><p>If <m>h(x) = 0</m> has two distinct real solutions, what can you say about the signs of the two solutions?  Why?</p></li>
 <li><p>Assume that <m>\lim_{x \to \infty} h'(x) = 3</m>, as appears to be indicated in <xref ref="F_3.1.Ez3">Figure</xref>.  How will the graph of <m>y = h(x)</m> appear as <m>x \to \infty</m>?  Why?</p></li>
 <li><p>Describe the concavity of <m>y = h(x)</m> as fully as you can from the provided information.</p></li>
 </ol>
-
-<p>
-\item Let <m>p</m> be a function whose second derivative is <m>p''(x) = (x+1)(x-2)e^{-x}</m>.
+</li>
+<li><p>Let <m>p</m> be a function whose second derivative is <m>p''(x) = (x+1)(x-2)e^{-x}</m>.
 </p>
 
 <ol>
@@ -419,12 +419,11 @@ which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, w
 <li><p>Suppose you also know that <m>x = \frac{\sqrt{5}-1}{2}</m> is a critical number of <m>p</m>.  Does <m>p</m> have a local minimum, local maximum, or neither at <m>x = \frac{\sqrt{5}-1}{2}</m>?  Why?</p></li>
 <li><p>If the point <m>(2, \frac{12}{e^2})</m> lies on the graph of <m>y = p(x)</m> and <m>p'(2) = -\frac{5}{e^2}</m>, find the equation of the tangent line to <m>y = p(x)</m> at the point where <m>x = 2</m>.  Does the tangent line lie above the curve, below the curve, or neither at this value?  Why?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

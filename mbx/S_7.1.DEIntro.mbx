@@ -486,12 +486,14 @@ equations typically have infinitely many solutions,
 parametrized by the initial values.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Suppose that <m>T(t)</m> represents the temperature of a cup of
-coffee set out in a room, where <m>T</m> is expressed in degrees
-Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law of Cooling<index><main>Newton's Law of Cooling</main></index> tells us that
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Suppose that <m>T(t)</m> represents the temperature of a cup of
+    coffee set out in a room, where <m>T</m> is expressed in degrees
+    Fahrenheit and <m>t</m> in minutes.  A physical principle known as    Newton's Law of Cooling<index><main>Newton's Law of Cooling</main></index> tells us that
 <me>
   \frac{dT}{dt}= -\frac1{15}T+5.
 </me>
@@ -513,18 +515,19 @@ Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law o
         solution to the differential equation with initial value <m>T(0)
         = 105</m>.  What happens to this solution after a long time?</p></li>
 </ol>
-
-<p>
-\item Suppose that the population of a particular species is
-described by the function <m>P(t)</m>, where <m>P</m> is expressed in
-millions. Suppose further that the population's rate of change is
-governed by the differential equation
+</li>
+<li><p>Suppose that the population of a particular species is
+    described by the function <m>P(t)</m>, where <m>P</m> is expressed in
+    millions.  Suppose further that the population's rate of change is
+    governed by the differential equation
 <me>
   \frac{dP}{dt} = f(P)
 </me>
 where <m>f(P)</m> is the function graphed below.
+
+    <image width="73%" source="images/7_1_threshold.png" />
 </p>
-<image width="73%" source="images/7_1_threshold.png" />
+
 <ol>
 <li><p>For which values of the population <m>P</m> does the population
       increase?</p></li>
@@ -541,9 +544,8 @@ where <m>f(P)</m> is the function graphed below.
       <q>growth with a threshold.</q>  Explain why this is an appropriate
       name.</p></li>
 </ol>
-
-<p>
-\item In this problem, we test further what it means for a function to be a solution to a given differential equation.
+</li>
+<li><p>In this problem, we test further what it means for a function to be a solution to a given differential equation.
 </p>
 
 <ol>
@@ -572,12 +574,11 @@ where <m>k</m> is the <em>spring constant</em>, a constant that depends
       is given by <m>h(t) = 4\sin(3t)</m>.  What is the value of the spring
       constant?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

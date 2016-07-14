@@ -584,24 +584,26 @@ Hence, if we can find an antiderivative for the integrand <m>f</m>, evaluating t
 for any continuously differentiable function <m>f</m>. This means that the definite integral of the instantaneous rate of change of a function <m>f</m> on an interval <m>[a,b]</m> is equal to the total change in the function <m>f</m> on <m>[a,b]</m>.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item The instantaneous velocity (in meters per minute) of a moving object is given by the function <m>v</m> as pictured in <xref ref="F_4.4.Ez2">Figure</xref>. Assume that on the interval <m>0 \le t \le 4</m>, <m>v(t)</m> is given by <m>v(t) = -\frac{1}{4}t^3 + \frac{3}{2}t^2 + 1</m>, and that on every other interval <m>v</m> is piecewise linear, as shown.
-</p>
-<figure xml:id="F_4.4.Ez2" >
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>The instantaneous velocity (in meters per minute) of a moving object is given by the function <m>v</m> as pictured in <xref ref="F_4.4.Ez2">Figure</xref>.  Assume that on the interval <m>0 \le t \le 4</m>, <m>v(t)</m> is given by <m>v(t) = -\frac{1}{4}t^3 + \frac{3}{2}t^2 + 1</m>, and that on every other interval <m>v</m> is piecewise linear, as shown.
+  <figure xml:id="F_4.4.Ez2" >
 <caption>The velocity function of a moving body.</caption>
 <image width="73%" source="images/4_4_Ez2.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>Determine the exact distance traveled by the object on the time interval <m>0 \le t \le 4</m>.</p></li>
 <li><p>What is the object's average velocity on <m>[12,24]</m>?</p></li>
 <li><p>At what time is the object's acceleration greatest?</p></li>
 <li><p>Suppose that the velocity of the object is increased by a constant value <m>c</m> for all values of <m>t</m>.  What value of <m>c</m> will make the object's total distance traveled on <m>[12,24]</m> be 210 meters?</p></li>
 </ol>
-
-<p>
-\item A function <m>f</m> is given piecewise by the formula
+</li>
+<li><p>A function <m>f</m> is given piecewise by the formula
 <me>
   f(x) = \left\{ 
   	\begin{array}{lr}
@@ -618,18 +620,14 @@ for any continuously differentiable function <m>f</m>. This means that the defin
 <li><p>Compute the exact average value of <m>f</m> on <m>[0,5]</m>.</p></li>
 <li><p>Find a formula for a function <m>g</m> on <m>5 \le x \le 7</m> so that if we extend the above definition of <m>f</m> so that <m>f(x) = g(x)</m> if <m>5 \le x \le 7</m>, it follows that <m>\int_0^7 f(x) \, dx = 0.</m></p></li>
 </ol>
-
-<p>
-\item When an aircraft attempts to climb as rapidly as
+</li>
+<li><p>When an aircraft attempts to climb as rapidly as
 possible, its climb rate (in feet per minute) decreases as altitude
 increases, because the air is less dense at higher altitudes.
 Given below is a table showing performance data for a certain
-single engine aircraft, giving its climb rate at various altitudes, where <m>c(h)</m> denotes the climb rate of the airplane at an altitude <m>h</m>.
-</p>
+single engine aircraft, giving its climb rate at various altitudes, where  <m>c(h)</m> denotes the climb rate of the airplane at an altitude <m>h</m>.
 
-<p>
 \begingroup
-</p>
 <tabular>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell><m>h</m> (feet)</cell><cell>0</cell><cell>1000</cell><cell>2000</cell><cell>3000</cell><cell>4000</cell><cell>5000</cell><cell>6000</cell><cell>7000</cell><cell>8000</cell><cell>9000</cell><cell>10,000</cell></row>
@@ -637,12 +635,9 @@ single engine aircraft, giving its climb rate at various altitudes, where <m>c(h
 <row><cell><m>c</m> (ft/min)</cell><cell>925</cell><cell>875</cell><cell>830</cell><cell>780</cell><cell>730</cell><cell>685</cell><cell>635</cell><cell>585</cell><cell>535</cell><cell>490</cell><cell>440</cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 </tabular>
-<p>
 \endgroup
-</p>
 
-<p>
-Let a new function called <m>m(h)</m> measure
+ Let a new function called <m>m(h)</m> measure
 the number of minutes required for a plane at altitude <m>h</m> to climb the
 next foot of altitude.
 </p>
@@ -656,30 +651,20 @@ explain in plain English what the function tells us.</p></li>
 10,000 feet of altitude.  Clearly explain why the value of this integral has the required meaning.</p></li>
 <li><p>Use the Riemann sum <m>M_5</m> to estimate the value of the integral you found in (c).  Include units on your result.</p></li>
 </ol>
-
-<p>
-\item In <xref ref="C_1">Chapter</xref>, we showed that for an object moving along a straight line with position function <m>s(t)</m>, the object's <q>average velocity on the interval <m>[a,b]</m></q> is given by
+</li>
+<li><p>In <xref ref="C_1">Chapter</xref>, we showed that for an object moving along a straight line with position function <m>s(t)</m>, the object's <q>average velocity on the interval <m>[a,b]</m></q> is given by
 <me>
   \displaystyle AV_{[a,b]} =  \frac{s(b)-s(a)}{b-a}.
 </me>
-</p>
-
-<p>
-More recently in <xref ref="C_4">Chapter</xref>, we found that for an object moving along a straight line with velocity function <m>v(t)</m>, the object's <q>average value of its velocity function on <m>[a,b]</m></q> is
+More recently in <xref ref="C_4">Chapter</xref>, we found that for an object moving along a straight line  with velocity function <m>v(t)</m>, the object's <q>average value of its velocity function on <m>[a,b]</m></q> is
 <me>
   \displaystyle v_{\mbox{\tiny{AVG}} [a,b]}  = \frac{1}{b-a} \int_a^b v(t) \, dt.
 </me>
-</p>
+Are the <q>average velocity on the interval <m>[a,b]</m></q> and the <q>average value of the velocity function on <m>[a,b]</m></q> the same thing?  Why or why not?  Explain.</p></li>
+</ol>
 
-<p>
-Are the <q>average velocity on the interval <m>[a,b]</m></q> and the <q>average value of the velocity function on <m>[a,b]</m></q> the same thing? Why or why not? Explain.
-</p>
-
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

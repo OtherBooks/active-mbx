@@ -381,27 +381,26 @@ This is an author note.
 \item Of the three conditions discussed in this section (having a limit at <m>x = a</m>, being continuous at <m>x = a</m>, and being differentiable at <m>x = a</m>), the strongest condition is being differentiable, and the next strongest is being continuous. In particular, if <m>f</m> is differentiable at <m>x = a</m>, then <m>f</m> is also continuous at <m>x = a</m>, and if <m>f</m> is continuous at <m>x = a</m>, then <m>f</m> has a limit at <m>x = a</m>.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-</p>
+  
+<exercises>
+<ol>
 
-<p>
-\item Consider the graph of the function <m>y = p(x)</m> that is provided in <xref ref="F_1.7.Ez2">Figure</xref>. Assume that each portion of the graph of <m>p</m> is a straight line, as pictured.
-</p>
+<ol>
+<li><p>Consider the graph of the function <m>y = p(x)</m> that is provided in <xref ref="F_1.7.Ez2">Figure</xref>.  Assume that each portion of the graph of <m>p</m> is a straight line, as pictured.
 <figure xml:id="F_1.7.Ez2" >
 <caption>At left, the piecewise linear function <m>y = p(x)</m>.  At right, axes for plotting <m>y = p'(x)</m>.</caption>
 <image width="73%" source="images/1_7_Ez2.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>State all values of <m>a</m> for which <m>\lim_{x \to a} p(x)</m> does not exist.</p></li>
 <li><p>State all values of <m>a</m> for which <m>p</m> is not continuous at <m>a</m>.</p></li>
 <li><p>State all values of <m>a</m> for which <m>p</m> is not differentiable at <m>x = a</m>.</p></li>
 <li><p>On the axes provided in <xref ref="F_1.7.Ez2">Figure</xref>, sketch an accurate graph of <m>y = p'(x)</m>.</p></li>
 </ol>
-
-<p>
-\item For each of the following prompts, give an example of a function that satisfies the stated criteria. A formula or a graph, with reasoning, is sufficient for each. If no such example is possible, explain why.
+</li>
+<li><p>For each of the following prompts, give an example of a function that satisfies the stated criteria.  A formula or a graph, with reasoning, is sufficient for each.  If no such example is possible, explain why.
 </p>
 
 <ol>
@@ -418,9 +417,8 @@ This is an author note.
 </ul>
 </li>
 </ol>
-
-<p>
-\item Let <m>h(x)</m> be a function whose derivative <m>y= h'(x)</m> is given by the graph on the right in <xref ref="F_1.7.Ez3">Figure</xref>.
+</li>
+<li><p>Let <m>h(x)</m> be a function whose derivative <m>y= h'(x)</m> is given by the graph on the right in <xref ref="F_1.7.Ez3">Figure</xref>.
 </p>
 
 <ol>
@@ -433,8 +431,8 @@ This is an author note.
 <caption>Axes for plotting <m>y = h(x)</m> and, at right, the graph of <m>y = h'(x)</m>.</caption>
 <image width="73%" source="images/1_7_Ez3.png" />
 </figure>
-<p>
-\item Consider the function <m>g(x) = \sqrt{|x|}</m>.
+</li>
+<li><p>Consider the function <m>g(x) = \sqrt{|x|}</m>.
 </p>
 
 <ol>
@@ -446,12 +444,11 @@ This is an author note.
 <li><p>Investigate the value of <m>g'(0)</m> by estimating the limit in (b) using small positive and negative values of <m>h</m>.  For instance, you might compute <m>\frac{\sqrt{|-0.01|}}{0.01}</m>.  Be sure to use several different values of <m>h</m> (both positive and negative), including ones closer to 0 than 0.01.  What do your results tell you about <m>g'(0)</m>?</p></li>
 <li><p>Use your graph in (a) to sketch an approximate graph of <m>y = g'(x)</m>.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

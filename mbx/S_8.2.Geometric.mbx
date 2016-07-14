@@ -387,10 +387,12 @@ An alternate formula for the <m>n</m>th partial sum is
 Whenever <m>|r| \lt  1</m>, the infinite geometric series <m>\sum_{k=0}^{\infty} ar^k</m> has the finite sum <m>\frac{a}{1-r}</m>.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item There is an old question that is often used to introduce the power of geometric growth. Here is one version. Suppose you are hired for a one month (30 days, working every day) job and are given two options to be paid.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>There is an old question that is often used to introduce the power of geometric growth. Here is one version. Suppose you are hired for a one month (30 days, working every day) job and are given two options to be paid.
 </p>
 
 <ul>
@@ -442,9 +444,8 @@ so Option 2 is definitely the better deal.
 </p>
 </solution></p></li>
 </ol>
-
-<p>
-\item Suppose you drop a golf ball onto a hard surface from a height <m>h</m>. The collision with the ground causes the ball to lose energy and so it will not bounce back to its original height. The ball will then fall again to the ground, bounce back up, and continue. Assume that at each bounce the ball rises back to a height <m>\frac{3}{4}</m> of the height from which it dropped. Let <m>h_n</m> be the height of the ball on the <m>n</m>th bounce, with <m>h_0 = h</m>. In this exercise we will determine the distance traveled by the ball and the time it takes to travel that distance.
+</li>
+<li><p>Suppose you drop a golf ball onto a hard surface from a height <m>h</m>. The collision with the ground causes the ball to lose energy and so it will not bounce back to its original height. The ball will then fall again to the ground, bounce back up, and continue. Assume that at each bounce the ball rises back to a height <m>\frac{3}{4}</m> of the height from which it dropped. Let <m>h_n</m> be the height of the ball on the <m>n</m>th bounce, with <m>h_0 = h</m>. In this exercise we will determine the distance traveled by the ball and the time it takes to travel that distance.
 </p>
 
 <ol>
@@ -526,9 +527,8 @@ Use this formula to determine the time it takes for the ball to hit the ground a
 </ul>
 </li>
 </ol>
-
-<p>
-\item Suppose you play a game with a friend that involves rolling a standard six-sided die. Before a player can participate in the game, he or she must roll a six with the die. Assume that you roll first and that you and your friend take alternate rolls. In this exercise we will determine the probability that you roll the first six.
+</li>
+<li><p>Suppose you play a game with a friend that involves rolling a standard six-sided die. Before a player can participate in the game, he or she must roll a six with the die. Assume that you roll first and that you and your friend take alternate rolls. In this exercise we will determine the probability that you roll the first six.
 </p>
 
 <ol>
@@ -548,9 +548,8 @@ that you to roll the first six on your third turn.</p></li>
 </me>
 Find the sum of this series and determine the probability that you roll the first six.</p></li>
 </ol>
-
-<p>
-\item The goal of a federal government stimulus package is to positively affect the economy. Economists and politicians quote numbers like <q><m>k</m> million jobs and a net stimulus to the economy of <m>n</m> billion of dollars.</q> Where do they get these numbers? Let's consider one aspect of a stimulus package: tax cuts. Economists understand that tax cuts or rebates can result in long-term spending that is many times the amount of the rebate. For example, assume that for a typical person, 75<percent /> of her entire income is spent (that is, put back into the economy). Further, assume the government provides a tax cut or rebate that totals <m>P</m> dollars for each person.
+</li>
+<li><p>The goal of a federal government stimulus package is to positively affect the economy. Economists and politicians quote numbers like <q><m>k</m> million jobs and a net stimulus to the economy of <m>n</m> billion of dollars.</q> Where do they get these numbers? Let's consider one aspect of a stimulus package: tax cuts. Economists understand that tax cuts or rebates can result in long-term spending that is many times the amount of the rebate. For example, assume that for a typical person, 75<percent /> of her entire income is spent (that is, put back into the economy). Further, assume the government provides a tax cut or rebate that totals <m>P</m> dollars for each person.
 </p>
 
 <ol>
@@ -608,31 +607,19 @@ So a stimulus of 200 billion dollars adds 600 billion dollars to the economy.
 </p>
 </solution></p></li>
 </ol>
+</li>
+<li><p>Like stimulus packages, home mortgages and foreclosures also impact the economy. A problem for many borrowers is the adjustable rate mortgage, in which the interest rate can change (and usually increases) over the duration of the loan, causing the monthly payments to increase beyond the ability of the borrower to pay. Most financial analysts recommend fixed rate loans, ones for which the monthly payments remain constant throughout the term of the loan. In this exercise we will analyze fixed rate loans.
 
-<p>
-\item Like stimulus packages, home mortgages and foreclosures also impact the economy. A problem for many borrowers is the adjustable rate mortgage, in which the interest rate can change (and usually increases) over the duration of the loan, causing the monthly payments to increase beyond the ability of the borrower to pay. Most financial analysts recommend fixed rate loans, ones for which the monthly payments remain constant throughout the term of the loan. In this exercise we will analyze fixed rate loans.
-</p>
+    When most people buy a large ticket item like car or a house, they have to take out a loan to make the purchase. The loan is paid back in monthly installments until the entire amount of the loan, plus interest, is paid. With a loan, we borrow money, say <m>P</m> dollars (called the principal), and pay off the loan at an interest rate of <m>r</m><percent />. To pay back the loan we make regular monthly payments, some of which goes to pay off the principal and some of which is charged as interest. In most cases, the interest is computed based on the amount of principal that remains at the beginning of the month. We assume a fixed rate loan, that is one in which we make a constant monthly payment <m>M</m> on our loan, beginning in the original month of the loan.
 
-<p>
-When most people buy a large ticket item like car or a house, they have to take out a loan to make the purchase. The loan is paid back in monthly installments until the entire amount of the loan, plus interest, is paid. With a loan, we borrow money, say <m>P</m> dollars (called the principal), and pay off the loan at an interest rate of <m>r</m><percent />. To pay back the loan we make regular monthly payments, some of which goes to pay off the principal and some of which is charged as interest. In most cases, the interest is computed based on the amount of principal that remains at the beginning of the month. We assume a fixed rate loan, that is one in which we make a constant monthly payment <m>M</m> on our loan, beginning in the original month of the loan.
-</p>
+    Suppose you want to buy a house. You have a certain amount of money saved to make a down payment, and you will borrow the rest to pay for the house. Of course, for the privilege of loaning you the money, the bank will charge you interest on this loan, so the amount you pay back to the bank is more than the amount you borrow. In fact, the amount you ultimately pay depends on three things: the amount you borrow (called the <em>principal</em>), the interest rate, and the length of time you have to pay off the loan plus interest (called the <em>duration</em> of the loan). For this example, we assume that the interest rate is fixed at <m>r</m><percent />.
 
-<p>
-Suppose you want to buy a house. You have a certain amount of money saved to make a down payment, and you will borrow the rest to pay for the house. Of course, for the privilege of loaning you the money, the bank will charge you interest on this loan, so the amount you pay back to the bank is more than the amount you borrow. In fact, the amount you ultimately pay depends on three things: the amount you borrow (called the <em>principal</em>), the interest rate, and the length of time you have to pay off the loan plus interest (called the <em>duration</em> of the loan). For this example, we assume that the interest rate is fixed at <m>r</m><percent />.
-</p>
+    To pay off the loan, each month you make a payment of the same amount (called <em>installments</em>). Suppose we borrow <m>P</m> dollars (our principal) and pay off the loan at an interest rate of <m>r</m><percent /> with regular monthly installment payments of <m>M</m> dollars. So in month 1 of the loan, before we make any payments, our principal is <m>P</m> dollars. Our goal in this exercise is to find a formula that relates these three parameters to the time duration of the loan.
 
-<p>
-To pay off the loan, each month you make a payment of the same amount (called <em>installments</em>). Suppose we borrow <m>P</m> dollars (our principal) and pay off the loan at an interest rate of <m>r</m><percent /> with regular monthly installment payments of <m>M</m> dollars. So in month 1 of the loan, before we make any payments, our principal is <m>P</m> dollars. Our goal in this exercise is to find a formula that relates these three parameters to the time duration of the loan.
-</p>
-
-<p>
-We are charged interest every month at an annual rate of <m>r</m><percent />, so each month we pay <m>\frac{r}{12}</m><percent /> interest on the principal that remains. Given that the original principal is <m>P</m> dollars, we will pay <m>\left(\frac{0.0r}{12}\right)P</m> dollars in interest on our first payment. Since we paid <m>M</m> dollars in total for our first payment, the remainder of the payment (<m>M-\left(\frac{r}{12}\right)P</m>) goes to pay down the principal. So the principal remaining after the first payment (let's call it <m>P_1</m>) is the original principal minus what we paid on the principal, or
+    We are charged interest every month at an annual rate of <m>r</m><percent />, so each month we pay <m>\frac{r}{12}</m><percent /> interest on the principal that remains. Given that the original principal is <m>P</m> dollars, we will pay <m>\left(\frac{0.0r}{12}\right)P</m> dollars in interest on our first payment. Since we paid <m>M</m> dollars in total for our first payment, the remainder of the payment (<m>M-\left(\frac{r}{12}\right)P</m>) goes to pay down the principal. So the principal remaining after the first payment (let's call it <m>P_1</m>) is the original principal minus what we paid on the principal, or
 <me>
   P_1 = P - \left( M - \left(\frac{r}{12}\right)P\right) = \left(1 + \frac{r}{12}\right)P - M.
 </me>
-</p>
-
-<p>
 As long as <m>P_1</m> is positive, we still have to keep making payments to pay off the loan.
 </p>
 
@@ -843,12 +830,11 @@ So we need to pay <dollar />291.74 each month to complete the loan in 5 years. D
 </ul>
 </li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

@@ -519,10 +519,12 @@ In the process of getting comfortable with derivative rules, an excellent exerci
 </me>
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.
 </p>
 
 <ol>
@@ -530,9 +532,8 @@ In the process of getting comfortable with derivative rules, an excellent exerci
 <li><p>Which function is changing most rapidly at <m>x = 0.25</m>:  <m>h(x) = f(g(x))</m> or <m>r(x) = g(f(x))</m>?  Why?</p></li>
 <li><p>Let <m>h(x) = f(g(x))</m> and <m>r(x) = g(f(x))</m>.  Which of these functions has a derivative that is periodic?  Why?</p></li>
 </ol>
-
-<p>
-\item Let <m>u(x)</m> be a differentiable function. For each of the following functions, determine the derivative. Each response will involve <m>u</m> and/or <m>u'</m>.
+</li>
+<li><p>Let <m>u(x)</m> be a differentiable function.  For each of the following functions, determine the derivative.  Each response will involve <m>u</m> and/or <m>u'</m>.
 </p>
 
 <ol>
@@ -543,22 +544,21 @@ In the process of getting comfortable with derivative rules, an excellent exerci
 <li><m>a(x) = u(x^4)</m></li>
 <li><m>b(x) = u^4(x)</m></li>
 </ol>
-
-<p>
-\item Let functions <m>p</m> and <m>q</m> be the piecewise linear functions given by their respective graphs in <xref ref="F_2.5.Ez3">Figure</xref>. Use the graphs to answer the following questions.
-</p>
+</li>
+<li><p>Let functions <m>p</m> and <m>q</m> be the piecewise linear functions given by their respective graphs in <xref ref="F_2.5.Ez3">Figure</xref>.  Use the graphs to answer the following questions.
 <figure xml:id="F_2.5.Ez3" >
 <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
 <image width="73%" source="images/2_1_Ez3.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>Let <m>C(x) = p(q(x))</m>.  Determine <m>C'(0)</m> and <m>C'(3)</m>.</p></li>
 <li><p>Find a value of <m>x</m> for which <m>C'(x)</m> does not exist.  Explain your thinking.</p></li>
 <li><p>Let <m>Y(x) = q(q(x))</m> and <m>Z(x) = q(p(x))</m>.  Determine <m>Y'(-2)</m> and <m>Z'(0)</m>.</p></li>
 </ol>
-
-<p>
-\item If a spherical tank of radius 4 feet has <m>h</m> feet of water present in the tank, then the volume of water in the tank is given by the formula
+</li>
+<li><p>If a spherical tank of radius 4 feet has <m>h</m> feet of water present in the tank, then the volume of water in the tank is given by the formula
 <me>
   V = \frac{\pi}{3} h^2(12-h).
 </me>
@@ -570,12 +570,11 @@ In the process of getting comfortable with derivative rules, an excellent exerci
 <li><p>Continuing under the assumptions in (b), at what instantaneous rate is the volume of water in the tank changing with respect to <em>time</em> at the instant <m>t = 2</m>?</p></li>
 <li><p>What are the main differences between the rates found in (a) and (c)?  Include a discussion of the relevant units.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

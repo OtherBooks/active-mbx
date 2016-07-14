@@ -323,10 +323,12 @@ Thus, the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1
 \item In particular, just as we can created first and second derivative sign charts for a single function, we often can do so for entire families of functions where critical numbers and possible inflection points depend on arbitrary constants. These sign charts then reveal where members of the family are increasing or decreasing, concave up or concave down, and help us to identify relative extremes and inflection points.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the one-parameter family of functions given by <m>p(x) = x^3-ax^2</m>, where <m>a>0</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the one-parameter family of functions given by <m>p(x) = x^3-ax^2</m>, where <m>a>0</m>.
 </p>
 
 <ol>
@@ -335,9 +337,8 @@ Thus, the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1
 <li><p>Compute <m>p''</m> and find all values for which <m>p''(x) = 0</m>.  Hence construct a second derivative sign chart for <m>p</m>.</p></li>
 <li><p>Describe how the location of the critical numbers and the inflection point of <m>p</m> change as <m>a</m> changes.  That is, if the value of <m>a</m> is increased, what happens to the critical numbers and inflection point?</p></li>
 </ol>
-
-<p>
-\item Let <m>q(x) = \ds \frac{e^{-x}}{x-c}</m> be a one-parameter family of functions where <m>c > 0</m>.
+</li>
+<li><p>Let <m>q(x) = \ds \frac{e^{-x}}{x-c}</m> be a one-parameter family of functions where <m>c > 0</m>.
 </p>
 
 <ol>
@@ -347,9 +348,8 @@ Thus, the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1
 <li><p>Construct a first derivative sign chart for <m>q</m> and determine whether each critical number leads to a local minimum, local maximum, or neither for the function <m>q</m>.</p></li>
 <li><p>Sketch a typical member of this family of functions with important behaviors clearly labeled.</p></li>
 </ol>
-
-<p>
-\item Let <m>E(x) = e^{-\frac{(x-m)^2}{2s^2}}</m>, where <m>m</m> is any real number and <m>s</m> is a positive real number.
+</li>
+<li><p>Let <m>E(x) = e^{-\frac{(x-m)^2}{2s^2}}</m>, where <m>m</m> is any real number and <m>s</m> is a positive real number.
 </p>
 
 <ol>
@@ -363,12 +363,11 @@ Find all values of <m>x</m> for which <m>E''(x) = 0</m>.</p></li>
 <li><p>Determine <m>\ds \lim_{x \to \infty} E(x)</m> and <m>\ds \lim_{x \to -\infty} E(x)</m>.</p></li>
 <li><p>Construct a labeled graph of a typical function <m>E</m> that clearly shows how important points on the graph of <m>y = E(x)</m> depend on <m>m</m> and <m>s</m>.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

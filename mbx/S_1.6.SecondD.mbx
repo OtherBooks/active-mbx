@@ -382,10 +382,12 @@ This is an author note.
 \item The units on the second derivative are <q>units of output per unit of input per unit of input.</q> They tell us how the value of the derivative function is changing in response to changes in the input. In other words, the second derivative tells us the rate of change of the rate of change of the original function.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Suppose that <m>y = f(x)</m> is a differentiable function for which the following information is known: <m>f(2) = -3</m>, <m>f'(2) = 1.5</m>, <m>f''(2) = -0.25</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Suppose that <m>y = f(x)</m> is a differentiable function for which the following information is known:  <m>f(2) = -3</m>, <m>f'(2) = 1.5</m>, <m>f''(2) = -0.25</m>.
 </p>
 
 <ol>
@@ -394,24 +396,22 @@ This is an author note.
 <li><p>Do you expect <m>f'(2.1)</m> to be greater than <m>1.5</m>, equal to <m>1.5</m>, or less than <m>1.5</m>?  Why?</p></li>
 <li><p>Sketch a graph of <m>y = f(x)</m> near <m>(2,f(2))</m> and include a graph of the tangent line.</p></li>
 </ol>
-
-<p>
-\item For a certain function <m>y = g(x)</m>, its derivative is given by the function pictured in <xref ref="F_1.6.Ez2">Figure</xref>.
-</p>
+</li>
+<li><p>For a certain function <m>y = g(x)</m>, its derivative is given by the function pictured in <xref ref="F_1.6.Ez2">Figure</xref>.
 <figure xml:id="F_1.6.Ez2" >
 <caption>The graph of <m>y = g'(x)</m>.</caption>
 <image width="73%" source="images/1_6_Ez2.png" />
 </figure>
+</p>
+
 <ol>
 <li><p>What is the approximate slope of the tangent line to <m>y = g(x)</m> at the point <m>(2,g(2))</m>?</p></li>
 <li><p>How many real number solutions can there be to the equation <m>g(x) = 0</m>?  Justify your conclusion fully and carefully by explaining what you know about how the graph of <m>g</m> must behave based on the given graph of <m>g'</m>.</p></li>
 <li><p>On the interval <m>-3 \lt  x \lt  3</m>, how many times does the concavity of <m>g</m> change?  Why?</p></li>
 <li><p>Use the provided graph to estimate the value of <m>g''(2)</m>.</p></li>
 </ol>
-
-<p>
-\item A bungee jumper's height <m>h</m> (in feet ) at time <m>t</m> (in seconds) is given in part by the data in the following table:
-</p>
+</li>
+<li><p>A bungee jumper's height <m>h</m> (in feet ) at time <m>t</m> (in seconds) is given in part by the data in the following table:
 <tabular>
 <row><cell><m>t</m></cell><cell>0.0</cell><cell>0.5</cell><cell>1.0</cell><cell>1.5</cell><cell>2.0</cell><cell>2.5</cell><cell>3.0</cell><cell>3.5</cell><cell>4.0</cell><cell>4.5</cell><cell>5.0</cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
@@ -424,15 +424,16 @@ This is an author note.
 <row><cell><m>h(t)</m></cell><cell>81.6</cell><cell>93.7</cell><cell>104.4</cell><cell>112.6</cell><cell>117.7</cell><cell>119.4</cell><cell>118.2</cell><cell>114.8</cell><cell>110.0</cell><cell>104.7</cell></row>
 <row><cell></cell></row>
 </tabular>
+</p>
+
 <ol>
 <li><p>Use the given data to estimate <m>h'(4.5)</m>, <m>h'(5)</m>, and <m>h'(5.5)</m>.  At which of these times is the bungee jumper rising most rapidly?</p></li>
 <li><p>Use the given data and your work in (a) to estimate <m>h''(5)</m>.</p></li>
 <li><p>What physical property of the bungee jumper does the value of <m>h''(5)</m> measure?  What are its units?</p></li>
 <li><p>Based on the data, on what approximate time intervals is the function <m>y = h(t)</m> concave down?  What is happening to the velocity of the bungee jumper on these time intervals?</p></li>
 </ol>
-
-<p>
-\item For each prompt that follows, sketch a possible graph of a function on the interval <m>-3 \lt  x \lt  3</m> that satisfies the stated properties.
+</li>
+<li><p>For each prompt that follows, sketch a possible graph of a function on the interval <m>-3 \lt  x \lt  3</m> that satisfies the stated properties.
 </p>
 
 <ol>
@@ -441,12 +442,11 @@ This is an author note.
 <li><m>y = h(x)</m> such that <m>h</m> is decreasing on <m>-3 \lt  x \lt  3</m>, <m>h</m> is concave up on <m>-3 \lt  x \lt  -1</m>, neither concave up nor concave down on <m>-1 \lt  x \lt  1</m>, and <m>h</m> is concave down on <m>1 \lt  x \lt  3</m>.</li>
 <li><m>y = p(x)</m> such that <m>p</m> is decreasing and concave down on <m>-3 \lt  x \lt  0</m> and <m>p</m> is increasing and concave down on <m>0 \lt  x \lt  3</m>.</li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

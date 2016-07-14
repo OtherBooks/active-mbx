@@ -365,10 +365,12 @@ provided the limit exists. Note particularly that the instantaneous rate of chan
 \item Limits are the link between average rate of change and instantaneous rate of change: they allow us to move from the rate of change over an interval to the rate of change at a single point.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the graph of <m>y = f(x)</m> provided in <xref ref="F_1.3.Ez1">Figure</xref>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the graph of <m>y = f(x)</m> provided in <xref ref="F_1.3.Ez1">Figure</xref>.
 </p>
 
 <ol>
@@ -387,9 +389,8 @@ provided the limit exists. Note particularly that the instantaneous rate of chan
 <li><p>What is the approximate value of the average rate of change of <m>f</m> on <m>[-3,-1]</m>?  On <m>[0,2]</m>?  How are these values related to your work in (a)?</p></li>
 <li><p>What is the approximate value of the instantaneous rate of change of <m>f</m> at <m>x = -3</m>?  At <m>x = 0</m>?  How are these values related to your work in (a)?</p></li>
 </ol>
-
-<p>
-\item For each of the following prompts, sketch a graph on the provided axes in <xref ref="F_1.3.Ez2">Figure</xref> of a function that has the stated properties.
+</li>
+<li><p>For each of the following prompts, sketch a graph on the provided axes in <xref ref="F_1.3.Ez2">Figure</xref> of a function that has the stated properties.
 </p>
 
 <ol>
@@ -410,9 +411,8 @@ provided the limit exists. Note particularly that the instantaneous rate of chan
 </figure>
 </li>
 </ol>
-
-<p>
-\item Suppose that the population, <m>P</m>, of China (in billions) can be approximated by the function <m>P(t) = 1.15(1.014)^t</m> where <m>t</m> is the number of years since the start of 1993.
+</li>
+<li><p>Suppose that the population, <m>P</m>, of China (in billions) can be approximated by the function <m>P(t) = 1.15(1.014)^t</m> where <m>t</m> is the number of years since the start of 1993.
 </p>
 
 <ol>
@@ -421,13 +421,10 @@ provided the limit exists. Note particularly that the instantaneous rate of chan
 <li><p>Write an expression involving limits that, if evaluated, would give the exact instantaneous rate of change of the population on today's date.  Then estimate the value of this limit (discuss how you chose to do so) and explain the meaning (including units) of the value you have found.</p></li>
 <li><p>Find an equation for the tangent line to the function <m>y = P(t)</m> at the point where the <m>t</m>-value is given by today's date.</p></li>
 </ol>
+</li>
+<li><p>The goal of this problem is to compute the value of the derivative at a point for several different functions, where for each one we do so in three different ways, and then to compare the results to see that each produces the same value.
 
-<p>
-\item The goal of this problem is to compute the value of the derivative at a point for several different functions, where for each one we do so in three different ways, and then to compare the results to see that each produces the same value.
-</p>
-
-<p>
-For each of the following functions, use the limit definition of the derivative to compute the value of <m>f'(a)</m> using three different approaches: strive to use the algebraic approach first (to compute the limit exactly), then test your result using numerical evidence (with small values of <m>h</m>), and finally plot the graph of <m>y = f(x)</m> near <m>(a,f(a))</m> along with the appropriate tangent line to estimate the value of <m>f'(a)</m> visually. Compare your findings among all three approaches; if you are unable to complete the algebraic approach, still work numerically and graphically.
+For each of the following functions, use the limit definition of the derivative to compute the value of <m>f'(a)</m> using three different approaches:  strive to use the algebraic approach first (to compute the limit exactly), then test your result using numerical evidence (with small values of <m>h</m>), and finally plot the graph of <m>y = f(x)</m> near <m>(a,f(a))</m> along with the appropriate tangent line to estimate the value of <m>f'(a)</m> visually.  Compare your findings among all three approaches; if you are unable to complete the algebraic approach, still work numerically and graphically.
 </p>
 
 <ol>
@@ -437,12 +434,11 @@ For each of the following functions, use the limit definition of the derivative 
 <li><m>f(x) = 2 - |x-1|</m>, <m>a = 1</m></li>
 <li><m>f(x) = \sin(x)</m>, <m>a = \frac{\pi}{2}</m></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

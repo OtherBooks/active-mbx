@@ -452,17 +452,19 @@ growth, which predicts that the population will eventually
 stabilize at the carrying capacity.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item The logistic equation may be used to model how a rumor spreads
-through a group of people. Suppose that <m>p(t)</m> is the fraction of
-people that have heard the rumor on day <m>t</m>. The equation
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>The logistic equation may be used to model how a rumor spreads
+    through a group of people.  Suppose that <m>p(t)</m> is the fraction of
+    people that have heard the rumor on day <m>t</m>.  The equation
 <me>
   \frac{dp}{dt} = 0.2p(1-p)
 </me>
-describes how <m>p</m> changes. Suppose initially that one-tenth of
-the people have heard the rumor; that is, <m>p(0) = 0.1</m>.
+describes how <m>p</m> changes.  Suppose initially that one-tenth of
+    the people have heard the rumor; that is, <m>p(0) = 0.1</m>.
 </p>
 
 <ol>
@@ -472,14 +474,13 @@ the people have heard the rumor; that is, <m>p(0) = 0.1</m>.
 <li><p>How long does it take before 80<percent /> of the people have heard
       the rumor?</p></li>
 </ol>
-
-<p>
-\item Suppose that <m>b(t)</m> measures the number of bacteria living in
-a colony in a Petri dish, where <m>b</m> is measured in thousands and
-<m>t</m> is measured in days. One day, you measure that there are
-6,000 bacteria and the per capita growth rate is 3. A few days
-later, you measure that there are 9,000 bacteria and the per
-capita growth rate is 2.
+</li>
+<li><p>Suppose that <m>b(t)</m> measures the number of bacteria living in
+    a colony in a Petri dish, where <m>b</m> is measured in thousands and
+    <m>t</m> is measured in days.  One day, you measure that there are
+    6,000 bacteria and the per capita growth rate is 3.  A few days
+    later, you measure that there are 9,000 bacteria and the per
+    capita growth rate is 2.
 </p>
 
 <ol>
@@ -493,16 +494,14 @@ capita growth rate is 2.
 <li><p>If there are initially 1,000 bacteria, how long will it take
     to reach 80<percent /> of the carrying capacity?</p></li>
 </ol>
-
-<p>
-\item
-Suppose that the population of a species of fish is controlled by
-the logistic equation
+</li>
+<li><p>Suppose that the population of a species of fish is controlled by
+    the logistic equation
 <me>
   \frac{dP}{dt} = 0.1P(10 - P),
 </me>
 where <m>P</m> is measured in thousands of fish and <m>t</m> is measured in
-years.
+    years.
 </p>
 
 <ol>
@@ -518,12 +517,11 @@ years.
 <li><p>How long will it take for the population to be within 10<percent />
       of the carrying capacity?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

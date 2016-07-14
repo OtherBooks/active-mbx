@@ -389,20 +389,22 @@ take horizontal steps across the <m>t</m>-axis.
 error in our approximation is proportional to <m>\Delta t</m>.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Newton's Law of Cooling says that the rate at which an
-object, such as a cup of coffee, cools is proportional to the
-difference in the object's temperature and room temperature. If
-<m>T(t)</m> is the object's temperature and <m>T_r</m> is room temperature,
-this law is expressed at
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Newton's Law of Cooling says that the rate at which an
+    object, such as a cup of coffee, cools is proportional to the
+    difference in the object's temperature and room temperature.  If
+    <m>T(t)</m> is the object's temperature and <m>T_r</m> is room temperature,
+    this law is expressed at
 <me>
   \frac{dT}{dt} = -k(T-T_r),
 </me>
-where <m>k</m> is a constant of proportionality. In this problem,
-temperature is
-measured in degrees Fahrenheit and time in minutes.
+where <m>k</m> is a constant of proportionality.  In this problem,
+    temperature is 
+    measured in degrees Fahrenheit and time in minutes.
 </p>
 
 <ol>
@@ -434,21 +436,18 @@ Implement Euler's
 <li><p>Explain the similarities and differences that you see in the
     behavior of Alice's and Bob's cups of coffee.</p></li>
 </ol>
-
-<p>
-\item We have seen that the error in approximating the solution to
-an initial value problem is proportional to <m>\Delta t</m>. That is,
-if <m>E_{\Delta t}</m> is the Euler's method approximation to the
-solution to an initial value problem at <m>\overline{t}</m>, then
+</li>
+<li><p>We have seen that the error in approximating the solution to
+    an initial value problem is proportional to <m>\Delta t</m>.  That is,
+    if <m>E_{\Delta t}</m> is the Euler's method approximation to the
+    solution to an initial value problem at <m>\overline{t}</m>, then
 <me>
   y(\overline{t})-E_{\Delta t} \approx K\Delta t
 </me>
 for some constant of proportionality <m>K</m>.
-</p>
 
-<p>
-In this problem, we will see how to use this fact to improve our
-estimates, using an idea called <em>accelerated convergence</em>.
+    In this problem, we will see how to use this fact to improve our
+    estimates, using an idea called <em>accelerated convergence</em>.
 </p>
 
 <ol>
@@ -479,44 +478,34 @@ Approximate <m>y(0.3)</m> by applying Euler's method to find
     accelerated convergence to obtain a better approximation.  (For the sake of comparison, you want to  note that the actual value is <m>y(0.3) =
     0.0408</m>.)</p></li>
 </ol>
+</li>
+<li><p>In this problem, we'll modify Euler's method to obtain better
+    approximations to solutions of initial value problems.  This
+    method is called the <em>Improved Euler's method.</em>
 
-<p>
-\item In this problem, we'll modify Euler's method to obtain better
-approximations to solutions of initial value problems. This
-method is called the <em>Improved Euler's method.</em>
-</p>
+    In Euler's method, we walk across an interval of width <m>\Delta t</m>
+    using the slope obtained from the differential equation at the
+    left endpoint of the interval.  Of course, the slope of the
+    solution will most likely change over this interval.  We can
+    improve our approximation by trying to incorporate the change in
+    the slope over the interval.
 
-<p>
-In Euler's method, we walk across an interval of width <m>\Delta t</m>
-using the slope obtained from the differential equation at the
-left endpoint of the interval. Of course, the slope of the
-solution will most likely change over this interval. We can
-improve our approximation by trying to incorporate the change in
-the slope over the interval.
-</p>
+    Let's again consider the initial value problem <m>dy/dt = y</m> and
+    <m>y(0) = 1</m>, which we will approximate using steps of width <m>\Delta
+    t = 0.2</m>.  Our first interval is therefore <m>0\leq t \leq 0.2</m>.  At
+    <m>t=0</m>, the differential equation tells us that the slope is 1, and
+    the approximation we obtain from Euler's method is that
+    <m>y(0.2)\approx y_1= 1+ 1(0.2)= 1.2</m>.  
 
-<p>
-Let's again consider the initial value problem <m>dy/dt = y</m> and
-<m>y(0) = 1</m>, which we will approximate using steps of width <m>\Delta
-    t = 0.2</m>. Our first interval is therefore <m>0\leq t \leq 0.2</m>. At
-<m>t=0</m>, the differential equation tells us that the slope is 1, and
-the approximation we obtain from Euler's method is that
-<m>y(0.2)\approx y_1= 1+ 1(0.2)= 1.2</m>.
-</p>
+    This gives us some idea for how the slope has changed over the
+    interval <m>0\leq t\leq 0.2</m>.  We know the slope at <m>t=0</m> is 1,
+    while the slope at <m>t=0.2</m> is 1.2, trusting in the Euler's method
+    approximation.  We will therefore refine our estimate of the
+    initial slope to be the average of these two slopes;  that is, we
+    will estimate the slope to be <m>(1+1.2)/2 = 1.1</m>.  This gives the
+    new approximation <m>y(1) = y_1 = 1 + 1.1(0.2) = 1.22</m>.  
 
-<p>
-This gives us some idea for how the slope has changed over the
-interval <m>0\leq t\leq 0.2</m>. We know the slope at <m>t=0</m> is 1,
-while the slope at <m>t=0.2</m> is 1.2, trusting in the Euler's method
-approximation. We will therefore refine our estimate of the
-initial slope to be the average of these two slopes; that is, we
-will estimate the slope to be <m>(1+1.2)/2 = 1.1</m>. This gives the
-new approximation <m>y(1) = y_1 = 1 + 1.1(0.2) = 1.22</m>.
-</p>
-
-<p>
-The first few steps look like this:
-</p>
+    The first few steps look like this:
 <tabular>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell><m>t_i</m></cell><cell><m>y_i</m></cell><cell>Slope at <m>(t_{i+1},y_{i+1})</m></cell><cell>Average slope</cell></row>
@@ -527,6 +516,8 @@ The first few steps look like this:
 <row><cell>\vdots</cell><cell>\vdots</cell><cell>\vdots</cell><cell>\vdots</cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell></row>
 </tabular>
+</p>
+
 <ol>
 <li><p>Continue with this method to obtain an approximation for <m>y(1) =
     e</m>.</p></li>
@@ -537,12 +528,11 @@ The first few steps look like this:
     of <m>\Delta t</m> appears to be proportional to the error in the
     Improved Euler's Method?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

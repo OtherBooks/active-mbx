@@ -314,10 +314,12 @@ and then work to determine whether the limit exists and is finite. For any impro
 where <m>p</m> is a positive real number. We can show that this improper integral converges whenever <m>p > 1</m>, and diverges whenever <m>0 \lt  p \le 1</m>. A related class of improper integrals is <m>\ds \int_0^1 \frac{1}{x^p} \, dx</m>, which converges for <m>0 \lt  p \lt  1</m>, and diverges for <m>p \ge 1</m>.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Determine, with justification, whether each of the following improper integrals converges or diverges.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Determine, with justification, whether each of the following improper integrals converges or diverges.
 </p>
 
 <ol>
@@ -328,20 +330,16 @@ where <m>p</m> is a positive real number. We can show that this improper integra
 <li><m>\ds \int_0^1 \frac{\ln(x)}{x} \, dx</m></li>
 <li><m>\ds \int_0^1 \ln(x) \, dx</m></li>
 </ol>
-
-<p>
-\item Sometimes we may encounter an improper integral for which we cannot easily evaluate the limit of the corresponding proper integrals. For instance, consider <m>\int_1^{\infty} \frac{1}{1+x^3} \, dx</m>. While it is hard (or perhaps impossible) to find an antiderivative for <m>\frac{1}{1+x^3}</m>, we can still determine whether or not the improper integral converges or diverges by comparison to a simpler one. Observe that for all <m>x > 0</m>, <m>1 + x^3 > x^3</m>, and therefore
+</li>
+<li><p>Sometimes we may encounter an improper integral for which we cannot easily evaluate the limit of the corresponding proper integrals.  For instance, consider <m>\int_1^{\infty} \frac{1}{1+x^3} \, dx</m>.  While it is hard (or perhaps impossible) to find an antiderivative for <m>\frac{1}{1+x^3}</m>, we can still determine whether or not the improper integral converges or diverges by comparison to a simpler one.  Observe that for all <m>x > 0</m>, <m>1 + x^3 > x^3</m>, and therefore
 <me>
   \frac{1}{1+x^3} \lt  \frac{1}{x^3}.
 </me>
-</p>
-
-<p>
 It therefore follows that
 <me>
   \int_1^b \frac{1}{1+x^3} \, dx \lt  \int_1^b \frac{1}{x^3} \, dx
 </me>
-for every <m>b > 1</m>. If we let <m>b \to \infty</m> so as to consider the two improper integrals <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> and <m>\int_1^\infty \frac{1}{x^3} \, dx</m>, we know that the larger of the two improper integrals converges. And thus, since the smaller one lies below a convergent integral, it follows that the smaller one must converge, too. In particular, <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> must converge, even though we never explicitly evaluated the corresponding limit of proper integrals. We use this idea and similar ones in the exercises that follow.
+for every <m>b > 1</m>.  If we let <m>b \to \infty</m> so as to consider the two improper integrals <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> and <m>\int_1^\infty \frac{1}{x^3} \, dx</m>, we know that the larger of the two improper integrals converges.  And thus, since the smaller one lies below a convergent integral, it follows that the smaller one must converge, too.  In particular, <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> must converge, even though we never explicitly evaluated the corresponding limit of proper integrals.  We use this idea and similar ones in the exercises that follow.
 </p>
 
 <ol>
@@ -357,12 +355,11 @@ for each <m>b > 2</m>.	Why must it be true that <m>\int_2^b \frac{1}{\ln(x)} \, 
 </me>
 converges or diverges.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

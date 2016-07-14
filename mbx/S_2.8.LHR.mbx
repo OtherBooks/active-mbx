@@ -478,32 +478,22 @@ whereas <m>f</m> dominates <m>g</m> provided that <m>\lim_{x \to \infty} \frac{f
 </me>
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-</p>
+  
+<exercises>
+<ol>
 
-<p>
-\item Let <m>f</m> and <m>g</m> be differentiable functions about which the following information is known: <m>f(3) = g(3) = 0</m>, <m>f'(3) = g'(3) = 0</m>, <m>f''(3) = -2</m>, and <m>g''(3) = 1</m>. Let a new function <m>h</m> be given by the rule <m>h(x) = \frac{f(x)}{g(x)}</m>. On the same set of axes, sketch possible graphs of <m>f</m> and <m>g</m> near <m>x = 3</m>, and use the provided information to determine the value of
+<ol>
+<li><p>Let <m>f</m> and <m>g</m> be differentiable functions about which the following information is known:  <m>f(3) = g(3) = 0</m>, <m>f'(3) = g'(3) = 0</m>, <m>f''(3) = -2</m>, and <m>g''(3) = 1</m>.  Let a new function <m>h</m> be given by the rule <m>h(x) = \frac{f(x)}{g(x)}</m>.  On the same set of axes, sketch possible graphs of <m>f</m> and <m>g</m> near <m>x = 3</m>, and use the provided information to determine the value of
 <me>
   \lim_{x \to 3} h(x).
 </me>
-</p>
-
-<p>
-Provide explanation to support your conclusion.
-</p>
-
-<p>
-\item Find all vertical and horizontal asymptotes of the function
+Provide explanation to support your conclusion.</p></li>
+<li><p>Find all vertical and horizontal asymptotes of the function
 <me>
   R(x) = \frac{3(x-a)(x-b)}{5(x-a)(x-c)},
 </me>
-where <m>a</m>, <m>b</m>, and <m>c</m> are distinct, arbitrary constants. In addition, state all values of <m>x</m> for which <m>R</m> is not continuous. Sketch a possible graph of <m>R</m>, clearly labeling the values of <m>a</m>, <m>b</m>, and <m>c</m>.
-</p>
-
-<p>
-\item Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m>. Observe that <m>\lim_{x \to 0^+} g(x)</m> is indeterminate due to its form of <m>0^0</m>. (Think about how we know that <m>0^k = 0</m> for all <m>k > 0</m>, while <m>b^0 = 1</m> for all <m>b \ne 0</m>, but that neither rule can apply to <m>0^0</m>.)
+where <m>a</m>, <m>b</m>, and <m>c</m> are distinct, arbitrary constants.  In addition, state all values of <m>x</m> for which <m>R</m> is not continuous. Sketch a possible graph of <m>R</m>, clearly labeling the values of <m>a</m>, <m>b</m>, and <m>c</m>.</p></li>
+<li><p>Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m>.  Observe that <m>\lim_{x \to 0^+} g(x)</m> is indeterminate due to its form of <m>0^0</m>.  (Think about how we know that <m>0^k = 0</m> for all <m>k > 0</m>, while <m>b^0 = 1</m> for all <m>b \ne 0</m>, but that neither rule can apply to <m>0^0</m>.)
 </p>
 
 <ol>
@@ -512,9 +502,8 @@ where <m>a</m>, <m>b</m>, and <m>c</m> are distinct, arbitrary constants. In add
 <li><p>Use L'Hopital's Rule and your work in (b) to compute <m>\lim_{x \to 0^+} h(x)</m>.</p></li>
 <li><p>Based on the value of <m>\lim_{x \to 0^+} h(x)</m>, determine <m>\lim_{x \to 0^+} g(x).</m></p></li>
 </ol>
-
-<p>
-\item Recall we say that function <m>g</m> dominates function <m>f</m> provided that <m>\lim_{x \to \infty} f(x) = \infty</m>, <m>\lim_{x \to \infty} g(x) = \infty</m>, and <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0</m>.
+</li>
+<li><p>Recall we say that function <m>g</m> dominates function <m>f</m> provided that <m>\lim_{x \to \infty} f(x) = \infty</m>, <m>\lim_{x \to \infty} g(x) = \infty</m>, and <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0</m>.
 </p>
 
 <ol>
@@ -523,12 +512,11 @@ where <m>a</m>, <m>b</m>, and <m>c</m> are distinct, arbitrary constants. In add
 <li><p>Explain why <m>e^x</m> will dominate any polynomial function.</p></li>
 <li><p>Explain why <m>x^n</m> will dominate <m>\ln(x)</m> for any positive integer <m>n</m>.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

@@ -328,10 +328,12 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 \item For a continuous function on a closed, bounded interval, the only possible points at which absolute extreme values occur are the critical numbers and the endpoints. Thus, to find said absolute extremes, we simply evaluate the function at each endpoint and each critical number in the interval, and then we compare the results to decide which is largest (the absolute maximum) and which is smallest (the absolute minimum).
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-	\item Based on the given information about each function, decide whether the function has global maximum, a global minimum, neither, both, or that it is not possible to say without more information. Assume that each function is twice differentiable and defined for all real numbers, unless noted otherwise. In each case, write one sentence to explain your conclusion.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Based on the given information about each function, decide whether the function has global maximum, a global minimum, neither, both, or that it is not possible to say without more information.  Assume that each function is twice differentiable and defined for all real numbers, unless noted otherwise.  In each case, write one sentence to explain your conclusion.
 </p>
 
 <ol>
@@ -340,9 +342,8 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 <li><m>h</m> is a function with two critical values <m>a</m> and <m>b</m> (where <m>a \lt  b</m>), and <m>h'(x) \lt  0</m> for <m>x \lt  a</m>, <m>h'(x) > 0</m> for <m>a \lt  x \lt  b</m>, and <m>h'(x) \lt  0</m> for <m>x > b</m>.  In addition, <m>\lim_{x \to \infty} h(x) = 0</m> and <m>\lim_{x \to -\infty} h(x) = 0</m>.</li>
 <li><m>p</m> is a function differentiable everywhere except at <m>x = a</m> and <m>p''(x) > 0</m> for <m>x \lt  a</m> and <m>p''(x) \lt  0</m> for <m>x > a</m>.</li>
 </ol>
-
-<p>
-\item For each family of functions that depends on one or more parameters, determine the function's absolute maximum and absolute minimum on the given interval.
+</li>
+<li><p>For each family of functions that depends on one or more parameters, determine the function's absolute maximum and absolute minimum on the given interval.
 </p>
 
 <ol>
@@ -351,9 +352,8 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 <li><m>w(x) = a(1-e^{-bx})</m>,   <m>[b, 3b]</m></li>
 <li><m>s(x) = \sin(kx)</m>,   <m>[\frac{\pi}{3k}, \frac{5\pi}{6k}]</m></li>
 </ol>
-
-<p>
-\item For each of the functions described below (each continuous on <m>[a,b]</m>), state the location of the function's absolute maximum and absolute minimum on the interval <m>[a,b]</m>, or say there is not enough information provided to make a conclusion. Assume that any critical values mentioned in the problem statement represent all of the critical numbers the function has in <m>[a,b]</m>. In each case, write one sentence to explain your answer.
+</li>
+<li><p>For each of the functions described below (each continuous on <m>[a,b]</m>), state the location of the function's absolute maximum and absolute minimum on the interval <m>[a,b]</m>, or say there is not enough information provided to make a conclusion.  Assume that any critical values mentioned in the problem statement represent all of the critical numbers the function has in <m>[a,b]</m>.  In each case, write one sentence to explain your answer.
 </p>
 
 <ol>
@@ -362,9 +362,8 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 <li><m>h(a) = h(b)</m> and <m>h''(x) \lt  0</m> for all <m>x</m> in <m>[a,b]</m></li>
 <li><m>p(a) > 0</m>, <m>p(b) \lt  0</m>, and for the critical value <m>c</m> such that <m>a \lt  c \lt  b</m>, <m>p'(x) \lt  0</m> for <m>x \lt  c</m> and <m>p'(x) > 0</m> for <m>x > c</m></li>
 </ol>
-
-<p>
-\item Let <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5.</m> Find the exact absolute maximum and minimum of <m>s</m> on the provided intervals by testing the endpoints and finding and evaluating all relevant critical values of <m>s</m>.
+</li>
+<li><p>Let <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5.</m>  Find the exact absolute maximum and minimum of <m>s</m> on the provided intervals by testing the endpoints and finding and evaluating all relevant critical values of <m>s</m>.
 </p>
 
 <ol>
@@ -373,12 +372,11 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 <li><m>[0, 2\pi]</m></li>
 <li><m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

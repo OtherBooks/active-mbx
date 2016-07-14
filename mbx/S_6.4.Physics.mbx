@@ -358,10 +358,12 @@ While there are many different formulas that we use in solving problems involvin
 \item Because work is computed as the product of force and distance (provided force is constant), and the force water exerts on a dam can be computed as the product of pressure and area (provided pressure is constant), problems involving these concepts are similar to earlier problems we did using definite integrals to find distance (via <q>distance equals rate times time</q>) and mass (<q>mass equals density times volume</q>).
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its graph that lies in the first quadrant between the <m>y</m>-axis and the first positive value of <m>x</m> for which <m>f(x) = 0</m>. Let <m>R</m> denote the region bounded by this portion of <m>f</m>, the <m>x</m>-axis, and the <m>y</m>-axis. Assume that <m>x</m> and <m>y</m> are each measured in feet.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its graph that lies in the first quadrant between the <m>y</m>-axis and the first positive value of <m>x</m> for which <m>f(x) = 0</m>.  Let  <m>R</m> denote the region bounded by this portion of <m>f</m>, the <m>x</m>-axis, and the <m>y</m>-axis.  Assume that <m>x</m> and <m>y</m> are each measured in feet.
 </p>
 
 <ol>
@@ -369,21 +371,19 @@ While there are many different formulas that we use in solving problems involvin
 <li><p>Again picture the coordinate axes rotated 90 degrees clockwise so that the positive <m>x</m>-axis points straight down, and the positive <m>y</m>-axis points to the right.  Suppose that <m>R</m>, together with its reflection across the <m>x</m>-axis, forms one end of a storage tank that is 10 feet long.  Suppose that the resulting tank is filled completely with water weighing 62.4 pounds per cubic foot.  Find a formula for a function that tells the amount of work required to lower the water by <m>h</m> feet.</p></li>
 <li><p>Suppose that the tank described in (b) is completely filled with water.  Find the total force due to hydrostatic pressure exerted by the water on one end of the tank.</p></li>
 </ol>
-
-<p>
-\item A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet. It is filled completely with water whose weight density is 62.4 lbs/ft<m>^3</m>, and the top of the tank is two feet underground.
+</li>
+<li><p>A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet.  It is filled completely with water whose weight density is 62.4 lbs/ft<m>^3</m>, and the top of the tank is two feet underground.
 </p>
 
 <ol>
 <li><p>Set up, but do not evaluate, an integral expression that represents the amount of work required to empty the top half of the water in the tank to a truck whose tank lies 4.5 feet above ground.</p></li>
 <li><p>With the tank now only half-full, set up, but do not evaluate an integral expression that represents the total force due to hydrostatic pressure against one end of the tank.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

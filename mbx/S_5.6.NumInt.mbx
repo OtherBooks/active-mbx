@@ -405,10 +405,12 @@ Finally, we make two important notes about Simpson's Rule. When T.<nbsp />Simpso
 \item The Midpoint Rule is typically twice as accurate as the Trapezoid Rule, and the signs of the respective errors of these rules are opposites. Hence, by taking the weighted average <m>S_n = \frac{2M_n + T_n}{3}</m>, we can build a much more accurate approximation to <m>\int_a^b f(x) \, dx</m> by using approximations we have already computed. The rule for <m>S_n</m> is known as Simpson's Rule, which can also be developed by approximating a given continuous function with pieces of quadratic polynomials.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the definite integral <m>\int_0^1 x \tan(x) \, dx</m>.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the definite integral <m>\int_0^1 x \tan(x) \, dx</m>.
 </p>
 
 <ol>
@@ -416,9 +418,8 @@ Finally, we make two important notes about Simpson's Rule. When T.<nbsp />Simpso
 <li><p>Using 4 subintervals, compute <m>L_4</m>, <m>R_4</m>, <m>M_4</m>, <m>T_4</m>, and <m>S_4</m>.</p></li>
 <li><p>Which of the approximations in (b) is an over-estimate to the true value of <m>\int_0^1 x \tan(x) \, dx</m>?  Which is an under-estimate?  How do you know?</p></li>
 </ol>
-
-<p>
-\item For an unknown function <m>f(x)</m>, the following information is known.
+</li>
+<li><p>For an unknown function <m>f(x)</m>, the following information is known.
 </p>
 
 <ul>
@@ -433,10 +434,8 @@ Finally, we make two important notes about Simpson's Rule. When T.<nbsp />Simpso
 <li><p>Is <m>f</m> concave up or concave down on <m>[3,6]</m>?  Why?</p></li>
 <li><p>Determine the best possible estimate you can for <m>\int_3^6 f(x) \, dx</m>, based on the given information.</p></li>
 </ol>
-
-<p>
-\item The rate at which water flows through Table Rock Dam on the White River in Branson, MO, is measured in thousands of cubic feet per second (TCFS). As engineers open the floodgates, flow rates are recorded according to the following chart.
-</p>
+</li>
+<li><p>The rate at which water flows through Table Rock Dam on the White River in Branson, MO, is measured in thousands of cubic feet per second (TCFS).  As engineers open the floodgates, flow rates are recorded according to the following chart.
 <tabular>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell>seconds, <m>t</m></cell><cell>0</cell><cell>10</cell><cell>20</cell><cell>30</cell><cell>40</cell><cell>50</cell><cell>60</cell></row>
@@ -444,18 +443,19 @@ Finally, we make two important notes about Simpson's Rule. When T.<nbsp />Simpso
 <row><cell>flow in TCFS, <m>r(t)</m></cell><cell>2000</cell><cell>2100</cell><cell>2400</cell><cell>3000</cell><cell>3900</cell><cell>5100</cell><cell>6500</cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 </tabular>
+</p>
+
 <ol>
 <li><p>What definite integral measures the total volume of water to flow through the dam in the 60 second time period provided by the table above?</p></li>
 <li><p>Use the given data to calculate <m>M_n</m> for the largest possible value of <m>n</m> to approximate the integral you stated in (a).  Do you think <m>M_n</m> over- or under-estimates the exact value of the integral?  Why?</p></li>
 <li><p>Approximate the integral stated in (a) by calculating <m>S_n</m> for the largest possible value of <m>n</m>, based on the given data.</p></li>
 <li><p>Compute <m>\frac{1}{60} S_n</m> and <m>\frac{2000+2100+2400+3000+3900+5100+6500}{7}</m>.  What quantity do both of these values estimate?  Which is a more accurate approximation?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

@@ -435,12 +435,14 @@ Thus, the tangent line is given by <m>y - 1 = 0.110794(x - 0.571433)</m>.</p></l
 \item While <m>\frac{dy}{dx}</m> may now involve both the variables <m>x</m> and <m>y</m>, <m>\frac{dy}{dx}</m> still measures the slope of the tangent line to the curve, and thus this derivative may be used to decide when the tangent line is horizontal (<m>\frac{dy}{dx} = 0</m>) or vertical (<m>\frac{dy}{dx}</m> is undefined), or to find the equation of the tangent line at a particular point on the curve.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Consider the curve given by the equation <m>2y^3+y^2-y^5 = x^4 - 2x^3  + x^2</m>. Find all points at which the tangent line to the curve is horizontal or vertical.
-\item For the curve given by the equation <m>\sin(x+y) + \cos(x-y) = 1</m>, find the equation of the tangent line to the curve at the point <m>(\frac{\pi}{2}, \frac{\pi}{2})</m>.
-\item Implicit differentiation enables us a different perspective from which to see why the rule <m>\frac{d}{dx} [a^x] = a^x \ln(a)</m> holds, if we assume that <m>\frac{d}{dx}[\ln(x)] = \frac{1}{x}</m>. This exercise leads you through the key steps to do so.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Consider the curve given by the equation <m>2y^3+y^2-y^5 = x^4 - 2x^3  + x^2</m>.  Find all points at which the tangent line to the curve is horizontal or vertical.</p></li>
+<li><p>For the curve given by the equation <m>\sin(x+y) + \cos(x-y) = 1</m>, find the equation of the tangent line to the curve at the point <m>(\frac{\pi}{2}, \frac{\pi}{2})</m>.</p></li>
+<li><p>Implicit differentiation enables us a different perspective from which to see why the rule <m>\frac{d}{dx} [a^x] = a^x \ln(a)</m> holds, if we assume that <m>\frac{d}{dx}[\ln(x)] = \frac{1}{x}</m>.  This exercise leads you through the key steps to do so.
 </p>
 
 <ol>
@@ -448,12 +450,11 @@ Thus, the tangent line is given by <m>y - 1 = 0.110794(x - 0.571433)</m>.</p></l
 <li><p>Differentiate both sides of the equation you found in (a) with respect to <m>x</m>, keeping in mind that <m>y</m> is implicitly a function of <m>x</m>.</p></li>
 <li><p>Solve the equation you found in (b) for <m>\frac{dy}{dx}</m>, and then use the definition of <m>y</m> to write <m>\frac{dy}{dx}</m> solely in terms of <m>x</m>.  What have you found?</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

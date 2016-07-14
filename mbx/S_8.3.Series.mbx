@@ -769,7 +769,7 @@ Since <m>\lim_{k \to \infty} \frac{b_k}{a_k}</m> is a finite positive constant, 
 </subsection>
 
 
-<subsection xml:id="ex_8.3_Root_Test">
+<subsection>
 <title>The Ratio Test</title>
 <p>
 <index><main>ratio test</main></index>
@@ -958,13 +958,12 @@ where <m>a_k</m> is a real number for each positive integer <m>k</m>.
 <li class="custom-list-style-type" label="-" >The series <m>\sum_{k=1}^{\infty} a_k</m> diverges if the sequence <m>\{S_n\}</m> of partial sums diverges.</li>
 </ul>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-</p>
+  
+<exercises>
+<ol>
 
-<p>
-\item In this exercise we investigate the sequence <m>\left\{\frac{b^n}{n!}\right\}</m> for any constant <m>b</m>.
+<ol>
+<li><p>In this exercise we investigate the sequence <m>\left\{\frac{b^n}{n!}\right\}</m> for any constant <m>b</m>.
 </p>
 
 <ol>
@@ -1011,11 +1010,8 @@ Since the limit of the ratio of successive terms is less than 1, we conclude tha
 </p>
 </solution></p></li>
 </ol>
-
-<p>
-\item There is a test for convergence similar to the Ratio Test called the <em>Root Test</em>. Suppose we have a series <m>\sum a_k</m> of positive terms so that <m>a_n \to 0</m> as <m>n \to \infty</m>.
-</p>
-
+</li>
+<li xml:id="ex_8.3_Root_Test" > There is a test for convergence similar to the Ratio Test called the <em>Root Test</em>. Suppose we have a series <m>\sum a_k</m> of positive terms so that <m>a_n \to 0</m> as <m>n \to \infty</m>.
 <ol>
 <li><p>Assume
 <me>
@@ -1058,15 +1054,11 @@ with <m>0 \lt  r \lt  1</m>.
 </p>
 </solution></p></li>
 </ol>
-
-<p>
-\item The associative and distributive laws of addition allow us to add finite sums in any order we want. That is, if <m>\sum_{k=0}^n a_k</m> and <m>\sum_{k=0}^n b_k</m> are finite sums of real numbers, then
+</li>
+<li><p>The associative and distributive laws of addition allow us to add finite sums in any order we want. That is, if <m>\sum_{k=0}^n a_k</m> and <m>\sum_{k=0}^n b_k</m> are finite sums of real numbers, then
 <me>
   \sum_{k=0}^{n} a_k + \sum_{k=0}^n b_k = \sum_{k=0}^n (a_k+b_k).
 </me>
-</p>
-
-<p>
 However, we do need to be careful extending rules like this to infinite series.
 </p>
 
@@ -1105,11 +1097,8 @@ This shows that it is possible to have to two divergent series <m>\sum_{k=0}^{\i
 </li>
 <li><p>Use the prior result to find the sum of the series <m>\sum_{k=0}^{\infty} \frac{2^k+3^k}{5^k}</m>.</p></li>
 </ol>
-
-<p>
-\item Series are sums, just like improper integrals. Recall that we had a comparison test for improper integrals, so it is reasonable to expect that we could have a similar test for infinite series. We consider such a test in this exercise. First we consider an example.
-</p>
-
+</li>
+<li xml:id="ex_8.3_Direct_Comparison_Test" > Series are sums, just like improper integrals. Recall that we had a comparison test for improper integrals, so it is reasonable to expect that we could have a similar test for infinite series. We consider such a test in this exercise. First we consider an example.
 <ol>
 <li><p>Consider the series
 <me>
@@ -1242,12 +1231,11 @@ and so the series <m>\sum \frac{k}{k^3}</m> is a <m>p</m>-series with <m>p=2</m>
 </ul>
 </li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

@@ -375,10 +375,12 @@ If instead we have mass continuously distributed along an axis, such as by a den
 In each situation, <m>\overline{x}</m> represents the balancing point of the system of masses or of the portion of the bar.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item Let a thin rod of length <m>a</m> have density distribution function <m>\rho(x) = 10e^{-0.1x}</m>, where <m>x</m> is measured in cm and <m>\rho</m> in grams per centimeter.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>Let a thin rod of length <m>a</m> have density distribution function <m>\rho(x) = 10e^{-0.1x}</m>, where <m>x</m> is measured in cm and <m>\rho</m> in grams per centimeter.
 </p>
 
 <ol>
@@ -387,9 +389,8 @@ In each situation, <m>\overline{x}</m> represents the balancing point of the sys
 <li><p>For the 30g rod, find the center of mass, and compare your prediction in (b).</p></li>
 <li><p>At what value of <m>x</m> should the 30g rod be cut in order to form two pieces of equal mass?</p></li>
 </ol>
-
-<p>
-\item Consider two thin bars of constant cross-sectional area, each of length 10 cm, with respective mass density functions <m>\rho(x) = \frac{1}{1+x^2}</m> and <m>p(x) = e^{-0.1x}</m>.
+</li>
+<li><p>Consider two thin bars of constant cross-sectional area, each of length 10 cm, with respective mass density functions <m>\rho(x) = \frac{1}{1+x^2}</m> and <m>p(x) = e^{-0.1x}</m>.
 </p>
 
 <ol>
@@ -405,9 +406,8 @@ In each situation, <m>\overline{x}</m> represents the balancing point of the sys
 </ol>
 </li>
 </ol>
-
-<p>
-\item Consider the curve given by <m>y = f(x) = 2xe^{-1.25x} + (30-x) e^{-0.25(30-x)}</m>.
+</li>
+<li><p>Consider the curve given by <m>y = f(x) = 2xe^{-1.25x} + (30-x) e^{-0.25(30-x)}</m>.
 </p>
 
 <ol>
@@ -417,12 +417,11 @@ In each situation, <m>\overline{x}</m> represents the balancing point of the sys
 <li><p>Because the baseball bat does not have constant cross-sectional area, we see that the amount of weight concentrated at a location <m>x</m> along the bat is determined by the volume of a slice at location <m>x</m>.  Explain why we can think about the function <m>\rho(x) = 0.6 \pi f(x)^2</m> (where <m>f</m> is the function given at the start of the problem) as being the weight density function for how the weight of the baseball bat is distributed from <m>x = 0</m> to <m>x = 30</m>.</p></li>
 <li><p>Compute the center of mass of the baseball bat.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>

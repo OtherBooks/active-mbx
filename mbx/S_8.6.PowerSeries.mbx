@@ -362,7 +362,7 @@ unless <m>x=0</m>. So the interval of convergence of the power series <m>\ds \su
 </subsection>
 
 
-<subsection xml:id="ex_8.5.2">
+<subsection>
 <title>Manipulating Power Series</title>
 <p>
 Recall that we know several power series expressions for important functions such as <m>\sin(x)</m> and <m>e^x</m>. Often, we can take a known power series expression for such a function and use that series expansion to find a power series for a different, but related, function. The next activity demonstrates one way to do this.
@@ -600,13 +600,12 @@ for <m>-1 \lt  x \lt  1</m>.
 \item The connection between power series and Taylor series is that they are essentially the same thing: on its interval of convergence a power series is the Taylor series of its sum.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-</p>
+  
+<exercises>
+<ol>
 
-<p>
-\item We can use power series to approximate definite integrals to which known techniques of integration do not apply. We will illustrate this in this exercise with the definite integral <m>\int_0^1 \sin(x^2) \ ds</m>.
+<ol>
+<li><p>We can use power series to approximate definite integrals to which known techniques of integration do not apply. We will illustrate this in this exercise with the definite integral <m>\int_0^1 \sin(x^2) \ ds</m>.
 </p>
 
 <ol>
@@ -614,14 +613,11 @@ for <m>-1 \lt  x \lt  1</m>.
 <li><p>Integrate the Taylor series for <m>\sin(x^2)</m> term by term to obtain a power series expansion for <m>\int \sin(x^2) \ dx</m>.</p></li>
 <li><p>Use the result from part (b) to explain how to evaluate <m>\int_0^1 \sin(x^2) \ dx</m>. Determine the number of terms you will need to approximate <m>\int_0^1 \sin(x^2) \ dx</m> to 3 decimal places.</p></li>
 </ol>
-
-<p>
-\item There is an important connection between power series and Taylor series. Suppose <m>f</m> is defined by a power series centered at 0 so that
+</li>
+<li xml:id="ex_8.5.2" > There is an important connection between power series and Taylor series. Suppose <m>f</m> is defined by a power series centered at 0 so that
 <me>
   f(x) = \sum_{k=0}^{\infty} a_kx^k.
 </me>
-</p>
-
 <ol>
 <li><p>Determine the first 4 derivatives of <m>f</m> evaluated at 0 in terms of the coefficients <m>a_k</m>.</p></li>
 <li><p>Show that <m>f^{(n)}(0) = n!a_n</m> for each positive integer <m>n</m>.
@@ -660,15 +656,11 @@ for each <m>k \geq 0</m>. But these are just the coefficients of the Taylor seri
 </solution></p></li>
 <li><p>Explain how the result of (b) tells us the following:</p></li>
 </ol>
-
-<p>
 \text{
 On its interval of convergence, a power series is the Taylor series of its sum.
-}
-</p>
-
-<p>
-\item In this exercise we will begin with a strange power series and then find its sum. The Fibonacci sequence <m>\{f_n\}</m> is a famous sequence whose first few terms are
+} 
+</li>
+<li><p>In this exercise we will begin with a strange power series and then find its sum. The Fibonacci sequence <m>\{f_n\}</m> is a famous sequence whose first few terms are
 <me>
   f_0 = 0, f_1 = 1, f_2 = 1, f_3 = 2, f_4 = 3, f_5 = 5, f_6 = 8, f_7 = 13, \cdots,
 </me>
@@ -676,16 +668,10 @@ where each term in the sequence after the first two is the sum of the preceding 
 <me>
   f_n = f_{n-1} + f_{n-2}.
 </me>
-</p>
-
-<p>
 Now consider the power series
 <me>
   F(x) = \sum_{k=0}^{\infty} f_kx^k.
 </me>
-</p>
-
-<p>
 We will determine the sum of this power series in this exercise.
 </p>
 
@@ -709,9 +695,8 @@ We will determine the sum of this power series in this exercise.
 to find a simple form for <m>F(x)</m> that doesn't involve a sum.</p></li>
 <li><p>Use a computer algebra system or some other method to calculate the first 8 derivatives of <m>\frac{x}{1-x-x^2}</m> evaluated at 0. Why shouldn't the results surprise you?</p></li>
 </ol>
-
-<p>
-\item Airy's equation<fn>The general differential equations of the form <m>y'' \pm k^2xy = 0</m> is called Airy's equation. These equations arise in many problems, such as the study of diffraction of light, diffraction of radio waves around an object, aerodynamics, and the buckling of a uniform column under its own weight.</fn>
+</li>
+<li><p>Airy's equation<fn>The general differential equations of the form <m>y'' \pm k^2xy = 0</m> is called Airy's equation. These equations arise in many problems, such as the study of diffraction of light, diffraction of radio waves around an object, aerodynamics, and the buckling of a uniform column under its own weight.</fn>
 <men xml:id="eq_PA8.6_Airy_equation" >
   y'' + xy = 0,
 </men>
@@ -934,12 +919,11 @@ and an approximation of <m>\theta</m> as
 We could keep going to determine more and more terms in this Taylor series for <m>\theta</m>, but the point is that we can use series like this one to approximate functions. The difference between this type of problem and our use of Taylor series is that to determine the terms in a Taylor series, we need to know the function from which we derive the series. In this differential equation example, we didn't know the function <m>\theta</m>, be we could calculate terms in a series expansion for <m>\theta</m> because we had enough information about <m>\theta</m>.
 </p>
 </solution>
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</li>
+</ol>
 
+</ol>
+</exercises>
 <p>
 \appendix
 </p>

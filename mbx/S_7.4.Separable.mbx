@@ -394,11 +394,13 @@ growth and decay and Newton's Law of Cooling give rise to separable
 differential equations. Later, we will learn in <xref ref="S_7.6.Logistic">Section</xref> that the important logistic differential equation is also separable.
 </p>
 </summary>
-<p>
-egin{exercises}
-egin{enumerate}
-\item The mass of a radioactive sample decays at a rate that is
-proportional to its mass.
+  
+<exercises>
+<ol>
+
+<ol>
+<li><p>The mass of a radioactive sample decays at a rate that is
+    proportional to its mass.
 </p>
 
 <ol>
@@ -421,9 +423,8 @@ proportional to its mass.
       amount of Carbon-14 is only 30<percent /> of the amount in living trees.
       Estimate the age of the firepit.<fn>This approach is the basic idea behind radiocarbon dating.</fn></p></li>
 </ol>
-
-<p>
-\item Consider the initial value problem
+</li>
+<li><p>Consider the initial value problem
 <me>
   \frac{dy}{dt} = -\frac ty, \ y(0) = 8
 </me>
@@ -438,14 +439,13 @@ proportional to its mass.
 <li><p>By looking at the differential equation, explain why we
       should not expect to find solutions with the value of <m>y</m> you noted in (c).</p></li>
 </ol>
-
-<p>
-\item Suppose that a cylindrical water tank with a hole in the
-bottom is filled with water. The water, of course, will leak out
-and the height of the water will decrease. Let <m>h(t)</m> denote the
-height of the water. A physical principle called <em>Torricelli's
-Law</em> implies that the height decreases at a rate proportional to
-the square root of the height.
+</li>
+<li><p>Suppose that a cylindrical water tank with a hole in the
+    bottom is filled with water.  The water, of course, will leak out
+    and the height of the water will decrease.  Let <m>h(t)</m> denote the
+    height of the water.  A physical principle called <em>Torricelli's
+      Law</em> implies that the height decreases at a rate proportional to
+    the square root of the height.
 </p>
 
 <ol>
@@ -461,11 +461,10 @@ the square root of the height.
 <li><p>Is the solution that you found valid for all time <m>t</m>?  If
       so, explain how you know this.  If not, explain why not.</p></li>
 </ol>
-
-<p>
-\item The <em>Gompertz equation</em> is a model that is used to
-describe the growth of certain populations. Suppose that <m>P(t)</m>
-is the population of some organism and that
+</li>
+<li><p>The <em>Gompertz equation</em> is a model that is used to
+    describe the growth of certain populations.  Suppose that <m>P(t)</m>
+    is the population of some organism and that
 <me>
   \frac{dP}{dt} = -P\ln\left(\frac P3\right) = -P(\ln P - \ln 3).
 </me>
@@ -483,12 +482,11 @@ is the population of some organism and that
 <li><p>Verify that the long-term behavior of your solutions agrees
       with what you predicted by looking at the slope field.</p></li>
 </ol>
+</li>
+</ol>
 
-<p>
-\end{enumerate}
-\end{enumerate}
-\end{exercises}
-</p>
+</ol>
+</exercises>
 </subsection>
 
 </section>
