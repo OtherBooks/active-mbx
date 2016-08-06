@@ -1,0 +1,7 @@
+
+
+<div class="title"><a href="/home/sl2x/www/sl2x.aimath.org/htdocs/latexsource/activecalculusmbx/mbx2">Active Calculus \\  \small{2015 edition} \\  \scalebox{0.75}{\includegraphics{figures/CClicense.eps}}</a></div>
+
+
+<div class="author">by Matthew Boelkins, Lead Author and Editor</div>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150pt" height="150pt" viewBox="0 0 150 150" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 L 0 150 Z M 0 150 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 Z M 0 150 "/>
+</clipPath>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAAAAmJLR0QA/4ePzL8AAAOvSURBVHic7ZzPaxNBFMe/CcVTQQYLDQhWFuq5ZECP9jBRMAdBCPUvWPBc6a54FroeiicPC7mqJeDNIjWgPfW0Yo4qRHoyirKgPVXbeNjd7M4my+7UJpnA+1zefDczL9/uj5fJ7jQAQRAEcQaU4qaYnouQ9qBVHrQEDxuNILzelXVm5FyOuQMyE8Q7Zi726oVmRRD7kHVmjP/KggOyEwwopzfoAdlSId8Wu80a1gScSMzl9vB73PMm4ESiwEHsGUZ3/EZk4nIqGn7Q4MG+uV9+HOja0V5y+1Bk8KWY2TE3QWuoUAAiKmabQfhzIuvMGA1MJygchxLM8JU4FciWCrNmi5cg2CSdSGTWrevXcPDuW6ypbmH2zq3pQrZUIFsqFJhvUd0amNH0IJItFciWCprayqxba5eBFwexproFbQ8i2VKBbKmgqS2ab1HdGhdkSwWypcKs3d/if0/Cu4HTqFuZz3y8/vDDx8mh6blFtlQgWyokrsRoGQMLrtNStF6D5cRoXBRzB2QmiB/y6r+3aHlGLmRLBbKlQmbdulXC81e9WFPdkqCvr/mQLRXIlgqa2qLbblS3xgXZUmHWbOm6rOxqScfbblS3RkC2VCBbKmhqi+ZbVLfGBdlSgWypQMvKqG6NCy1srRnpLTrYqlSHvmLpYAufhv4tUwdb1fdDm3SYb938ETSobp0SsqXC7NtaSunFVBGsVGTNFhUTnM7W3ZRe5bKu12XNVxUTJEjUrd3MTmHXfk6HPHIT3BjUrcTT15O+NLpcOpazzaV0Cf2RMeqQ1gUSjCC3nH5J6X0uD9zakjvwfcUERVa7DbOd0nupD9id1OvenmKCBLNfICZJwYNoGl0XsJjvBLrBmQ3whu+GswcLDmCYcMJZxCZswDARDTAbNQBvvK4baGHVAFjMsEf+1kTRvWUbABwnKoDMtk3A6hrhhobtmIBpO2bUHwB8244GuB4AdOPFSx4AMMcbXVILLis7L5YEE5X6ZxFprPwSx93vD7bBEWjg3L3fK2EHLAkwjvkLSS0uth41k/roKT6y/1iecQUA0GsuD3TlUH59/hDYqda/SsOWq/LV9ySVdrnZXBv5fgWXlRnibXvds/ChHWgm2MaztiGw4QNow7OwwW954qcdDthcMNx1/44n7ECbC8Je9yy8DBOIBeFeanOBh12MWFZW8JR3AXR8e6BbLaADd6B9G8BOooMNoOPV4gSunKDdBjpwst5P0wJBtlTQ1Jamy2E1/RE1giAI4kz4B1XJQsqDSPTnAAAAAElFTkSuQmCC"/>
+</pattern>
+<mask id="mask0">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern0);stroke:none;"/>
+</mask>
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAACzY+a1AAAABmJLR0QA/wD/AP+gvaeTAAAE4UlEQVR4nO2dv0vrUBiGTy53ce8s1CEgIiJ2ymQnySqIkNKpY0Ho4FLcBJfiEnDUJdBF6BoEwU5OyWhwkQ7+EY65Q7ilt01PctI0yXvzPlM9+ZJ8x8f+eHPaqoVhKAgyv8pugGwKFcJDhfBQITxUCA8VwkOF8FAhPL/lm33fL6YPIuHk5ESyVXYvVPXXarVarZbSLiQNCSLC9Xie53neuk2rg5IDKh0n23jsJtUplDuuOoUIPhfCQ4XwUCE8Ca9Ic0HTtIODg4+Pj+jHkMtbuVLEvTAMw729vQJOVE8KeiA9PDyMbvAumDua5HeaIRcKITzPW930+vr68vIyGo1U+yMRsnQvCRzMhQWPMxfWFCqEhwrhoUJ4qBCe3BRqmja/Mb9NCiC3XHh9ff329iaEaDab/X7/9PR08+bIHObCclpSHWcurClUCA8VwkOF8FAhPFQIT0HrhWRDmAvLaUl1nLmwplAhPFQIDxXCQ4XwUCE8ueXCi4uL2WwW3R4Oh+fn55u2RhZgLiynJdVx5sKaQoXwUCE8VAgPFcJDhfBwvRAD5sJyWlIdZy6sKVQIDxXCQ4XwUCE8VAgPP1+IQRG5UH7YCoaqCo6XnAvDf6N9XoclifC5EB4qhIcK4aFCeKgQHq4XYiDJhbwX4iPJjFzyLXicS741hQrhoUJ4qBAeKoQnt1x4dXX1/v4uhNB1vdvtmqaZQ3fkL8yF/zWSwMFcWPA4c2FNoUJ4qBAeKoSHCuGhQni45IsBPyJaTkuq48yFNYUK4aFCeKgQHiqEh/+CEh5+RBQD5sJyWlIdZy6sKVQIDxXCQ4XwUCE8VAgP1wsxYC4spyXVcebCmkKF8FAhPFQIDxXCQ4Xw8F9QYsBcWE5LquPMhTWFCuGhwgrR6/UyvHOMCquC67rf398ZdqTCCtFoNEL1b6anwqrguu7x8XGGHbleWBWGw+H+/n63243dylxYTkuq48yFNYUK4aFCeKgQnpIVTiYTpfrpdKp0/cJ1Xdd109drmjadTpVa2vYUEilZ4d3dnVL9w8ODUr3jOI7jbPUU255CMpJXq0x4FYGh4j8nQeG2o32z2VSqb7fbsadYl38NwzAMI/0phBDtdluppW1PIfGx8HcOfwYb8Pz8rFQ/Go1kl5pWsG1b6fhhGKpeVtz2FBLhAyk8VAhPCQq1v0hGYuuXvhdl3S6q9WLli1ZU61NOQd5kZsq5F4b/rnCFSeuciQWJ9fIjxNZLdtm8nxxJfjmz7uk98/jl5aXv+7quRyO+77uuq+t6s9lc3Hep3vM8y7KicV3Xx+NxEAT39/eruyzVCyEMw+j3+7e3t47jxJ5CCDHvRwjheZ7v+0EQHB0dpan3fX93d3cymViWlbL+7Owsetvtzc3Nul1SUsIr0s/Pz6UR0zRN05z/xmPrXdfd2dlJf/wgCOb1tm33er2fn59Go5Gyyaenp6+vr8fHx5T1qpfZZrPZeDwWQliWFd3ITmx2kSeVdaFHcsDF+sVTdzqd2GZi64UQnU5n9UF4qdXFrZ7nGYYRO9lcWtrSFJb6rNzVmcWJDQaDxW7k9WEYDgaDpRF5vRDCtm358TdpaUtTUIKhAh4qhIcK4aFCePg+UgwkV8ZlCkWmpElyR76ykaCQVB8+F8JDhfBQITxUCA8VwkOF8FAhPFQIzx9Rs2mWopVrewAAAABJRU5ErkJggg=="/>
+</pattern>
+</defs>
+<g id="surface0">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern1);stroke:none;" mask="url(#mask0)"/>
+</g>
+</g>
+</g>
+</svg>

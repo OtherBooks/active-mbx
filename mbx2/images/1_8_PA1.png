@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150pt" height="150pt" viewBox="0 0 150 150" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 L 0 150 Z M 0 150 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 Z M 0 150 "/>
+</clipPath>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAAAAmJLR0QA/4ePzL8AAAExSURBVHic7dyxbYRAFADROctFXB+0QBOOXQbx1eImaIE+XIaDc2CJDRihkwnmhX83GG30RQAkr3EDYP7nir9WgDeAedqfToPZshy7d2o2A7wDsK37c/azz8FsdO/cDH5f63rKMsoyyjLKMsoyyjLKMsoyntvpaHkdXL4Plv7RvVOzDS7+Wu3yx5RllGWUZZRllGWUZZRllGW0yxvt8kZZRllGWUZZRllGWUZZRllGu7zRLm+UZZRllGWUZZRllGWUZZRltMsb7fJGWUZZRllGWUZZRllGWUZZxg1gXr53B3f2s4nt0L1Ts8fKZV/rucs/9jv1PNizv/g4dO/cDC77WmUZZRllGWUZZRllGWUZZRl9lzf6Lm+UZZRllGWUZZRllGWUZZRlXHSXv+ivMpNX+QHMeUznjoD6vgAAAABJRU5ErkJggg=="/>
+</pattern>
+<mask id="mask0">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern0);stroke:none;"/>
+</mask>
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAACzY+a1AAAABmJLR0QA/wD/AP+gvaeTAAACHklEQVR4nO3cwW0iQRBA0bblFIiBAAhsYiEwAiAGAuCID5al9uwezK7E6I/eu3FoBumrNIcu8fZ4PAZl71v/AP6XhHkS5n2sPl8ul01+B793Op3mjz+mcKt+y7Isy7LJo4tWmdZTOP6I/NT3/tvZ2+22yXO7Z2fehXkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHlv8x7phosXY4zz+bzJ04vmG39TmGd3Jnl2ZgrzJMyTME/CPAnzJMyTME/CPAnzJMyTME/CPAnzJMyTME/CPAnz7M4k2Z3ZFbszybMzU5gnYZ6EeRLmSZgnYZ6EeRLmSZgnYZ6EeRLmSZgnYZ6EeRLmSZhndybJ7syu2J1Jnp2ZwjwJ8yTMkzBPwjwJ8yTMkzBPwjwJ8yTMkzBPwjwJ8yTMkzBPwjy7M0l2Z3bF7kzy7MwU5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5q1v7Zdl+bpDf9bhcBjf9+/Put/vY4zj8fji50bPrpaMTGHeXzbYXr8P8jV/1+v1xc/dx1lTmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmOd/Z5Lc2u+K/51Jnp2ZwjwJ8yTMkzBPwjwJ8yTMkzBPwjwJ8yTMkzBPwjwJ8yTMkzBPwjy7M0nzjf+PhGO7ivzeamNjnZAc78I8CfMkzPsElSwBAkslUtEAAAAASUVORK5CYII="/>
+</pattern>
+</defs>
+<g id="surface0">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern1);stroke:none;" mask="url(#mask0)"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121pt" height="121pt" viewBox="0 0 121 121" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 121 L 120 121 L 120 1 L 0 1 L 0 121 Z M 0 121 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 0 121 L 120 121 L 120 1 L 0 1 Z M 0 121 "/>
+</clipPath>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="120" height="120" patternTransform="matrix(1,0,0,1,0,1)">
+  <image width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAAAAAAcD2kOAAAAAmJLR0QA/4ePzL8AAANVSURBVGiB7Zs/b9NAGMYfl0ilAim6ibWyUgnxR23kgbJAh2NhYnHLHilI7FUy8AHcDcZG9As0CwsUKRGUAUWVCGnEwFIsMaB2KDXKQitVCUNc/F7sS5r0HFfKPUt8ee/143N8r386O8Ck6QrZztvc22evPh9L+rLb+/EcBAN3wH44srh9lFdnZgAAfK/52fcn6Qe3vv1qRneeX9r9pMCzCABTAOBY3W+au4tAq3OH9iqQ7eY7a2U6aFoW7WgzWRqYTVtWcEqd7iYDqwBot2lWh+bwj5Uv6E3zVeG0JaZVaKublqLHbHbPQseDTKePuDQ2nKhxyf/slKJ6+qoqMp5StB9FxmzTsq3ISMzG3prtukkYo24y+RUWpzHcery+MmNWjnnA/nQixSS9AGPr6sHP/8WGVglm0pYlxExbmOJ90uqBca92znfUF5ZY+9qntDWw9p1pyJJ5yQqINtbGCkTncd401+pMynpgpkJjOmKv+KwAyBGDVx6rMxZKppWec9LHhrFFKZOcgZ3nf5WVTOE3nl7cBlodQ3aUzbfXKGVeXGeUuc6AJChz3S24JSRAmcv+5yRSpjbWxgoUTZmSkqmSMhMbMQBNmdpYG6sRvR9zbi4jCcqsFhmSoUxkHCRCmQASoUygAiRBmZybvIoEKLNaLQLQlKmNtfGI0pQJTZlKxYNHbmM1ZoXg9jNWY88LbjFjNTbJI6WxGlsInriGnknESZnlcrCdAoCHNNqHMtc/ZGlbSEM2K2WEbESaAQC1ezRgdOStc6tf2s59RP7GozmNpFqNtvpQ5upvSpli2uEqbYlph2G3FAD0vHEgp8zGV0qZYlqjIcvqCXXToqbT5aNMM3dTGnMyL2SPuq1cJvwCyVDG7saMNFbfe1mQhNyNPTv0pbLKVcZ12aXhZe8W4zNG6ml4774a38MnQ5mxNftaNmKG03CxHfLimpG+ZrSJFVnMymXC82Q4ymwdUF4UKLNstwSWFNLaQpqmzPFKG2vj2KTXMidoLdNxeDJrmUW9lhmztLE2jk16LROaMrWxNh5V+r1MJ31sYByUKfztaHpp+yS9MJeqSf52hBtP/rw5GTCUwRIXaRyH++9lsiPZghXAKGVeSJShN124JQB59KE9ror2Jk7/AM/qhc7JQ1P6AAAAAElFTkSuQmCC"/>
+</pattern>
+<mask id="mask0">
+<rect x="0" y="0" width="121" height="121" style="fill:url(#pattern0);stroke:none;"/>
+</mask>
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="120" height="120" patternTransform="matrix(1,0,0,1,0,1)">
+  <image width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAABmJLR0QA/wD/AP+gvaeTAAAE9UlEQVR4nO2dMWgbVxjHv1c6hA6hMgme3CXFGAkPwZ2yicZjsTAIGat4TLfQgxgyCOyChlhx0GSZ1psHLXbAWwYLHOhiqI64KJClJLYnCYIFXjO8Ducop5Pke7r77tNF/v8mn/Tdp8//e3r33v317pTWmkD0fDPqAm4K3/pGKKU6f2utFV1tauL5KjgJubLFFqMWLdC9dI7fuKI8Itq23RtULpdPTk5KpdLk5GSj0Xjx4cXbP97e//1+8mPSsqzwRZR/KO/f2X9w+eD5f8/DZ4sJc3Nz7s2uFt1XZSKyLGthYWFzc9PZvPv3XdqnN7+84arJOrc23m+8++5dNpVt3WpxpR0tXjG1i3q9Xq/XdTfk6jq+vJggahNp0n70JhwUdvjvIWn/nH2LDB/JntATadRHu8+HV7SJnoY/6l0kPiXG+JToL7T7sHS98WckQ4Vx1RrjaCH8x9HX4+lVvK0efCZsi4ayhjB0Hdo1JgmfbVxBHy0Eg9BON43mfD1dU/BBM0M3jUZjd3f36OiIiPL5/OXl5ezs7OLiYoQ1frW4Z+FhRx1ra2shM9wQ+rRoz9WQ/rsZdxe2bZskNP/oiCKj/micDIWA0EJAaCEgtBAQWggILYS/0MoFESlSihQl2Cq4SjjuBHXBue2Vx9OPmTPGDNMpeKPRqFQq29vbHRecfqL8TJ7LBX9552XmY+bJ+ZPw2eLD0BOWVqtVqVTW19edTccFpw22gqxz69n7Z6+/fz1OLrgXX5e3byRc8GEjhxh1dLlWcMGHBC64EBhHCwGhhYDQQkBoISC0EBBaiLAuOMsUfFyBZzgC4IILFYkWLQSEFgJCCwGhhYDQQkBoIYZwwa824YIHwvTCv/dVuOBDYjoFz2aze3t7RAQX3JywExa44EEwdHkJLnjULviXH4PBBQ8BXHAhMI4WAkILAaGFgNBCQGghILQQcMEjBJ7hCIALLlQkWrQQEJoHtzfSFwjNwPUSO0BoBnT3jUX7AqEZQIsWhbmPhgveS//r9YOCtNbpdDqdTl9v0jhuk2MYmpg6vmFOwnuH91KplElCkyIdUqlULpcziTT8X3K5XOAivUIbHcGHRJrIf9huzCOiNqfbGwc8Qgfqo2vE64LTX0QPibJENWLslGKFV2jDbyU9IpozcsHJ8Fv5Y27m1xn6mejCJ/5r6Tq8SrvfNrfTiYh+Y/65gRN5c39uMBC44MMQ9paZLCilpqenp6amarUaY85MJnN8fNxsNjXHDWqdIpPJ5MHBQYCEsZiwaK2r1Wqz2eRNWygUSqUSY8JqtVooFILtG4sWHQVaa9u2z87OGBMuLS2dnp4G231shSaidru9s7PDmHB1dbXdbs/PzwfYNxZdRxQopba2torFIksHTZ8vZSQSAcf5sWjRznnm4uJCKe+zu0JSLBZXVla4ci4vLyeTyWD7wgWPEHiGIwAuuFCRaNFCQGghILQQEFoICC0EhBYCa8GFwFpwIbAWPEKwFnwUDLIUPQGEteARmbOdCKwFZwFrwYXAOFoICC0EhBYCQgsBoYWA0ELABY8QeIYjAC64UJFo0UJAaCEgtBAQWggILQSEFgLPBRcCzwUXAs8Fj5CBE5ZBc57e54JP/DNxe/c2V0HWuVU8Lb6aeDVOLrhHzIFrRnpv8+GO7PSqjBZfFDnjg//iHLfivVqzi6JI3VChAQsYRwvxP2ibtWy2+0NdAAAAAElFTkSuQmCC"/>
+</pattern>
+</defs>
+<g id="surface0">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<rect x="0" y="0" width="121" height="121" style="fill:url(#pattern1);stroke:none;" mask="url(#mask0)"/>
+</g>
+</g>
+</g>
+</svg>

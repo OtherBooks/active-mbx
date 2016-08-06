@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150pt" height="150pt" viewBox="0 0 150 150" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 L 0 150 Z M 0 150 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 0 150 L 150 150 L 150 0 L 0 0 Z M 0 150 "/>
+</clipPath>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAAAAmJLR0QA/4ePzL8AAAEsSURBVHic7dyxbcJQAAbhI8oQ7OEVvETqjOGaWbKEV2CPjJGCFJHswieM8or7ymeedHL1QwEkr3EBYP7nir9WgDeAedo+nU4+W5aDd2eAdwDu6/Y55559Hr4Lv29rPGUZZRllGWUZZRllGWUZZRmPdbo3Xnc+/MzZdecLw+7dOwz+ttryx5RllGWUZZRllGWUZZRllGVcAOble/PgyrlnE/djd28rw76tx5a/bTf1vLOznzn74uPgXRj2bZVllGWUZZRllGWUZZRllGX0u7zR7/JGWUZZRllGWUZZRllGWUZZRlveaMsbZRllGWUZZRllGWUZZRllGW15oy1vlGWUZZRllGWUZZRllGWUZbTljba8UZZRllGWUZZRllGWUZZRljHolh/0rzKTV/kB0BxM58spHcoAAAAASUVORK5CYII="/>
+</pattern>
+<mask id="mask0">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern0);stroke:none;"/>
+</mask>
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="150" height="150">
+  <image width="150" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAACzY+a1AAAABmJLR0QA/wD/AP+gvaeTAAACF0lEQVR4nO3cwW3iUABFUWc0LbgGCqAw10JhFEANFMCSWaBIxMyCOCg/Vzlnx8IY6eqLhZ/8dr1eJ8r+jP4BfJWEeRLm/V19Ph6PQ34Hz9vv9/cfP5xC/Z63LMuyLENuvcq0PoXTQ+RPfe/vufZ8Pg+57+Mx81+YJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmY93a/IzW8eN5tdXE4HIbc/f6Jv1OYZztjO8NoEuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR566f2y7Lcnkd/1jzP0/uz7N9w7eVymaZpt9t9833neV4NdpzCvP8s2FobllHX3s7f6XT65vs+XusU5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5nnvzEbeO8PLeO+M984wmoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnu3MRrYzvIztjO0Mo0mYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5kmYJ2GehHkS5tnObGQ7w8vYztjOMJqEeRLmSZgnYZ6EeRLmSZgnYZ6EeRLmSZgnYZ6EeRLmSZgnYZ7tzEa2M7yM7YztDKNJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EuZJmCdhnoR5EubZzmz0c7YzHxJOKhasFhvrhOT4L8yTME/CvH+jEAECPjmfXwAAAABJRU5ErkJggg=="/>
+</pattern>
+</defs>
+<g id="surface0">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<rect x="0" y="0" width="150" height="150" style="fill:url(#pattern1);stroke:none;" mask="url(#mask0)"/>
+</g>
+</g>
+</g>
+</svg>
