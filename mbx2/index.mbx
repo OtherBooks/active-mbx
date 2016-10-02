@@ -31,7 +31,6 @@
 \newcommand{\afterex}{\begin{center}\underline{}\end{center}}
 \newcommand{\afterexercises}{\nin \vfill \ }
 \newcommand{\boxwidth}{5.25in}
-\newcommand{\ds}{\displaystyle}
 \newcommand{\nin}{}
 \newcommand{\tr}{\vspace{0.5in}}
 \newcommand{\lr}{\vspace{1.0in}}
@@ -55,13 +54,13 @@
 
 </latex-image-preamble>
 
-<rename element="activity" lang="en-US">Preview Activity</rename>
+<rename element="exploration" lang="en-US">Preview Activity</rename>
 
 </docinfo>
 
 
 <book>
-    <title>Active Calculus \\  \small{2015 edition} \\  \scalebox{0.75}{\includegraphics{figures/CClicense.eps}}    </title>
+    <title>Active Calculus \\  \small{2016 edition} \\  \scalebox{0.75}{\includegraphics{figures/CClicense.eps}}    </title>
 <frontmatter>
 <titlepage>
 <author>
