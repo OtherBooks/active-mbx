@@ -28,12 +28,9 @@
 \newcommand{\ei}{\end{itemize}}
 \newcommand{\btl}{\begin{thmlist}}
 \newcommand{\etl}{\end{thmlist}}
-\newcommand{\bex}{\begin{center}\underline{\hspace{5.0in}}\end{center} \begin{example}}
-\newcommand{\eex}{\end{example} \textbf{Solution.}~~}
-\newcommand{\afterex}{\begin{center}\underline{\hspace{5.0in}}\end{center}}
+\newcommand{\afterex}{\begin{center}\underline{}\end{center}}
 \newcommand{\afterexercises}{\nin \vfill \ }
 \newcommand{\boxwidth}{5.25in}
-\newcommand{\ds}{\displaystyle}
 \newcommand{\nin}{}
 \newcommand{\tr}{\vspace{0.5in}}
 \newcommand{\lr}{\vspace{1.0in}}
@@ -50,18 +47,20 @@
 <latex-image-preamble>
 
 \usepackage{tikz}
-
 \usetikzlibrary{positioning,matrix,arrows}
-
 \usetikzlibrary{shapes,decorations,shadows,fadings}
 
+\usepackage{pgfplots}
+
 </latex-image-preamble>
+
+<rename element="exploration" lang="en-US">Preview Activity</rename>
 
 </docinfo>
 
 
 <book>
-    <title>Active Calculus \\  \small{2015 edition} \\  \scalebox{0.75}{\includegraphics{figures/CClicense.eps}}    </title>
+<title>Active Calculus \\  \small{2016 edition} \\  \scalebox{0.75}{\includegraphics{figures/CClicense.eps}}</title>
 <frontmatter>
 <titlepage>
 <author>
