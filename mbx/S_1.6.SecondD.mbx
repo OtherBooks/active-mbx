@@ -154,7 +154,7 @@
 
         <li><p>What can you say about <m>s''</m> whenever <m>s'</m> is increasing?  Why?</p></li>
 
-        <li><p>Using only the words <em>increasing</em>, <em>decreasing</em>, <em>constant</em>, <em>concave up</em>, <em>concave down</em>, and <em>linear</em>, complete the following sentences.  For the position function <m>s</m> with velocity <m>v</m> and acceleration <m>a</m>,</p>
+        <li><p>Using only the words <em>increasing</em>, <em>decreasing</em>, <em>constant</em>, <em>concave up</em>, <em>concave down</em>, and <em>linear</em>, complete the following sentences.  For the position function <m>s</m> with velocity <m>v</m> and acceleration <m>a</m>,
 
         <ul>
           <li><p>on an interval where <m>v</m> is positive, <m>s</m> is <fillin />.</p></li>
@@ -175,71 +175,79 @@
 
           <li><p>on an interval where <m>a</m> is zero, <m>s</m> is <fillin />.</p></li>
         </ul>
-
-        </li>
+        </p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that a function is increasing on an interval if and only if its first derivative is positive on the interval.</p></li>
+
+          <li><p>See (a).</p></li>
+
+          <li><p>Remember that the first derivative of a function measures its instantaneous rate of change.</p></li>
+
+          <li><p>Think about how <m>s''(t) = [s'(t)]'</m>.</p></li>
+
+          <li><p>Be very careful with your letters:  <m>s</m>, <m>v</m>, and <m>a</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that a function is increasing on an interval if and only if its first derivative is positive on the interval and that <m>v(t) = s'(t)</m>.</p></li>
+
+          <li><p>See (a), and note that <m>v'(t) = s''(t)</m>.</p></li>
+
+          <li><p>Remember that the first derivative of a function measures its instantaneous rate of change, so <m>s''(t)</m> measures the instantaneous rate of change of <m>v(t) = s'(t)</m>.</p></li>
+
+          <li><p>Note that <m>s''(t) = [s'(t)]'</m>, so <m>s''(t)</m> is the slope of the tangent line to <m>y = s'(t)</m>.</p></li>
+
+          <li><p>Be very careful with your letters:  <m>s</m>, <m>v</m>, and <m>a</m>.  For instance, note that when acceleration is positive, velocity must be increasing.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>The position function <m>y = s(t)</m> increasing on the intervals <m>0\lt t\lt 2</m>, <m>3\lt t\lt 5</m>, <m>7\lt t\lt 9</m>, and <m>10\lt t\lt 12</m>, because at every point in such intervals, <m>s'(t)</m> is positive.  For the provided function, <m>s(t)</m> is never decreasing because its derivative is never negative.</p></li>
+
+          <li><p>The velocity function <m>y = v(t)</m> appears to be increasing on the intervals <m>0\lt t\lt 1</m>, <m>3\lt t\lt 4</m>, <m>7\lt t\lt 8</m>, and <m>10\lt t\lt 11</m> because the curve <m>y = s(t)</m> is concave up which corresponds to an increasing first derivative <m>y =s'(t)</m>.  Similarly, <m>y = v(t)</m> appears to be decreasing on the intervals <m>1\lt t\lt 2</m>, <m>4\lt t\lt 5</m>, <m>8\lt t\lt 9</m>, and <m>11\lt t\lt 12</m> because the curve <m>y = s(t)</m> is concave down which corresponds to a decreasing first derivative <m>y =s'(t)</m>.  On the intervals <m>2\lt t\lt 3</m>, <m>5\lt t\lt 7</m>, and <m>9\lt t\lt 10</m>, the curve <m>y = s(t)</m> is constant, and thus linear, so neither concave up nor concave down.</p></li>
+
+          <li><p>Since <m>a(t)</m> is the instantaneous rate of change of <m>v(t)</m>, <m>a(t) = v'(t)</m>.  And because <m>v(t) = s'(t)</m>, it follows that <m>a(t) = v'(t) = [s'(t)]' = s''(t)</m>, so acceleration is the second derivative of position.</p></li>
+
+          <li><p>Because <m>s''(t)</m> is the first derivative of <m>s'(t)</m>, when <m>s'(t)</m> is increasing, <m>s''(t)</m> must be positive.</p></li>
+
+          <li><p>For the position function <m>s(t)</m> with velocity <m>v(t)</m> and acceleration <m>a(t)</m>,
+
+          <ul>
+            <li><p>on an interval where <m>v(t)</m> is positive, <m>s(t)</m> is <em>increasing</em>.</p></li>
+
+            <li><p>on an interval where <m>v(t)</m> is negative, <m>s(t)</m> is <em>decreasing</em>.</p></li>
+
+            <li><p>on an interval where <m>v(t)</m> is zero, <m>s(t)</m> is <em>constant</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is positive, <m>v(t)</m> is <em>increasing</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is negative, <m>v(t)</m> is <em>decreasing</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is zero, <m>v(t)</m> is <em>constant</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is positive, <m>s(t)</m> is <em>concave up</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is negative, <m>s(t)</m> is <em>concave down</em>.</p></li>
+
+            <li><p>on an interval where <m>a(t)</m> is zero, <m>s(t)</m> is <em>linear</em>.</p></li>
+          </ul>
+          </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Remember that a function is increasing on an interval if and only if its first derivative is positive on the interval.</p></li>
 
-        <li><p>See (a).</p></li>
-
-        <li><p>Remember that the first derivative of a function measures its instantaneous rate of change.</p></li>
-
-        <li><p>Think about how <m>s''(t) = [s'(t)]'</m>.</p></li>
-
-        <li><p>Be very careful with your letters:  <m>s</m>, <m>v</m>, and <m>a</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Remember that a function is increasing on an interval if and only if its first derivative is positive on the interval and that <m>v(t) = s'(t)</m>.</p></li>
-
-        <li><p>See (a), and note that <m>v'(t) = s''(t)</m>.</p></li>
-
-        <li><p>Remember that the first derivative of a function measures its instantaneous rate of change, so <m>s''(t)</m> measures the instantaneous rate of change of <m>v(t) = s'(t)</m>.</p></li>
-
-        <li><p>Note that <m>s''(t) = [s'(t)]'</m>, so <m>s''(t)</m> is the slope of the tangent line to <m>y = s'(t)</m>.</p></li>
-
-        <li><p>Be very careful with your letters:  <m>s</m>, <m>v</m>, and <m>a</m>.  For instance, note that when acceleration is positive, velocity must be increasing.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>The position function <m>y = s(t)</m> increasing on the intervals <m>0\lt t\lt 2</m>, <m>3\lt t\lt 5</m>, <m>7\lt t\lt 9</m>, and <m>10\lt t\lt 12</m>, because at every point in such intervals, <m>s'(t)</m> is positive.  For the provided function, <m>s(t)</m> is never decreasing because its derivative is never negative.</p></li>
-
-        <li><p>The velocity function <m>y = v(t)</m> appears to be increasing on the intervals <m>0\lt t\lt 1</m>, <m>3\lt t\lt 4</m>, <m>7\lt t\lt 8</m>, and <m>10\lt t\lt 11</m> because the curve <m>y = s(t)</m> is concave up which corresponds to an increasing first derivative <m>y =s'(t)</m>.  Similarly, <m>y = v(t)</m> appears to be decreasing on the intervals <m>1\lt t\lt 2</m>, <m>4\lt t\lt 5</m>, <m>8\lt t\lt 9</m>, and <m>11\lt t\lt 12</m> because the curve <m>y = s(t)</m> is concave down which corresponds to a decreasing first derivative <m>y =s'(t)</m>.  On the intervals <m>2\lt t\lt 3</m>, <m>5\lt t\lt 7</m>, and <m>9\lt t\lt 10</m>, the curve <m>y = s(t)</m> is constant, and thus linear, so neither concave up nor concave down.</p></li>
-
-        <li><p>Since <m>a(t)</m> is the instantaneous rate of change of <m>v(t)</m>, <m>a(t) = v'(t)</m>.  And because <m>v(t) = s'(t)</m>, it follows that <m>a(t) = v'(t) = [s'(t)]' = s''(t)</m>, so acceleration is the second derivative of position.</p></li>
-
-        <li><p>Because <m>s''(t)</m> is the first derivative of <m>s'(t)</m>, when <m>s'(t)</m> is increasing, <m>s''(t)</m> must be positive.</p></li>
-
-        <li><p>For the position function <m>s(t)</m> with velocity <m>v(t)</m> and acceleration <m>a(t)</m>,</p>
-
-        <ul>
-          <li><p>on an interval where <m>v(t)</m> is positive, <m>s(t)</m> is <em>increasing</em>.</p></li>
-
-          <li><p>on an interval where <m>v(t)</m> is negative, <m>s(t)</m> is <em>decreasing</em>.</p></li>
-
-          <li><p>on an interval where <m>v(t)</m> is zero, <m>s(t)</m> is <em>constant</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is positive, <m>v(t)</m> is <em>increasing</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is negative, <m>v(t)</m> is <em>decreasing</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is zero, <m>v(t)</m> is <em>constant</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is positive, <m>s(t)</m> is <em>concave up</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is negative, <m>s(t)</m> is <em>concave down</em>.</p></li>
-
-          <li><p>on an interval where <m>a(t)</m> is zero, <m>s(t)</m> is <em>linear</em>.</p></li>
-        </ul>
-
-        </li>
-      </ol>
-    </solution>
     <p>The context of position, velocity, and acceleration is an excellent one in which to understand how a function, its first derivative, and its second derivative are related to one another. In <xref ref="A_1.6.1">Activity</xref>, we can replace <m>s</m>, <m>v</m>, and <m>a</m> with an arbitrary function <m>f</m> and its derivatives <m>f'</m> and <m>f''</m>, and essentially all the same observations hold. In particular, note that <m>f'</m> is increasing if and only if <m>f</m> is concave up, and similarly <m>f'</m> is increasing if and only if <m>f''</m> is positive. Likewise, <m>f'</m> is decreasing if and only if <m>f</m> is concave down, and <m>f'</m> is decreasing if and only if <m>f''</m> is negative.</p>
 
     <activity xml:id="A_1.6.3">
@@ -398,56 +406,66 @@
 
         <li><p>Overall, is the potato's temperature increasing at an increasing rate, increasing at a constant rate, or increasing at a decreasing rate?  Why?</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that the derivative's units are <q>units of output per unit of input.</q></p></li>
+
+          <li><p>To estimate <m>g'(a)</m>, we can use
+              <me>
+                g'(a) \approx \frac{g(a+h)-g(a-h)}{2h}
+              </me>
+              for an appropriate choice of <m>h</m>.</p></li>
+
+          <li><p>For each of the values <m>F'(30)</m> and <m>F''(30)</m>, think about what they tell you about expected upcoming behavior in <m>F(t)</m> and <m>F'(t)</m>, respectively.</p></li>
+
+          <li><p>Think concavity.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that the derivative's units are <q>units of output per unit of input.</q></p></li>
+
+          <li><p>To estimate <m>g'(a)</m>, we can use
+              <me>
+                g'(a) \approx \frac{g(a+h)-g(a-h)}{2h}
+              </me>
+              for an appropriate choice of <m>h</m>.  So, observe that
+              <me>
+                F''(a) \approx \frac{F'(a+h)-F'(a-h)}{2h}
+              </me>
+            </p></li>
+
+          <li><p>For each of the values <m>F'(30)</m> and <m>F''(30)</m>, think about what they tell you about expected upcoming behavior in <m>F(t)</m> and <m>F'(t)</m>, respectively.  What do you expect to be the values of <m>F(31)</m> and <m>F'(31)</m>?  Why?</p></li>
+
+          <li><p>Examine the given data and think about how the graph of <m>y = F(t)</m> will appear.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p><m>F'(t)</m> has units measured in degrees Fahrenheit per minute.</p></li>
+
+          <li><p>Using a central difference,
+              <me>
+                F''(30) \approx \frac{F'(45)-F'(15)}{30} = \frac{2.45-6.03}{30} \approx -0.119.
+              </me>
+            </p></li>
+
+          <li><p>The value <m>F''(30) \approx -0.119</m>, which is measured in degrees per minute per minute tells us, along with the other data, that at the moment <m>t = 30</m>, the temperature of the potato is 251 degrees, that its temperature is rising at a rate of 3.85 degrees per minute, and that the rate at which the temperature is rising is <em>falling</em> at a rate of -0.119 degrees per minute per minute.  That is, while the temperature is rising, it is rising at a slower and slower rate.  At <m>t = 31</m>, we'd expect that the rate of increase of the potato's temperature would have dropped to about 3.73 degrees per minute.</p></li>
+
+          <li><p>The potato's temperature increasing at a decreasing rate because the values of the first derivative of <m>F</m> are falling.  Equivalently, this is because the value of <m>F''(t)</m> is negative throughout the given time interval.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Remember that the derivative's units are <q>units of output per unit of input.</q></p></li>
 
-        <li><p>To estimate <m>g'(a)</m>, we can use
-            <me>
-              g'(a) \approx \frac{g(a+h)-g(a-h)}{2h}
-            </me>
-            for an appropriate choice of <m>h</m>.</p></li>
-
-        <li><p>For each of the values <m>F'(30)</m> and <m>F''(30)</m>, think about what they tell you about expected upcoming behavior in <m>F(t)</m> and <m>F'(t)</m>, respectively.</p></li>
-
-        <li><p>Think concavity.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Remember that the derivative's units are <q>units of output per unit of input.</q></p></li>
-
-        <li><p>To estimate <m>g'(a)</m>, we can use
-            <me>
-              g'(a) \approx \frac{g(a+h)-g(a-h)}{2h}
-            </me>
-            for an appropriate choice of <m>h</m>.  So, observe that
-            <me>
-              F''(a) \approx \frac{F'(a+h)-F'(a-h)}{2h}
-            </me>
-          </p></li>
-
-        <li><p>For each of the values <m>F'(30)</m> and <m>F''(30)</m>, think about what they tell you about expected upcoming behavior in <m>F(t)</m> and <m>F'(t)</m>, respectively.  What do you expect to be the values of <m>F(31)</m> and <m>F'(31)</m>?  Why?</p></li>
-
-        <li><p>Examine the given data and think about how the graph of <m>y = F(t)</m> will appear.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p><m>F'(t)</m> has units measured in degrees Fahrenheit per minute.</p></li>
-
-        <li><p>Using a central difference,
-            <me>
-              F''(30) \approx \frac{F'(45)-F'(15)}{30} = \frac{2.45-6.03}{30} \approx -0.119.
-            </me>
-          </p></li>
-
-        <li><p>The value <m>F''(30) \approx -0.119</m>, which is measured in degrees per minute per minute tells us, along with the other data, that at the moment <m>t = 30</m>, the temperature of the potato is 251 degrees, that its temperature is rising at a rate of 3.85 degrees per minute, and that the rate at which the temperature is rising is <em>falling</em> at a rate of -0.119 degrees per minute per minute.  That is, while the temperature is rising, it is rising at a slower and slower rate.  At <m>t = 31</m>, we'd expect that the rate of increase of the potato's temperature would have dropped to about 3.73 degrees per minute.</p></li>
-
-        <li><p>The potato's temperature increasing at a decreasing rate because the values of the first derivative of <m>F</m> are falling.  Equivalently, this is because the value of <m>F''(t)</m> is negative throughout the given time interval.</p></li>
-      </ol>
-    </solution>
     <activity xml:id="A_1.6.2">
       <p>This activity builds on our experience and understanding of how to sketch the graph of <m>f'</m> given the graph of <m>f</m>.</p>
 
@@ -465,16 +483,17 @@
       </blockquote>
 
       <p>but of course with the blanks filled in. Throughout, view the scale of the grid for the graph of <m>f</m> as being <m>1 \times 1</m>, and assume the horizontal scale of the grid for the graph of <m>f'</m> is identical to that for <m>f</m>. If you need to adjust the vertical scale on the axes for the graph of <m>f'</m> or <m>f''</m>, you should label that accordingly.</p>
+      <hint>
+        <p>Remember that to plot <m>y = f'(x)</m>, it is helpful to first identify where <m>f'(x) = 0.</m></p>
+      </hint>
+      <hint>
+        <p>Remember that to plot <m>y = f'(x)</m>, it is helpful to first identify where <m>f'(x) = 0</m>, and then ask where <m>y = f'(x)</m> is positive and negative. In a similar way, once <m>y = f'(x)</m> has been plotted, to construct the graph of <m>y=f''(x)</m>, it is useful to note where the slope of the tangent line to <m>y = f'(x)</m> is zero, as well as where such slopes are positive and negative. Heights on the graph of <m>y = f''(x)</m> will correspond to slopes on <m>y = f'(x)</m>.</p>
+      </hint>
+      <solution>
+        <p>The graphs of <m>f'</m> and <m>f''</m> are plotted in Figure<nbsp />***.</p>
+      </solution>
     </activity>
-    <hint>
-      <p>Remember that to plot <m>y = f'(x)</m>, it is helpful to first identify where <m>f'(x) = 0.</m></p>
-    </hint>
-    <hint>
-      <p>Remember that to plot <m>y = f'(x)</m>, it is helpful to first identify where <m>f'(x) = 0</m>, and then ask where <m>y = f'(x)</m> is positive and negative. In a similar way, once <m>y = f'(x)</m> has been plotted, to construct the graph of <m>y=f''(x)</m>, it is useful to note where the slope of the tangent line to <m>y = f'(x)</m> is zero, as well as where such slopes are positive and negative. Heights on the graph of <m>y = f''(x)</m> will correspond to slopes on <m>y = f'(x)</m>.</p>
-    </hint>
-    <solution>
-      <p>The graphs of <m>f'</m> and <m>f''</m> are plotted in Figure<nbsp />***.</p>
-    </solution>
+
     <p>\begin{authornote}
       This is an author note.
       \end{authornote}</p>
@@ -491,11 +510,10 @@
 
       <li><p>The units on the second derivative are <q>units of output per unit of input per unit of input.</q>  They tell us how the value of the derivative function is changing in response to changes in the input.  In other words, the second derivative tells us the rate of change of the rate of change of the original function.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Suppose that <m>y = f(x)</m> is a differentiable function for which the following information is known: <m>f(2) = -3</m>, <m>f'(2) = 1.5</m>, <m>f''(2) = -0.25</m>.</p>
+          <p>Suppose that <m>y = f(x)</m> is a differentiable function for which the following information is known: <m>f(2) = -3</m>, <m>f'(2) = 1.5</m>, <m>f''(2) = -0.25</m>.
 
           <ol>
             <li><p>Is <m>f</m> increasing or decreasing at <m>x = 2</m>?  Is <m>f</m> concave up or concave down at <m>x = 2</m>?</p></li>
@@ -506,6 +524,7 @@
 
             <li><p>Sketch a graph of <m>y = f(x)</m> near <m>(2,f(2))</m> and include a graph of the tangent line.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -630,7 +649,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>For each prompt that follows, sketch a possible graph of a function on the interval <m>-3 \lt  x \lt  3</m> that satisfies the stated properties.</p>
+          <p>For each prompt that follows, sketch a possible graph of a function on the interval <m>-3 \lt  x \lt  3</m> that satisfies the stated properties.
 
           <ol>
             <li><p><m>y = f(x)</m> such that <m>f</m> is increasing on <m>-3 \lt  x \lt  3</m>, <m>f</m> is concave up on <m>-3 \lt  x \lt  0</m>, and <m>f</m> is concave down on <m>0 \lt  x \lt  3</m>.</p></li>
@@ -641,6 +660,7 @@
 
             <li><p><m>y = p(x)</m> such that <m>p</m> is decreasing and concave down on <m>-3 \lt  x \lt  0</m> and <m>p</m> is increasing and concave down on <m>0 \lt  x \lt  3</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

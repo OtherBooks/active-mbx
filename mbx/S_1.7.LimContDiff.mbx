@@ -109,64 +109,73 @@
 
         <li><p>On the axes provided in <xref ref="F_1.7.Act1">Figure</xref>, sketch an accurate, labeled graph of <m>y = f(x)</m>.  Be sure to carefully use open circles (<m>\circ</m>) and filled circles (<m>\bullet</m>) to represent key points on the graph, as dictated by the piecewise formula.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Find the interval in which <m>a</m> lies and evaluate the function there.</p></li>
+
+          <li><p>Remember that for <m>\lim_{x \to a^-} f(x)</m>, we only consider values of <m>x</m> such that <m>x \lt  a</m>.  Find the right formula to use in the piecewise definition for <m>f</m> to fit the values you are considering.</p></li>
+
+          <li><p>Use your work in (c) and compare left- and right-hand limits.</p></li>
+
+          <li><p>Use your work in (a) and (c).</p></li>
+
+          <li><p>Note that <m>f</m> is piecewise linear.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Find the interval in which <m>a</m> lies and evaluate the function there.  For example, <m>f(-2) = \frac{2}{3}(-2+2) + 1</m>, based on the formula for <m>f</m>.</p></li>
+
+          <li><p>Remember that for <m>\lim_{x \to a^-} f(x)</m>, we only consider values of <m>x</m> such that <m>x \lt  a</m>.  Find the right formula to use in the piecewise definition for <m>f</m> to fit the values you are considering.  For example, as <m>x \to -2^-</m>, we use the formula <m>3(x+2)+2</m> and see that <m>3(x+2)+2 \to 3(-2+2)+2 = 2</m> as <m>x \to -2^+</m>.</p></li>
+
+          <li><p>Use your work in (c) and compare left- and right-hand limits.  Remember that the overall limit exists if and only if both left and right limits exists and are equal in value.</p></li>
+
+          <li><p>Use your work in (a) and (c).</p></li>
+
+          <li><p>Note that <m>f</m> is piecewise linear.  For instance, <m>y = 3(x+2) + 2</m> is a line through <m>(-2,2)</m> with slope 3 and is valid on the interval <m>-3 \lt  x \lt  -2</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p><m>f(-2) = \frac{2}{3}(-2+2) + 1 = 1</m>; <m>f(-1)</m> is not defined; <m>f(0) = \frac{2}{3}(0+2)+1 = \frac{7}{3}</m>; <m>f(1) = 2</m> (by the rule); <m>f(2) = 4-2 = 2</m>.</p></li>
+
+          <li><p>
+              <me>
+                \lim_{x \to -2^-} f(x) = 2 \ \mbox{and}  \lim_{x \to -2^+} f(x) = 1
+              </me>
+              <me>
+                \lim_{x \to -1^-} f(x) = \frac{5}{3} \ \mbox{and}  \lim_{x \to -1^+} f(x) = \frac{5}{3}
+              </me>
+              <me>
+                \lim_{x \to 0^-} f(x) = \frac{7}{3} \ \mbox{and}  \lim_{x \to 0^+} f(x) = \frac{7}{3}
+              </me>
+              <me>
+                \lim_{x \to 1^-} f(x) = 3 \ \mbox{and}  \lim_{x \to 1^+} f(x) = 3
+              </me>
+              <me>
+                \lim_{x \to 2^-} f(x) = 2 \ \mbox{and}  \lim_{x \to 2^+} f(x) = 2
+              </me>
+            </p></li>
+
+          <li><p><m>\lim_{x \to -2} f(x)</m> does not exists because the left-hand limit is <m>2</m> while the right-hand limit is <m>1</m>.  All of the other requested limits exist, as left- and right-hand limits exist and are equal in each case.  The respective values of the limits as <m>x \to a</m> for <m>a = -1, 0, 1, 2</m> are <m>\frac{5}{3}, \frac{7}{3}, 3, 2</m>.</p></li>
+
+          <li><p>For <m>a = -2</m>, <m>a = -1</m>, and <m>a = 1</m>, <m>\lim_{x \to a} f(x) \ne f(a)</m>.  At <m>a = -2</m>, the limit fails to exist, but <m>f(-2) = 1</m>.  At <m>a = -1</m>, the limit is <m>\frac{5}{3}</m>, but <m>f(-1)</m> is not defined.  At <m>a = 1</m>, the limit is 3, but <m>f(1) = 2</m>.</p></li>
+
+          <li><p>
+              <image width="73%" source="images/1_7_Act1Soln" />
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Find the interval in which <m>a</m> lies and evaluate the function there.</p></li>
-
-        <li><p>Remember that for <m>\lim_{x \to a^-} f(x)</m>, we only consider values of <m>x</m> such that <m>x \lt  a</m>.  Find the right formula to use in the piecewise definition for <m>f</m> to fit the values you are considering.</p></li>
-
-        <li><p>Use your work in (c) and compare left- and right-hand limits.</p></li>
-
-        <li><p>Use your work in (a) and (c).</p></li>
-
-        <li><p>Note that <m>f</m> is piecewise linear.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Find the interval in which <m>a</m> lies and evaluate the function there.  For example, <m>f(-2) = \frac{2}{3}(-2+2) + 1</m>, based on the formula for <m>f</m>.</p></li>
-
-        <li><p>Remember that for <m>\lim_{x \to a^-} f(x)</m>, we only consider values of <m>x</m> such that <m>x \lt  a</m>.  Find the right formula to use in the piecewise definition for <m>f</m> to fit the values you are considering.  For example, as <m>x \to -2^-</m>, we use the formula <m>3(x+2)+2</m> and see that <m>3(x+2)+2 \to 3(-2+2)+2 = 2</m> as <m>x \to -2^+</m>.</p></li>
-
-        <li><p>Use your work in (c) and compare left- and right-hand limits.  Remember that the overall limit exists if and only if both left and right limits exists and are equal in value.</p></li>
-
-        <li><p>Use your work in (a) and (c).</p></li>
-
-        <li><p>Note that <m>f</m> is piecewise linear.  For instance, <m>y = 3(x+2) + 2</m> is a line through <m>(-2,2)</m> with slope 3 and is valid on the interval <m>-3 \lt  x \lt  -2</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p><m>f(-2) = \frac{2}{3}(-2+2) + 1 = 1</m>; <m>f(-1)</m> is not defined; <m>f(0) = \frac{2}{3}(0+2)+1 = \frac{7}{3}</m>; <m>f(1) = 2</m> (by the rule); <m>f(2) = 4-2 = 2</m>.</p></li>
-
-        <li><p>
-            <me>
-              \lim_{x \to -2^-} f(x) = 2 \ \mbox{and}  \lim_{x \to -2^+} f(x) = 1
-            </me>
-            <me>
-              \lim_{x \to -1^-} f(x) = \frac{5}{3} \ \mbox{and}  \lim_{x \to -1^+} f(x) = \frac{5}{3}
-            </me>
-            <me>
-              \lim_{x \to 0^-} f(x) = \frac{7}{3} \ \mbox{and}  \lim_{x \to 0^+} f(x) = \frac{7}{3}
-            </me>
-            <me>
-              \lim_{x \to 1^-} f(x) = 3 \ \mbox{and}  \lim_{x \to 1^+} f(x) = 3
-            </me>
-            <me>
-              \lim_{x \to 2^-} f(x) = 2 \ \mbox{and}  \lim_{x \to 2^+} f(x) = 2
-            </me>
-          </p></li>
-
-        <li><p><m>\lim_{x \to -2} f(x)</m> does not exists because the left-hand limit is <m>2</m> while the right-hand limit is <m>1</m>.  All of the other requested limits exist, as left- and right-hand limits exist and are equal in each case.  The respective values of the limits as <m>x \to a</m> for <m>a = -1, 0, 1, 2</m> are <m>\frac{5}{3}, \frac{7}{3}, 3, 2</m>.</p></li>
-
-        <li><p>For <m>a = -2</m>, <m>a = -1</m>, and <m>a = 1</m>, <m>\lim_{x \to a} f(x) \ne f(a)</m>.  At <m>a = -2</m>, the limit fails to exist, but <m>f(-2) = 1</m>.  At <m>a = -1</m>, the limit is <m>\frac{5}{3}</m>, but <m>f(-1)</m> is not defined.  At <m>a = 1</m>, the limit is 3, but <m>f(1) = 2</m>.</p></li>
-
-        <li><p>
-            <image width="73%" source="images/1_7_Act1Soln" />
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -192,7 +201,7 @@
 
     <definition>
       <statement>
-        <p>A function <m>f</m> is <term>continuous at <m>x = a</m></term> <index><main>continuous at <m>x = a</m></main></index> provided that</p>
+        <p>A function <m>f</m> is <term>continuous at <m>x = a</m></term> <index><main>continuous at <m>x = a</m></main></index> provided that
 
         <ol>
           <li><p><m>f</m> has a limit as <m>x \to a</m>,</p></li>
@@ -201,6 +210,7 @@
 
           <li><p><m>\lim_{x \to a} f(x) = f(a).</m></p></li>
         </ol>
+        </p>
       </statement>
     </definition>
 
@@ -233,46 +243,55 @@
 
         <li><p>Which condition is stronger, and hence implies the other:   <m>f</m>  has a limit at <m>x = a</m> or  <m>f</m> is continuous at <m>x = a</m>?  Explain, and hence complete the following sentence:  <q>If <m>f</m> <fillin /> at <m>x = a</m>, then <m>f</m> <fillin /> at <m>x = a</m>,</q> where you complete the blanks with <em>has a limit</em> and <em>is continuous</em>, using each phrase once.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Consider the left- and right-hand limits at each value.</p></li>
+
+          <li><p>Carefully examine places on the graph where there's an open circle.</p></li>
+
+          <li><p>Are there locations on the graph where the function has a limit but there's a hole in the graph?</p></li>
+
+          <li><p>Remember that at least one of three conditions must fail: if the function lacks a limit, if the function is undefined, or if the limit exists but does not equal the function value, then <m>f</m> is not continuous at the point.</p></li>
+
+          <li><p>Note that the definition of being continuous requires the limit to exist.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Consider the left- and right-hand limits at each value, and recall that they must both exist and be equal in order for the overall limit to exist.</p></li>
+
+          <li><p>Carefully examine places on the graph where there's an open circle; at such locations, look vertically to see if the function has an assigned value at that point.</p></li>
+
+          <li><p>Are there locations on the graph where the function has a limit but there's a hole in the graph?</p></li>
+
+          <li><p>Remember that at least one of three conditions must fail: if the function lacks a limit, if the function is undefined, or if the limit exists but does not equal the function value, then <m>f</m> is not continuous at the point.</p></li>
+
+          <li><p>Note that the definition of being continuous requires the limit to exist.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p><m>\lim_{x \to a} f(x)</m> does not exist at <m>a = -2</m> since <m>\lim_{x \to -2^-} f(x) = 2 \ne -1 = \lim_{x \to -2^+}</m> and <m>\lim_{x \to a} f(x)</m> does not exist at <m>a = +2</m> since <m>\lim_{x \to 2^+} f(x)</m> does not exist due to the infinitely oscillatory behavior of <m>f</m>.</p></li>
+
+          <li><p>The only point at which <m>f</m> is not defined is at <m>a = 3</m>.</p></li>
+
+          <li><p>At <m>x = -1</m>, note that <m>\lim_{x \to -1} f(x)</m> exists (and appears to have value approximately <m>-3.25</m>), but <m>f(-1) = 1</m>, and thus <m>\lim_{x \to -1} f(x) \ne f(-1)</m>.  At <m>x = 3</m>, <m>\lim_{x \to 3} f(x) = -2.5</m>, but <m>f(3)</m> is not defined, so the limit exists but does not equal the function value.</p></li>
+
+          <li><p>Based on our work in (a), (b), and (c), <m>f</m> is not continuous at <m>a=-2</m> and <m>a = 2</m> because <m>f</m> does not have a limit at those points; <m>f</m> is not continuous at <m>a = 3</m> since <m>f</m> is not defined there; and <m>f</m> is not continuous at <m>a = -1</m> because at that point its limit does not equal its function value.</p></li>
+
+          <li><p><q>If <m>f</m> <em>is continuous</em> at <m>x = a</m>, then <m>f</m> <em>has a limit</em> at <m>x = a</m>,</q> since one of the defining properties of <q>being continuous</q> at <m>x = a</m> is that the function has a limit at that input value.  This shows that being continuous is a stronger condition than having a limit.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Consider the left- and right-hand limits at each value.</p></li>
-
-        <li><p>Carefully examine places on the graph where there's an open circle.</p></li>
-
-        <li><p>Are there locations on the graph where the function has a limit but there's a hole in the graph?</p></li>
-
-        <li><p>Remember that at least one of three conditions must fail: if the function lacks a limit, if the function is undefined, or if the limit exists but does not equal the function value, then <m>f</m> is not continuous at the point.</p></li>
-
-        <li><p>Note that the definition of being continuous requires the limit to exist.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Consider the left- and right-hand limits at each value, and recall that they must both exist and be equal in order for the overall limit to exist.</p></li>
-
-        <li><p>Carefully examine places on the graph where there's an open circle; at such locations, look vertically to see if the function has an assigned value at that point.</p></li>
-
-        <li><p>Are there locations on the graph where the function has a limit but there's a hole in the graph?</p></li>
-
-        <li><p>Remember that at least one of three conditions must fail: if the function lacks a limit, if the function is undefined, or if the limit exists but does not equal the function value, then <m>f</m> is not continuous at the point.</p></li>
-
-        <li><p>Note that the definition of being continuous requires the limit to exist.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p><m>\lim_{x \to a} f(x)</m> does not exist at <m>a = -2</m> since <m>\lim_{x \to -2^-} f(x) = 2 \ne -1 = \lim_{x \to -2^+}</m> and <m>\lim_{x \to a} f(x)</m> does not exist at <m>a = +2</m> since <m>\lim_{x \to 2^+} f(x)</m> does not exist due to the infinitely oscillatory behavior of <m>f</m>.</p></li>
-
-        <li><p>The only point at which <m>f</m> is not defined is at <m>a = 3</m>.</p></li>
-
-        <li><p>At <m>x = -1</m>, note that <m>\lim_{x \to -1} f(x)</m> exists (and appears to have value approximately <m>-3.25</m>), but <m>f(-1) = 1</m>, and thus <m>\lim_{x \to -1} f(x) \ne f(-1)</m>.  At <m>x = 3</m>, <m>\lim_{x \to 3} f(x) = -2.5</m>, but <m>f(3)</m> is not defined, so the limit exists but does not equal the function value.</p></li>
-
-        <li><p>Based on our work in (a), (b), and (c), <m>f</m> is not continuous at <m>a=-2</m> and <m>a = 2</m> because <m>f</m> does not have a limit at those points; <m>f</m> is not continuous at <m>a = 3</m> since <m>f</m> is not defined there; and <m>f</m> is not continuous at <m>a = -1</m> because at that point its limit does not equal its function value.</p></li>
-
-        <li><p><q>If <m>f</m> <em>is continuous</em> at <m>x = a</m>, then <m>f</m> <em>has a limit</em> at <m>x = a</m>,</q> since one of the defining properties of <q>being continuous</q> at <m>x = a</m> is that the function has a limit at that input value.  This shows that being continuous is a stronger condition than having a limit.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -294,7 +313,7 @@
 
     <p>To make a more general observation, if a function does have a tangent line at a given point, when we zoom in on the point of tangency, the function and the tangent line should appear essentially indistinguishable<fn>See, for instance, \href{http://gvsu.edu/s/6J}{<c>http://gvsu.edu/s/6J</c>} for an applet (due to David Austin, GVSU) where zooming in shows the increasing similarity between the tangent line and the curve.</fn>. Conversely, if we have a function such that when we zoom in on a point the function looks like a single straight line, then the function should have a tangent line there, and thus be differentiable. Hence, a function that is differentiable at <m>x = a</m> will, up close, look more and more like its tangent line at <m>(a,f(a))</m>, and thus we say that a function is differentiable at <m>x = a</m> is <em>locally linear</em>. <index><main>locally linear</main></index></p>
 
-    <p>To summarize the preceding discussion of differentiability and continuity, we make several important observations.</p>
+    <p>To summarize the preceding discussion of differentiability and continuity, we make several important observations.
 
     <ul>
       <li><p>If <m>f</m> is differentiable at <m>x = a</m>, then <m>f</m> is continuous at <m>x = a</m>.  Equivalently, if<m>f</m> fails to be continuous at <m>x = a</m>, then <m>f</m> will not be differentiable at <m>x = a</m>.</p></li>
@@ -303,9 +322,10 @@
 
       <li><p>If <m>f</m> is differentiable at <m>x = a</m>, then <m>f</m> is locally linear at <m>x = a</m>.  That is, when a function is differentiable, it looks linear when viewed up close because it resembles its tangent line there.</p></li>
     </ul>
+    </p>
 
     <activity xml:id="A_1.7.3">
-      <p>In this activity, we explore two different functions and classify the points at which each is not differentiable. Let <m>g</m> be the function given by the rule <m>g(x) = |x|</m>, and let <m>f</m> be the function that we have previously explored in <xref ref="PA_1.7">Preview Activity</xref>, whose graph is given again in <xref ref="F_1.7.Act3">Figure</xref>.</p>
+      <p>In this activity, we explore two different functions and classify the points at which each is not differentiable. Let <m>g</m> be the function given by the rule <m>g(x) = |x|</m>, and let <m>f</m> be the function that we have previously explored in <xref ref="PA_1.7">Preview Activity</xref>, whose graph is given again in <xref ref="F_1.7.Act3">Figure</xref>.
 
       <ol>
         <li><p>Reasoning visually, explain why <m>g</m> is differentiable at every point <m>x</m> such that <m>x \ne 0</m>.</p></li>
@@ -325,64 +345,75 @@
 
         <li><p>True or false: if a function <m>p</m> is differentiable at <m>x = b</m>, then <m>\lim_{x \to b} p(x)</m> must exist.  Why?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>What type of function is <m>g</m> for all <m>x \lt  0</m>?  For all <m>x > 0</m>?</p></li>
+
+          <li><p>Recall that <m>g'(0) = \lim_{h \to 0} \frac{g(0 + h) - g(0)}{h}.</m></p></li>
+
+          <li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?</p></li>
+
+          <li><p>You might start by identifying points where <m>f</m> is not continuous.</p></li>
+
+          <li><p>What does being differentiable at a point tell you about continuity there?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Think about how <m>g</m> is a piecewise linear function.</p></li>
+
+          <li><p>Recall that <m>g'(0) = \lim_{h \to 0} \frac{g(0 + h) - g(0)}{h}.</m></p></li>
+
+          <li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?  What does this tell you about <m>\frac{|h|}{h}</m> when <m>h \lt  0</m>?</p></li>
+
+          <li><p>Start by identifying points where <m>f</m> is not continuous.  Then strive to identify any corner points.</p></li>
+
+          <li><p>What does being differentiable at a point tell you about continuity at that point?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>We know that <m>g(x) = |x|</m> is given by the formula <m>g(x) = -x</m> when <m>x \lt  0</m> and by <m>g(x) = x</m> when <m>x \ge 0</m>.  Each of these pieces of <m>g</m> is a straight line, so at every point other than the point where they meet, the function <m>g</m> has a well-defined slope, and thus is differentiable.</p></li>
+
+          <li><p>Observe that
+              <md>
+                <mrow>g'(0) =\mathstrut \amp  \lim_{h \to 0} \frac{g(0+h)-g(0)}{h}</mrow>
+                <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{|0+h|-|0|}{h}</mrow>
+                <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{|h|}{h}</mrow>
+              </md>
+            </p></li>
+
+          <li><p>Following up on our work in (b), note that whenever <m>h > 0</m>, <m>|h| = h</m>, and thus
+              <me>
+                \lim_{h \to 0^+} \frac{|h|}{h} = \lim_{h \to 0^+} \frac{h}{h} = 1,
+              </me>
+              while whenever <m>h \lt  0</m>, <m>|h| = -h</m>, and thus
+              <me>
+                \lim_{h \to 0^-} \frac{|h|}{h} = \lim_{h \to 0^-} \frac{-h}{h} = -1
+              </me>
+              Since the right- and left-hand limits are not equal, it follows that
+              <me>
+                g'(0) =  \lim_{h \to 0} \frac{|h|}{h}
+              </me>
+              does not exist.</p></li>
+
+          <li><p><m>f</m> is not differentiable at <m>a = -2, -1, 2, 3</m> because at each of these points <m>f</m> is not continuous.  In addition, <m>f</m> is not differentiable at <m>a = -3</m> and <m>a = 1</m> because the graph of <m>f</m> has a corner point (or cusp) at each of these values.</p></li>
+
+          <li><p>True: if a function <m>p</m> is differentiable at <m>x = b</m>, then <m>\lim_{x \to b} p(x)</m> must exist.  This is true because we know that if <m>p</m> is differentiable at a point, then <m>p</m> is continuous there, and anytime a function is continuous at a point, it must have a limit there.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>What type of function is <m>g</m> for all <m>x \lt  0</m>?  For all <m>x > 0</m>?</p></li>
 
-        <li><p>Recall that <m>g'(0) = \lim_{h \to 0} \frac{g(0 + h) - g(0)}{h}.</m></p></li>
-
-        <li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?</p></li>
-
-        <li><p>You might start by identifying points where <m>f</m> is not continuous.</p></li>
-
-        <li><p>What does being differentiable at a point tell you about continuity there?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Think about how <m>g</m> is a piecewise linear function.</p></li>
-
-        <li><p>Recall that <m>g'(0) = \lim_{h \to 0} \frac{g(0 + h) - g(0)}{h}.</m></p></li>
-
-        <li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?  What does this tell you about <m>\frac{|h|}{h}</m> when <m>h \lt  0</m>?</p></li>
-
-        <li><p>Start by identifying points where <m>f</m> is not continuous.  Then strive to identify any corner points.</p></li>
-
-        <li><p>What does being differentiable at a point tell you about continuity at that point?</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>We know that <m>g(x) = |x|</m> is given by the formula <m>g(x) = -x</m> when <m>x \lt  0</m> and by <m>g(x) = x</m> when <m>x \ge 0</m>.  Each of these pieces of <m>g</m> is a straight line, so at every point other than the point where they meet, the function <m>g</m> has a well-defined slope, and thus is differentiable.</p></li>
-
-        <li><p>Observe that
-            <md>
-              <mrow>g'(0) =\mathstrut \amp  \lim_{h \to 0} \frac{g(0+h)-g(0)}{h}</mrow>
-              <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{|0+h|-|0|}{h}</mrow>
-              <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{|h|}{h}</mrow>
-            </md>
-          </p></li>
-
-        <li><p>Following up on our work in (b), note that whenever <m>h > 0</m>, <m>|h| = h</m>, and thus
-            <me>
-              \lim_{h \to 0^+} \frac{|h|}{h} = \lim_{h \to 0^+} \frac{h}{h} = 1,
-            </me>
-            while whenever <m>h \lt  0</m>, <m>|h| = -h</m>, and thus
-            <me>
-              \lim_{h \to 0^-} \frac{|h|}{h} = \lim_{h \to 0^-} \frac{-h}{h} = -1
-            </me>
-            Since the right- and left-hand limits are not equal, it follows that
-            <me>
-              g'(0) =  \lim_{h \to 0} \frac{|h|}{h}
-            </me>
-            does not exist.</p></li>
-
-        <li><p><m>f</m> is not differentiable at <m>a = -2, -1, 2, 3</m> because at each of these points <m>f</m> is not continuous.  In addition, <m>f</m> is not differentiable at <m>a = -3</m> and <m>a = 1</m> because the graph of <m>f</m> has a corner point (or cusp) at each of these values.</p></li>
-
-        <li><p>True: if a function <m>p</m> is differentiable at <m>x = b</m>, then <m>\lim_{x \to b} p(x)</m> must exist.  This is true because we know that if <m>p</m> is differentiable at a point, then <m>p</m> is continuous there, and anytime a function is continuous at a point, it must have a limit there.</p></li>
-      </ol>
-    </solution>
     <p>\begin{authornote}
       This is an author note.
       \end{authornote}</p>
@@ -399,7 +430,6 @@
 
       <li><p>Of the three conditions discussed in this section (having a limit at <m>x = a</m>, being continuous at <m>x = a</m>, and being differentiable at <m>x = a</m>), the strongest condition is being differentiable, and the next strongest is being continuous.  In particular, if <m>f</m> is differentiable at <m>x = a</m>, then <m>f</m> is also continuous at <m>x = a</m>, and if <m>f</m> is continuous at <m>x = a</m>, then <m>f</m> has a limit at <m>x = a</m>.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
@@ -423,7 +453,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>For each of the following prompts, give an example of a function that satisfies the stated criteria. A formula or a graph, with reasoning, is sufficient for each. If no such example is possible, explain why.</p>
+          <p>For each of the following prompts, give an example of a function that satisfies the stated criteria. A formula or a graph, with reasoning, is sufficient for each. If no such example is possible, explain why.
 
           <ol>
             <li><p>A function <m>f</m> that is continuous at <m>a = 2</m> but not differentiable at <m>a = 2</m>.</p></li>
@@ -432,7 +462,7 @@
 
             <li><p>A function <m>h</m> that has a limit at <m>a = -2</m>, is defined at <m>a = -2</m>, but is not continuous at <m>a = -2</m>.</p></li>
 
-            <li><p>A function <m>p</m> that satisfies all of the following:</p>
+            <li><p>A function <m>p</m> that satisfies all of the following:
 
             <ul>
               <li><p><m>p(-1) = 3</m> and <m>\lim_{x \to -1} p(x) = 2</m></p></li>
@@ -441,14 +471,14 @@
 
               <li><p><m>\lim_{x \to 1} p(x) = p(1)</m> and <m>p'(1)</m> does not exist</p></li>
             </ul>
-
-            </li>
+            </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Let <m>h(x)</m> be a function whose derivative <m>y= h'(x)</m> is given by the graph on the right in <xref ref="F_1.7.Ez3">Figure</xref>.</p>
+          <p>Let <m>h(x)</m> be a function whose derivative <m>y= h'(x)</m> is given by the graph on the right in <xref ref="F_1.7.Ez3">Figure</xref>.
 
           <ol>
             <li><p>Based on the graph of <m>y = h'(x)</m>, what can you say about the behavior of the function <m>y = h(x)</m>?</p></li>
@@ -459,6 +489,7 @@
 
             <li><p>On the axes provided at left, sketch at least two distinct graphs that are possible functions <m>y = h(x)</m> that each have a derivative <m>y = h'(x)</m> that matches the provided graph at right.  Explain why there are multiple possibilities for <m>y = h(x)</m>.</p></li>
           </ol>
+          </p>
 
           <figure xml:id="F_1.7.Ez3" >
             <caption>Axes for plotting <m>y = h(x)</m> and, at right, the graph of <m>y = h'(x)</m>.</caption>
@@ -468,7 +499,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the function <m>g(x) = \sqrt{|x|}</m>.</p>
+          <p>Consider the function <m>g(x) = \sqrt{|x|}</m>.
 
           <ol>
             <li><p>Use a graph to explain visually why <m>g</m> is not differentiable at <m>x = 0</m>.</p></li>
@@ -483,6 +514,7 @@
 
             <li><p>Use your graph in (a) to sketch an approximate graph of <m>y = g'(x)</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

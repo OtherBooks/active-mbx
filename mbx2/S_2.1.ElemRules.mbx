@@ -26,8 +26,6 @@ leads to interesting patterns and rules that enable us to quickly find a formula
 <exploration xml:id="PA_2.1">
 <p>
 Functions of the form <m>f(x) = x^n</m>, where <m>n = 1, 2, 3, \ldots</m>, are often called <term>power functions</term>. The first two questions below revisit work we did earlier in <xref ref="C_1">Chapter</xref>, and the following questions extend those ideas to higher powers of <m>x</m>.
-</p>
-
 <ol>
 <li><p>Use the limit definition of the derivative to find <m>f'(x)</m> for <m>f(x) = x^2</m>.</p></li>
 <li><p>Use the limit definition of the derivative to find <m>f'(x)</m> for <m>f(x) = x^3</m>.</p></li>
@@ -35,6 +33,8 @@ Functions of the form <m>f(x) = x^n</m>, where <m>n = 1, 2, 3, \ldots</m>, are o
 <li><p>Based on your work in (a), (b), and (c), what do you conjecture is the derivative of <m>f(x) = x^5</m>?  Of <m>f(x) = x^{13}</m>?</p></li>
 <li><p>Conjecture a formula for the derivative of <m>f(x) = x^n</m> that holds for any positive integer <m>n</m>.  That is, given <m>f(x) = x^n</m> where <m>n</m> is a positive integer, what do you think is the formula for <m>f'(x)</m>?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -119,8 +119,6 @@ The following activity will check your understanding of the derivatives of the t
 <activity xml:id="A_2.1.1">
 <p>
 Use the three rules above to determine the derivative of each of the following functions. For each, state your answer using full and proper notation, labeling the derivative with its name. For example, if you are given a function <m>h(z)</m>, you should write <q><m>h'(z) =</m></q> or <q><m>\frac{dh}{dz} =</m></q> as part of your response.
-</p>
-
 <ol>
 <li><p><m>f(t) = \pi</m></p></li>
 <li><p><m>g(z) = 7^z</m></p></li>
@@ -130,8 +128,11 @@ Use the three rules above to determine the derivative of each of the following f
 <li><p><m>\frac{d}{dq}[q^{-1}]</m></p></li>
 <li><p><m>m(t) = \frac{1}{t^3}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Is <m>\pi</m> a variable or a constant?</p></li>
 <li><p>Is <m>g</m> a power or exponential function?</p></li>
@@ -141,7 +142,13 @@ Use the three rules above to determine the derivative of each of the following f
 <li><p>Remember the notation here means <q>take the derivative with respect to <m>q</m> of <m>q^{-1}</m>.</q></p></li>
 <li><p>Rewrite the fraction using a negative exponent.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>\pi</m> is a constant.</p></li>
 <li><p>Observe that <m>g</m> an exponential function.</p></li>
@@ -151,8 +158,13 @@ Use the three rules above to determine the derivative of each of the following f
 <li><p>Remember the notation here means <q>take the derivative with respect to <m>q</m> of <m>q^{-1}</m>.</q>  Note that <m>q{-1}</m> is a power function.</p></li>
 <li><p>Recall that <m>\frac{1}{t^3} = t^{-3}</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p><m>f(t) = \pi</m> is constant, so <m>f'(t) = 0</m>.</p></li>
 <li><p><m>g(z) = 7^z</m> is an exponential function, so <m>g'(z) = 7^z \ln(7)</m>.</p></li>
@@ -162,7 +174,10 @@ Use the three rules above to determine the derivative of each of the following f
 <li><p><m>\frac{d}{dq}[q^{-1}] = -q^{-2}</m>, by the rule for power functions.</p></li>
 <li><p><m>m(t) = \frac{1}{t^3} = t^{-3}</m>, so <m>\frac{dm}{dt} = -3t^{-4} = -\frac{3}{t^4}</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -198,8 +213,6 @@ In words, the Sum Rule tells us that <q>the derivative of a sum is the sum of th
 <activity xml:id="A_2.1.2">
 <p>
 Use only the rules for constant, power, and exponential functions, together with the Constant Multiple and Sum Rules, to compute the derivative of each function below with respect to the given independent variable. Note well that we do not yet know any rules for how to differentiate the product or quotient of functions. This means that you may have to do some algebra first on the functions below before you can actually use existing rules to compute the desired derivative formula. In each case, label the derivative you calculate with its name using proper notation such as <m>f'(x)</m>, <m>h'(z)</m>, <m>dr/dt</m>, etc.
-</p>
-
 <ol>
 <li><p><m>f(x) = x^{5/3} - x^4 + 2^x</m></p></li>
 <li><p><m>g(x) = 14e^x + 3x^5 - x</m></p></li>
@@ -209,8 +222,11 @@ Use only the rules for constant, power, and exponential functions, together with
 <li><p><m>q(x) = \frac{x^3 - x + 2}{x}</m></p></li>
 <li><p><m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Use the sum rule.</p></li>
 <li><p>Use the sum rule together with the constant multiple rule.</p></li>
@@ -220,7 +236,13 @@ Use only the rules for constant, power, and exponential functions, together with
 <li><p>Rewrite the single fraction as a sum of three fractions, and simplify.</p></li>
 <li><p>Note that <q><m>a</m></q> is the independent variable.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Use the sum rule; think about which functions in the sum are power functions and which are exponential.</p></li>
 <li><p>Use the sum rule together with the constant multiple rule.  Note which functions are exponential and which are powers of <m>x</m>.</p></li>
@@ -230,8 +252,13 @@ Use only the rules for constant, power, and exponential functions, together with
 <li><p>Rewrite the single fraction as a sum of three fractions, and simplify.  That is, note that <m>q(x) = \frac{x^3 - x + 2}{x} = \frac{x^3}{x} - \frac{x}{x} + \frac{2}{x}</m></p></li>
 <li><p>Note that <q><m>a</m></q> is the independent variable and <m>p(a)</m> is simply a polynomial in <m>a</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p><m>f(x) = x^{5/3} - x^4 + 2^x</m>, so by the sum rule, <m>f'(x) = \frac{5}{3}x^{2/3} - 4 x^3 + 2^x \ln(2).</m></p></li>
 <li><p><m>g(x) = 14e^x + 3x^5 - x</m>, so by the sum and constant multiple rules, <m>g'(x) = 14e^x + 3 \cdot 5x^4 - 1</m>.</p></li>
@@ -241,7 +268,10 @@ Use only the rules for constant, power, and exponential functions, together with
 <li><p><m>q(x) = \frac{x^3 - x + 2}{x} = \frac{x^3}{x} - \frac{x}{x} + \frac{2}{x} = x^2 - 1 + 2x^{-1}</m>.  Now it follows that <m>q'(x) = 2x - 2x^{-2}</m>.</p></li>
 <li><p><m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m>, so <m>p'(a) = 12a^3 - 6 a^2 + 14a - 1.</m></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 In the same way that we have shortcut rules to help us find derivatives, we introduce some language that is simpler and shorter. Often, rather than say <q>take the derivative of <m>f</m>,</q> we'll instead say simply <q>differentiate <m>f</m>.</q> This phrasing is tied to the notion of having a derivative to begin with: if the derivative exists at a point, we say <q><m>f</m> is differentiable,</q> which is tied to the fact that <m>f</m> can be differentiated.
 </p>
@@ -277,30 +307,45 @@ Is the population growing at an increasing rate or growing at a decreasing rate 
 <li><p>Find an equation for the tangent line to the curve <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m> at the point where <m>a=-1</m>.</p></li>
 <li><p>What is the difference between being asked to find the <em>slope</em> of the tangent line (asked in (a)) and the <em>equation</em> of the tangent line (asked in (c))?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>How would <m>h'(z)</m> help you answer the question?</p></li>
 <li><p>Think about finding both <m>P'(t)</m> and <m>P''(t)</m>.</p></li>
 <li><p>What two important pieces of information do you need to know to determine the equation of a line?</p></li>
 <li><p>What information do you find in both (a) and (c)?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Remember that <m>h'(a)</m> tells us the slope of the tangent line to <m>y = h(z)</m> at the point <m>(a,h(a))</m>.</p></li>
 <li><p>Think about how the units on <m>P'(t)</m> are the units of <m>P</m> per unit of <m>t</m>.  For the second question, consider the meaning of <m>P''(t)</m>.</p></li>
 <li><p>Find both <m>(-1,p(-1))</m> and <m>p'(-1)</m>.</p></li>
 <li><p>Note that both questions require you to find the value of the given function's derivative at a particular point.  How is that value used differently in questions (a) and (c)?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Note that since <m>h(z) = z^{1/2} + z^{-1}</m>, we have <m>h'(z) = \frac{1}{2}z^{-1/2} - z^{-2}</m>.  Thus, <m>h'(4) = \frac{1}{2(4)^{1/2}} - \frac{1}{4^2} = \frac{1}{4} - \frac{1}{16} = \frac{3}{16}.</m>  Thus, the slope of the tangent line to <m>h(z)</m> at the point where <m>z = 4</m> is <m>\frac{3}{16}</m>.</p></li>
 <li><p>For (i.), note that <m>P'(t) = 2(1.37)^t \ln(1.37)</m>, and therefore <m>P'(4) =  2(1.37)^4 \ln(1.37) \approx 2.218</m> million cells per day.  For (ii.), we can compute <m>P''(t)</m> and find that <m>P''(t) = 2(1.37)^t \ln(1.37) \ln(1.37)</m> and therefore find that <m>P''(4) \approx  0.69825</m>.  Since <m>P''(4)</m> is positive, this tells us that the instantaneous rate of change <m>P'(t)</m> is increasing at <m>t = 4</m>, and thus the population is growing at an increasing rate.</p></li>
 <li><p>Given <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m>, first observe that <m>p(-1) = 3 + 2 + 7 + 1 + 12 = 25</m>, so the tangent line will pass through <m>(-1,25)</m>.  Further, since <m>p'(a) = 12a^3 - 6a^2 + 14a - 1</m>, we have <m>p'(-1) = -12 - 6 - 14 - 1 = -33</m>, which is the slope of the tangent line.  The equation of the tangent line is therefore <m>y - 25 = -33(a+1)</m>.</p></li>
 <li><p>The biggest difference is that (a) asks for the <em>slope</em> of the tangent line, while (c) asks for the <em>equation</em> of the tangent line.  The latter requires the slope of the tangent line, but the slope and equation are two different entities.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 \begin{authornote}
 This is an author note.
@@ -327,14 +372,14 @@ This is an author note.
 <statement>
 <p>
 Let <m>f</m> and <m>g</m> be differentiable functions for which the following information is known: <m>f(2) = 5</m>, <m>g(2) = -3</m>, <m>f'(2) = -1/2</m>, <m>g'(2) = 2</m>.
-</p>
-
 <ol>
 <li><p>Let <m>h</m> be the new function defined by the rule <m>h(x) = 3f(x) - 4g(x)</m>.  Determine <m>h(2)</m> and <m>h'(2)</m>.</p></li>
 <li><p>Find an equation for the tangent line to <m>y = h(x)</m> at the point <m>(2,h(2))</m>.</p></li>
 <li><p>Let <m>p</m> be the function defined by the rule <m>p(x) = -2f(x) + \frac{1}{2}g(x)</m>.  Is <m>p</m> increasing, decreasing, or neither at <m>a = 2</m>?  Why?</p></li>
 <li><p>Estimate the value of <m>p(2.03)</m> by using the local linearization of <m>p</m> at the point <m>(2,p(2))</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -360,13 +405,13 @@ Let functions <m>p</m> and <m>q</m> be the piecewise linear functions given by t
 <statement>
 <p>
 Consider the functions <m>r(t) = t^t</m> and <m>s(t) = \arccos(t)</m>, for which you are given the facts that <m>r'(t) = t^t(\ln(t) + 1)</m> and <m>s'(t) = -\frac{1}{\sqrt{1-t^2}}</m>. Do not be concerned with where these derivative formulas come from. We restrict our interest in both functions to the domain <m>0 \lt  t \lt  1</m>.
-</p>
-
 <ol>
 <li><p>Let <m>w(t) = 3t^t - 2\arccos(t)</m>.  Determine <m>w'(t)</m>.</p></li>
 <li><p>Find an equation for the tangent line to <m>y = w(t)</m> at the point <m>(\frac{1}{2}, w(\frac{1}{2}))</m>.</p></li>
 <li><p>Let <m>v(t) = t^t + \arccos(t)</m>.  Is <m>v</m> increasing or decreasing at the instant <m>t = \frac{1}{2}</m>?  Why?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -374,8 +419,6 @@ Consider the functions <m>r(t) = t^t</m> and <m>s(t) = \arccos(t)</m>, for which
 <statement>
 <p>
 Let <m>f(x) = a^x</m>. The goal of this problem is to explore how the value of <m>a</m> affects the derivative of <m>f(x)</m>, without assuming we know the rule for <m>\frac{d}{dx}[a^x]</m> that we have stated and used in earlier work in this section.
-</p>
-
 <ol>
 <li><p>Use the limit definition of the derivative to show that
 <me>
@@ -398,6 +441,8 @@ when <m>a = 2</m>.  Do likewise when <m>a = 3</m>.</p></li>
 <li><p>How do your investigations in (d) lead to a particularly important fact about the function 
 <m>f(x) = e^x</m>?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

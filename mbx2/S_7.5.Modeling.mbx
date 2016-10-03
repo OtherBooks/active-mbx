@@ -23,13 +23,9 @@ change.
 <exploration xml:id="PA_7.5">
 <p>
 Any time that the rate of change of a quantity is related to the amount of a quantity, a differential equation naturally arises. In the following two problems, we see two such scenarios; for each, we want to develop a differential equation whose solution is the quantity of interest.
-</p>
-
 <ol>
 <li><p>Suppose you have a bank account in which money grows at an
   annual rate of 3<percent />.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -42,13 +38,10 @@ If you have <dollar />10,000 in the account, at what rate is your
 Suppose that you are also withdrawing money from the account
       at <dollar />1,000 per year.  What is the rate of change in the amount
       of money in the account?  What are the units on this rate of change?</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Suppose that a water tank holds 100 gallons and that a salty
   solution, which contains 20 grams of salt in every gallon, enters the
   tank at 2 gallons per minute.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -70,9 +63,10 @@ Finally, suppose that evenly mixed solution is pumped out of the tank at the
 <p>
 What is the total rate of change in the amount of salt in
       the tank?</p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -101,8 +95,6 @@ plastic in Lake Michigan is changing, construct a model for how this type pollut
 
 <p>
 First, some basic facts about Lake Michigan.
-</p>
-
 <ul>
 <li><p>The volume of the lake is
     <m>5\cdot10^{12}</m> cubic meters.</p></li>
@@ -113,6 +105,7 @@ First, some basic facts about Lake Michigan.
     into the lake contains roughly <m>3\cdot10^{-8}</m> cubic meters of
     plastic pollution.</p></li>
 </ul>
+</p>
 
 <p>
 Let's denote the amount of pollution in the lake by <m>P(t)</m>, where <m>P</m>
@@ -293,8 +286,6 @@ In the upcoming activities, we explore some other natural settings in which diff
 <activity xml:id="A_7.4.finance">
 <p>
 Suppose you have a bank account that grows by 5<percent /> every year. Let <m>A(t)</m> be the amount of money in the account in year <m>t</m>.
-</p>
-
 <ol>
 <li><p>What is the rate of change of <m>A</m> with respect to <m>t</m>?</p></li>
 <li><p>Suppose that you are also withdrawing <dollar />10,000 per year.  Write
@@ -312,29 +303,43 @@ Suppose you have a bank account that grows by 5<percent /> every year. Let <m>A(
 <li><p>If your initial deposit is <dollar />300,000, how much could you
   withdraw every year without depleting the account?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
-  
+</activity>
 <activity xml:id="A_7.5.iv">
 <p>
 A dose of morphine is
 absorbed from the bloodstream of a patient at a rate
 proportional to the amount in the bloodstream.
-</p>
-
 <ol>
 <li><p>Write a differential equation for <m>M(t)</m>, the amount of
           morphine in the patient's bloodstream, using <m>k</m> as the
@@ -356,21 +361,38 @@ proportional to the amount in the bloodstream.
           intraveneous rate so that there is eventually 7 milligrams
           of morphine in the patient's bloodstream?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -394,8 +416,6 @@ Congratulations, you just won the lottery! In one option
 presented to you, you will be paid one million dollars a year for
 the next 25 years. You can deposit this money in an account that
 will earn 5<percent /> each year.
-</p>
-
 <ol>
 <li><p>Set up a differential equation that describes the rate of
     change in the amount of money in the account.  Two factors cause
@@ -411,6 +431,8 @@ will earn 5<percent /> each year.
     first option overtake the amount of money in the account under the
     second option?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -422,8 +444,6 @@ her downward velocity to increase at the rate of <m>g\approx 9.8</m>
 meters per second squared. At the same time, wind resistance
 causes her velocity to decrease at a rate proportional to the
 velocity.
-</p>
-
 <ol>
 <li><p>Using <m>k</m> to represent the constant of proportionality,
       write a differential equation that describes the rate of change
@@ -438,6 +458,8 @@ velocity.
 <li><p>How long does it take to reach 50<percent /> of the terminal
         velocity?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -446,14 +468,14 @@ velocity.
 <p>
 During the first few years of life, the rate at which a baby
 gains weight is proportional to the reciprocal of its weight.
-</p>
-
 <ol>
 <li><p>Express this fact as a differential equation.</p></li>
 <li><p>Suppose that a baby weighs 8 pounds at birth and 9 pounds
         one month later.  How much will he weigh at one year?</p></li>
 <li><p>Do you think this is a realistic model for a long time?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -468,8 +490,6 @@ the tank at the rate of 3 gallons per minute.
 <p>
 At the same time, the solution is well mixed, and water is pumped
 out of the tank at the rate of 3 gallons per minute.
-</p>
-
 <ol>
 <li><p>Since 3 gallons enters the tank every minute and 3 gallons
   leaves every minute, what can you conclude about the volume of water
@@ -491,6 +511,8 @@ out of the tank at the rate of 3 gallons per minute.
   each gallon of the
   briny solution that enters the tank.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

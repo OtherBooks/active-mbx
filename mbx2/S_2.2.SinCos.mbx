@@ -16,8 +16,6 @@ Throughout <xref ref="C_2">Chapter</xref>, we will be working to develop shortcu
 <exploration xml:id="PA_2.2">
 <p>
 Consider the function <m>g(x) = 2^x</m>, which is graphed in <xref ref="F_2.2.PA1">Figure</xref>.
-</p>
-
 <ol>
 <li><p>At each of <m>x = -2, -1, 0, 1, 2</m>, use a straightedge to sketch an accurate tangent line to <m>y = g(x)</m>.</p></li>
 <li><p>Use the provided grid to estimate the slope of the tangent line you drew at each point in (a).</p></li>
@@ -25,6 +23,8 @@ Consider the function <m>g(x) = 2^x</m>, which is graphed in <xref ref="F_2.2.PA
 <li><p>Based on your work in (a), (b), and (c), sketch an accurate graph of <m>y = g'(x)</m> on the axes adjacent to the graph of <m>y = g(x)</m>.</p></li>
 <li><p>Write at least one sentence that explains why it is reasonable to think that <m>g'(x) = cg(x)</m>, where <m>c</m> is a constant.  In addition, calculate <m>\ln(2)</m>, and then discuss how this value, combined with your work above, reasonably suggests that <m>g'(x) = 2^x \ln(2)</m>.</p></li>
 </ol>
+
+</p>
 <figure xml:id="F_2.2.PA1" >
 <caption>At left, the graph of <m>y = g(x) = 2^x</m>. At right, axes for plotting <m>y = g'(x)</m>.</caption>
 <image width="73%" source="images/2_2_PA1a" />
@@ -42,8 +42,6 @@ The sine and cosine functions are among the most important functions in all of m
 <activity xml:id="A_2.2.1">
 <p>
 Consider the function <m>f(x) = \sin(x)</m>, which is graphed in <xref ref="F_2.2.A1">Figure</xref> below. Note carefully that the grid in the diagram does not have boxes that are <m>1 \times 1</m>, but rather approximately <m>1.57 \times 1</m>, as the horizontal scale of the grid is <m>\pi/2</m> units per box.
-</p>
-
 <ol>
 <li><p>At each of <m>x = -2\pi, -\frac{3\pi}{2}, -\pi, -\frac{\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi,</m> use a straightedge to sketch an accurate tangent line to <m>y = f(x)</m>.</p></li>
 <li><p>Use the provided grid to estimate the slope of the tangent line you drew at each point.  Pay careful attention to the scale of the grid.</p></li>
@@ -51,12 +49,15 @@ Consider the function <m>f(x) = \sin(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Based on your work in (a), (b), and (c), sketch an accurate graph of <m>y = f'(x)</m> on the axes adjacent to the graph of <m>y = f(x)</m>.</p></li>
 <li><p>What familiar function do you think is the derivative of <m>f(x) = \sin(x)</m>?</p></li>
 </ol>
+
+</p>
 <figure xml:id="F_2.2.A1" >
 <caption>At left, the graph of <m>y = f(x) = \sin(x)</m>.</caption>
 <image width="73%" source="images/2_2_sine" />
 </figure>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>It's very important to use a straightedge for accuracy.</p></li>
 <li><p>First determine the slopes that appear to be zero.  Then estimate <m>f'(0)</m> carefully using the grid.  Use symmetry and periodicity to help you estimate other nonzero slopes on the graph.</p></li>
@@ -64,7 +65,13 @@ Consider the function <m>f(x) = \sin(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Recall that heights on <m>f'</m> come from slopes on <m>f</m>.</p></li>
 <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>It's very important to use a straightedge for accuracy.</p></li>
 <li><p><m>f'(0) \approx 1</m>, as for each grid box we move horizontally, we go up about 1.5 grid boxes.</p></li>
@@ -72,7 +79,10 @@ Consider the function <m>f(x) = \sin(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Recall that heights on <m>f'</m> come from slopes on <m>f</m>.  From your earlier work, you should know several places <m>f'(x) = 0</m>, plus that <m>f'(0) \approx 1</m>.  Plot these values on the grid for <m>y = f'(x)</m>.</p></li>
 <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function, or possibly some multiple of such a function.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <ol>
 <li><p>See the figure below.</p></li>
@@ -89,7 +99,7 @@ Because we cannot simplify the fraction <m>\frac{\sin(h)}{h}</m> any further alg
 </ol>
 <image width="73%" source="images/2_2_sineSoln" /> 
 </solution>
-  
+</activity>
 <activity xml:id="A_2.2.2">
 <p>
 Consider the function <m>g(x) = \cos(x)</m>, which is graphed in <xref ref="F_2.2.A2">Figure</xref> below. Note carefully that the grid in the diagram does not have boxes that are <m>1 \times 1</m>, but rather approximately <m>1.57 \times 1</m>, as the horizontal scale of the grid is <m>\pi/2</m> units per box.
@@ -105,8 +115,9 @@ Consider the function <m>g(x) = \cos(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Based on your work in (a), (b), and (c), sketch an accurate graph of <m>y = g'(x)</m> on the axes adjacent to the graph of <m>y = g(x)</m>.</p></li>
 <li><p>What familiar function do you think is the derivative of <m>g(x) = \cos(x)</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>It's very important to use a straightedge for accuracy.</p></li>
 <li><p>First determine the slopes that appear to be zero.  Then estimate <m>g'(\frac{\pi}{2})</m> carefully using the grid.  Use symmetry and periodicity to help you estimate other nonzero slopes on the graph.</p></li>
@@ -114,7 +125,13 @@ Consider the function <m>g(x) = \cos(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Recall that heights on <m>g'</m> come from slopes on <m>g</m>.</p></li>
 <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>It's very important to use a straightedge for accuracy.</p></li>
 <li><p><m>g'(\frac{\pi}{2}) \approx -1</m>, as for each grid box we move horizontally, we go down about 1.5 grid boxes.</p></li>
@@ -122,7 +139,10 @@ Consider the function <m>g(x) = \cos(x)</m>, which is graphed in <xref ref="F_2.
 <li><p>Recall that heights on <m>g'</m> come from slopes on <m>g</m>.  From your earlier work, you should know several places <m>g'(x) = 0</m>, plus that <m>g'(0) \approx 1</m>.  Plot these values on the grid for <m>y = g'(x)</m>.</p></li>
 <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function, or possibly some multiple of such a function.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <ol>
 <li><p>See the figure below.</p></li>
@@ -139,6 +159,7 @@ Because we cannot simplify the fraction <m>\frac{\cos(\frac{\pi}{2}+h)}{h}</m> a
 </ol>
 <image width="73%" source="images/2_2_cosineSoln" /> 
 </solution>
+</activity>
 <p>
 The results of the two preceding activities suggest that the sine and cosine functions not only have the beautiful interrelationships that are learned in a course in trigonometry <mdash /> connections such as the identities <m>\sin^2(x) + \cos^2(x) = 1</m> and <m>\cos(x - \frac{\pi}{2}) = \sin(x)</m> <mdash /> but that they are even further linked through calculus, as the derivative of each involves the other. The following rules summarize the results of the activities<fn>These two rules may be formally proved using the limit definition of the derivative and the expansion identities for <m>\sin(x+h)</m> and <m>\cos(x+h)</m>.</fn>.
 </p>
@@ -156,8 +177,6 @@ We have now added two additional functions to our library of basic functions who
 <activity xml:id="A_2.2.3">
 <p>
 Answer each of the following questions. Where a derivative is requested, be sure to label the derivative function with its name using proper notation.
-</p>
-
 <ol>
 <li><p>Determine the derivative of <m>h(t) = 3\cos(t) - 4\sin(t)</m>.</p></li>
 <li><p>Find the exact slope of the tangent line to <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> at the point where <m>x = \frac{\pi}{6}</m>.</p></li>
@@ -165,8 +184,11 @@ Answer each of the following questions. Where a derivative is requested, be sure
 <li><p>Determine the derivative of <m>p(z) = z^4 + 4^z + 4\cos(z) - \sin(\frac{\pi}{2})</m>.</p></li>
 <li><p>The function <m>P(t) = 24 + 8\sin(t)</m> represents a population of a particular kind of animal that lives on a small island, where <m>P</m> is measured in hundreds and <m>t</m> is measured in decades since January 1, 2010.  What is the instantaneous rate of change of <m>P</m> on January 1, 2030?  What are the units of this quantity?  Write a sentence in everyday language that explains how the population is behaving at this point in time.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Recall the constant multiple and sum rules.</p></li>
 <li><p><m>f'(\frac{\pi}{6})</m> tells us the slope of the tangent line at <m>(\frac{\pi}{6},\frac{\pi}{6})</m>.</p></li>
@@ -174,7 +196,13 @@ Answer each of the following questions. Where a derivative is requested, be sure
 <li><p><m>\sin(\frac{\pi}{2})</m> is a constant.</p></li>
 <li><p><m>P'(a)</m> tells us the instantaneous rate of change of <m>P</m> with respect to time at the instant <m>t = a</m>, and its units are <q>units of <m>P</m> per unit of time.</q></p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Recall the constant multiple and sum rules.</p></li>
 <li><p><m>f'(a)</m> tells us the slope of the tangent line at <m>(a,f(a))</m>.</p></li>
@@ -182,8 +210,13 @@ Answer each of the following questions. Where a derivative is requested, be sure
 <li><p><m>\sin(\frac{\pi}{2})</m> is a constant.</p></li>
 <li><p><m>P'(a)</m> tells us the instantaneous rate of change of <m>P</m> with respect to time at the instant <m>t = a</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>By the sum and constant multiple rules, <m>\frac{dh}{dt} = 3(-\sin(t)) - 4(\cos(t)) = -3\sin(t) - 4\cos(t)</m>.</p></li>
 <li><p>The exact slope of the tangent line to <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> at <m>x = \frac{\pi}{6}</m> is given by <m>f'(\frac{\pi}{6})</m>.  So, we first compute <m>f'(x)</m>.  Using the sum and constant multiple rules, <m>f'(x) = 2 + \frac{1}{2}\cos(x)</m>, and thus <m>f'(\frac{\pi}{6}) = 2 + \frac{1}{2} \cos(\frac{\pi}{6}) = 2 + \frac{\sqrt{3}}{4}.</m></p></li>
@@ -200,7 +233,10 @@ Thus, <m>g(\frac{\pi}{2}) = 2 \cdot \frac{\pi}{2} - 2 \sin(\frac{\pi}{2}) = \pi 
 <li><p>Noting that <m>\sin(\frac{\pi}{2})</m> is a constant, we have <m>p'(z) = 4z^3 + 4^z \ln(4) - 4\sin(z)</m>.</p></li>
 <li><p>The value of <m>P'(2)</m> will tell us the instantaneous rate of change of <m>P</m> at the instant two decades have elapsed.  Observe that <m>P'(t) = 8\cos(t)</m>, and thus <m>P'(2) = 8\cos(2) \approx -3.329</m> hundred animals per decade.  This tells us that the instantaneous rate of change of <m>P</m> on January 1, 2030 is about <m>-3329</m> animals per decade, which tells us that the animal population is shrinking considerably at this point in time.  We might say that for whatever the population is on January 1, 2030, we expect that population to drop by about 3300 animals over the next ten years, provided the current population trend continues.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 \begin{authornote}
 This is an author note.
@@ -223,13 +259,13 @@ This is an author note.
 <statement>
 <p>
 Suppose that <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> represents the value of a person's investment portfolio in thousands of dollars in year <m>t</m>, where <m>t = 0</m> corresponds to January 1, 2010.
-</p>
-
 <ol>
 <li><p>At what instantaneous rate is the portfolio's value changing on January 1, 2012?  Include units on your answer.</p></li>
 <li><p>Determine the value of <m>V''(2)</m>.  What are the units on this quantity and what does it tell you about how the portfolio's value is changing?</p></li>
 <li><p>On the interval <m>0 \le t \le 20</m>, graph the function <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> and describe its behavior in the context of the problem.  Then, compare the graphs of the functions <m>A(t) = 24 \cdot 1.07^t</m> and <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m>, as well as the graphs of their derivatives <m>A'(t)</m> and <m>V'(t)</m>.  What is the impact of the term <m>6 \sin(t)</m> on the behavior of the function <m>V(t)</m>?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -237,14 +273,14 @@ Suppose that <m>V(t) = 24 \cdot 1.07^t + 6 \sin(t)</m> represents the value of a
 <statement>
 <p>
 Let <m>f(x) = 3\cos(x) - 2\sin(x) + 6</m>.
-</p>
-
 <ol>
 <li><p>Determine the exact slope of the tangent line to <m>y = f(x)</m> at the point where <m>a = \frac{\pi}{4}</m>.</p></li>
 <li><p>Determine the tangent line approximation to <m>y = f(x)</m> at the point where <m>a = \pi</m>.</p></li>
 <li><p>At the point where <m>a = \frac{\pi}{2}</m>, is <m>f</m> increasing, decreasing, or neither?</p></li>
 <li><p>At the point where <m>a = \frac{3\pi}{2}</m>, does the tangent line to <m>y = f(x)</m> lie above the curve, below the curve, or neither?  How can  you answer this question without even graphing the function or the tangent line?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -255,8 +291,6 @@ In this exercise, we explore how the limit definition of the derivative more for
 <me>
   f'(x) = \lim_{h \to 0} \frac{\sin(x+h) - \sin(x)}{h}.
 </me>
-</p>
-
 <ol>
 <li><p>Recall the trigonometric identity for the sine of a sum of angles <m>\alpha</m> and <m>\beta</m>: 
  <m>\sin(\alpha + \beta) = \sin(\alpha)\cos(\beta) + \cos(\alpha)\sin(\beta)</m>.  Use this identity and some algebra to show that
@@ -274,6 +308,8 @@ In this exercise, we explore how the limit definition of the derivative more for
 <li><p>What do your results in (c) thus tell you about <m>f'(x)</m>?</p></li>
 <li><p>By emulating the steps taken above, use the limit definition of the derivative to argue convincingly that <m>\frac{d}{dx}[\cos(x)] = -\sin(x).</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

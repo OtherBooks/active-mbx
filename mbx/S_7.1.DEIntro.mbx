@@ -35,8 +35,8 @@
 
     <exploration xml:id="PA_7.1">
       <p>The position of a moving object is given by the
-        function <m>s(t)</m>, where <m>s</m> is measured in feet and <m>t</m> in seconds. We
-        determine that the velocity is <m>v(t) = 4t + 1</m> feet per second.</p>
+      function <m>s(t)</m>, where <m>s</m> is measured in feet and <m>t</m> in seconds. We
+      determine that the velocity is <m>v(t) = 4t + 1</m> feet per second.
 
       <ol>
         <li><p>How much does the position change over the time interval
@@ -61,6 +61,7 @@
         <li><p>If, in addition to knowing the velocity function is <m>v(t) = 4t+1</m>, we know the initial position <m>s(0)</m>, how many possibilities
               are there for <m>s(t)</m>?</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -125,9 +126,9 @@
 
     <activity xml:id="A_7.1.1">
       <p>Express the following statements as
-        differential equations. In each case, you will need to introduce notation
-        to describe the important quantities in the statement so be sure to
-        clearly state what your notation means.</p>
+      differential equations. In each case, you will need to introduce notation
+      to describe the important quantities in the statement so be sure to
+      clearly state what your notation means.
 
       <ol>
         <li><p>The population of a town grows continuously at an annual rate of
@@ -150,22 +151,32 @@
                       the difference between the soda's temperature and
                       the room's temperature every minute.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -245,22 +256,32 @@
                       values of the velocity for which the velocity 
                       remains constant.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <p>The point of this activity is to demonstrate how differential
       equations model processes in the real world. In this example, two
       factors are influencing the velocities: gravity and wind resistance.
@@ -340,7 +361,7 @@
         </me>
       </p>
 
-      <p>Which of the following functions are solutions of this differential equation?</p>
+      <p>Which of the following functions are solutions of this differential equation?
 
       <ol>
         <li><p><m>v(t) = 1.5t - 0.25t^2</m>.</p></li>
@@ -351,22 +372,33 @@
 
         <li><p><m>v(t) = 3 + Ce^{-0.5t}</m> where <m>C</m> is any constant.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <p>This activity shows us something interesting. Notice that the
       differential equation has infinitely many solutions, which are
       parametrized by the constant <m>C</m> in <m>v(t) = 3+Ce^{-0.5t}</m>. In <xref ref="F_7.1.family">Figure</xref>, we see the graphs of these solutions for a few values of <m>C</m>,
@@ -453,17 +485,15 @@
             equations typically have infinitely many solutions, 
             parametrized by the initial values.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
           <p>Suppose that <m>T(t)</m> represents the temperature of a cup of
-            coffee set out in a room, where <m>T</m> is expressed in degrees
-            Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law of Cooling<index><main>Newton's Law of Cooling</main></index> tells us that
-            <me>
-              \frac{dT}{dt}= -\frac1{15}T+5.
-            </me>
-          </p>
+          coffee set out in a room, where <m>T</m> is expressed in degrees
+          Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law of Cooling<index><main>Newton's Law of Cooling</main></index> tells us that
+          <me>
+            \frac{dT}{dt}= -\frac1{15}T+5.
+          </me>
 
           <ol>
             <li><p>Supposes that <m>T(0)=105</m>.  What does the differential
@@ -488,6 +518,7 @@
                         solution to the differential equation with initial value <m>T(0)
                         = 105</m>.  What happens to this solution after a long time?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -528,14 +559,14 @@
       </exercise>
       <exercise>
         <statement>
-          <p>In this problem, we test further what it means for a function to be a solution to a given differential equation.</p>
+          <p>In this problem, we test further what it means for a function to be a solution to a given differential equation.
 
           <ol>
             <li><p>Consider the differential equation
-              <me>
-                \frac{dy}{dt} = y - t.
-              </me>
-              Determine whether the following functions are solutions to the given differential equation.</p>
+            <me>
+              \frac{dy}{dt} = y - t.
+            </me>
+            Determine whether the following functions are solutions to the given differential equation.
 
             <ul>
               <li>
@@ -550,8 +581,7 @@
                 <title>(iii)</title>
                 <p><m>y(t) = t + 2</m></p></li>
             </ul>
-
-            </li>
+            </p></li>
 
             <li><p>When you weigh bananas in a scale at the grocery store, the
                       height <m>h</m> of the bananas is described by the differential
@@ -565,6 +595,7 @@
                       is given by <m>h(t) = 4\sin(3t)</m>.  What is the value of the spring
                       constant?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

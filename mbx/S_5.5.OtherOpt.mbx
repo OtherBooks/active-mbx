@@ -16,7 +16,7 @@
     <p>In this section of the text, our main goals are to better understand some classes of functions that can always be antidifferentiated, as well as to learn some options for so doing. At the same time, we want to recognize that there are many functions for which an algebraic formula for an antiderivative does not exist, and also appreciate the role that computing technology can play in helping us find antiderivatives of other complicated functions. Throughout, it is helpful to remember what we have learned so far: how to reverse the chain rule through <m>u</m>-substitution, how to reverse the product rule through integration by parts, and that overall, there are subtle and challenging issues to address when trying to find antiderivatives.</p>
 
     <exploration xml:id="PA_5.5">
-      <p>For each of the indefinite integrals below, the main question is to decide whether the integral can be evaluated using <m>u</m>-substitution, integration by parts, a combination of the two, or neither. For integrals for which your answer is affirmative, state the substitution(s) you would use. It is not necessary to actually evaluate any of the integrals completely, unless the integral can be evaluated immediately using a familiar basic antiderivative.</p>
+      <p>For each of the indefinite integrals below, the main question is to decide whether the integral can be evaluated using <m>u</m>-substitution, integration by parts, a combination of the two, or neither. For integrals for which your answer is affirmative, state the substitution(s) you would use. It is not necessary to actually evaluate any of the integrals completely, unless the integral can be evaluated immediately using a familiar basic antiderivative.
 
       <ol>
         <li><p><m>\int x^2 \sin(x^3) \, dx</m>,  <nbsp /><m>\int x^2 \sin(x) \, dx</m>,  <nbsp /> <m>\int \sin(x^3) \, dx</m>,  <nbsp /> <m>\int x^5 \sin(x^3) \, dx</m></p></li>
@@ -27,6 +27,7 @@
 
         <li><p><m>\int x \sqrt{1-x^2} \, dx</m>,  <nbsp /> <m>\int \frac{1}{\sqrt{1-x^2}} \, dx</m>,  <nbsp /> <m>\int \frac{x}{\sqrt{1-x^2}}\, dx</m>,  <nbsp /><m>\int \frac{1}{x\sqrt{1-x^2}} \, dx</m>,</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -92,7 +93,7 @@
     <p>We will primarily use technology to generate partial fraction decompositions of rational functions, and then work from there to evaluate the integrals of interest using established methods.</p>
 
     <activity xml:id="A_5.5.1">
-      <p>For each of the following problems, evaluate the integral by using the partial fraction decomposition provided.</p>
+      <p>For each of the following problems, evaluate the integral by using the partial fraction decomposition provided.
 
       <ol>
         <li><p><m>\int \frac{1}{x^2 - 2x - 3} \, dx</m>,  given that <m>\frac{1}{x^2 - 2x - 3} = \frac{1/4}{x-3} - \frac{1/4}{x+1}</m></p></li>
@@ -101,22 +102,32 @@
 
         <li><p><m>\int \frac{x-2}{x^4 + x^2}\, dx</m>,  given that <m>\frac{x-2}{x^4 + x^2} = \frac{1}{x} - \frac{2}{x^2} + \frac{-x+2}{1+x^2}</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -165,7 +176,7 @@
     <p>In problems such as this one, it is essential that we not forget to account for the factor of <m>\frac{1}{8}</m> that must be present in the evaluation.</p>
 
     <activity xml:id="A_5.5.2">
-      <p>For each of the following integrals, evaluate the integral using <m>u</m>-substitution and/or an entry from the table found in <xref ref="C_9.IntegralTable">Appendix</xref>.</p>
+      <p>For each of the following integrals, evaluate the integral using <m>u</m>-substitution and/or an entry from the table found in <xref ref="C_9.IntegralTable">Appendix</xref>.
 
       <ol>
         <li><p><m>\int \sqrt{x^2 + 4} \, dx</m></p></li>
@@ -176,22 +187,32 @@
 
         <li><p><m>\int \frac{1}{x^2 \sqrt{49-36x^2}} \, dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -308,11 +329,10 @@
 
       <li><p>Computer algebra systems can play an important role in finding antiderivatives, though we must be cautious to use correct input, to watch for unusual or unfamiliar advanced functions that the CAS may cite in its result, and to consider the possibility that a CAS may need further assistance or insight from us in order to answer a particular question.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>For each of the following integrals involving rational functions, (1) use a CAS to find the partial fraction decomposition of the integrand; (2) evaluate the integral of the resulting function without the assistance of technology; (3) use a CAS to evaluate the original integral to test and compare your result in (2).</p>
+          <p>For each of the following integrals involving rational functions, (1) use a CAS to find the partial fraction decomposition of the integrand; (2) evaluate the integral of the resulting function without the assistance of technology; (3) use a CAS to evaluate the original integral to test and compare your result in (2).
 
           <ol>
             <li><p><m>\int \frac{x^3 + x + 1}{x^4 - 1} \, dx</m></p></li>
@@ -321,11 +341,12 @@
 
             <li><p><m>\int \frac{x^2 - x - 1}{(x-3)^3} \, dx</m></p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>For each of the following integrals involving radical functions, (1) use an appropriate <m>u</m>-substitution along with <xref ref="C_9.IntegralTable">Appendix</xref> to evaluate the integral without the assistance of technology, and (2) use a CAS to evaluate the original integral to test and compare your result in (1).</p>
+          <p>For each of the following integrals involving radical functions, (1) use an appropriate <m>u</m>-substitution along with <xref ref="C_9.IntegralTable">Appendix</xref> to evaluate the integral without the assistance of technology, and (2) use a CAS to evaluate the original integral to test and compare your result in (1).
 
           <ol>
             <li><p><m>\int \frac{1}{x \sqrt{9x^2 + 25}} \, dx</m></p></li>
@@ -336,15 +357,15 @@
 
             <li><p><m>\int \frac{\tan(x)}{\sqrt{9 - \cos^2(x)}}  \, dx</m></p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>Consider the indefinite integral given by
-            <me>
-              \int \frac{\sqrt{x+\sqrt{1+x^2}}}{x} \, dx.
-            </me>
-          </p>
+          <me>
+            \int \frac{\sqrt{x+\sqrt{1+x^2}}}{x} \, dx.
+          </me>
 
           <ol>
             <li><p>Explain why <m>u</m>-substitution does not offer a way to simplify this integral by discussing at least two different options you might try for <m>u</m>.</p></li>
@@ -355,6 +376,7 @@
 
             <li><p>Evaluate the given integral using <em>WolframAlpha</em>.  What do you observe?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

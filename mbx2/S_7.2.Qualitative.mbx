@@ -44,8 +44,6 @@ Let's consider the initial value problem
 <me>
   \frac{dy}{dt} = t - 2, \ \ y(0) = 1.
 </me>
-</p>
-
 <ol>
 <li><p>Use the differential equation to find the slope of the tangent
   line to the solution <m>y(t)</m> at <m>t=0</m>.  Then use the initial value to
@@ -66,6 +64,8 @@ Let's consider the initial value problem
 <li><p>Graph the solution you found in (d) on the axes provided, and compare it to the sketch
   you made using the tangent lines.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -135,8 +135,6 @@ Consider the autonomous differential equation
 <me>
   \frac{dy}{dt} = -\frac 12( y - 4).
 </me>
-</p>
-
 <ol>
 <li><p>Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m> on the axes provided.  Looking at the
   graph, for what values of <m>y</m> does <m>y</m> increase and for what values of <m>y</m>
@@ -153,21 +151,38 @@ Consider the autonomous differential equation
   its graph to the one you sketched in (c).</p></li>
 <li><p>What is special about the solution where <m>y(0) = 4</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -204,8 +219,6 @@ Consider the autonomous differential equation
 <me>
   \frac{dy}{dt} = -\frac 12 y(y-4).
 </me>
-</p>
-
 <ol>
 <li><p>Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m>.  Looking at the
   graph, for what values of <m>y</m> does <m>y</m> increase and for what values of <m>y</m>
@@ -240,21 +253,38 @@ Consider the autonomous differential equation
   <image width="73%" source="images/7_2_Act2_3" />   
     <image width="73%" source="images/7_2_Act2_4" /></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -281,8 +311,6 @@ Consider the differential equation
 <me>
   \frac{dy}{dt} = t-y.
 </me>
-</p>
-
 <ol>
 <li><p>Sketch a slope field on the plot below:
     <image width="73%" source="images/7_2_ex_1" /></p></li>
@@ -294,6 +322,8 @@ Consider the differential equation
     have sketched, what is the relationship between <m>t</m> and <m>y</m> at a
     point where a solution has a local minimum?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -339,8 +369,6 @@ differential equation
 <me>
   \frac{dP}{dt} = f(P) = P(6-P).
 </me>
-</p>
-
 <ol>
 <li><p>Sketch a graph of <m>f(P) = P(6-P)</m> and use it to determine the
     equilibrium solutions and whether they are stable or unstable.
@@ -361,6 +389,8 @@ differential equation
     population?  If fish are removed at this maximum rate, what is the
     eventual population of fish?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -372,8 +402,6 @@ farm; assume time <m>t</m> is measured in years.<fn>This problem is based on an 
     presented in a research paper by C.S. Hollings:  The Components of
     Predation as Revealed by a Study of Small Mammal Predation of the
     European Pine Sawfly, <em>Canadian Entomology</em> <em>91</em>: 283-320.</fn>
-</p>
-
 <ol>
 <li><p>The population of the mice grows at a yearly rate that is twenty times 
     the number of mice.  Express this as a differential equation.</p></li>
@@ -397,6 +425,8 @@ thousand mice per year.  Explain how this modifies the
     the initial population of the mice.</p></li>
 <li><p>What is the smallest number of cats you would need to keep the mice population from growing arbitrarily large?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

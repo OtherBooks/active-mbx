@@ -16,7 +16,7 @@
     <exploration xml:id="PA_8.2">
       <p>Warfarin is an anticoagulant that prevents blood clotting; often it is prescribed to stroke victims in order to help ensure blood flow. The level of warfarin has to reach a certain concentration in the blood in order to be effective.</p>
 
-      <p>Suppose warfarin is taken by a particular patient in a 5 mg dose each day. The drug is absorbed by the body and some is excreted from the system between doses. Assume that at the end of a 24 hour period, 8<percent /> of the drug remains in the body. Let <m>Q(n)</m> be the amount (in mg) of warfarin in the body before the <m>(n+1)</m>st dose of the drug is administered.</p>
+      <p>Suppose warfarin is taken by a particular patient in a 5 mg dose each day. The drug is absorbed by the body and some is excreted from the system between doses. Assume that at the end of a 24 hour period, 8<percent /> of the drug remains in the body. Let <m>Q(n)</m> be the amount (in mg) of warfarin in the body before the <m>(n+1)</m>st dose of the drug is administered.
 
       <ol>
         <li><p>Explain why <m>Q(1) = 5 \times 0.08</m> mg.</p></li>
@@ -91,6 +91,7 @@
 
           </p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -115,7 +116,7 @@
         </me>
       </p>
 
-      <p>In this activity we will find a shortcut formula for <m>S_n</m> that does not involve a sum of <m>n</m> terms.</p>
+      <p>In this activity we will find a shortcut formula for <m>S_n</m> that does not involve a sum of <m>n</m> terms.
 
       <ol>
         <li><p>Multiply <m>S_n</m> by <m>r</m>. What does the resulting sum look like?</p></li>
@@ -128,41 +129,52 @@
 
         <li><p>Solve equation <xref ref="eq_8.2.1_partial_geometric_sum" /> for <m>S_n</m> to find a simple formula for <m>S_n</m> that does not involve adding <m>n</m> terms.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Note that
+              <me>
+                rS_n = ar+ar^2+ar^3 + \cdots + ar^n.
+              </me>
+            </p></li>
+
+          <li><p>When we subtract <m>rS_n</m> from <m>S_n</m> the middle terms all cancel and we are left with
+              <md>
+                <mrow>S_n - rS_n \amp = \left(a+ar+ar^2 + \cdots + ar^{n-1}\right) - \left(ar+ar^2+ar^3 + \cdots + ar^n\right)</mrow>
+                <mrow>\amp =a + (ar-ar) + \left(ar^2-ar^2\right) + \cdots + \left(ar^{n-1}-ar^{n-1}\right) - ar^n</mrow>
+                <mrow>\amp = a - ar^n.</mrow>
+              </md>
+            </p></li>
+
+          <li><p>Factoring <m>S_n</m> from left hand side and dividing gives us a formula for <m>S_n</m>:
+              <md>
+                <mrow>S_n(1-r) \amp = a - ar^n</mrow>
+                <mrow>S_n \amp = a\frac{1-r^n}{1-r}.</mrow>
+              </md>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Note that
-            <me>
-              rS_n = ar+ar^2+ar^3 + \cdots + ar^n.
-            </me>
-          </p></li>
 
-        <li><p>When we subtract <m>rS_n</m> from <m>S_n</m> the middle terms all cancel and we are left with
-            <md>
-              <mrow>S_n - rS_n \amp = \left(a+ar+ar^2 + \cdots + ar^{n-1}\right) - \left(ar+ar^2+ar^3 + \cdots + ar^n\right)</mrow>
-              <mrow>\amp =a + (ar-ar) + \left(ar^2-ar^2\right) + \cdots + \left(ar^{n-1}-ar^{n-1}\right) - ar^n</mrow>
-              <mrow>\amp = a - ar^n.</mrow>
-            </md>
-          </p></li>
-
-        <li><p>Factoring <m>S_n</m> from left hand side and dividing gives us a formula for <m>S_n</m>:
-            <md>
-              <mrow>S_n(1-r) \amp = a - ar^n</mrow>
-              <mrow>S_n \amp = a\frac{1-r^n}{1-r}.</mrow>
-            </md>
-          </p></li>
-      </ol>
-    </solution>
     <p>We can summarize the result of <xref ref="x8.2.Act1">Activity</xref> in the following way.</p>
 
     <p>A geometric sum <m>S_n</m> is a sum of the form
@@ -231,70 +243,80 @@
       </p>
 
       <p>Recall that
-        <me>
-          S_n = a\frac{1-r^n}{1-r}.
-        </me>
-      </p>
+      <me>
+        S_n = a\frac{1-r^n}{1-r}.
+      </me>
 
       <ol>
         <li><p>What should we allow <m>n</m> to approach in order to have <m>S_n</m> approach <m>S</m>?</p></li>
 
-        <li><p>What is the value of  <m>\lim_{n \to \infty} r^n</m> for</p>
+        <li><p>What is the value of  <m>\lim_{n \to \infty} r^n</m> for
 
         <ul>
           <li><p><m>|r| > 1</m>?</p></li>
 
           <li><p><m>|r| \lt  1</m>?</p></li>
         </ul>
+        </p>
 
         Explain.</li>
 
         <li><p>If <m>|r| \lt  1</m>, use the formula for <m>S_n</m> and your observations in (a) and (b) to explain why <m>S</m> is finite and find a resulting formula for <m>S</m>.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>It is the case that
+              <me>
+                S = \lim_{n \to \infty} S_n.
+              </me>
+            </p></li>
+
+          <li>
+
+          <ul>
+            <li><p>If <m>r > 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.</p></li>
+
+            <li><p>If <m>0 \lt  r \lt  1</m>, then <m>\lim_{n \to \infty} r^n = 0</m>.</p></li>
+          </ul>
+          </li>
+
+          <li><p>Since
+              <me>
+                S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
+              </me>
+              and
+              <me>
+                \lim_{n \to \infty} r^n = 0
+              </me>
+              for <m>0 \lt  r \lt  1</m>, we conclude that
+              <me>
+                S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
+              </me>
+              when <m>0 \lt  r \lt  1</m>.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>It is the case that
-            <me>
-              S = \lim_{n \to \infty} S_n.
-            </me>
-          </p></li>
 
-        <li>
-
-        <ul>
-          <li><p>If <m>r > 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.</p></li>
-
-          <li><p>If <m>0 \lt  r \lt  1</m>, then <m>\lim_{n \to \infty} r^n = 0</m>.</p></li>
-        </ul>
-
-        </li>
-
-        <li><p>Since
-            <me>
-              S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
-            </me>
-            and
-            <me>
-              \lim_{n \to \infty} r^n = 0
-            </me>
-            for <m>0 \lt  r \lt  1</m>, we conclude that
-            <me>
-              S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
-            </me>
-            when <m>0 \lt  r \lt  1</m>.</p></li>
-      </ol>
-    </solution>
     <p>From our work in <xref ref="x8.2.Act2">Activity</xref>, we can now find the value of the geometric series <m>N = \left(\frac{12}{100}\right) + \left(\frac{12}{100}\right)\left(\frac{1}{100}\right) + \left(\frac{12}{100}\right)\left(\frac{1}{100}\right)^2 + \cdots.</m> In particular, using <m>a = \frac{12}{100}</m> and <m>r = \frac{1}{100}</m>, we see that
       <me>
         N = \frac{12}{100} \left(\frac{1}{1-\frac{1}{100}}\right) = \frac{12}{100} \left(\frac{100}{99}\right) = \frac{4}{33}.
@@ -311,7 +333,7 @@
       </me>
     </p>
 
-    <p>We also call this sum <m>S_n</m> the <m>n</m>th <em>partial sum</em><index><main>partial sum</main></index> of the geometric series. We summarize our recent work with geometric series as follows.</p>
+    <p>We also call this sum <m>S_n</m> the <m>n</m>th <em>partial sum</em><index><main>partial sum</main></index> of the geometric series. We summarize our recent work with geometric series as follows.
 
     <ul>
       <li><p>A geometric series is an infinite sum of the form
@@ -332,9 +354,10 @@
           </me>
         </p></li>
     </ul>
+    </p>
 
     <activity xml:id="x8.2.Act3">
-      <p>The formulas we have derived for the geometric series and its partial sum so far have assumed we begin indexing our sums at <m>n=0</m>. If instead we have a sum that does not begin at <m>n=0</m>, we can factor out common terms and use our established formulas. This process is illustrated in the examples in this activity.</p>
+      <p>The formulas we have derived for the geometric series and its partial sum so far have assumed we begin indexing our sums at <m>n=0</m>. If instead we have a sum that does not begin at <m>n=0</m>, we can factor out common terms and use our established formulas. This process is illustrated in the examples in this activity.
 
       <ol>
         <li><p>Consider the sum
@@ -355,47 +378,57 @@
             </me>
             Remove the common factor of <m>ar^n</m> from each term to find the sum of the series.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Factoring out <m>(2)\left(\frac{1}{3}\right)</m> gives us
+              <md>
+                <mrow>(2)\left(\frac{1}{3}\right) \left[1 + \left(\frac{1}{3}\right) + \left(\frac{1}{3}\right)^2 + \cdots \right] \amp = (2)\left(\frac{1}{3}\right)\sum_{k=0}^{\infty} \left(\frac{1}{3}\right)^k</mrow>
+                <mrow>\amp = (2)\left(\frac{1}{3}\right) \left(\frac{1}{1-\frac{1}{3}}\right)</mrow>
+                <mrow>\amp = (2)\left(\frac{1}{3}\right) \left(\frac{3}{2}\right)</mrow>
+                <mrow>\amp =  4.</mrow>
+              </md>
+            </p></li>
+
+          <li><p>Factoring out <m>ar^3</m> gives us
+              <md>
+                <mrow>ar^3+ar^4+ar^5 + \cdots \amp = ar^3\left(1+r+r^2+ \cdots \right)</mrow>
+                <mrow>\amp = ar^3\sum_{k=0}^{\infty} r^k</mrow>
+                <mrow>\amp = ar^3 \left(\frac{1}{1-r}\right)</mrow>
+                <mrow>\amp = \frac{ar^3}{1-r}.</mrow>
+              </md>
+            </p></li>
+
+          <li><p>Factoring out <m>ar^n</m> gives us
+              <md>
+                <mrow>ar^n+ar^{n+1}+ar^{n+2} + \cdots \amp = ar^n\left(1+r+r^2+ \cdots \right)</mrow>
+                <mrow>\amp = ar^n\sum_{k=0}^{\infty} r^k</mrow>
+                <mrow>\amp = ar^n \left(\frac{1}{1-r}\right)</mrow>
+                <mrow>\amp = \frac{ar^n}{1-r}.</mrow>
+              </md>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Factoring out <m>(2)\left(\frac{1}{3}\right)</m> gives us
-            <md>
-              <mrow>(2)\left(\frac{1}{3}\right) \left[1 + \left(\frac{1}{3}\right) + \left(\frac{1}{3}\right)^2 + \cdots \right] \amp = (2)\left(\frac{1}{3}\right)\sum_{k=0}^{\infty} \left(\frac{1}{3}\right)^k</mrow>
-              <mrow>\amp = (2)\left(\frac{1}{3}\right) \left(\frac{1}{1-\frac{1}{3}}\right)</mrow>
-              <mrow>\amp = (2)\left(\frac{1}{3}\right) \left(\frac{3}{2}\right)</mrow>
-              <mrow>\amp =  4.</mrow>
-            </md>
-          </p></li>
-
-        <li><p>Factoring out <m>ar^3</m> gives us
-            <md>
-              <mrow>ar^3+ar^4+ar^5 + \cdots \amp = ar^3\left(1+r+r^2+ \cdots \right)</mrow>
-              <mrow>\amp = ar^3\sum_{k=0}^{\infty} r^k</mrow>
-              <mrow>\amp = ar^3 \left(\frac{1}{1-r}\right)</mrow>
-              <mrow>\amp = \frac{ar^3}{1-r}.</mrow>
-            </md>
-          </p></li>
-
-        <li><p>Factoring out <m>ar^n</m> gives us
-            <md>
-              <mrow>ar^n+ar^{n+1}+ar^{n+2} + \cdots \amp = ar^n\left(1+r+r^2+ \cdots \right)</mrow>
-              <mrow>\amp = ar^n\sum_{k=0}^{\infty} r^k</mrow>
-              <mrow>\amp = ar^n \left(\frac{1}{1-r}\right)</mrow>
-              <mrow>\amp = \frac{ar^n}{1-r}.</mrow>
-            </md>
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -417,7 +450,6 @@
           </me>
           Whenever <m>|r| \lt  1</m>, the infinite geometric series <m>\sum_{k=0}^{\infty} ar^k</m> has the finite sum <m>\frac{a}{1-r}</m>.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
@@ -435,7 +467,7 @@
         <title>Option 2.</title>
         <statement>
           <p>You can be paid 1 cent the first day, 2 cents the second day, 4 cents the third day, 8 cents the fourth day, and so on, doubling the amount you are paid each day.
-            \end{description}</p>
+          \end{description}
 
           <ol>
             <li><p>How much will you be paid for the job in total under Option 1?</p></li>
@@ -575,11 +607,12 @@
               </solution>
               </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Suppose you drop a golf ball onto a hard surface from a height <m>h</m>. The collision with the ground causes the ball to lose energy and so it will not bounce back to its original height. The ball will then fall again to the ground, bounce back up, and continue. Assume that at each bounce the ball rises back to a height <m>\frac{3}{4}</m> of the height from which it dropped. Let <m>h_n</m> be the height of the ball on the <m>n</m>th bounce, with <m>h_0 = h</m>. In this exercise we will determine the distance traveled by the ball and the time it takes to travel that distance.</p>
+          <p>Suppose you drop a golf ball onto a hard surface from a height <m>h</m>. The collision with the ground causes the ball to lose energy and so it will not bounce back to its original height. The ball will then fall again to the ground, bounce back up, and continue. Assume that at each bounce the ball rises back to a height <m>\frac{3}{4}</m> of the height from which it dropped. Let <m>h_n</m> be the height of the ball on the <m>n</m>th bounce, with <m>h_0 = h</m>. In this exercise we will determine the distance traveled by the ball and the time it takes to travel that distance.
 
           <ol>
             <li><p>Determine a formula for <m>h_1</m> in terms of <m>h</m>.
@@ -640,7 +673,7 @@
               </solution>
               </p></li>
 
-            <li><p>Next, let's determine the total amount of time the ball is in the air.</p>
+            <li><p>Next, let's determine the total amount of time the ball is in the air.
 
             <ul>
               <li>
@@ -655,14 +688,14 @@
                 <title>(ii)</title>
                 <p>Use your work in the preceding item, along with that in (a)-(e) above to determine the total amount of time the ball is in the air.</p></li>
             </ul>
-
-            </li>
+            </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Suppose you play a game with a friend that involves rolling a standard six-sided die. Before a player can participate in the game, he or she must roll a six with the die. Assume that you roll first and that you and your friend take alternate rolls. In this exercise we will determine the probability that you roll the first six.</p>
+          <p>Suppose you play a game with a friend that involves rolling a standard six-sided die. Before a player can participate in the game, he or she must roll a six with the die. Assume that you roll first and that you and your friend take alternate rolls. In this exercise we will determine the probability that you roll the first six.
 
           <ol>
             <li><p>Explain why the probability of rolling a six on any single roll (including your first turn) is <m>\frac{1}{6}</m>.</p></li>
@@ -685,11 +718,12 @@
                 </me>
                 Find the sum of this series and determine the probability that you roll the first six.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>The goal of a federal government stimulus package is to positively affect the economy. Economists and politicians quote numbers like <q><m>k</m> million jobs and a net stimulus to the economy of <m>n</m> billion of dollars.</q> Where do they get these numbers? Let's consider one aspect of a stimulus package: tax cuts. Economists understand that tax cuts or rebates can result in long-term spending that is many times the amount of the rebate. For example, assume that for a typical person, 75<percent /> of her entire income is spent (that is, put back into the economy). Further, assume the government provides a tax cut or rebate that totals <m>P</m> dollars for each person.</p>
+          <p>The goal of a federal government stimulus package is to positively affect the economy. Economists and politicians quote numbers like <q><m>k</m> million jobs and a net stimulus to the economy of <m>n</m> billion of dollars.</q> Where do they get these numbers? Let's consider one aspect of a stimulus package: tax cuts. Economists understand that tax cuts or rebates can result in long-term spending that is many times the amount of the rebate. For example, assume that for a typical person, 75<percent /> of her entire income is spent (that is, put back into the economy). Further, assume the government provides a tax cut or rebate that totals <m>P</m> dollars for each person.
 
           <ol>
             <li><p>The tax cut of <m>P</m> dollars is income for its recipient. How much of this tax cut will be spent?
@@ -736,6 +770,7 @@
               </solution>
               </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -905,7 +940,6 @@
 
             <li><p>15 years at 8.25<percent />.</p></li>
           </ul>
-
           <ol>
             <li>
               <title>(a)</title>
@@ -915,10 +949,8 @@
               <title>(b)</title>
               <p>Which mortgage is ultimately the best deal (assuming you can afford the monthly payments)? In other words, for which loan do you pay the least amount of total interest?</p></li>
           </ol>
-
           </li>
           </ul>
-
           </li>
           </ol>
         </statement>

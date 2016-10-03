@@ -22,8 +22,6 @@ The following preview activity leads you through the steps to answer this questi
 <exploration xml:id="PA_3.5">
 <p>
 A spherical balloon is being inflated at a constant rate of 20 cubic inches per second. How fast is the radius of the balloon changing at the instant the balloon's diameter is 12 inches? Is the radius changing more rapidly when <m>d = 12</m> or when <m>d = 16</m>? Why?
-</p>
-
 <ol>
 <li><p>Draw several spheres with different radii, and observe that as volume changes, the radius, diameter, and surface area of the balloon also change.</p></li>
 <li><p>Recall that the volume of a sphere of radius <m>r</m> is <m>V = \frac{4}{3} \pi r^3</m>.  Note well that in the setting of this problem, <em>both</em> <m>V</m> and <m>r</m> are changing as time <m>t</m> changes, and thus both <m>V</m> and <m>r</m> may be viewed as implicit functions of <m>t</m>, with respective derivatives <m>\frac{dV}{dt}</m> and <m>\frac{dr}{dt}</m>.  
@@ -33,6 +31,8 @@ A spherical balloon is being inflated at a constant rate of 20 cubic inches per 
 <li><p>From part (c), we know the value of <m>\frac{dV}{dt}</m> at every value of <m>t</m>.  Next, observe that when the diameter of the balloon is 12, we know the value of the radius.  In the equation <m>\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}</m>, substitute these values for the relevant quantities and solve for the remaining unknown quantity, which is <m>\frac{dr}{dt}</m>.  How fast is the radius changing at the instant <m>d = 12</m>?</p></li>
 <li><p>How is the situation different when <m>d = 16</m>?  When is the radius changing more rapidly, when <m>d = 12</m> or when <m>d = 16</m>?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -135,8 +135,6 @@ from which the same conclusions made earlier about <m>\frac{dr}{dt}</m> and <m>\
 
 <p>
 Our work with the sandpile problem above is similar in many ways to our approach in <xref ref="PA_3.5">Preview Activity</xref>, and these steps are typical of most related rates problems. In certain ways, they also resemble work we do in applied optimization problems, and here we summarize the main approach for consideration in subsequent problems.
-</p>
-
 <ul>
 <li><p>Identify the quantities in the problem that are changing and choose clearly defined variable names for them.  Draw one or more figures that clearly represent the situation.</p></li>
 <li><p>Determine all rates of change that are known or given and identify the rate(s) of change to be found.</p></li>
@@ -144,11 +142,10 @@ Our work with the sandpile problem above is similar in many ways to our approach
 <li><p>Differentiate implicitly with respect to <m>t</m> to relate the rates of change of the involved quantities.</p></li>
 <li><p>Evaluate the derivatives and variables at the information relevant to the instant at which a certain rate of change is sought.  Use proper notation to identify when a derivative is being evaluated at a particular instant, such as <m>\left. \frac{dr}{dt} \right|_{r=4}</m>.</p></li>
 </ul>
+</p>
 
 <p>
 In the first step of identifying changing quantities and drawing a picture, it is important to think about the dynamic ways in which the involved quantities change. Sometimes a sequence of pictures can be helpful; for some already-drawn pictures that can be easily modified as applets built in Geogebra, see the following links<fn>We again refer to the work of Prof.<nbsp />Marc Renault of Shippensburg University, found at \href{http://gvsu.edu/s/5p}{<c>http://gvsu.edu/s/5p</c>}.</fn> which represent
-</p>
-
 <ul>
 <li><p>how a circular oil slick's area grows as its radius increases \href{http://gvsu.edu/s/9n}{<c>http://gvsu.edu/s/9n</c>};</p></li>
 <li><p>how the location of the base of a ladder and its height along a wall change as the ladder slides \href{http://gvsu.edu/s/9o}{<c>http://gvsu.edu/s/9o</c>};</p></li>
@@ -159,6 +156,7 @@ In the first step of identifying changing quantities and drawing a picture, it i
 
 	 \href{http://gvsu.edu/s/9q}{<c>http://gvsu.edu/s/9q</c>}.</p></li>
 </ul>
+</p>
 
 <p>
 Drawing well-labeled diagrams and envisioning how different parts of the figure change is a key part of understanding related rates problems and being successful at solving them.
@@ -166,8 +164,6 @@ Drawing well-labeled diagrams and envisioning how different parts of the figure 
 <activity xml:id="A_3.5.1">
 <p>
 A water tank has the shape of an inverted circular cone (point down) with a base of radius 6 feet and a depth of 8 feet. Suppose that water is being pumped into the tank at a constant instantaneous rate of 4 cubic feet per minute.
-</p>
-
 <ol>
 <li><p>Draw a picture of the conical tank, including a sketch of the water level at a point in time when the tank is not yet full.  Introduce variables that measure the radius of the water's surface and the water's depth in the tank, and label them on your figure.</p></li>
 <li><p>Say that <m>r</m> is the radius and <m>h</m> the depth of the water at a given time, <m>t</m>.  What equation relates the radius and height of the water, and why?</p></li>
@@ -176,8 +172,11 @@ A water tank has the shape of an inverted circular cone (point down) with a base
 <li><p>Find the instantaneous rate at which the water level is rising when the water in the tank is 3 feet deep.</p></li>
 <li><p>When is the water rising most rapidly:  at <m>h = 3</m>, <m>h = 4</m>, or <m>h = 5</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li>
 <title>(b)</title>
@@ -200,7 +199,13 @@ Use <m>h = 3</m> and the fact that the value of <m>\frac{dV}{dt}</m> is given.</
 <p>
 Consider \href{http://gvsu.edu/s/9p}{<c>http://gvsu.edu/s/9p</c>}.  Why does this phenomenon occur?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li>
 <title>(b)</title>
@@ -223,8 +228,13 @@ Use <m>h = 3</m> and the fact that the value of <m>\frac{dV}{dt}</m> is given.  
 <p>
 Consider \href{http://gvsu.edu/s/9p}{<c>http://gvsu.edu/s/9p</c>}.  Why does this phenomenon occur?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Letting <m>r</m> represent the water's radius at time <m>t</m> and <m>h</m> the water's depth, we see the following situation:
 	<image width="73%" source="images/3_5_Act1Soln" /></p></li>
@@ -244,15 +254,16 @@ which relates the rates of change of <m>V</m> and <m>h</m>.</p></li>
 </me>
 so that <m>\left. \frac{dh}{dt} \right|_{h=3} = \frac{64}{81\pi} \approx 0.2515</m> feet per minute.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 Recognizing familiar geometric configurations is one way that we relate the changing quantities in a given problem. For instance, while the problem in <xref ref="A_3.5.1">Activity</xref> is centered on a conical tank, one of the most important observations is that there are two key right triangles present. In another setting, a right triangle might be indicative of an opportunity to take advantage of the Pythagorean Theorem to relate the legs of the triangle. But in the conical tank, the fact that the water at any time fills a portion of the tank in such a way that the ratio of radius to depth is constant turns out to be the most important relationship with which to work. That enables us to write <m>r</m> in terms of <m>h</m> and reduce the overall problem to one that involves only one variable, where the volume of water depends simply on <m>h</m>, and hence to subsequently relate <m>\frac{dV}{dt}</m> and <m>\frac{dh}{dt}</m>. In other situations where a changing angle is involved, a right triangle may offer the opportunity to find relationships among various parts of the triangle using trigonometric functions.
 </p>
 <activity xml:id="A_3.5.2">
 <p>
 A television camera is positioned 4000 feet from the base of a rocket launching pad. The angle of elevation of the camera has to change at the correct rate in order to keep the rocket in sight. In addition, the auto-focus of the camera has to take into account the increasing distance between the camera and the rocket. We assume that the rocket rises vertically. (A similar problem is discussed and pictured dynamically at \href{http://gvsu.edu/s/9t}{<c>http://gvsu.edu/s/9t</c>}. Exploring the applet at the link will be helpful to you in answering the questions that follow.)
-</p>
-
 <ol>
 <li><p>Draw a figure that summarizes the given situation.  What parts of the picture are changing?  What parts are constant?  Introduce appropriate variables to represent the quantities that are changing.</p></li>
 <li><p>Find an equation that relates the camera's angle of elevation to the height of the rocket, and then find an equation that relates the instantaneous rate of change of the camera's elevation angle to the instantaneous rate of change of the rocket's height (where all rates of change are with respect to time).</p></li>
@@ -260,8 +271,11 @@ A television camera is positioned 4000 feet from the base of a rocket launching 
 <li><p>Suppose that the rocket's speed is 600 ft/sec at the instant it has risen 3000 feet.  How fast is the distance from the television camera to the rocket changing at that moment?  If the camera is following the rocket, how fast is the camera's angle of elevation changing at that same moment?</p></li>
 <li><p>If from an elevation of 3000 feet onward the rocket continues to rise at 600 feet/sec, will the rate of change of distance with respect to time be greater when the elevation is 4000 feet than it was at 3000 feet, or less?  Why?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Let <m>\theta</m> represent the camera angle and note that one leg of the right triangle is constant.  Which two are changing?</p></li>
 <li><p>Think trigonometrically.</p></li>
@@ -269,7 +283,13 @@ A television camera is positioned 4000 feet from the base of a rocket launching 
 <li><p>Use the facts that <m>h = 3000</m> and <m>\frac{dh}{dt} = 600</m> in your preceding work.</p></li>
 <li><p>You can answer this question intuitively or by changing the value of <m>h</m> in your work in (d).</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Let <m>\theta</m> represent the camera angle and note that one leg of the right triangle is constant.  Note that both the hypotenuse and the vertical leg of the triangle are changing as the rocket rises.</p></li>
 <li><p>Think trigonometrically; which trigonometric function will only use the rocket's height along with the constant value of 4000?</p></li>
@@ -277,8 +297,13 @@ A television camera is positioned 4000 feet from the base of a rocket launching 
 <li><p>Use the facts that <m>h = 3000</m> and <m>\frac{dh}{dt} = 600</m> in your preceding work.  Note that these only apply after you have completed the work of differentiation, because <m>h</m> is changing, not constant at 3000 feet.</p></li>
 <li><p>You can answer this question intuitively or by changing the value of <m>h</m> in your work in (d).</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Letting <m>\theta</m> be the camera's elevation angle, <m>h</m> the rocket's height, and <m>z</m> the distance from the camera to the rocket, we have the following situation at a given point in time:
 	<image width="73%" source="images/3_5_Act2Soln" /></p></li>
@@ -334,7 +359,10 @@ Indeed, <m>\frac{dz}{dt}</m> is an increasing function of <m>h</m>, provided tha
 </me>
 It is straightforward to verify that <m>\frac{h}{\sqrt{h^2 + 4000^2}}</m> is an increasing function of <m>h</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 In addition to being able to find instantaneous rates of change at particular points in time, we are often able to make more general observations about how particular rates themselves will change over time. For instance, when a conical tank (point down) is filling with water at a constant rate, we naturally intuit that the depth of the water should increase more slowly over time. Note how carefully we need to speak: we mean to say that while the depth, <m>h</m>, of the water is increasing, its rate of change <m>\frac{dh}{dt}</m> is decreasing (both as a function of <m>t</m> and as a function of <m>h</m>). These observations may often be made by taking the general equation that relates the various rates and solving for one of them, and doing this without substituting any particular values for known variables or rates. For instance, in the conical tank problem in <xref ref="A_3.5.1">Activity</xref>, we established that
 <me>
@@ -352,8 +380,6 @@ Provided that <m>\frac{dV}{dt}</m> is constant, it is immediately apparent that 
 <activity xml:id="A_3.5.3">
 <p>
 As pictured in the applet at<nbsp />\href{http://gvsu.edu/s/9q}{<c>http://gvsu.edu/s/9q</c>}, a skateboarder who is 6 feet tall rides under a 15 foot tall lamppost at a constant rate of 3 feet per second. We are interested in understanding how fast his shadow is changing at various points in time.
-</p>
-
 <ol>
 <li><p>Draw an appropriate right triangle that represents a snapshot in time of the skateboarder, lamppost, and his shadow.  Let <m>x</m> denote the horizontal distance from the base of the lamppost to the skateboarder and <m>s</m> represent the length of his shadow.  Label these quantities, as well as the skateboarder's height and the lamppost's height on the diagram.</p></li>
 <li><p>Observe that the skateboarder and the lamppost represent parallel line segments in the diagram, and thus similar triangles are present.  Use similar triangles to establish an equation that relates <m>x</m> and <m>s</m>.</p></li>
@@ -362,8 +388,11 @@ As pictured in the applet at<nbsp />\href{http://gvsu.edu/s/9q}{<c>http://gvsu.e
 <li><p>As the skateboarder's distance from the lamppost increases, is his shadow's length increasing at an increasing rate, increasing at a decreasing rate, or increasing at a constant rate?</p></li>
 <li><p>Which is moving more rapidly:  the skateboarder or the tip of his shadow?  Explain, and justify your answer.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Note that the lengths of the legs of the right triangle will be <m>15</m> for the vertical one and <m>x + s</m> for the horizontal one.</p></li>
 <li><p>The small triangle formed by the skateboarder and his shadow, with legs <m>6</m> and <m>s</m> is similar to the large triangle that has the lamppost as one of its legs.</p></li>
@@ -372,7 +401,13 @@ As pictured in the applet at<nbsp />\href{http://gvsu.edu/s/9q}{<c>http://gvsu.e
 <li><p>Does the equation that relates <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m> involve <m>x</m>?  Is <m>\frac{dx}{dt}</m> changing or constant?</p></li>
 <li><p>Let <m>y</m> represent the location of the tip of the shadow, so that <m>y = x + s</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that the lengths of the legs of the overall right triangle will be <m>15</m> for the vertical one and <m>x + s</m> for the horizontal one, with a smaller right triangle with legs of length 6 and <m>s</m>.</p></li>
 <li><p>The small triangle formed by the skateboarder and his shadow, with legs <m>6</m> and <m>s</m> is similar to the large triangle that has legs of length <m>15</m> and <m>x + s</m>.  Remember that the ratios of the lengths of legs of similar triangles must be equal.</p></li>
@@ -381,8 +416,13 @@ As pictured in the applet at<nbsp />\href{http://gvsu.edu/s/9q}{<c>http://gvsu.e
 <li><p>Does the equation that relates <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m> involve <m>x</m>?  Is <m>\frac{dx}{dt}</m> changing or constant?</p></li>
 <li><p>Let <m>y</m> represent the location of the tip of the shadow, so that <m>y = x + s</m>.  Observe that you can then write <m>\frac{dy}{dt}</m> in terms of <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>The given information leads us to construct the following diagram:
 	<image width="73%" source="images/3_5_Act3Soln" /></p></li>
@@ -396,7 +436,10 @@ Simplifying, we have <m>15s = 6s + 6x</m>, so that <m>9s = 2x</m>, or most simpl
 <li><p>Because <m>\frac{ds}{dt}</m> is constant, the shadow's length is increasing at a constant rate (irrespective of the distance from the skateboarder to the lamppost).</p></li>
 <li><p>Let <m>y</m> represent the location of the tip of the shadow, so that <m>y = x + s</m>.  Observe that we can now compute <m>\frac{dy}{dt}</m> in terms of <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m>, with <m>\frac{dy}{dt} = \frac{dx}{dt} + \frac{ds}{dt} = 3 + 2 = 5</m> feet/sec, and hence the tip of the shadow is moving more rapidly than the skateboarder himself.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 As we progress further into related rates problems, less direction will be provided. In the first three activities of this section, we have been provided with guided instruction to build a solution in a step by step way. For the closing activity and the following exercises, most of the detailed work is left to the reader.
 </p>
@@ -404,16 +447,18 @@ As we progress further into related rates problems, less direction will be provi
 <p>
 A baseball diamond is <m>90'</m> square. A batter hits a ball along the third base line and runs to first base. At what rate is the distance between the ball and first base changing when the ball is halfway to third base, if at that instant the ball is traveling 100 feet/sec? At what rate is the distance between the ball and the runner changing at the same instant, if at the same instant the runner is 1/8 of the way to first base running at 30 feet/sec?
 </p>
-</activity>
-  <hint>
+<hint>
 <p>
 Let <m>x</m> denote the position of the ball along the third base line at time <m>t</m>, and <m>z</m> the distance from the ball to first base. Note that the basepaths meet at 90 degree angles.
 </p>
-</hint>  <hint>
+</hint>
+
+<hint>
 <p>
 Let <m>x</m> denote the position of the ball along the third base line at time <m>t</m>, and <m>z</m> the distance from the ball to first base. Note that the basepaths meet at 90 degree angles. Find a right triangle in which you can use the Pythagorean Theorem. When including the runner for the second question, let <m>r</m> denote the runner's position at time <m>t</m>, and again work with a key right triangle.
 </p>
-</hint>  
+</hint>
+
 <solution>
 <p>
 We let <m>x</m> denote the position of the ball at time <m>t</m> and <m>z</m> the distance from the ball to first base, as pictured below.
@@ -463,6 +508,7 @@ and therefore
 </me>
 </p>
 </solution>
+</activity>
 </subsection>
 
 

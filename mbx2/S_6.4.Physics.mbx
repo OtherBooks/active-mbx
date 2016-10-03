@@ -55,8 +55,6 @@ Of course, the formula <m>W = F \cdot d</m> only applies when the force is const
 <exploration xml:id="PA_6.4">
 <p>
 A bucket is being lifted from the bottom of a 50-foot deep well; its weight (including the water), <m>B</m>, in pounds at a height <m>h</m> feet above the water is given by the function <m>B(h)</m>. When the bucket leaves the water, the bucket and water together weigh <m>B(0) = 20</m> pounds, and when the bucket reaches the top of the well, <m>B(50) = 12</m> pounds. Assume that the bucket loses water at a constant rate (as a function of height, <m>h</m>) throughout its journey from the bottom to the top of the well.
-</p>
-
 <ol>
 <li><p>Find a formula for <m>B(h)</m>.</p></li>
 <li><p>Compute the value of the product <m>B(5) \triangle h</m>, where <m>\triangle h = 2</m> feet. Include units on your answer.  Explain why this product represents the approximate work it took to move the bucket of water from <m>h = 5</m> to <m>h = 7</m>.</p></li>
@@ -65,6 +63,8 @@ A bucket is being lifted from the bottom of a 50-foot deep well; its weight (inc
 <li><p>More generally, what does the quantity <m>W_{\mbox{{slice}} } = B(h) \triangle h</m> measure for a given value of <m>h</m> and a small positive value of <m>\triangle h</m>?</p></li>
 <li><p>Evaluate the definite integral <m>\int_0^{50} B(h) \, dh</m>.  What is the meaning of the value you find?  Why?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -137,21 +137,36 @@ Find the work required to extend the spring from 1 foot beyond its natural lengt
 </ol>
 </li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -236,21 +251,36 @@ In each of the following problems, determine the total work required to accompli
 <li><p>Consider a hemispherical tank with a radius of 10 feet.  Suppose that the tank is full to a depth of 7 feet with water of weight density 62.4 pounds/ft<m>^3</m>, and the top 5 feet of water are pumped out of the tank to a tanker truck whose height is 5 feet above the top of the tank.</p></li>
 <li><p>Consider a trough with triangular ends, as pictured in <xref ref="F_6.4.Act2Trough">Figure</xref>, where the tank is 10 feet long, the top is 5 feet wide, and the tank is 4 feet deep.  Say that the trough is full to within 1 foot of the top with water of weight density 62.4 pounds/ft<m>^3</m>, and a pump is used to empty the tank until the water remaining in the tank is 1 foot deep.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -331,21 +361,36 @@ In each of the following problems, determine the total force exerted by water ag
 <li><p>Consider a semicircular dam with a radius of 30 feet.  Suppose that the water rises to within 10 feet of the top of the dam.</p></li>
 <li><p>Consider a trough with triangular ends, as pictured in <xref ref="F_6.4.Act3Trough">Figure</xref>, where the tank is 10 feet long, the top is 5 feet wide, and the tank is 4 feet deep.  Say that the trough is full to within 1 foot of the top with water of weight density 62.4 pounds/ft<m>^3</m>.  How much force does the water exert against one of the triangular ends?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 While there are many different formulas that we use in solving problems involving work, force, and pressure, it is important to understand that the fundamental ideas behind these problems are similar to several others that we've encountered in applications of the definite integral. In particular, the basic idea is to take a difficult problem and somehow slice it into more manageable pieces that we understand, and then use a definite integral to add up these simpler pieces.
 </p>
@@ -366,13 +411,13 @@ While there are many different formulas that we use in solving problems involvin
 <statement>
 <p>
 Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its graph that lies in the first quadrant between the <m>y</m>-axis and the first positive value of <m>x</m> for which <m>f(x) = 0</m>. Let <m>R</m> denote the region bounded by this portion of <m>f</m>, the <m>x</m>-axis, and the <m>y</m>-axis. Assume that <m>x</m> and <m>y</m> are each measured in feet.
-</p>
-
 <ol>
 <li><p>Picture the coordinate axes rotated 90 degrees clockwise so that the positive <m>x</m>-axis points straight down, and the positive <m>y</m>-axis points to the right.  Suppose that <m>R</m> is rotated about the <m>x</m> axis to form a solid of revolution, and we consider this solid as a storage tank.  Suppose that the resulting tank is filled to a depth of 1.5 feet with water weighing 62.4 pounds per cubic foot.  Find the amount of work required to lower the water in the tank until it is 0.5 feet deep, by pumping the water to the top of the tank.</p></li>
 <li><p>Again picture the coordinate axes rotated 90 degrees clockwise so that the positive <m>x</m>-axis points straight down, and the positive <m>y</m>-axis points to the right.  Suppose that <m>R</m>, together with its reflection across the <m>x</m>-axis, forms one end of a storage tank that is 10 feet long.  Suppose that the resulting tank is filled completely with water weighing 62.4 pounds per cubic foot.  Find a formula for a function that tells the amount of work required to lower the water by <m>h</m> feet.</p></li>
 <li><p>Suppose that the tank described in (b) is completely filled with water.  Find the total force due to hydrostatic pressure exerted by the water on one end of the tank.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -380,12 +425,12 @@ Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its gr
 <statement>
 <p>
 A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet. It is filled completely with water whose weight density is 62.4 lbs/ft<m>^3</m>, and the top of the tank is two feet underground.
-</p>
-
 <ol>
 <li><p>Set up, but do not evaluate, an integral expression that represents the amount of work required to empty the top half of the water in the tank to a truck whose tank lies 4.5 feet above ground.</p></li>
 <li><p>With the tank now only half-full, set up, but do not evaluate an integral expression that represents the total force due to hydrostatic pressure against one end of the tank.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

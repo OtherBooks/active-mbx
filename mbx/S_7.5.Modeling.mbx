@@ -20,11 +20,11 @@
       change.</p>
 
     <exploration xml:id="PA_7.5">
-      <p>Any time that the rate of change of a quantity is related to the amount of a quantity, a differential equation naturally arises. In the following two problems, we see two such scenarios; for each, we want to develop a differential equation whose solution is the quantity of interest.</p>
+      <p>Any time that the rate of change of a quantity is related to the amount of a quantity, a differential equation naturally arises. In the following two problems, we see two such scenarios; for each, we want to develop a differential equation whose solution is the quantity of interest.
 
       <ol>
         <li><p>Suppose you have a bank account in which money grows at an
-            annual rate of 3<percent />.</p>
+          annual rate of 3<percent />.
 
         <ul>
           <li>
@@ -38,12 +38,11 @@
                     at <dollar />1,000 per year.  What is the rate of change in the amount
                     of money in the account?  What are the units on this rate of change?</p></li>
         </ul>
-
-        </li>
+        </p></li>
 
         <li><p>Suppose that a water tank holds 100 gallons and that a salty
-            solution, which contains 20 grams of salt in every gallon, enters the
-            tank at 2 gallons per minute.</p>
+          solution, which contains 20 grams of salt in every gallon, enters the
+          tank at 2 gallons per minute.
 
         <ul>
           <li>
@@ -66,9 +65,9 @@
             <p>What is the total rate of change in the amount of salt in
                     the tank?</p></li>
         </ul>
-
-        </li>
+        </p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -90,7 +89,7 @@
       </statement>
     </example>
 
-    <p>First, some basic facts about Lake Michigan.</p>
+    <p>First, some basic facts about Lake Michigan.
 
     <ul>
       <li><p>The volume of the lake is
@@ -104,6 +103,7 @@
               into the lake contains roughly <m>3\cdot10^{-8}</m> cubic meters of
               plastic pollution.</p></li>
     </ul>
+    </p>
 
     <p>Let's denote the amount of pollution in the lake by <m>P(t)</m>, where <m>P</m>
       is measured in cubic meters of plastic and <m>t</m> in years. Our goal
@@ -254,7 +254,7 @@
     <p>In the upcoming activities, we explore some other natural settings in which differential equation model changing quantities.</p>
 
     <activity xml:id="A_7.4.finance">
-      <p>Suppose you have a bank account that grows by 5<percent /> every year. Let <m>A(t)</m> be the amount of money in the account in year <m>t</m>.</p>
+      <p>Suppose you have a bank account that grows by 5<percent /> every year. Let <m>A(t)</m> be the amount of money in the account in year <m>t</m>.
 
       <ol>
         <li><p>What is the rate of change of <m>A</m> with respect to <m>t</m>?</p></li>
@@ -278,26 +278,37 @@
         <li><p>If your initial deposit is <dollar />300,000, how much could you
               withdraw every year without depleting the account?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <activity xml:id="A_7.5.iv">
       <p>A dose of morphine is
-        absorbed from the bloodstream of a patient at a rate
-        proportional to the amount in the bloodstream.</p>
+      absorbed from the bloodstream of a patient at a rate
+      proportional to the amount in the bloodstream.
 
       <ol>
         <li><p>Write a differential equation for <m>M(t)</m>, the amount of
@@ -325,22 +336,32 @@
                       intraveneous rate so that there is eventually 7 milligrams
                       of morphine in the patient's bloodstream?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -354,14 +375,13 @@
             equations<mdash />to understand a quantity described by a differential
             equation.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
           <p>Congratulations, you just won the lottery! In one option
-            presented to you, you will be paid one million dollars a year for
-            the next 25 years. You can deposit this money in an account that
-            will earn 5<percent /> each year.</p>
+          presented to you, you will be paid one million dollars a year for
+          the next 25 years. You can deposit this money in an account that
+          will earn 5<percent /> each year.
 
           <ol>
             <li><p>Set up a differential equation that describes the rate of
@@ -382,15 +402,16 @@
                     first option overtake the amount of money in the account under the
                     second option?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>When a skydiver jumps from a plane, gravity causes
-            her downward velocity to increase at the rate of <m>g\approx 9.8</m>
-            meters per second squared. At the same time, wind resistance
-            causes her velocity to decrease at a rate proportional to the
-            velocity.</p>
+          her downward velocity to increase at the rate of <m>g\approx 9.8</m>
+          meters per second squared. At the same time, wind resistance
+          causes her velocity to decrease at a rate proportional to the
+          velocity.
 
           <ol>
             <li><p>Using <m>k</m> to represent the constant of proportionality,
@@ -410,12 +431,13 @@
             <li><p>How long does it take to reach 50<percent /> of the terminal
                         velocity?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>During the first few years of life, the rate at which a baby
-            gains weight is proportional to the reciprocal of its weight.</p>
+          gains weight is proportional to the reciprocal of its weight.
 
           <ol>
             <li><p>Express this fact as a differential equation.</p></li>
@@ -425,6 +447,7 @@
 
             <li><p>Do you think this is a realistic model for a long time?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -434,7 +457,7 @@
             the tank at the rate of 3 gallons per minute.</p>
 
           <p>At the same time, the solution is well mixed, and water is pumped
-            out of the tank at the rate of 3 gallons per minute.</p>
+          out of the tank at the rate of 3 gallons per minute.
 
           <ol>
             <li><p>Since 3 gallons enters the tank every minute and 3 gallons
@@ -464,6 +487,7 @@
                   each gallon of the
                   briny solution that enters the tank.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

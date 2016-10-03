@@ -24,8 +24,6 @@ Of course, we have learned many different techniques for evaluating the limits t
 <exploration xml:id="PA_2.8">
 <p>
 Let <m>h</m> be the function given by <m>h(x) = \frac{x^5 + x - 2}{x^2 - 1}</m>.
-</p>
-
 <ol>
 <li><p>What is the domain of <m>h</m>?</p></li>
 <li><p>Explain why <m>\displaystyle\lim_{x \to 1} \frac{x^5 + x
@@ -40,6 +38,8 @@ and <m>g(x) = x^2 - 1</m>. Find the local linearizations of <m>f</m> and <m>g</m
 What do you think your result tells us about <m>\lim_{x \to 1} h(x)</m>?</p></li>
 <li><p>Investigate the function <m>h(x)</m> graphically and numerically near <m>x = 1</m>.  What do you think is the value of <m>\lim_{x \to 1} h(x)</m>?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -109,31 +109,43 @@ By being able to replace the numerator and denominator with their respective der
 <activity xml:id="A_2.8.1">
 <p>
 Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.
-</p>
-
 <ol>
 <li><p><m>\lim_{x \to 0} \frac{\ln(1 + x)}{x}</m></p></li>
 <li><p><m>\lim_{x \to \pi} \frac{\cos(x)}{x}</m></p></li>
 <li><p><m>\lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}}</m></p></li>
 <li><p><m>\lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Remember that <m>\ln(1) = 0</m>.</p></li>
 <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>.</p></li>
 <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>.</p></li>
 <li><p>If necessary, L'Hopital's Rule can be applied more than once.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Remember that <m>\ln(1) = 0</m>, so this limit takes on the indeterminate form <m>\frac{0}{0}</m>.</p></li>
 <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>, so this limit is not indeterminate.  The denominator tends to <m>\pi</m>; what does the numerator approach?</p></li>
 <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>, so this limit is indeterminate in the form <m>\frac{0}{0}</m>.</p></li>
 <li><p>After one application of L'Hopital's Rule, you should find yet another indeterminate form, to which you can again apply the rule.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>As <m>x \to 0</m>, we see that <m>\ln(1+x) \to \ln(1) = 0</m>, thus this limit has an indeterminate form.  By L'Hopital's Rule, we have
 <me>
@@ -169,7 +181,10 @@ In the newest limit, we note that <m>\sin(x) \to 0</m> but <m>\cos(2x) \to 1</m>
   \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  0.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 While L'Hopital's Rule can be applied in an entirely algebraic way,
 </p>
@@ -210,21 +225,33 @@ In this activity, we reason graphically from the following figure to evaluate li
 </me>
 without further information being provided, but that you can determine the sign of <m>\lim_{x \to 2} \frac{r(x)}{s(x)}</m>.  In addition, state what the sign of the limit will be, with justification.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.</p></li>
 <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?</p></li>
 <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.  Think about whether or not L'Hopital's Rule applies to the limit under consideration.</p></li>
 <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?  If not, what are your options for evaluating the limit?</p></li>
 <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit and that the sign of <m>f''(a)</m> is connected to to the concavity of the graph of <m>f</m> at the value <m>x = a</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>From the given graph, we observe that <m>f(2) = 0</m>, <m>f'(2) = \frac{1}{2}</m>, <m>g(2)=0</m>, and <m>g'(2) = 4</m>.  By L'Hopital's Rule,
 <me>
@@ -251,7 +278,10 @@ provided that <m>s''(2) \ne 0</m>.  Since we do not know the values of <m>r''(2)
   \lim_{x \to 2} \frac{r(x)}{s(x)} \lt  0.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -386,8 +416,6 @@ Now, since <m>2</m> is constant and <m>e^x \to \infty</m> as <m>x \to \infty</m>
 <activity xml:id="A_2.8.3">
 <p>
 Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.
-</p>
-
 <ol>
 <li><p><m>\lim_{x \to \infty} \frac{x}{\ln(x)}</m></p></li>
 <li><p><m>\lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2}</m></p></li>
@@ -395,8 +423,11 @@ Evaluate each of the following limits. If you use L'Hopital's Rule, indicate whe
 <li><p><m>\lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}}</m></p></li>
 <li><p><m>\lim_{x \to \infty} xe^{-x}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>.</p></li>
 <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.</p></li>
@@ -404,7 +435,13 @@ Evaluate each of the following limits. If you use L'Hopital's Rule, indicate whe
 <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
 <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>, so this limit is indeterminate.</p></li>
 <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.  Remember that L'Hopital's Rule can be applied more than once, if needed.</p></li>
@@ -412,8 +449,13 @@ Evaluate each of the following limits. If you use L'Hopital's Rule, indicate whe
 <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
 <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>, so this limit can be rearranged to have indeterminate form <m>\frac{\infty}{\infty}.</m></p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>As both numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>, by L'Hopital's Rule followed by some elementary algebra,
 <me>
@@ -453,7 +495,10 @@ Since <m>e^x \to \infty</m> as <m>x \to \infty</m>, we find that
   \lim_{x \to \infty} xe^{-x} = 0.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 When we are considering the limit of a quotient of two functions <m>\frac{f(x)}{g(x)}</m> that results in an indeterminate form of <m>\frac{\infty}{\infty}</m>, in essence we are asking which function is growing faster without bound. We say that the function <m>g</m> <em>dominates</em> the function <m>f</m> as <m>x \to \infty</m> provided that
 <me>
@@ -511,14 +556,14 @@ where <m>a</m>, <m>b</m>, and <m>c</m> are distinct, arbitrary constants. In add
 <statement>
 <p>
 Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m>. Observe that <m>\lim_{x \to 0^+} g(x)</m> is indeterminate due to its form of <m>0^0</m>. (Think about how we know that <m>0^k = 0</m> for all <m>k > 0</m>, while <m>b^0 = 1</m> for all <m>b \ne 0</m>, but that neither rule can apply to <m>0^0</m>.)
-</p>
-
 <ol>
 <li><p>Let <m>h(x) = \ln(g(x))</m>.  Explain why <m>h(x) = 2x \ln(x).</m></p></li>
 <li><p>Next, explain why it is equivalent to write <m>h(x) = \frac{2\ln(x)}{\frac{1}{x}}</m>.</p></li>
 <li><p>Use L'Hopital's Rule and your work in (b) to compute <m>\lim_{x \to 0^+} h(x)</m>.</p></li>
 <li><p>Based on the value of <m>\lim_{x \to 0^+} h(x)</m>, determine <m>\lim_{x \to 0^+} g(x).</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -526,8 +571,6 @@ Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m
 <statement>
 <p>
 Recall we say that function <m>g</m> dominates function <m>f</m> provided that <m>\lim_{x \to \infty} f(x) = \infty</m>, <m>\lim_{x \to \infty} g(x) = \infty</m>, and <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0</m>.
-</p>
-
 <ol>
 <li><p>Which function dominates the other: <m>\ln(x)</m> or <m>\sqrt{x}</m>?</p></li>
 <li><p>Which function dominates the other: <m>\ln(x)</m> or <m>\sqrt[n]{x}</m>? (<m>n</m> can be any positive integer)</p></li>
@@ -535,6 +578,8 @@ Recall we say that function <m>g</m> dominates function <m>f</m> provided that <
 <li><p>Explain why <m>x^n</m> will dominate <m>\ln(x)</m> for any positive integer <m>n</m>.</p></li>
 <li><p>Give any example of two nonlinear functions such that neither dominates the other.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

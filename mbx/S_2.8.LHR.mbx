@@ -20,7 +20,7 @@
     <p>Of course, we have learned many different techniques for evaluating the limits that result from the derivative definition, and including a large number of shortcut rules that enable us to evaluate these limits quickly and easily. In this section, we turn the situation upside-down: rather than using limits to evaluate derivatives, we explore how to use derivatives to evaluate certain limits. This topic will combine several different ideas, including limits, derivative shortcuts, local linearity, and the tangent line approximation.</p>
 
     <exploration xml:id="PA_2.8">
-      <p>Let <m>h</m> be the function given by <m>h(x) = \frac{x^5 + x - 2}{x^2 - 1}</m>.</p>
+      <p>Let <m>h</m> be the function given by <m>h(x) = \frac{x^5 + x - 2}{x^2 - 1}</m>.
 
       <ol>
         <li><p>What is the domain of <m>h</m>?</p></li>
@@ -41,6 +41,7 @@
 
         <li><p>Investigate the function <m>h(x)</m> graphically and numerically near <m>x = 1</m>.  What do you think is the value of <m>\lim_{x \to 1} h(x)</m>?</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -98,7 +99,7 @@
     <p>By being able to replace the numerator and denominator with their respective derivatives, we often move from an indeterminate limit to one whose value we can easily determine.</p>
 
     <activity xml:id="A_2.8.1">
-      <p>Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.</p>
+      <p>Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.
 
       <ol>
         <li><p><m>\lim_{x \to 0} \frac{\ln(1 + x)}{x}</m></p></li>
@@ -109,72 +110,83 @@
 
         <li><p><m>\lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1}</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that <m>\ln(1) = 0</m>.</p></li>
+
+          <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>.</p></li>
+
+          <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>.</p></li>
+
+          <li><p>If necessary, L'Hopital's Rule can be applied more than once.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that <m>\ln(1) = 0</m>, so this limit takes on the indeterminate form <m>\frac{0}{0}</m>.</p></li>
+
+          <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>, so this limit is not indeterminate.  The denominator tends to <m>\pi</m>; what does the numerator approach?</p></li>
+
+          <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>, so this limit is indeterminate in the form <m>\frac{0}{0}</m>.</p></li>
+
+          <li><p>After one application of L'Hopital's Rule, you should find yet another indeterminate form, to which you can again apply the rule.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>As <m>x \to 0</m>, we see that <m>\ln(1+x) \to \ln(1) = 0</m>, thus this limit has an indeterminate form.  By L'Hopital's Rule, we have
+              <me>
+                \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \lim_{x \to 0} \frac{\frac{1}{1 + x}}{1}.
+              </me>
+              As this limit is no longer indeterminate, we may simply allow <m>x \to 0</m>, and thus we find that
+              <me>
+                \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \frac{\frac{1}{1 + 0}}{1} = 1.
+              </me>
+            </p></li>
+
+          <li><p>Observe that
+              <me>
+                \lim_{x \to \pi} \frac{\cos(x)}{x} = \frac{\cos(\pi)}{\pi} = -\frac{1}{\pi},
+              </me>
+              since this limit is not indeterminate because the function <m>\frac{\cos(x)}{x}</m> is continuous at <m>x = \pi</m>.</p></li>
+
+          <li><p>Since <m>\ln(x) \to 0</m> and <m>e^{x-1} \to 1</m> as <m>x \to 0</m>, this limit is indeterminate with form <m>\frac{0}{0}</m>.  Hence, by L'Hopital's Rule,
+              <me>
+                \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \lim_{x \to 1} \frac{\frac{2}{x}}{-e^{x-1}}.
+              </me>
+              The updated limit is not indeterminate, and allowing <m>x \to 1</m>, we find
+              <me>
+                \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \frac{\frac{2}{1}}{-e^{0}} = -2.
+              </me>
+            </p></li>
+
+          <li><p>Since the given limit is indeterminate of form <m>\frac{0}{0}</m>, by L'Hopital's Rule we have
+              <me>
+                \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{\cos(x) - 1}{-2\sin(2x)}.
+              </me>
+              Now, as <m>x \to 0</m>, <m>\cos(x) \to 1</m> and <m>\sin(2x) \to 0</m>, which makes the latest limit also indeterminate in form <m>\frac{0}{0}</m>.  Applying L'Hopital's Rule a second time, we now have
+              <me>
+                \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{-\sin(x)}{-4\cos(2x)}.
+              </me>
+              In the newest limit, we note that <m>\sin(x) \to 0</m> but <m>\cos(2x) \to 1</m> as <m>x \to 0</m>, so the numerator is tending to 0 while the denominator is approaching <m>-4</m>.  Thus, the value of the limit is determined to be
+              <me>
+                \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  0.
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Remember that <m>\ln(1) = 0</m>.</p></li>
 
-        <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>.</p></li>
-
-        <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>.</p></li>
-
-        <li><p>If necessary, L'Hopital's Rule can be applied more than once.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Remember that <m>\ln(1) = 0</m>, so this limit takes on the indeterminate form <m>\frac{0}{0}</m>.</p></li>
-
-        <li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>, so this limit is not indeterminate.  The denominator tends to <m>\pi</m>; what does the numerator approach?</p></li>
-
-        <li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>, so this limit is indeterminate in the form <m>\frac{0}{0}</m>.</p></li>
-
-        <li><p>After one application of L'Hopital's Rule, you should find yet another indeterminate form, to which you can again apply the rule.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>As <m>x \to 0</m>, we see that <m>\ln(1+x) \to \ln(1) = 0</m>, thus this limit has an indeterminate form.  By L'Hopital's Rule, we have
-            <me>
-              \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \lim_{x \to 0} \frac{\frac{1}{1 + x}}{1}.
-            </me>
-            As this limit is no longer indeterminate, we may simply allow <m>x \to 0</m>, and thus we find that
-            <me>
-              \lim_{x \to 0} \frac{\ln(1 + x)}{x} = \frac{\frac{1}{1 + 0}}{1} = 1.
-            </me>
-          </p></li>
-
-        <li><p>Observe that
-            <me>
-              \lim_{x \to \pi} \frac{\cos(x)}{x} = \frac{\cos(\pi)}{\pi} = -\frac{1}{\pi},
-            </me>
-            since this limit is not indeterminate because the function <m>\frac{\cos(x)}{x}</m> is continuous at <m>x = \pi</m>.</p></li>
-
-        <li><p>Since <m>\ln(x) \to 0</m> and <m>e^{x-1} \to 1</m> as <m>x \to 0</m>, this limit is indeterminate with form <m>\frac{0}{0}</m>.  Hence, by L'Hopital's Rule,
-            <me>
-              \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \lim_{x \to 1} \frac{\frac{2}{x}}{-e^{x-1}}.
-            </me>
-            The updated limit is not indeterminate, and allowing <m>x \to 1</m>, we find
-            <me>
-              \lim_{x \to 1} \frac{2 \ln(x)}{1-e^{x-1}} = \frac{\frac{2}{1}}{-e^{0}} = -2.
-            </me>
-          </p></li>
-
-        <li><p>Since the given limit is indeterminate of form <m>\frac{0}{0}</m>, by L'Hopital's Rule we have
-            <me>
-              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{\cos(x) - 1}{-2\sin(2x)}.
-            </me>
-            Now, as <m>x \to 0</m>, <m>\cos(x) \to 1</m> and <m>\sin(2x) \to 0</m>, which makes the latest limit also indeterminate in form <m>\frac{0}{0}</m>.  Applying L'Hopital's Rule a second time, we now have
-            <me>
-              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  \lim_{x \to 0} \frac{-\sin(x)}{-4\cos(2x)}.
-            </me>
-            In the newest limit, we note that <m>\sin(x) \to 0</m> but <m>\cos(2x) \to 1</m> as <m>x \to 0</m>, so the numerator is tending to 0 while the denominator is approaching <m>-4</m>.  Thus, the value of the limit is determined to be
-            <me>
-              \lim_{x \to 0} \frac{\sin(x) - x}{\cos(2x)-1} =  0.
-            </me>
-          </p></li>
-      </ol>
-    </solution>
     <p>While L'Hopital's Rule can be applied in an entirely algebraic way,</p>
 
     <figure xml:id="F_2.8.LHR2" >
@@ -217,58 +229,67 @@
             </me>
             without further information being provided, but that you can determine the sign of <m>\lim_{x \to 2} \frac{r(x)}{s(x)}</m>.  In addition, state what the sign of the limit will be, with justification.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.</p></li>
+
+          <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?</p></li>
+
+          <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.  Think about whether or not L'Hopital's Rule applies to the limit under consideration.</p></li>
+
+          <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?  If not, what are your options for evaluating the limit?</p></li>
+
+          <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit and that the sign of <m>f''(a)</m> is connected to to the concavity of the graph of <m>f</m> at the value <m>x = a</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>From the given graph, we observe that <m>f(2) = 0</m>, <m>f'(2) = \frac{1}{2}</m>, <m>g(2)=0</m>, and <m>g'(2) = 4</m>.  By L'Hopital's Rule,
+              <me>
+                \lim_{x \to 2} \frac{f(x)}{g(x)} = \frac{f'(2)}{g'(2)} = \frac{\frac{1}{2}}{4} = \frac{1}{8}.
+              </me>
+            </p></li>
+
+          <li><p>The given graph tells us that <m>p(2) = 1.5</m>, <m>p'(2)=-1</m>, <m>q(2)=1.5</m>, and <m>q'(2)=0</m>.  Note well that the given limit,
+              <me>
+                \lim_{x \to 2} \frac{p(x)}{q(x)},
+              </me>
+              is not indeterminate, and thus L'Hopital's Rule does not apply.  Rather, since <m>p(x) \to 1.5</m> and <m>q(x) \to 1.5</m> as <m>x \to 2</m>, we have that
+              <me>
+                \lim_{x \to 2} \frac{p(x)}{q(x)} = \frac{p(2)}{q(2)} = \frac{1.5}{1.5} = 1.
+              </me>
+            </p></li>
+
+          <li><p>From the third graph,  <m>r(2)=0</m>, <m>r'(2)=0</m>, <m>s(2)=0</m>, <m>s'(2)=0</m>.  By L'Hopital's Rule,
+              <me>
+                \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r'(x)}{s'(x)},
+              </me>
+              but this limit is still indeterminate, so by L'Hopital's Rule again,
+              <me>
+                \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r''(x)}{s''(x)} = \frac{r''(2)}{s''(2)},
+              </me>
+              provided that <m>s''(2) \ne 0</m>.  Since we do not know the values of <m>r''(2)</m> and <m>s''(2)</m>, we can't determine the actual value of the limit, but from the graph it appears that <m>r''(2) > 0</m> (since <m>r</m> is concave up) and that <m>s''(2) \lt  0</m> (because <m>s</m> is concave down), and therefore
+              <me>
+                \lim_{x \to 2} \frac{r(x)}{s(x)} \lt  0.
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.</p></li>
-
-        <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?</p></li>
-
-        <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.  Think about whether or not L'Hopital's Rule applies to the limit under consideration.</p></li>
-
-        <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?  If not, what are your options for evaluating the limit?</p></li>
-
-        <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit and that the sign of <m>f''(a)</m> is connected to to the concavity of the graph of <m>f</m> at the value <m>x = a</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>From the given graph, we observe that <m>f(2) = 0</m>, <m>f'(2) = \frac{1}{2}</m>, <m>g(2)=0</m>, and <m>g'(2) = 4</m>.  By L'Hopital's Rule,
-            <me>
-              \lim_{x \to 2} \frac{f(x)}{g(x)} = \frac{f'(2)}{g'(2)} = \frac{\frac{1}{2}}{4} = \frac{1}{8}.
-            </me>
-          </p></li>
-
-        <li><p>The given graph tells us that <m>p(2) = 1.5</m>, <m>p'(2)=-1</m>, <m>q(2)=1.5</m>, and <m>q'(2)=0</m>.  Note well that the given limit,
-            <me>
-              \lim_{x \to 2} \frac{p(x)}{q(x)},
-            </me>
-            is not indeterminate, and thus L'Hopital's Rule does not apply.  Rather, since <m>p(x) \to 1.5</m> and <m>q(x) \to 1.5</m> as <m>x \to 2</m>, we have that
-            <me>
-              \lim_{x \to 2} \frac{p(x)}{q(x)} = \frac{p(2)}{q(2)} = \frac{1.5}{1.5} = 1.
-            </me>
-          </p></li>
-
-        <li><p>From the third graph,  <m>r(2)=0</m>, <m>r'(2)=0</m>, <m>s(2)=0</m>, <m>s'(2)=0</m>.  By L'Hopital's Rule,
-            <me>
-              \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r'(x)}{s'(x)},
-            </me>
-            but this limit is still indeterminate, so by L'Hopital's Rule again,
-            <me>
-              \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r''(x)}{s''(x)} = \frac{r''(2)}{s''(2)},
-            </me>
-            provided that <m>s''(2) \ne 0</m>.  Since we do not know the values of <m>r''(2)</m> and <m>s''(2)</m>, we can't determine the actual value of the limit, but from the graph it appears that <m>r''(2) > 0</m> (since <m>r</m> is concave up) and that <m>s''(2) \lt  0</m> (because <m>s</m> is concave down), and therefore
-            <me>
-              \lim_{x \to 2} \frac{r(x)}{s(x)} \lt  0.
-            </me>
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -375,7 +396,7 @@
     </p>
 
     <activity xml:id="A_2.8.3">
-      <p>Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.</p>
+      <p>Evaluate each of the following limits. If you use L'Hopital's Rule, indicate where it was used, and be certain its hypotheses are met before you apply it.
 
       <ol>
         <li><p><m>\lim_{x \to \infty} \frac{x}{\ln(x)}</m></p></li>
@@ -388,82 +409,93 @@
 
         <li><p><m>\lim_{x \to \infty} xe^{-x}</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>.</p></li>
+
+          <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.</p></li>
+
+          <li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>.</p></li>
+
+          <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
+
+          <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>, so this limit is indeterminate.</p></li>
+
+          <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.  Remember that L'Hopital's Rule can be applied more than once, if needed.</p></li>
+
+          <li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>, and that <m>\ln(x) \to -\infty</m> as <m>x \to 0^+</m>.</p></li>
+
+          <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
+
+          <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>, so this limit can be rearranged to have indeterminate form <m>\frac{\infty}{\infty}.</m></p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>As both numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>, by L'Hopital's Rule followed by some elementary algebra,
+              <me>
+                \lim_{x \to \infty} \frac{x}{\ln(x)} = \lim_{x \to \infty} \frac{1}{\frac{1}{x}} = \lim_{x \to \infty} x = \infty.
+              </me>
+            </p></li>
+
+          <li><p>Because this limit has indeterminate form <m>\frac{\infty}{\infty}</m>, L'Hopital's Rule tells us that
+              <me>
+                \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x} + 1}{2e^{x} + 2x}.
+              </me>
+              The latest limit is indeterminate for the same reason, and a second application of the rule shows
+              <me>
+                \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x} + 2}.
+              </me>
+              Note how each application of the rule produces a simpler numerator and denominator.  With one more use of L'Hopital's Rule, followed by a simple algebraic simplification, we have
+              <me>
+                \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x}} = \lim_{x \to \infty} \frac{1}{2} = \frac{1}{2}.
+              </me>
+            </p></li>
+
+          <li><p>As <m>x \to 0^+</m>, <m>\ln(x) \to -\infty</m> and <m>\frac{1}{x} \to +\infty</m>, thus by L'Hopital's Rule,
+              <me>
+                \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{\frac{1}{x}}{-\frac{1}{x^2}}.
+              </me>
+              Reciprocating, multiplying, and simplifying, it follows that
+              <me>
+                \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{1}{x}\cdot \frac{x^2}{-1} = \lim_{x \to 0^+} -x = 0.
+              </me>
+            </p></li>
+
+          <li><p>Here, the numerator tends to <m>\infty</m> while the denominator tends to <m>0^-</m>.  Note well that this limit is not indeterminate, but rather produces a collection of fractions with large positive numerators and small negative denominators.  Hence
+              <me>
+                \lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}} = -\infty.
+              </me>
+              In particular, we observe that L'Hopital's Rule is not applicable here.</p></li>
+
+          <li><p>In its original form, <m>\lim_{x \to \infty} xe^{-x}</m>, is indeterminate of form <m>\infty \cdot 0</m>.  Rewriting <m>e^{-x}</m> as <m>\frac{1}{e^x}</m>, a straightforward application of L'Hopital's Rule tells us that
+              <me>
+                \lim_{x \to \infty} xe^{-x} = \lim_{x \to \infty} \frac{x}{e^x} = \lim_{x \to \infty} \frac{1}{e^x}.
+              </me>
+              Since <m>e^x \to \infty</m> as <m>x \to \infty</m>, we find that
+              <me>
+                \lim_{x \to \infty} xe^{-x} = 0.
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>.</p></li>
 
-        <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.</p></li>
-
-        <li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>.</p></li>
-
-        <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
-
-        <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>, so this limit is indeterminate.</p></li>
-
-        <li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.  Remember that L'Hopital's Rule can be applied more than once, if needed.</p></li>
-
-        <li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>, and that <m>\ln(x) \to -\infty</m> as <m>x \to 0^+</m>.</p></li>
-
-        <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
-
-        <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>, so this limit can be rearranged to have indeterminate form <m>\frac{\infty}{\infty}.</m></p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>As both numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>, by L'Hopital's Rule followed by some elementary algebra,
-            <me>
-              \lim_{x \to \infty} \frac{x}{\ln(x)} = \lim_{x \to \infty} \frac{1}{\frac{1}{x}} = \lim_{x \to \infty} x = \infty.
-            </me>
-          </p></li>
-
-        <li><p>Because this limit has indeterminate form <m>\frac{\infty}{\infty}</m>, L'Hopital's Rule tells us that
-            <me>
-              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x} + 1}{2e^{x} + 2x}.
-            </me>
-            The latest limit is indeterminate for the same reason, and a second application of the rule shows
-            <me>
-              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x} + 2}.
-            </me>
-            Note how each application of the rule produces a simpler numerator and denominator.  With one more use of L'Hopital's Rule, followed by a simple algebraic simplification, we have
-            <me>
-              \lim_{x \to \infty} \frac{e^{x} + x}{2e^{x} + x^2} = \lim_{x \to \infty} \frac{e^{x}}{2e^{x}} = \lim_{x \to \infty} \frac{1}{2} = \frac{1}{2}.
-            </me>
-          </p></li>
-
-        <li><p>As <m>x \to 0^+</m>, <m>\ln(x) \to -\infty</m> and <m>\frac{1}{x} \to +\infty</m>, thus by L'Hopital's Rule,
-            <me>
-              \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{\frac{1}{x}}{-\frac{1}{x^2}}.
-            </me>
-            Reciprocating, multiplying, and simplifying, it follows that
-            <me>
-              \lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{1}{x}\cdot \frac{x^2}{-1} = \lim_{x \to 0^+} -x = 0.
-            </me>
-          </p></li>
-
-        <li><p>Here, the numerator tends to <m>\infty</m> while the denominator tends to <m>0^-</m>.  Note well that this limit is not indeterminate, but rather produces a collection of fractions with large positive numerators and small negative denominators.  Hence
-            <me>
-              \lim_{x \to \frac{\pi}{2}^-} \frac{\tan(x)}{x-\frac{\pi}{2}} = -\infty.
-            </me>
-            In particular, we observe that L'Hopital's Rule is not applicable here.</p></li>
-
-        <li><p>In its original form, <m>\lim_{x \to \infty} xe^{-x}</m>, is indeterminate of form <m>\infty \cdot 0</m>.  Rewriting <m>e^{-x}</m> as <m>\frac{1}{e^x}</m>, a straightforward application of L'Hopital's Rule tells us that
-            <me>
-              \lim_{x \to \infty} xe^{-x} = \lim_{x \to \infty} \frac{x}{e^x} = \lim_{x \to \infty} \frac{1}{e^x}.
-            </me>
-            Since <m>e^x \to \infty</m> as <m>x \to \infty</m>, we find that
-            <me>
-              \lim_{x \to \infty} xe^{-x} = 0.
-            </me>
-          </p></li>
-      </ol>
-    </solution>
     <p>When we are considering the limit of a quotient of two functions <m>\frac{f(x)}{g(x)}</m> that results in an indeterminate form of <m>\frac{\infty}{\infty}</m>, in essence we are asking which function is growing faster without bound. We say that the function <m>g</m> <em>dominates</em> the function <m>f</m> as <m>x \to \infty</m> provided that
       <me>
         \lim_{x \to \infty} \frac{f(x)}{g(x)} = 0,
@@ -488,7 +520,6 @@
           </me>
         </p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
@@ -512,7 +543,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m>. Observe that <m>\lim_{x \to 0^+} g(x)</m> is indeterminate due to its form of <m>0^0</m>. (Think about how we know that <m>0^k = 0</m> for all <m>k > 0</m>, while <m>b^0 = 1</m> for all <m>b \ne 0</m>, but that neither rule can apply to <m>0^0</m>.)</p>
+          <p>Consider the function <m>g(x) = x^{2x}</m>, which is defined for all <m>x > 0</m>. Observe that <m>\lim_{x \to 0^+} g(x)</m> is indeterminate due to its form of <m>0^0</m>. (Think about how we know that <m>0^k = 0</m> for all <m>k > 0</m>, while <m>b^0 = 1</m> for all <m>b \ne 0</m>, but that neither rule can apply to <m>0^0</m>.)
 
           <ol>
             <li><p>Let <m>h(x) = \ln(g(x))</m>.  Explain why <m>h(x) = 2x \ln(x).</m></p></li>
@@ -523,11 +554,12 @@
 
             <li><p>Based on the value of <m>\lim_{x \to 0^+} h(x)</m>, determine <m>\lim_{x \to 0^+} g(x).</m></p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Recall we say that function <m>g</m> dominates function <m>f</m> provided that <m>\lim_{x \to \infty} f(x) = \infty</m>, <m>\lim_{x \to \infty} g(x) = \infty</m>, and <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0</m>.</p>
+          <p>Recall we say that function <m>g</m> dominates function <m>f</m> provided that <m>\lim_{x \to \infty} f(x) = \infty</m>, <m>\lim_{x \to \infty} g(x) = \infty</m>, and <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0</m>.
 
           <ol>
             <li><p>Which function dominates the other: <m>\ln(x)</m> or <m>\sqrt{x}</m>?</p></li>
@@ -540,6 +572,7 @@
 
             <li><p>Give any example of two nonlinear functions such that neither dominates the other.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

@@ -34,8 +34,6 @@ While the areas <m>A_1</m>, <m>A_2</m>, and <m>A_3</m>, which are each given by 
 <exploration xml:id="PA_4.4">
 <p>
 A student with a third floor dormitory window 32 feet off the ground tosses a water balloon straight up in the air with an initial velocity of 16 feet per second. It turns out that the instantaneous velocity of the water balloon is given by the velocity function <m>v(t) = -32t + 16</m>, where <m>v</m> is measured in feet per second and <m>t</m> is measured in seconds.
-</p>
-
 <ol>
 <li><p>Let <m>s(t)</m> represent the height of the water balloon above the ground at time <m>t</m>, and note that <m>s</m> is an antiderivative of <m>v</m>.  That is, <m>v</m> is the derivative of <m>s</m>: <m>s'(t) = v(t)</m>.  Find a formula for <m>s(t)</m> that satisfies the initial condition that the balloon is tossed from 32 feet above ground.  In other words, make your formula for <m>s</m> satisfy <m>s(0) = 32</m>.</p></li>
 <li><p>At what time does the water balloon reach its maximum height?  At what time does the water balloon land?</p></li>
@@ -43,6 +41,8 @@ A student with a third floor dormitory window 32 feet off the ground tosses a wa
 <li><p>What is the total vertical distance traveled by the water balloon from the time it is tossed until the time it lands?</p></li>
 <li><p>Sketch a graph of the velocity function <m>y = v(t)</m> on the time interval <m>[0,2]</m>.  What is the total net signed area bounded by <m>y = v(t)</m> and the <m>t</m>-axis on <m>[0,2]</m>?  Answer this question in two ways:  first by using your work above, and then by using a familiar geometric formula to compute areas of certain relevant regions.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -135,8 +135,6 @@ But finding an antiderivative can be far from simple; in fact, often finding a f
 <activity xml:id="A_4.4.1">
 <p>
 Use the Fundamental Theorem of Calculus to evaluate each of the following integrals exactly. For each, sketch a graph of the integrand on the relevant interval and write one sentence that explains the meaning of the value of the integral in terms of the (net signed) area bounded by the curve.
-</p>
-
 <ol>
 <li><p><m>\int_{-1}^4 (2-2x) \, dx</m></p></li>
 <li><p><m>\int_{0}^{\frac{\pi}{2}} \sin(x) \, dx</m></p></li>
@@ -144,8 +142,11 @@ Use the Fundamental Theorem of Calculus to evaluate each of the following integr
 <li><p><m>\int_{-1}^{1} x^5 \, dx</m></p></li>
 <li><p><m>\int_0^2 (3x^3 - 2x^2 - e^x) \, dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Find a function whose derivative is <m>2 - 2x</m>.</p></li>
 <li><p>Which familiar function has derivative <m>\sin(x)</m>?</p></li>
@@ -153,7 +154,13 @@ Use the Fundamental Theorem of Calculus to evaluate each of the following integr
 <li><p>Consider the derivative of <m>x^6</m>.</p></li>
 <li><p>Find an antiderivative for each of the three individual terms in the integrand.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Find a function whose derivative is <m>2 - 2x</m>.</p></li>
 <li><p>Recall that <m>\frac{d}{dx}[\cos(x)] = -\sin(x)</m>.</p></li>
@@ -161,8 +168,13 @@ Use the Fundamental Theorem of Calculus to evaluate each of the following integr
 <li><p>Think about the derivative of <m>x^6</m> and how you might choose an appropriate constant by which to multiply this function.</p></li>
 <li><p>Find an antiderivative for each of the three individual terms in the integrand.  Note, for instance, that <m>\frac{d}{dx} [\frac{3}{4} x^4 ] = 3x^3.</m></p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Because <m>\frac{d}{dx}[2x - x^2] = 2-2x</m>, by the Fundamental Theorem of Calculus,
 <me>
@@ -196,7 +208,10 @@ so
   <mrow>  =\mathstrut \amp  \frac{17}{3} - e^2.</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -302,16 +317,18 @@ Use your knowledge of derivatives of basic functions to complete the above table
 <li><p><m>\displaystyle \int_0^{\pi/3} (2\sin (t) - 4\cos(t) + \sec^2(t) - \pi) \, dt</m></p></li>
 <li><p><m>\displaystyle \int_0^1 (\sqrt{x}-x^2) \, dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
 <p>
 For the table, you might start by constructing a list of all the basic functions whose derivative you know. For the three definite integrals, be sure to recall the sum and constant multiple rules, which work not only for differentiating, but also for antidifferentiating.
 </p>
-</hint>  <hint>
+</hint>
+
+<hint>
 <p>
 For the table, you might start by constructing a list of all the basic functions whose derivative you know. For example, we know that <m>\frac{d}{dx} [\csc(x)] = -\csc(x) \cot(x).</m> For the three definite integrals, be sure to recall the sum and constant multiple rules, which work not only for differentiating, but also for antidifferentiating. Then use the FTC.
 </p>
-</hint>  
+</hint>
+
 <solution>
 <tabular>
 <row bottom="minor"><cell></cell><cell></cell></row>
@@ -371,6 +388,7 @@ For the table, you might start by constructing a list of all the basic functions
 </md></p></li>
 </ol>
 </solution>
+</activity>
 </subsection>
 
 
@@ -382,8 +400,6 @@ For the table, you might start by constructing a list of all the basic functions
 
 <p>
 As we use the Fundamental Theorem of Calculus to evaluate definite integrals, it is essential that we remember and understand the meaning of the numbers we find. We briefly summarize three key interpretations to date.
-</p>
-
 <ul>
 <li><p>For a moving object with instantaneous velocity <m>v(t)</m>, the object's change in position on the time interval <m>[a,b]</m> is given by <m>\int_a^b v(t) \, dt</m>, and whenever <m>v(t) \ge 0</m> on <m>[a,b]</m>, <m>\int_a^b v(t) \, dt</m> tells us the total distance traveled by the object on <m>[a,b]</m>.</p></li>
 <li><p>For any continuous function <m>f</m>, its definite integral <m>\int_a^b f(x) \, dx</m> represents the total net signed area bounded by <m>y = f(x)</m> and the <m>x</m>-axis on <m>[a,b]</m>, where regions that lie below the <m>x</m>-axis have a minus sign associated with their area.</p></li>
@@ -392,6 +408,7 @@ As we use the Fundamental Theorem of Calculus to evaluate definite integrals, it
   f_{\mbox{\tiny{AVG}} [a,b]} = \frac{1}{b-a} \int_a^b f(x) \, dx.
 </me></p></li>
 </ul>
+</p>
 
 <p>
 The Fundamental Theorem of Calculus now enables us to evaluate exactly (without taking a limit of Riemann sums) any definite integral for which we are able to find an antiderivative of the integrand.
@@ -503,23 +520,35 @@ During a 40-minute workout, a person riding an exercise machine burns calories a
 <li><p>Determine the exact average rate at which the person burned calories during the 40-minute workout.</p></li>
 <li><p>At what time(s), if any, is the instantaneous rate at which the person is burning calories equal to the average rate at which she burns calories, on the time interval <m>0 \le t \le 40</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>What are the units on the area of a rectangle found in a Riemann sum for the function <m>y= c(t)</m>?</p></li>
 <li><p>Use the FTC.</p></li>
 <li><p>Recall the formula for <m>c_{\mbox{\tiny{AVG}} [0,40]}</m>.</p></li>
 <li><p>Think carefully about which function tells you the instantaneous rate at which calories are burned.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>What are the units on the area of a rectangle found in a Riemann sum for the function <m>y= c(t)</m>?  What will be the units on area bounded by the curve?</p></li>
 <li><p>Use a definite integral and the FTC, as well as your work in (a).</p></li>
 <li><p>Recall the formula for <m>c_{\mbox{\tiny{AVG}} [0,30]}</m>.  Think about the relevant integral in terms of three subintervals: <m>[0,10]</m>, <m>[10,30]</m>, and <m>[30,40]</m>.</p></li>
 <li><p>Think carefully about which function tells you the instantaneous rate at which calories are burned, and consider your result in (c).</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since the units on a rectangle in a Riemann sum are cal/min for the height and min for the width, the units on the area of such a rectangle are calories, and hence the units on area under the curve <m>y = c(t)</m> are given in total calories.  Hence, the total calories burned during the first 10 minutes of the workout is given by the definite integral <m>\int_0^{10} c(t) \, dt</m>.  We use the FTC and evaluate the integral, finding that
 <md>
@@ -557,7 +586,10 @@ From the graph, it appears that there are two such values of <m>t</m> for which 
 </me>
 it follows that <m>t = \frac{5}{3}(6 \pm \sqrt{6}) \approx 14.082, 5.918</m>, only the second of which lies in <m>0 \le t \le 10</m>.  So one time at which the instantaneous rate at which calories are burned equals the average rate on <m>[0,40]</m> is <m>t = \frac{5}{3}(6 - \sqrt{6}) \approx 5.918.</m>  Similar reasoning leads to the second time that lies in <m>[30,40]</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -610,13 +642,13 @@ A function <m>f</m> is given piecewise by the formula
 \end{array} 
 	\right.
 </me>
-</p>
-
 <ol>
 <li><p>Determine the exact value of the net signed area enclosed by <m>f</m> and the <m>x</m>-axis on the interval <m>[2,5]</m>.</p></li>
 <li><p>Compute the exact average value of <m>f</m> on <m>[0,5]</m>.</p></li>
 <li><p>Find a formula for a function <m>g</m> on <m>5 \le x \le 7</m> so that if we extend the above definition of <m>f</m> so that <m>f(x) = g(x)</m> if <m>5 \le x \le 7</m>, it follows that <m>\int_0^7 f(x) \, dx = 0.</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -648,8 +680,6 @@ single engine aircraft, giving its climb rate at various altitudes, where <m>c(h
 Let a new function called <m>m(h)</m> measure
 the number of minutes required for a plane at altitude <m>h</m> to climb the
 next foot of altitude.
-</p>
-
 <ol>
 <li><p>Determine a similar table of values for <m>m(h)</m> and explain how it is related to the table above.  Be sure to explain the units.</p></li>
 <li><p>Give a careful interpretation of a function whose derivative
@@ -659,6 +689,8 @@ explain in plain English what the function tells us.</p></li>
 10,000 feet of altitude.  Clearly explain why the value of this integral has the required meaning.</p></li>
 <li><p>Use the Riemann sum <m>M_5</m> to estimate the value of the integral you found in (c).  Include units on your result.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 

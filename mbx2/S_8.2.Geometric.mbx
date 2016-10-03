@@ -20,8 +20,6 @@ Warfarin is an anticoagulant that prevents blood clotting; often it is prescribe
 
 <p>
 Suppose warfarin is taken by a particular patient in a 5 mg dose each day. The drug is absorbed by the body and some is excreted from the system between doses. Assume that at the end of a 24 hour period, 8<percent /> of the drug remains in the body. Let <m>Q(n)</m> be the amount (in mg) of warfarin in the body before the <m>(n+1)</m>st dose of the drug is administered.
-</p>
-
 <ol>
 <li><p>Explain why <m>Q(1) = 5 \times 0.08</m> mg.</p></li>
 <li><p>Explain why <m>Q(2) = (5+Q(1)) \times 0.08</m> mg. Then show that
@@ -54,6 +52,8 @@ Suppose warfarin is taken by a particular patient in a 5 mg dose each day. The d
 </tabular>
 </table></p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -84,8 +84,6 @@ Let <m>a</m> and <m>r</m> be real numbers (with <m>r \ne 1</m>) and let
 
 <p>
 In this activity we will find a shortcut formula for <m>S_n</m> that does not involve a sum of <m>n</m> terms.
-</p>
-
 <ol>
 <li><p>Multiply <m>S_n</m> by <m>r</m>. What does the resulting sum look like?</p></li>
 <li><p>Subtract <m>rS_n</m> from <m>S_n</m> and explain why
@@ -94,17 +92,31 @@ In this activity we will find a shortcut formula for <m>S_n</m> that does not in
 </men></p></li>
 <li><p>Solve equation <xref ref="eq_8.2.1_partial_geometric_sum" /> for <m>S_n</m> to find a simple formula for <m>S_n</m> that does not involve adding <m>n</m> terms.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Note that
 <me>
@@ -122,7 +134,10 @@ In this activity we will find a shortcut formula for <m>S_n</m> that does not in
   <mrow>  S_n \amp = a\frac{1-r^n}{1-r}.</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 We can summarize the result of <xref ref="x8.2.Act1">Activity</xref> in the following way.
 </p>
@@ -207,31 +222,43 @@ Recall that
 <me>
   S_n = a\frac{1-r^n}{1-r}.
 </me>
-</p>
-
 <ol>
 <li><p>What should we allow <m>n</m> to approach in order to have <m>S_n</m> approach <m>S</m>?</p></li>
 <li><p>What is the value of  <m>\lim_{n \to \infty} r^n</m> for
-</p>
-
 <ul>
 <li><p><m>|r| > 1</m>?</p></li>
 <li><p><m>|r| \lt  1</m>?</p></li>
 </ul>
+
+</p>
 Explain.</li>
 <li><p>If <m>|r| \lt  1</m>, use the formula for <m>S_n</m> and your observations in (a) and (b) to explain why <m>S</m> is finite and find a resulting formula for <m>S</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>It is the case that
 <me>
@@ -257,7 +284,10 @@ for <m>0 \lt  r \lt  1</m>, we conclude that
 </me>
 when <m>0 \lt  r \lt  1</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 From our work in <xref ref="x8.2.Act2">Activity</xref>, we can now find the value of the geometric series <m>N = \left(\frac{12}{100}\right) + \left(\frac{12}{100}\right)\left(\frac{1}{100}\right) + \left(\frac{12}{100}\right)\left(\frac{1}{100}\right)^2 + \cdots.</m> In particular, using <m>a = \frac{12}{100}</m> and <m>r = \frac{1}{100}</m>, we see that
 <me>
@@ -278,8 +308,6 @@ is
 
 <p>
 We also call this sum <m>S_n</m> the <m>n</m>th <em>partial sum</em><index><main>partial sum</main></index> of the geometric series. We summarize our recent work with geometric series as follows.
-</p>
-
 <ul>
 <li><p>A geometric series is an infinite sum of the form
 <men xml:id="eq_8.2_geometric_series_2" >
@@ -295,11 +323,11 @@ where <m>a</m> and <m>r</m> are real numbers such that <m>r \ne 0</m>.</p></li>
   S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
 </me></p></li>
 </ul>
+
+</p>
 <activity xml:id="x8.2.Act3">
 <p>
 The formulas we have derived for the geometric series and its partial sum so far have assumed we begin indexing our sums at <m>n=0</m>. If instead we have a sum that does not begin at <m>n=0</m>, we can factor out common terms and use our established formulas. This process is illustrated in the examples in this activity.
-</p>
-
 <ol>
 <li><p>Consider the sum
 <me>
@@ -317,17 +345,31 @@ Remove the common factor of <m>ar^3</m> from each term and find the sum of the s
 </me>
 Remove the common factor of <m>ar^n</m> from each term to find the sum of the series.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Factoring out <m>(2)\left(\frac{1}{3}\right)</m> gives us
 <md>
@@ -351,7 +393,10 @@ Remove the common factor of <m>ar^n</m> from each term to find the sum of the se
   <mrow>  \amp = \frac{ar^n}{1-r}.</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -400,8 +445,6 @@ You can be paid <dollar />500 per day or
 <p>
 You can be paid 1 cent the first day, 2 cents the second day, 4 cents the third day, 8 cents the fourth day, and so on, doubling the amount you are paid each day.
 \end{description}
-</p>
-
 <ol>
 <li><p>How much will you be paid for the job in total under Option 1?</p></li>
 <li><p>Complete <xref ref="PA8.2_geometric">Table</xref> to determine the pay you will receive under Option 2 for the first 10 days.
@@ -446,6 +489,8 @@ so Option 2 is definitely the better deal.
 </p>
 </solution></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -453,8 +498,6 @@ so Option 2 is definitely the better deal.
 <statement>
 <p>
 Suppose you drop a golf ball onto a hard surface from a height <m>h</m>. The collision with the ground causes the ball to lose energy and so it will not bounce back to its original height. The ball will then fall again to the ground, bounce back up, and continue. Assume that at each bounce the ball rises back to a height <m>\frac{3}{4}</m> of the height from which it dropped. Let <m>h_n</m> be the height of the ball on the <m>n</m>th bounce, with <m>h_0 = h</m>. In this exercise we will determine the distance traveled by the ball and the time it takes to travel that distance.
-</p>
-
 <ol>
 <li><p>Determine a formula for <m>h_1</m> in terms of <m>h</m>.
 
@@ -522,8 +565,6 @@ So no matter what the initial height of the ball, the ball will bounce infinitel
 </p>
 </solution></p></li>
 <li><p>Next, let's determine the total amount of time the ball is in the air.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -537,9 +578,10 @@ Use this formula to determine the time it takes for the ball to hit the ground a
 <title>(ii)</title>
 <p>
 Use your work in the preceding item, along with that in (a)-(e) above to determine the total amount of time the ball is in the air.</p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -547,8 +589,6 @@ Use your work in the preceding item, along with that in (a)-(e) above to determi
 <statement>
 <p>
 Suppose you play a game with a friend that involves rolling a standard six-sided die. Before a player can participate in the game, he or she must roll a six with the die. Assume that you roll first and that you and your friend take alternate rolls. In this exercise we will determine the probability that you roll the first six.
-</p>
-
 <ol>
 <li><p>Explain why the probability of rolling a six on any single roll (including your first turn) is <m>\frac{1}{6}</m>.</p></li>
 <li><p>If you don't roll a six on your first turn, then in order for you to roll the first six on your second turn, both you and your friend had to fail to roll a six on your first turns, and then you had to succeed in rolling a six on your second turn. Explain why the probability of this event is
@@ -566,6 +606,8 @@ that you to roll the first six on your third turn.</p></li>
 </me>
 Find the sum of this series and determine the probability that you roll the first six.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -573,8 +615,6 @@ Find the sum of this series and determine the probability that you roll the firs
 <statement>
 <p>
 The goal of a federal government stimulus package is to positively affect the economy. Economists and politicians quote numbers like <q><m>k</m> million jobs and a net stimulus to the economy of <m>n</m> billion of dollars.</q> Where do they get these numbers? Let's consider one aspect of a stimulus package: tax cuts. Economists understand that tax cuts or rebates can result in long-term spending that is many times the amount of the rebate. For example, assume that for a typical person, 75<percent /> of her entire income is spent (that is, put back into the economy). Further, assume the government provides a tax cut or rebate that totals <m>P</m> dollars for each person.
-</p>
-
 <ol>
 <li><p>The tax cut of <m>P</m> dollars is income for its recipient. How much of this tax cut will be spent?
 
@@ -630,6 +670,8 @@ So a stimulus of 200 billion dollars adds 600 billion dollars to the economy.
 </p>
 </solution></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 

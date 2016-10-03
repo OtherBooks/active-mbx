@@ -116,7 +116,7 @@
     </p>
 
     <activity xml:id="A_4.3.1">
-      <p>Use known geometric formulas and the net signed area interpretation of the definite integral to evaluate each of the definite integrals below.</p>
+      <p>Use known geometric formulas and the net signed area interpretation of the definite integral to evaluate each of the definite integrals below.
 
       <ol>
         <li><p><m>\int_0^1 3x \, dx</m></p></li>
@@ -127,64 +127,73 @@
 
         <li><p><m>\int_{-3}^4 g(x) \, dx</m>, where <m>g</m> is the function pictured in <xref ref="F_4.3.Act1">Figure</xref>.  Assume that each portion of <m>g</m> is either part of a line or part of a circle.</p></li>
       </ol>
+      </p>
 
       <figure xml:id="F_4.3.Act1" >
         <caption>A function <m>g</m> that is piecewise defined; each piece of the function is part of a circle or part of a line.</caption>
         <image width="73%" source="images/4_3_Act1" />
       </figure>
+      <hint>
+        <p>
 
+        <ol>
+          <li><p>Sketch the region bounded by <m>y = 3x</m> and the <m>x</m>-axis on <m>[0,1]</m>.</p></li>
+
+          <li><p>Sketch the region bounded by <m>y = 2-2x</m> and the <m>x</m>-axis on <m>[-1,4]</m>.</p></li>
+
+          <li><p>Observe that <m>y = \sqrt{1-x^2}</m> is the top half the circle whose equation is <m>x^2 + y^2 = 1</m>.</p></li>
+
+          <li><p>Use known formulas for the area of a triangle, square, or circle appropriately.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Sketch the region bounded by <m>y = 3x</m> and the <m>x</m>-axis on <m>[0,1]</m> and observe that it forms a familiar geometric shape.</p></li>
+
+          <li><p>Sketch the region bounded by <m>y = 2-2x</m> and the <m>x</m>-axis on <m>[-1,4]</m>; think carefully about the role of signed area in determining the value of the integral, and subdivide the problem by considering regions on which the curve is positive and negative.</p></li>
+
+          <li><p>Observe that <m>y = \sqrt{1-x^2}</m> is the top half the circle whose equation is <m>x^2 + y^2 = 1</m>.</p></li>
+
+          <li><p>Use known formulas for the area of a triangle, square, or circle appropriately.  Keep in mind the role of signed area when dealing with the portions of the region that lie below the <m>x</m>-axis.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Because <m>y = 3x</m> and the <m>x</m>-axis bound a triangle with base of length 1 and height <m>3</m> on the interval <m>[0,1]</m>, it follows that
+              <me>
+                \int_0^1 3x \, dx = \frac{1}{2} \cdot 1 \cdot 3 = \frac{3}{2}.
+              </me>
+            </p></li>
+
+          <li><p>For <m>\int_{-1}^4 (2-2x) \, dx</m>, we first sketch the region bounded by the function, as shown below.
+              <image width="73%" source="images/4_3_Act1bSoln" />
+              The line creates two triangles, one with area <m>A_1 = \frac{1}{2} \cdot 2 \cdot 4 = 4</m> and the other with area <m>A_2 = \frac{1}{2} \cdot 3 \cdot 6 = 9</m>.  Since the latter area corresponds to a region below the <m>x</m>-axis, we associate a negative sign to it, and hence find that
+              <me>
+                \int_{-1}^4 (2-2x) \, dx = A_1 - A_2 = 4 - 9 = -5.
+              </me>
+            </p></li>
+
+          <li><p>For <m>\int_{-1}^1 \sqrt{1-x^2} \, dx</m>, we simply observe that this function is the top half of a circle of radius 1, and thus the bounded region is a semicircle of radius 1, thus having an area of <m>\frac{\pi}{2}</m>.  Therefore,
+              <me>
+                \int_{-1}^1 \sqrt{1-x^2} \, dx = \frac{\pi}{2}.
+              </me>
+            </p></li>
+
+          <li><p>Finally, for <m>\int_{-3}^4 g(x) \, dx</m>, where <m>g</m> is the function pictured in <xref ref="F_4.3.Act1">Figure</xref>, we consider the function on seven consecutive subintervals of length 1.  Observe that on <m>[-3,-2]</m>, the bounded area is <m>\frac{1}{2}</m>.  On <m>[-2,-1]</m>, the area is <m>\frac{1}{4} \pi</m>.  Similarly, on the next five subintervals of length 1, the areas bounded are respectively <m>\frac{1}{2}</m>, <m>1</m>, <m>\frac{1}{2}</m>, <m>\frac{1}{4} \pi</m>, and <m>\frac{1}{4} \pi</m>.  Thus, the value of the integral is
+              <me>
+                \int_{-3}^4 g(x) \, dx = \frac{1}{2} + \frac{\pi}{4} - \frac{1}{2} - 1 - \frac{1}{2} + \frac{\pi}{4} + \frac{\pi}{4} = \frac{3\pi}{4} - \frac{3}{2},
+              </me>
+              which is approximately 0.8562.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Sketch the region bounded by <m>y = 3x</m> and the <m>x</m>-axis on <m>[0,1]</m>.</p></li>
-
-        <li><p>Sketch the region bounded by <m>y = 2-2x</m> and the <m>x</m>-axis on <m>[-1,4]</m>.</p></li>
-
-        <li><p>Observe that <m>y = \sqrt{1-x^2}</m> is the top half the circle whose equation is <m>x^2 + y^2 = 1</m>.</p></li>
-
-        <li><p>Use known formulas for the area of a triangle, square, or circle appropriately.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Sketch the region bounded by <m>y = 3x</m> and the <m>x</m>-axis on <m>[0,1]</m> and observe that it forms a familiar geometric shape.</p></li>
-
-        <li><p>Sketch the region bounded by <m>y = 2-2x</m> and the <m>x</m>-axis on <m>[-1,4]</m>; think carefully about the role of signed area in determining the value of the integral, and subdivide the problem by considering regions on which the curve is positive and negative.</p></li>
-
-        <li><p>Observe that <m>y = \sqrt{1-x^2}</m> is the top half the circle whose equation is <m>x^2 + y^2 = 1</m>.</p></li>
-
-        <li><p>Use known formulas for the area of a triangle, square, or circle appropriately.  Keep in mind the role of signed area when dealing with the portions of the region that lie below the <m>x</m>-axis.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Because <m>y = 3x</m> and the <m>x</m>-axis bound a triangle with base of length 1 and height <m>3</m> on the interval <m>[0,1]</m>, it follows that
-            <me>
-              \int_0^1 3x \, dx = \frac{1}{2} \cdot 1 \cdot 3 = \frac{3}{2}.
-            </me>
-          </p></li>
-
-        <li><p>For <m>\int_{-1}^4 (2-2x) \, dx</m>, we first sketch the region bounded by the function, as shown below.
-            <image width="73%" source="images/4_3_Act1bSoln" />
-            The line creates two triangles, one with area <m>A_1 = \frac{1}{2} \cdot 2 \cdot 4 = 4</m> and the other with area <m>A_2 = \frac{1}{2} \cdot 3 \cdot 6 = 9</m>.  Since the latter area corresponds to a region below the <m>x</m>-axis, we associate a negative sign to it, and hence find that
-            <me>
-              \int_{-1}^4 (2-2x) \, dx = A_1 - A_2 = 4 - 9 = -5.
-            </me>
-          </p></li>
-
-        <li><p>For <m>\int_{-1}^1 \sqrt{1-x^2} \, dx</m>, we simply observe that this function is the top half of a circle of radius 1, and thus the bounded region is a semicircle of radius 1, thus having an area of <m>\frac{\pi}{2}</m>.  Therefore,
-            <me>
-              \int_{-1}^1 \sqrt{1-x^2} \, dx = \frac{\pi}{2}.
-            </me>
-          </p></li>
-
-        <li><p>Finally, for <m>\int_{-3}^4 g(x) \, dx</m>, where <m>g</m> is the function pictured in <xref ref="F_4.3.Act1">Figure</xref>, we consider the function on seven consecutive subintervals of length 1.  Observe that on <m>[-3,-2]</m>, the bounded area is <m>\frac{1}{2}</m>.  On <m>[-2,-1]</m>, the area is <m>\frac{1}{4} \pi</m>.  Similarly, on the next five subintervals of length 1, the areas bounded are respectively <m>\frac{1}{2}</m>, <m>1</m>, <m>\frac{1}{2}</m>, <m>\frac{1}{4} \pi</m>, and <m>\frac{1}{4} \pi</m>.  Thus, the value of the integral is
-            <me>
-              \int_{-3}^4 g(x) \, dx = \frac{1}{2} + \frac{\pi}{4} - \frac{1}{2} - 1 - \frac{1}{2} + \frac{\pi}{4} + \frac{\pi}{4} = \frac{3\pi}{4} - \frac{3}{2},
-            </me>
-            which is approximately 0.8562.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -271,7 +280,7 @@
     </p>
 
     <activity xml:id="A_4.3.2">
-      <p>Suppose that the following information is known about the functions <m>f</m>, <m>g</m>, <m>x^2</m>, and <m>x^3</m>:</p>
+      <p>Suppose that the following information is known about the functions <m>f</m>, <m>g</m>, <m>x^2</m>, and <m>x^3</m>:
 
       <ul>
         <li><p><m>\int_0^2 f(x) \, dx = -3</m>; <m>\int_2^5 f(x) \, dx = 2</m></p></li>
@@ -282,8 +291,9 @@
 
         <li><p><m>\int_0^2 x^3 \, dx = 4</m>; <m>\int_2^5 x^3 \, dx = \frac{609}{4}</m></p></li>
       </ul>
+      </p>
 
-      <p>Use the provided information and the rules discussed in the preceding section to evaluate each of the following definite integrals.</p>
+      <p>Use the provided information and the rules discussed in the preceding section to evaluate each of the following definite integrals.
 
       <ol>
         <li><p><m>\int_5^2 f(x) \, dx</m></p></li>
@@ -296,70 +306,80 @@
 
         <li><p><m>\int_5^0 (2x^3 - 7g(x)) \, dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given.</p></li>
+
+          <li><p>Use the values of <m>\int_0^2 g(x) \,dx</m> and <m>\int_2^5 g(x) \,dx</m>.</p></li>
+
+          <li><p>First find <m>\int_0^5 f(x) \, dx</m> and <m>\int_0^5 g(x) \, dx</m>.</p></li>
+
+          <li><p>Use the sum and constant multiple rules.</p></li>
+
+          <li><p>First write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given.</p></li>
+
+          <li><p>Use the values of <m>\int_0^2 g(x) \,dx</m> and <m>\int_2^5 g(x) \,dx</m>.</p></li>
+
+          <li><p>First find <m>\int_0^5 f(x) \, dx</m> and <m>\int_0^5 g(x) \, dx</m>; then use the sum rule.</p></li>
+
+          <li><p>Use the sum and constant multiple rules.  Observe that <m>\int_2^5 (3x^2 - 4x^3) \, dx = 3\int_2^5 x^2 \, dx - 4\int_2^5 x^3 \, dx.</m></p></li>
+
+          <li><p>First write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.  Then use the sum and constant multiple rules.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given, and thus
+              <me>
+                \int_5^2 f(x) \,dx = -\int_2^5 f(x) \, dx = -2.
+              </me>
+            </p></li>
+
+          <li><p>Since <m>\int_0^2 g(x) \,dx = 4</m> and <m>\int_2^5 g(x) \,dx = -1</m>, we have
+              <me>
+                \int_0^5 g(x) \,dx = \int_0^2 g(x) \,dx + \int_2^5 g(x) \,dx = 4 + (-1) = 3.
+              </me>
+            </p></li>
+
+          <li><p>First, using work from and similar to that in (c), we find <m>\int_0^5 f(x) \, dx = -3 + 2 = -1</m> and <m>\int_0^5 g(x) \, dx = 3</m>, thus by the sum rule,
+              <me>
+                \int_0^5 (f(x) + g(x))\, dx = \int_0^5 f(x)\, dx + \int_0^5 g(x)\, dx = -1 + 3 = 2.
+              </me>
+            </p></li>
+
+          <li><p>By the sum and constant multiple rules,
+              <me>
+                \int_2^5 (3x^2 - 4x^3) \, dx = 3\int_2^5 x^2 \, dx - 4\int_2^5 x^3 \, dx = 3 \cdot \frac{117}{3} - 4 \frac{609}{4} = 117 - 609 = -492.
+              </me>
+            </p></li>
+
+          <li><p>First, we write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.  Then, using the sum and constant multiple rules, it follows
+              <md>
+                <mrow>\int_5^0 (2x^3 - 7g(x)) \, dx =\mathstrut \amp  -\int_0^5 (2x^3 - 7g(x)) \, dx</mrow>
+                <mrow>=\mathstrut \amp  -\left(2 \int_0^5 x^3 \, dx - 7 \int_0^5 g(x) \,dx \right)</mrow>
+                <mrow>=\mathstrut \amp  -2 \left(\frac{8}{3} + \frac{117}{3}\right)  + 7 \left(4 +  (-1))\right)</mrow>
+                <mrow>=\mathstrut \amp  -\frac{250}{3} + 21</mrow>
+                <mrow>=\mathstrut \amp  -\frac{187}{3}.</mrow>
+              </md>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given.</p></li>
-
-        <li><p>Use the values of <m>\int_0^2 g(x) \,dx</m> and <m>\int_2^5 g(x) \,dx</m>.</p></li>
-
-        <li><p>First find <m>\int_0^5 f(x) \, dx</m> and <m>\int_0^5 g(x) \, dx</m>.</p></li>
-
-        <li><p>Use the sum and constant multiple rules.</p></li>
-
-        <li><p>First write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given.</p></li>
-
-        <li><p>Use the values of <m>\int_0^2 g(x) \,dx</m> and <m>\int_2^5 g(x) \,dx</m>.</p></li>
-
-        <li><p>First find <m>\int_0^5 f(x) \, dx</m> and <m>\int_0^5 g(x) \, dx</m>; then use the sum rule.</p></li>
-
-        <li><p>Use the sum and constant multiple rules.  Observe that <m>\int_2^5 (3x^2 - 4x^3) \, dx = 3\int_2^5 x^2 \, dx - 4\int_2^5 x^3 \, dx.</m></p></li>
-
-        <li><p>First write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.  Then use the sum and constant multiple rules.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Note that the value of <m>\int_2^5 f(x) \, dx</m> is given, and thus
-            <me>
-              \int_5^2 f(x) \,dx = -\int_2^5 f(x) \, dx = -2.
-            </me>
-          </p></li>
-
-        <li><p>Since <m>\int_0^2 g(x) \,dx = 4</m> and <m>\int_2^5 g(x) \,dx = -1</m>, we have
-            <me>
-              \int_0^5 g(x) \,dx = \int_0^2 g(x) \,dx + \int_2^5 g(x) \,dx = 4 + (-1) = 3.
-            </me>
-          </p></li>
-
-        <li><p>First, using work from and similar to that in (c), we find <m>\int_0^5 f(x) \, dx = -3 + 2 = -1</m> and <m>\int_0^5 g(x) \, dx = 3</m>, thus by the sum rule,
-            <me>
-              \int_0^5 (f(x) + g(x))\, dx = \int_0^5 f(x)\, dx + \int_0^5 g(x)\, dx = -1 + 3 = 2.
-            </me>
-          </p></li>
-
-        <li><p>By the sum and constant multiple rules,
-            <me>
-              \int_2^5 (3x^2 - 4x^3) \, dx = 3\int_2^5 x^2 \, dx - 4\int_2^5 x^3 \, dx = 3 \cdot \frac{117}{3} - 4 \frac{609}{4} = 117 - 609 = -492.
-            </me>
-          </p></li>
-
-        <li><p>First, we write <m>\int_5^0 (2x^3 - 7g(x)) \, dx = -\int_0^5 (2x^3 - 7g(x)) \, dx</m>.  Then, using the sum and constant multiple rules, it follows
-            <md>
-              <mrow>\int_5^0 (2x^3 - 7g(x)) \, dx =\mathstrut \amp  -\int_0^5 (2x^3 - 7g(x)) \, dx</mrow>
-              <mrow>=\mathstrut \amp  -\left(2 \int_0^5 x^3 \, dx - 7 \int_0^5 g(x) \,dx \right)</mrow>
-              <mrow>=\mathstrut \amp  -2 \left(\frac{8}{3} + \frac{117}{3}\right)  + 7 \left(4 +  (-1))\right)</mrow>
-              <mrow>=\mathstrut \amp  -\frac{250}{3} + 21</mrow>
-              <mrow>=\mathstrut \amp  -\frac{187}{3}.</mrow>
-            </md>
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -414,7 +434,7 @@
     <p>Consider <xref ref="F_4.3.AvgVal">Figure</xref>, where we see at left the shaded region whose area is <m>\int_a^b f(x) \, dx</m>, at center the shaded rectangle whose dimensions are <m>(b-a)</m> by <m>f_{\mbox{\tiny{AVG}} [a,b]}</m>, and at right these two figures superimposed. Specifically, note that in dark green we show the horizontal line <m>y = f_{\mbox{\tiny{AVG}} [a,b]}</m>. Thus, the area of the green rectangle is given by <m>(b-a) \cdot f_{\mbox{\tiny{AVG}} [a,b]}</m>, which is precisely the value of <m>\int_a^b f(x) \, dx</m>. Said differently, the area of the blue region in the left figure is the same as that of the green rectangle in the center figure; this can also be seen by observing that the areas <m>A_1</m> and <m>A_2</m> in the rightmost figure appear to be equal. Ultimately, the average value of a function enables us to construct a rectangle whose area is the same as the value of the definite integral of the function on the interval. The java applet<fn>David Austin, \href{http://gvsu.edu/s/5r}{<c>http://gvsu.edu/s/5r</c>}.</fn> at \href{http://gvsu.edu/s/az}{<c>http://gvsu.edu/s/az</c>} provides an opportunity to explore how the average value of the function changes as the interval changes, through an image similar to that found in <xref ref="F_4.3.AvgVal">Figure</xref>.</p>
 
     <activity xml:id="A_4.3.3">
-      <p>Suppose that <m>v(t) = \sqrt{4-(t-2)^2}</m> tells us the instantaneous velocity of a moving object on the interval <m>0 \le t \le 4</m>, where <m>t</m> is measured in minutes and <m>v</m> is measured in meters per minute.</p>
+      <p>Suppose that <m>v(t) = \sqrt{4-(t-2)^2}</m> tells us the instantaneous velocity of a moving object on the interval <m>0 \le t \le 4</m>, where <m>t</m> is measured in minutes and <m>v</m> is measured in meters per minute.
 
       <ol>
         <li><p>Sketch an accurate graph of <m>y = v(t)</m>.  What kind of curve is <m>y = \sqrt{4-(t-2)^2}</m>?</p></li>
@@ -429,62 +449,72 @@
 
         <li><p>How can you use the average value you found in (d) to compute the total distance traveled by the moving object over <m>[0,4]</m>?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Note that <m>y = \sqrt{4-(t-2)^2}</m> is part of the curve given by <m>(t-2)^2 + y^2 = 4</m>.</p></li>
+
+          <li><p>What familiar shape is generated by the curve <m>y = v(t)</m>?</p></li>
+
+          <li><p>Recall the meaning of the area bounded by a nonnegative velocity function on a given interval.</p></li>
+
+          <li><p>From the meaning of the average value of a function, we know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>.</p></li>
+
+          <li><p>Consider a key recent figure in the text.</p></li>
+
+          <li><p>Distance equals average rate times <m>\ldots</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Note that <m>y = \sqrt{4-(t-2)^2}</m> is the top half of the curve given by <m>(t-2)^2 + y^2 = 4</m>, which is a familiar one.</p></li>
+
+          <li><p>What familiar shape is generated by the curve <m>y = v(t)</m>?  What known formula for area helps?</p></li>
+
+          <li><p>Recall the meaning of the area bounded by a nonnegative velocity function on a given interval.  See, for instance, <xref ref="S_4.1.VelocityDistance">Section</xref>.</p></li>
+
+          <li><p>From the meaning of the average value of a function, we know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>.  What are <m>a</m> and <m>b</m> in this problem?</p></li>
+
+          <li><p>Consider a key recent figure in the text and construct a similar drawing for the given function <m>v</m>.</p></li>
+
+          <li><p>Distance equals average rate times time!</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>The curve <m>y = v(t) = \sqrt{4-(t-2)^2}</m> is the top half of the circle <m>(t-2)^2 + y^2 = 4</m>, which has radius 2 and is centered at <m>(2,0)</m>.</p></li>
+
+          <li><p>Thus, the value of <m>\int_0^4 v(t) \, dt</m> is the area of a semicircle of radius 2, which is <m>\frac{1}{2} \pi (2)^2 = 2\pi</m>.</p></li>
+
+          <li><p>Because the velocity <m>v(t)</m> is always nonnegative in this problem, the meaning of <m>\int_0^4 v(t) \, dt = 2\pi</m> is both the distance traveled and the change in position of the object on the interval <m>0 \le t \le \pi</m>.  Specifically, the object moved <m>2 \pi</m> meters in 4 minutes.</p></li>
+
+          <li><p>We know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>, so
+              <me>
+                v_{\mbox{\tiny{AVG}} }[0,4] = \frac{1}{4-0}  \int_0^4 \sqrt{4-(t-2)^2} \, dt = \frac{1}{4} 2\pi = \frac{\pi}{2},
+              </me>
+              which is measured in meters per minute, since the units on <q>4</q> are minutes and on <q><m>2\pi</m></q> are meters.</p></li>
+
+          <li><p>Constructing a figure similar to those shown in this section on the topic of average value of a function, we find the following, which demonstrates a rectangle having the same area as the semicircle.
+              <image width="73%" source="images/4_3_Act3Soln" />
+              The height of the rectangle is the average value of <m>v</m>, specifically <m>v_{\mbox{\tiny{AVG}} }[0,4] = \frac{\pi}{2} \approx 1.57</m>.</p></li>
+
+          <li><p>Knowing that average velocity is <m>\frac{\pi}{2}</m>, it follows from the fact that distance traveled equals average rate times time (provided velocity is always nonnegative), we have
+              <me>
+                D = \frac{\pi}{2} \cdot 4 = 2\pi.
+              </me>
+              We see from (c) or (f) that we are simply considering the situation from two different perspectives: if we know the distance traveled, we can find average velocity, or if we know average velocity, we can find distance traveled.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Note that <m>y = \sqrt{4-(t-2)^2}</m> is part of the curve given by <m>(t-2)^2 + y^2 = 4</m>.</p></li>
-
-        <li><p>What familiar shape is generated by the curve <m>y = v(t)</m>?</p></li>
-
-        <li><p>Recall the meaning of the area bounded by a nonnegative velocity function on a given interval.</p></li>
-
-        <li><p>From the meaning of the average value of a function, we know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>.</p></li>
-
-        <li><p>Consider a key recent figure in the text.</p></li>
-
-        <li><p>Distance equals average rate times <m>\ldots</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Note that <m>y = \sqrt{4-(t-2)^2}</m> is the top half of the curve given by <m>(t-2)^2 + y^2 = 4</m>, which is a familiar one.</p></li>
-
-        <li><p>What familiar shape is generated by the curve <m>y = v(t)</m>?  What known formula for area helps?</p></li>
-
-        <li><p>Recall the meaning of the area bounded by a nonnegative velocity function on a given interval.  See, for instance, <xref ref="S_4.1.VelocityDistance">Section</xref>.</p></li>
-
-        <li><p>From the meaning of the average value of a function, we know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>.  What are <m>a</m> and <m>b</m> in this problem?</p></li>
-
-        <li><p>Consider a key recent figure in the text and construct a similar drawing for the given function <m>v</m>.</p></li>
-
-        <li><p>Distance equals average rate times time!</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>The curve <m>y = v(t) = \sqrt{4-(t-2)^2}</m> is the top half of the circle <m>(t-2)^2 + y^2 = 4</m>, which has radius 2 and is centered at <m>(2,0)</m>.</p></li>
-
-        <li><p>Thus, the value of <m>\int_0^4 v(t) \, dt</m> is the area of a semicircle of radius 2, which is <m>\frac{1}{2} \pi (2)^2 = 2\pi</m>.</p></li>
-
-        <li><p>Because the velocity <m>v(t)</m> is always nonnegative in this problem, the meaning of <m>\int_0^4 v(t) \, dt = 2\pi</m> is both the distance traveled and the change in position of the object on the interval <m>0 \le t \le \pi</m>.  Specifically, the object moved <m>2 \pi</m> meters in 4 minutes.</p></li>
-
-        <li><p>We know <m>v_{\mbox{\tiny{AVG}} }[a,b] = \frac{1}{b-a}  \int_a^b v(t) \, dt</m>, so
-            <me>
-              v_{\mbox{\tiny{AVG}} }[0,4] = \frac{1}{4-0}  \int_0^4 \sqrt{4-(t-2)^2} \, dt = \frac{1}{4} 2\pi = \frac{\pi}{2},
-            </me>
-            which is measured in meters per minute, since the units on <q>4</q> are minutes and on <q><m>2\pi</m></q> are meters.</p></li>
-
-        <li><p>Constructing a figure similar to those shown in this section on the topic of average value of a function, we find the following, which demonstrates a rectangle having the same area as the semicircle.
-            <image width="73%" source="images/4_3_Act3Soln" />
-            The height of the rectangle is the average value of <m>v</m>, specifically <m>v_{\mbox{\tiny{AVG}} }[0,4] = \frac{\pi}{2} \approx 1.57</m>.</p></li>
-
-        <li><p>Knowing that average velocity is <m>\frac{\pi}{2}</m>, it follows from the fact that distance traveled equals average rate times time (provided velocity is always nonnegative), we have
-            <me>
-              D = \frac{\pi}{2} \cdot 4 = 2\pi.
-            </me>
-            We see from (c) or (f) that we are simply considering the situation from two different perspectives: if we know the distance traveled, we can find average velocity, or if we know average velocity, we can find distance traveled.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -506,7 +536,6 @@
           </me>
           where <m>f</m> and <m>g</m> are continuous functions on <m>[a,b]</m> and <m>c</m> and <m>k</m> are arbitrary constants.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
@@ -533,7 +562,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Suppose that the velocity of a moving object is given by <m>v(t) = t(t-1)(t-3)</m>, measured in feet per second, and that this function is valid for <m>0 \le t \le 4</m>.</p>
+          <p>Suppose that the velocity of a moving object is given by <m>v(t) = t(t-1)(t-3)</m>, measured in feet per second, and that this function is valid for <m>0 \le t \le 4</m>.
 
           <ol>
             <li><p>Write an expression involving definite integrals whose value is the total change in position of the object on the interval <m>[0,4]</m>.</p></li>
@@ -546,6 +575,7 @@
 
             <li><p>What is the object's average velocity on <m>[0,4]</m>, accurate to two decimal places?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -574,7 +604,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Let <m>f(x) = 3 - x^2</m> and <m>g(x) = 2x^2</m>.</p>
+          <p>Let <m>f(x) = 3 - x^2</m> and <m>g(x) = 2x^2</m>.
 
           <ol>
             <li><p>On the interval <m>[-1,1]</m>, sketch a labeled graph of <m>y = f(x)</m> and write a definite integral whose value is the exact area bounded by <m>y = f(x)</m> on <m>[-1,1]</m>.</p></li>
@@ -592,6 +622,7 @@
                 </me>
               </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

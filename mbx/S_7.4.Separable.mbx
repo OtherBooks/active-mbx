@@ -64,7 +64,6 @@
 
         <li><p><m>\displaystyle \frac{dy}{dt} = t^2 - y^2</m>.</p></li>
       </ol>
-
       </li>
 
       <li><p>Explain why any autonomous differential equation is guaranteed to be separable.</p></li>
@@ -239,7 +238,7 @@
       <m>C=0</m>.</p>
 
     <activity xml:id="A_7.4.1">
-      <p>Suppose that the population of a town is growing continuously at an annual rate of 3<percent /> per year.</p>
+      <p>Suppose that the population of a town is growing continuously at an annual rate of 3<percent /> per year.
 
       <ol>
         <li><p>Let <m>P(t)</m> be the population of the town in year <m>t</m>.  Write a
@@ -256,30 +255,41 @@
         <li><p>Working more generally, find the doubling time if the annual
               growth rate is <m>k</m> times the population.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <activity xml:id="A_7.4.2">
       <p>Suppose that a cup of coffee is initially at a temperature of
-        105<m>^\circ</m> F and is placed in a 75<m>^\circ</m> F room. Newton's law of
-        cooling says that
-        <me>
-          \frac{dT}{dt} = -k(T-75),
-        </me>
-        where <m>k</m> is a constant of proportionality.</p>
+      105<m>^\circ</m> F and is placed in a 75<m>^\circ</m> F room. Newton's law of
+      cooling says that
+      <me>
+        \frac{dT}{dt} = -k(T-75),
+      </me>
+      where <m>k</m> is a constant of proportionality.
 
       <ol>
         <li><p>Suppose you measure that the coffee is cooling at one degree per
@@ -295,24 +305,35 @@
 
         <li><p>How long does it take for the coffee to cool to 80<m>^\circ</m>?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <activity xml:id="A_7.4.3">
-      <p>Solve each of the following differential equations or initial value problems.</p>
+      <p>Solve each of the following differential equations or initial value problems.
 
       <ol>
         <li><p><m>\frac{dy}{dt} - (2-t) y = 2-t</m></p></li>
@@ -325,22 +346,32 @@
 
         <li><p><m>\frac{dy}{dt} = \frac{-2ty}{t^2 + 1}</m>,  <nbsp /> <m>y(0) = 4</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -359,12 +390,11 @@
             growth and decay and Newton's Law of Cooling give rise to separable
             differential equations.  Later, we will learn in <xref ref="S_7.6.Logistic">Section</xref> that the important logistic differential equation is also separable.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
           <p>The mass of a radioactive sample decays at a rate that is
-            proportional to its mass.</p>
+          proportional to its mass.
 
           <ol>
             <li><p>Express this fact as a differential equation for the mass
@@ -390,15 +420,15 @@
                       amount of Carbon-14 is only 30<percent /> of the amount in living trees.
                       Estimate the age of the firepit.<fn>This approach is the basic idea behind radiocarbon dating.</fn></p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>Consider the initial value problem
-            <me>
-              \frac{dy}{dt} = -\frac ty, \ y(0) = 8
-            </me>
-          </p>
+          <me>
+            \frac{dy}{dt} = -\frac ty, \ y(0) = 8
+          </me>
 
           <ol>
             <li><p>Find the solution of the initial value problem and sketch its
@@ -412,16 +442,17 @@
             <li><p>By looking at the differential equation, explain why we
                       should not expect to find solutions with the value of <m>y</m> you noted in (c).</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>Suppose that a cylindrical water tank with a hole in the
-            bottom is filled with water. The water, of course, will leak out
-            and the height of the water will decrease. Let <m>h(t)</m> denote the
-            height of the water. A physical principle called <em>Torricelli's
-            Law</em> implies that the height decreases at a rate proportional to
-            the square root of the height.</p>
+          bottom is filled with water. The water, of course, will leak out
+          and the height of the water will decrease. Let <m>h(t)</m> denote the
+          height of the water. A physical principle called <em>Torricelli's
+          Law</em> implies that the height decreases at a rate proportional to
+          the square root of the height.
 
           <ol>
             <li><p>Express this fact using <m>k</m> as the constant of
@@ -441,17 +472,17 @@
             <li><p>Is the solution that you found valid for all time <m>t</m>?  If
                       so, explain how you know this.  If not, explain why not.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>The <em>Gompertz equation</em> is a model that is used to
-            describe the growth of certain populations. Suppose that <m>P(t)</m>
-            is the population of some organism and that
-            <me>
-              \frac{dP}{dt} = -P\ln\left(\frac P3\right) = -P(\ln P - \ln 3).
-            </me>
-          </p>
+          describe the growth of certain populations. Suppose that <m>P(t)</m>
+          is the population of some organism and that
+          <me>
+            \frac{dP}{dt} = -P\ln\left(\frac P3\right) = -P(\ln P - \ln 3).
+          </me>
 
           <ol>
             <li><p>Sketch a slope field for <m>P(t)</m> over the range <m>0\leq P\leq
@@ -469,6 +500,7 @@
             <li><p>Verify that the long-term behavior of your solutions agrees
                       with what you predicted by looking at the slope field.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

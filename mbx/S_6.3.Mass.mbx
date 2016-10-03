@@ -24,10 +24,10 @@
     <p>This type of unit analysis will be particularly helpful to us in what follows. To begin, in the following preview activity we consider two different definite integrals where the integrand is a function that measures how a particular quantity is distributed over a region and think about how the units on the integrand and the variable of integration indicate the meaning of the integral.</p>
 
     <exploration xml:id="PA_6.3">
-      <p>In each of the following scenarios, we consider the distribution of a quantity along an axis.</p>
+      <p>In each of the following scenarios, we consider the distribution of a quantity along an axis.
 
       <ol>
-        <li><p>Suppose that the function <m>c(x) = 200 + 100 e^{-0.1x}</m> models the density of traffic on a straight road, measured in cars per mile, where <m>x</m> is number of miles east of a major interchange, and consider the definite integral <m>\int_0^2 (200 + 100 e^{-0.1x}) \, dx</m>.</p>
+        <li><p>Suppose that the function <m>c(x) = 200 + 100 e^{-0.1x}</m> models the density of traffic on a straight road, measured in cars per mile, where <m>x</m> is number of miles east of a major interchange, and consider the definite integral <m>\int_0^2 (200 + 100 e^{-0.1x}) \, dx</m>.
 
         <ul>
           <li>
@@ -46,10 +46,9 @@
             <title>iii.</title>
             <p>Evaluate the definite integral <m>\int_0^2 c(x) \, dx = \int_0^2 (200 + 100 e^{-0.1x}) \, dx</m> and write one sentence to explain the meaning of the value you find.</p></li>
         </ul>
+        </p></li>
 
-        </li>
-
-        <li><p>On a 6 foot long shelf filled with books, the function <m>B</m> models the distribution of the weight of the books, measured in pounds per inch, where <m>x</m> is the number of inches from the left end of the bookshelf.  Let <m>B(x)</m> be given by the rule <m>B(x) = 0.5 + \frac{1}{(x+1)^2}</m>.</p>
+        <li><p>On a 6 foot long shelf filled with books, the function <m>B</m> models the distribution of the weight of the books, measured in pounds per inch, where <m>x</m> is the number of inches from the left end of the bookshelf.  Let <m>B(x)</m> be given by the rule <m>B(x) = 0.5 + \frac{1}{(x+1)^2}</m>.
 
         <ul>
           <li>
@@ -68,9 +67,9 @@
             <title>iii.</title>
             <p>Evaluate the definite integral <m>\int_{0}^{72} B(x) \, dx = \int_0^{72} (0.5 + \frac{1}{(x+1)^2}) \, dx</m> and write one sentence to explain the meaning of the value you find.</p></li>
         </ul>
-
-        </li>
+        </p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -133,12 +132,12 @@
     </p>
 
     <activity xml:id="A_6.3.1">
-      <p>Consider the following situations in which mass is distributed in a non-constant manner.</p>
+      <p>Consider the following situations in which mass is distributed in a non-constant manner.
 
       <ol>
         <li><p>Suppose that a thin rod with constant cross-sectional area of 1 cm<m>^2</m> has its mass distributed according to the density function <m>\rho(x) = 2e^{-0.2x}</m>, where <m>x</m> is the distance in cm from the left end of the rod, and the units on <m>\rho(x)</m> are g/cm.  If the rod is 10 cm long, determine the exact mass of the rod.</p></li>
 
-        <li><p>Consider the cone that has a base of radius 4 m and a height of 5 m.  Picture the cone lying horizontally with the center of its base at the origin and think of the cone as a solid of revolution.</p>
+        <li><p>Consider the cone that has a base of radius 4 m and a height of 5 m.  Picture the cone lying horizontally with the center of its base at the origin and think of the cone as a solid of revolution.
 
         <ul>
           <li>
@@ -153,27 +152,36 @@
             <title>iii.</title>
             <p>Now suppose that the cone's density is not uniform, but rather that the cone is most dense at its base.  In particular, assume that the density of the cone is uniform across cross sections parallel to its base, but that in each such cross section that is a distance <m>x</m> units from the origin, the density of the cross section is given by the function <m>\rho(x) = 400 + \frac{200}{1+x^2}</m>, measured in kg/m<m>^3</m>.  Determine and evaluate a definite integral whose value is the mass of this cone of non-uniform density.  Do so by first thinking about the mass of a given slice of the cone <m>x</m> units away from the base; remember that in such a slice, the density will be <em>essentially constant</em>.</p></li>
         </ul>
-
-        </li>
+        </p></li>
 
         <li><p>Let a thin rod of constant cross-sectional area 1 cm<m>^2</m> and length 12 cm have its mass be distributed according to the density function <m>\rho(x) = \frac{1}{25}(x-15)^2</m>, measured in g/cm.  Find the exact location <m>z</m> at which to cut the bar so that the two pieces will each have identical mass.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -281,7 +289,7 @@
     <p>In the following activity, we explore further how weighted averages can be used to find the balancing point of a physical system.</p>
 
     <activity xml:id="A_6.3.2">
-      <p>For quantities of equal weight, such as two children on a teeter-totter, the balancing point is found by taking the average of their locations. When the weights of the quantities differ, we use a weighted average of their respective locations to find the balancing point.</p>
+      <p>For quantities of equal weight, such as two children on a teeter-totter, the balancing point is found by taking the average of their locations. When the weights of the quantities differ, we use a weighted average of their respective locations to find the balancing point.
 
       <ol>
         <li><p>Suppose that a shelf is 6 feet long, with its left end situated at <m>x = 0</m>.  If one book of weight 1 lb is placed at <m>x_1 = 0</m>, and another book of weight 1 lb is placed at <m>x_2 = 6</m>, what is the location of <m>\overline{x}</m>, the point at which the shelf would (theoretically) balance on a fulcrum?</p></li>
@@ -300,22 +308,32 @@
 
         <li><p>Write a couple of sentences to explain how adjusting the location of one of the books or the weight of one of the books affects the location of the balancing point of the shelf.  Think carefully here about how your changes should be considered relative to the location of the balancing point <m>\overline{x}</m> of the current scenario.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -353,7 +371,7 @@
     <p>Note particularly that the denominator of <m>\overline{x}</m> is the mass of the bar, and that this quotient of integrals is simply the continuous version of the weighted average of locations, <m>x</m>, along the bar.</p>
 
     <activity xml:id="A_6.3.3">
-      <p>Consider a thin bar of length 20 cm whose density is distributed according to the function <m>\rho(x) = 4 + 0.1x</m>, where <m>x = 0</m> represents the left end of the bar. Assume that <m>\rho</m> is measured in g/cm and <m>x</m> is measured in cm.</p>
+      <p>Consider a thin bar of length 20 cm whose density is distributed according to the function <m>\rho(x) = 4 + 0.1x</m>, where <m>x = 0</m> represents the left end of the bar. Assume that <m>\rho</m> is measured in g/cm and <m>x</m> is measured in cm.
 
       <ol>
         <li><p>Find the total mass, <m>M</m>, of the bar.</p></li>
@@ -368,22 +386,32 @@
 
         <li><p>Compute the exact center of mass of the bar described in (e) whose density function is <m>p(x) = 4e^{0.020732x}</m>.  Check the result against the prediction you made in (e).</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -407,11 +435,10 @@
           </me>
           In each situation, <m>\overline{x}</m> represents the balancing point of the system of masses or of the portion of the bar.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Let a thin rod of length <m>a</m> have density distribution function <m>\rho(x) = 10e^{-0.1x}</m>, where <m>x</m> is measured in cm and <m>\rho</m> in grams per centimeter.</p>
+          <p>Let a thin rod of length <m>a</m> have density distribution function <m>\rho(x) = 10e^{-0.1x}</m>, where <m>x</m> is measured in cm and <m>\rho</m> in grams per centimeter.
 
           <ol>
             <li><p>If the mass of the rod is 30 g, what is the value of <m>a</m>?</p></li>
@@ -422,6 +449,7 @@
 
             <li><p>At what value of <m>x</m> should the 30g rod be cut in order to form two pieces of equal mass?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -448,14 +476,13 @@
               <title>iii.</title>
               <p>True or false:  the center of mass of this new bar is the average of the centers of mass of the two earlier bars.  Write at least one sentence to say why your conclusion makes sense.</p></li>
           </ol>
-
           </li>
           </ol>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the curve given by <m>y = f(x) = 2xe^{-1.25x} + (30-x) e^{-0.25(30-x)}</m>.</p>
+          <p>Consider the curve given by <m>y = f(x) = 2xe^{-1.25x} + (30-x) e^{-0.25(30-x)}</m>.
 
           <ol>
             <li><p>Plot this curve in the window <m>x = 0 \ldots 30</m>, <m>y = 0 \ldots 3</m> (with constrained scaling so the units on the <m>x</m> and <m>y</m> axis are equal), and use it to generate a solid of revolution about the <m>x</m>-axis.  Explain why this curve could generate a reasonable model of a baseball bat.</p></li>
@@ -468,6 +495,7 @@
 
             <li><p>Compute the center of mass of the baseball bat.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

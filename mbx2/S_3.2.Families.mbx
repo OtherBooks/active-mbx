@@ -31,8 +31,6 @@ For other less familiar families of functions, we would like to use calculus to 
 <exploration xml:id="PA_3.2">
 <p>
 Let <m>a</m>, <m>h</m>, and <m>k</m> be arbitrary real numbers with <m>a \ne 0</m>, and let <m>f</m> be the function given by the rule <m>f(x) = a(x-h)^2 + k</m>.
-</p>
-
 <ol>
 <li><p>What familiar type of function is <m>f</m>?  What information do you know about <m>f</m> just by looking at its form? (Think about the roles of <m>a</m>, <m>h</m>, and <m>k</m>.)</p></li>
 <li><p>Next we use some calculus to develop familiar ideas from a different perspective.  To start, treat <m>a</m>, <m>h</m>, and <m>k</m> as constants and compute <m>f'(x)</m>.</p></li>
@@ -40,6 +38,8 @@ Let <m>a</m>, <m>h</m>, and <m>k</m> be arbitrary real numbers with <m>a \ne 0</
 <li><p>Assume that <m>a \lt  0</m>.  Construct a first derivative sign chart for <m>f</m>.</p></li>
 <li><p>Based on the information you've found above, classify the critical values of <m>f</m> as maxima or minima.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -144,8 +144,6 @@ The kind of work we've completed in <xref ref="Ex_3.2.1">Example</xref> can ofte
 <activity xml:id="A_3.2.1">
 <p>
 Consider the family of functions defined by <m>p(x) = x^3 - ax</m>, where <m>a \ne 0</m> is an arbitrary constant.
-</p>
-
 <ol>
 <li><p>Find <m>p'(x)</m> and determine the critical numbers of <m>p</m>.  How many critical numbers does <m>p</m> have?</p></li>
 <li><p>Construct a first derivative sign chart for <m>p</m>.  What can you say about the overall behavior of <m>p</m> if the constant <m>a</m> is positive?  Why?  What if the constant <m>a</m> is negative? In each case, describe the relative extremes of <m>p</m>.</p></li>
@@ -153,23 +151,37 @@ Consider the family of functions defined by <m>p(x) = x^3 - ax</m>, where <m>a \
 <li><p>Without using a graphing utility, sketch and label typical graphs of <m>p(x)</m> for the cases where <m>a > 0</m> and <m>a \lt  0</m>.  Label all inflection points and local extrema.</p></li>
 <li><p>Finally, use a graphing utility to test your observations above by entering and plotting the function <m>p(x) = x^3 - ax</m> for at least four different values of <m>a</m>.  Write several sentences to describe your overall conclusions about how the behavior of <m>p</m> depends on <m>a</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>When solving <m>p'(x) = 0</m>, think about two possible cases: when <m>a > 0</m> and when <m>a \lt  0</m>.</p></li>
 <li><p>Remember that any quadratic function can be zero at most two times.  How does the graph of <m>y = 3x^2 - a</m> look?</p></li>
 <li><p>Don't forget that <m>\frac{d}{dx}[a] = 0</m>.</p></li>
 <li><p>Think about how a typical cubic polynomial's graph behaves.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>p'(x) = 3x^2 - a</m>.  When solving <m>p'(x) = 0</m>, think about two possible cases: when <m>a > 0</m> and when <m>a \lt  0</m>.</p></li>
 <li><p>Remember that any quadratic function can be zero at most two times.  How does the graph of <m>y = 3x^2 - a</m> look?</p></li>
 <li><p>Don't forget that <m>\frac{d}{dx}[a] = 0</m>.</p></li>
 <li><p>Think about how a typical cubic polynomial's graph behaves and use your work in (a) - (c).</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>We first note that <m>p'(x) = 3x^2 - a</m>, so to find critical numbers we set <m>p'(x) = 0</m> and solve for <m>x</m>.  This leads to the equation <m>3x^2 - a = 0</m>, which implies
 <me>
@@ -183,13 +195,13 @@ If <m>a > 0</m>, then the solutions to this equation are <m>x = \pm \sqrt{\frac{
 <li><p>Below, we show the two possible situations. At left, for the case when <m>a \lt  0</m> and <m>p</m> is always increasing with an inflection point at <m>x = 0</m>, and at right for when <m>a > 0</m> and <m>p</m> has a relative maximum at <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>, again with an inflection point at <m>x = 0</m>.  Note, too, that <m>p</m> has its <m>x</m>-intercepts at <m>x = \pm \sqrt{a}</m>.
   <image width="73%" source="images/3_2_Act1Soln" /></p></li>
 </ol>
+
+</p>
 </solution>
-  
+</activity>
 <activity xml:id="A_3.2.2">
 <p>
 Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx}),</m> where <m>a</m> and <m>b</m> are positive real numbers.
-</p>
-
 <ol>
 <li><p>Find the first derivative and the critical numbers of <m>h</m>.  Use these to construct a first derivative sign chart and determine for which values of <m>x</m> the function <m>h</m> is increasing and decreasing.</p></li>
 <li><p>Find the second derivative and build a second derivative sign chart.  For which values of <m>x</m> is a function in this family concave up?  concave down?</p></li>
@@ -197,8 +209,11 @@ Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx}
 <li><p>How does changing the value of <m>b</m> affect the shape of the curve?</p></li>
 <li><p>Without using a graphing utility, sketch the graph of a typical member of this family. Write several sentences to describe the overall behavior of a typical function <m>h</m> and how this behavior depends on <m>a</m> and <m>b</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Expand to write <m>h(x) = a - ae^{-bx}</m> before differentiating.</p></li>
 <li><p>Remember that <m>e^{-bx}</m> is never zero and always positive, regardless of the value of <m>x</m>.</p></li>
@@ -206,7 +221,13 @@ Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx}
 <li><p>Consider how <m>b</m> affects the value of <m>h'(x)</m>.</p></li>
 <li><p>Use your work in (a)-(d).</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Expand to write <m>h(x) = a - ae^{-bx}</m> before differentiating, and remember to treat <m>a</m> and <m>b</m> as constants.</p></li>
 <li><p>Remember that <m>e^{-bx}</m> is never zero and always positive, regardless of the value of <m>x</m>, and that <m>a</m> and <m>b</m> are positive constants.</p></li>
@@ -214,8 +235,13 @@ Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx}
 <li><p>Consider how <m>b</m> affects the value of <m>h'(x)</m>.</p></li>
 <li><p>Use your work in (a)-(d).</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since <m>h(x) = a - ae^{-bx}</m>, we have by the constant multiple and chain rules that
 <me>
@@ -237,13 +263,13 @@ This shows that <m>h</m> has a horizontal asymptote at <m>y = a</m> as we move r
 <li><p>Observing that <m>h(0) = 0</m> and <m>\lim_{x \to \infty} h(x) = a</m>, along with the facts that <m>h</m> is always increasing and always concave down, we see that a typical member of this family looks like the following graph.
     <image width="73%" source="images/3_2_Act2Soln" /></p></li>
 </ol>
+
+</p>
 </solution>
-  
+</activity>
 <activity xml:id="A_3.2.3">
 <p>
 Let <m>L(t) = \frac{A}{1+ce^{-kt}}</m>, where <m>A</m>, <m>c</m>, and <m>k</m> are all positive real numbers.
-</p>
-
 <ol>
 <li><p>Observe that we can equivalently write <m>L(t) = A(1+ce^{-kt})^{-1}</m>.  Find <m>L'(t)</m> and explain why <m>L</m> has no critical numbers.  Is <m>L</m> always increasing or always decreasing?  Why?</p></li>
 <li><p>Given the fact that
@@ -256,8 +282,11 @@ find all values of <m>t</m> such that <m>L''(t) = 0</m> and hence construct a se
 <li><p>Without using a graphing utility, sketch the graph of a typical member of this family. Write several sentences to describe the overall behavior of a typical function <m>L</m> and how this behavior depends on <m>A</m>, <m>c</m>, and <m>k</m>critical number.</p></li>
 <li><p>Explain why it is reasonable to think that the function <m>L(t)</m> models the growth of a population over time in a setting where the largest possible population the surrounding environment can support is <m>A</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Use the chain rule, treating <m>A</m>, <m>c</m>, and <m>k</m> as constants.</p></li>
 <li><p>Note that the only way <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.</p></li>
@@ -265,7 +294,13 @@ find all values of <m>t</m> such that <m>L''(t) = 0</m> and hence construct a se
 <li><p>Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x > 0</m>.</p></li>
 <li><p>Think about horizontal asymptotes, where <m>L</m> is increasing and decreasing, and concavity.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Use the chain rule, treating <m>A</m>, <m>c</m>, and <m>k</m> as constants.  Remember that <m>e^{-kt} > 0</m> for all values of <m>t</m>.</p></li>
 <li><p>Note that the only way <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.  Observe that since <m>ce^{-kt} \to 0</m> as <m>t \to \infty</m>, the quantity <m>ce^{-kt} - 1</m> will be positive to the left of where it is zero and negative to the right of where it is zero.</p></li>
@@ -273,8 +308,13 @@ find all values of <m>t</m> such that <m>L''(t) = 0</m> and hence construct a se
 <li><p>Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x > 0</m>.</p></li>
 <li><p>Think about horizontal asymptotes, where <m>L</m> is increasing and decreasing, and concavity.  In addition, find <m>L(0)</m> and plot both this point and the inflection point.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>By the chain rule and treating <m>A</m>, <m>c</m>, and <m>k</m> as constants, we find that
 <me>
@@ -307,7 +347,10 @@ Thus, the inflection point on the graph of <m>L</m> is located at  <m>( -\frac{1
 <li><p>We have shown that <m>L</m> is an always increasing function that has horizontal asymptotes at <m>y =0</m> and <m>y = A</m>, as well as an inflection point at <m>( -\frac{1}{k} \ln \left(\frac{1}{c}\right), \frac{A}{2})</m>, which we note lies vertically halfway between the asymptotes.  In addition, we see that <m>L(0) = \frac{A}{1+c}</m>.  The combination of all of this information shows us that a typical graph in this family of functions is given by the following figure.
   <image width="73%" source="images/3_2_Act3Soln" /></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -328,14 +371,14 @@ critical number
 <statement>
 <p>
 Consider the one-parameter family of functions given by <m>p(x) = x^3-ax^2</m>, where <m>a>0</m>.
-</p>
-
 <ol>
 <li><p>Sketch a plot of a typical member of the family, using the fact that each is a cubic polynomial with a repeated zero at <m>x = 0</m> and another zero at <m>x = a</m>.</p></li>
 <li><p>Find all critical numbers of <m>p</m>.</p></li>
 <li><p>Compute <m>p''</m> and find all values for which <m>p''(x) = 0</m>.  Hence construct a second derivative sign chart for <m>p</m>.</p></li>
 <li><p>Describe how the location of the critical numbers and the inflection point of <m>p</m> change as <m>a</m> changes.  That is, if the value of <m>a</m> is increased, what happens to the critical numbers and inflection point?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -343,8 +386,6 @@ Consider the one-parameter family of functions given by <m>p(x) = x^3-ax^2</m>, 
 <statement>
 <p>
 Let <m>q(x) = \frac{e^{-x}}{x-c}</m> be a one-parameter family of functions where <m>c > 0</m>.
-</p>
-
 <ol>
 <li><p>Explain why <m>q</m> has a vertical asymptote at <m>x = c</m>.</p></li>
 <li><p>Determine <m>\lim_{x \to \infty} q(x)</m> and <m>\lim_{x \to -\infty} q(x)</m>.</p></li>
@@ -352,6 +393,8 @@ Let <m>q(x) = \frac{e^{-x}}{x-c}</m> be a one-parameter family of functions wher
 <li><p>Construct a first derivative sign chart for <m>q</m> and determine whether each critical number leads to a local minimum, local maximum, or neither for the function <m>q</m>.</p></li>
 <li><p>Sketch a typical member of this family of functions with important behaviors clearly labeled.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -359,8 +402,6 @@ Let <m>q(x) = \frac{e^{-x}}{x-c}</m> be a one-parameter family of functions wher
 <statement>
 <p>
 Let <m>E(x) = e^{-\frac{(x-m)^2}{2s^2}}</m>, where <m>m</m> is any real number and <m>s</m> is a positive real number.
-</p>
-
 <ol>
 <li><p>Compute <m>E'(x)</m> and hence find all critical numbers of <m>E</m>.</p></li>
 <li><p>Construct a first derivative sign chart for <m>E</m> and classify each critical number of the function as a local minimum, local maximum, or neither.</p></li>
@@ -372,6 +413,8 @@ Find all values of <m>x</m> for which <m>E''(x) = 0</m>.</p></li>
 <li><p>Determine <m>\lim_{x \to \infty} E(x)</m> and <m>\lim_{x \to -\infty} E(x)</m>.</p></li>
 <li><p>Construct a labeled graph of a typical function <m>E</m> that clearly shows how important points on the graph of <m>y = E(x)</m> depend on <m>m</m> and <m>s</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

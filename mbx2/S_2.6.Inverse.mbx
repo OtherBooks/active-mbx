@@ -20,8 +20,6 @@ As we have noted, one of the most important functions in all of mathematics is t
 <exploration xml:id="PA_2.6">
 <p>
 The equation <m>y = \frac{5}{9}(x-32)</m> relates a temperature given in <m>x</m> degrees Fahrenheit to the corresponding temperature <m>y</m> measured in degrees Celcius.
-</p>
-
 <ol>
 <li><p>Solve the equation <m>y = \frac{5}{9}(x-32)</m> for <m>x</m> to write <m>x</m> (Fahrenheit temperature) in terms of <m>y</m> (Celcius temperature).</p></li>
 <li><p>Let <m>C(x) = \frac{5}{9}(x-32)</m> be the function that takes a Fahrenheit temperature as input and produces the Celcius temperature as output.  In addition,  let <m>F(y)</m> be the function that converts a temperature given in <m>y</m> degrees Celcius to the temperature <m>F(y)</m> measured in degrees Fahrenheit.  Use your work in (a) to write a formula for <m>F(y)</m>.</p></li>
@@ -29,6 +27,8 @@ The equation <m>y = \frac{5}{9}(x-32)</m> relates a temperature given in <m>x</m
 <li><p>Now, let <m>r(y) = C(F(y))</m>.  Use the formulas for <m>F</m> and <m>C</m> to determine an expression for <m>r(y)</m> and simplify this expression as much as possible.  What do you observe?</p></li>
 <li><p>What is the value of <m>C'(x)</m>?  of <m>F'(y)</m>?  How do these values appear to be related?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -45,14 +45,13 @@ and this leads us to another key observation: writing <m>y = f(x)</m> and <m>x =
 
 <p>
 Here we briefly remind ourselves of some key facts about inverse functions. For a function <m>f : A \to B</m>,
-</p>
-
 <ul>
 <li><p><m>f</m> has an inverse if and only if <m>f</m> is one-to-one<fn>A function <m>f</m> is <em>one-to-one</em> <index><main>one-to-one</main></index> provided that no two distinct inputs lead to the same output.</fn> and onto<fn>A function <m>f</m> is <em>onto</em> <index><main>onto</main></index> provided that every possible element of the codomain can be realized as an output of the function for some choice of input from the domain.</fn>;</p></li>
 <li><p>provided <m>f^{-1}</m> exists, the domain of <m>f^{-1}</m> is the codomain of <m>f</m>, and the codomain of <m>f^{-1}</m> is the domain of <m>f</m>;</p></li>
 <li><p><m>f^{-1}(f(x)) = x</m> for every <m>x</m> in the domain of <m>f</m> and <m>f(f^{-1}(y)) = y</m> for every <m>y</m> in the codomain of <m>f</m>;</p></li>
 <li><p><m>y = f(x)</m> if and only if <m>x = f^{-1}(y)</m>.</p></li>
 </ul>
+</p>
 
 <p>
 The last stated fact reveals a special relationship between the graphs of <m>f</m> and <m>f^{-1}</m>. In particular, if we consider <m>y = f(x)</m> and a point <m>(x,y)</m> that lies on the graph of <m>f</m>, then it is also true that <m>x = f^{-1}(y)</m>, which means that the point <m>(y,x)</m> lies on the graph of <m>f^{-1}</m>. This shows us that the graphs of <m>f</m> and <m>f^{-1}</m> are the reflections of one another across the line <m>y = x</m>, since reflecting across <m>y = x</m> is precisely the geometric action that swaps the coordinates in an ordered pair. In <xref ref="F_2.6.InversePlot">Figure</xref>, we see this exemplified for the function <m>y = f(x) = 2^x</m> and its inverse, with the points <m>(-1,\frac{1}{2})</m> and <m>(\frac{1}{2},-1)</m> highlighting the reflection of the curves across <m>y = x</m>.
@@ -112,8 +111,6 @@ Derivatives of logarithms may now be computed in concert with all of the rules k
 <activity xml:id="A_2.6.1">
 <p>
 For each function given below, find its derivative.
-</p>
-
 <ol>
 <li><p><m>h(x) = x^2\ln(x)</m></p></li>
 <li><p><m>p(t) = \frac{\ln(t)}{e^t + 1}</m></p></li>
@@ -121,8 +118,11 @@ For each function given below, find its derivative.
 <li><p><m>z(x) = \tan(\ln(x))</m></p></li>
 <li><p><m>m(z) = \ln(\ln(z))</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Is <m>h</m> a product, quotient, or composition of basic functions?</p></li>
 <li><p>Is <m>p</m> a product, quotient, or composition of basic functions?</p></li>
@@ -130,7 +130,13 @@ For each function given below, find its derivative.
 <li><p>Is <m>z</m> a product, quotient, or composition of basic functions?</p></li>
 <li><p>Is <m>m</m> a product, quotient, or composition of basic functions?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Try using the product rule.</p></li>
 <li><p>Note that <m>p</m> is a quotient of basic functions.</p></li>
@@ -138,8 +144,13 @@ For each function given below, find its derivative.
 <li><p>What is the outer function in this composite function?  The inner function?</p></li>
 <li><p>The natural log function is being composed with itself.  What are the inner and outer functions?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>By the product rule,
 <me>
@@ -162,7 +173,10 @@ For each function given below, find its derivative.
   m'(z) = \frac{1}{\ln(z)} \cdot \frac{1}{z}.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 In addition to the important rule we have derived for the derivative of the natural log functions, there are additional interesting connections to note between the graphs of <m>f(x) = e^x</m> and <m>f^{-1}(x) = \ln(x)</m>.
 </p>
@@ -253,8 +267,6 @@ Thus, returning to our earlier work where we established that if <m>h(x) = \arcs
 <activity xml:id="A_2.6.2">
 <p>
 The following prompts in this activity will lead you to develop the derivative of the inverse tangent function.
-</p>
-
 <ol>
 <li><p>Let <m>r(x) = \arctan(x)</m>.  Use the relationship between the arctangent and tangent functions to rewrite this equation using only the tangent function.</p></li>
 <li><p>Differentiate both sides of the equation you found in (a).  Solve the resulting equation for <m>r'(x)</m>, writing <m>r'(x)</m> as simply as possible in terms of a trigonometric function evaluated at <m>r(x)</m>.</p></li>
@@ -263,8 +275,11 @@ The following prompts in this activity will lead you to develop the derivative o
 <li><p>In terms of only <m>x</m> and <m>1</m>, what is the value of <m>\cos(\arctan(x))</m>?</p></li>
 <li><p>Use the results of your work above to find an expression involving only <m>1</m> and <m>x</m> for <m>r'(x)</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Recall that for any function and its inverse, writing <m>y = f^{-1}(x)</m> is equivalent to writing <m>f(y) = x</m>.</p></li>
 <li><p>Apply the chain rule to differentiate <m>\tan(r(x))</m>.</p></li>
@@ -273,7 +288,13 @@ The following prompts in this activity will lead you to develop the derivative o
 <li><p>Recall that the cosine of an angle is the length of the adjacent leg over the length of they hypotenuse.</p></li>
 <li><p>Note that <m>\cos^2(\alpha) = (\cos(\alpha))^2.</m></p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Recall that for any function and its inverse, writing <m>y = f^{-1}(x)</m> is equivalent to writing <m>f(y) = x</m>.</p></li>
 <li><p>Remember that <m>\frac{d}{dx}[\tan(u(x))] = \sec^2(u(x)) u'(x)</m>.</p></li>
@@ -282,8 +303,13 @@ The following prompts in this activity will lead you to develop the derivative o
 <li><p>Recall that the cosine of an angle is the length of the adjacent leg over the length of they hypotenuse.</p></li>
 <li><p>Note that <m>\cos^2(\alpha) = (\cos(\alpha))^2.</m></p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since <m>r(x) = \arctan(x)</m>, it is equivalent to write <m>\tan(r(x)) = x</m>.</p></li>
 <li><p>Differentiating, we have <m>\frac{d}{dx}[\tan(r(x))] = \frac{d}{dx}[x]</m>, so
@@ -307,15 +333,16 @@ since <m>\frac{1}{\sec(\alpha)} = \cos(\alpha).</m></p></li>
   r'(x) = \frac{1}{1+x^2}.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 While derivatives for other inverse trigonometric functions can be established similarly, we primarily limit ourselves to the arcsine and arctangent functions. With these rules added to our library of derivatives of basic functions, we can differentiate even more functions using derivative shortcuts. In <xref ref="A_2.6.3">Activity</xref>, we see each of these rules at work.
 </p>
 <activity xml:id="A_2.6.3">
 <p>
 Determine the derivative of each of the following functions.
-</p>
-
 <ol>
 <li><p><m>\displaystyle f(x) = x^3 \arctan(x) + e^x \ln(x)</m></p></li>
 <li><p><m>\displaystyle p(t) = 2^{t\arcsin(t)}</m></p></li>
@@ -324,8 +351,11 @@ Determine the derivative of each of the following functions.
 <li><p><m>\displaystyle m(v) = \ln(\sin^2(v)+1)</m></p></li>
 <li><p><m>\displaystyle g(w) = \arctan\left( \frac{\ln(w)}{1+w^2} \right)</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Use the sum rule followed by the product rule on each term in the sum.</p></li>
 <li><p>Use the chain rule first.  What rule is needed to differentiate <m>t\arcsin(t)</m>?</p></li>
@@ -334,7 +364,13 @@ Determine the derivative of each of the following functions.
 <li><p>Use the chain rule twice.</p></li>
 <li><p>Think about the overall structure of this function.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Use the sum rule followed by the product rule on each term in the sum.</p></li>
 <li><p>Use the chain rule first.  What rule is needed to differentiate <m>t\arcsin(t)</m>?</p></li>
@@ -343,8 +379,13 @@ Determine the derivative of each of the following functions.
 <li><p>Use the chain rule twice.</p></li>
 <li><p>Think about the overall structure of this function.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>By the sum rule followed by two applications of the product rule,
 <md>
@@ -374,7 +415,10 @@ Determine the derivative of each of the following functions.
   <mrow>  =\mathstrut \amp  \frac{1}{1+ \left( \frac{\ln(w)}{1+w^2} \right)^2} \cdot \left[ \frac{(1+w^2) \frac{1}{w} - \ln(w) \cdot 2w}{(1+w^2)^2} \right]</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -445,14 +489,14 @@ The rules we derived for <m>\ln(x)</m>, <m>\arcsin(x)</m>, and <m>\arctan(x)</m>
 <statement>
 <p>
 Determine the derivative of each of the following functions. Use proper notation and clearly identify the derivative rules you use.
-</p>
-
 <ol>
 <li><p><m>f(x) = \ln(2\arctan(x) + 3\arcsin(x) + 5)</m></p></li>
 <li><p><m>r(z) = \arctan(\ln(\arcsin(z)))</m></p></li>
 <li><p><m>q(t) = \arctan^2(3t) \arcsin^4(7t)</m></p></li>
 <li><p><m>g(v) =  \ln\left( \frac{\arctan(v)}{\arcsin(v) + v^2} \right)</m></p></li>
 </ol>
+
+</p>
 <figure xml:id="F_2.6.Ez4" >
 <caption>A function <m>y = f(x)</m> for use in Exercise<nbsp />2.</caption>
 <image width="73%" source="images/2_6_Ez4" />
@@ -464,13 +508,13 @@ Determine the derivative of each of the following functions. Use proper notation
 <statement>
 <p>
 Consider the graph of <m>y = f(x)</m> provided in <xref ref="F_2.6.Ez4">Figure</xref> and use it to answer the following questions.
-</p>
-
 <ol>
 <li><p>Use the provided graph to estimate the value of <m>f'(1)</m>.</p></li>
 <li><p>Sketch an approximate graph of <m>y = f^{-1}(x)</m>.  Label at least three distinct points on the graph that correspond to three points on the graph of <m>f</m>.</p></li>
 <li><p>Based on your work in (a), what is the value of <m>(f^{-1})'(-1)</m>?  Why?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -478,13 +522,13 @@ Consider the graph of <m>y = f(x)</m> provided in <xref ref="F_2.6.Ez4">Figure</
 <statement>
 <p>
 Let <m>f(x) = \frac{1}{4}x^3 + 4.</m>
-</p>
-
 <ol>
 <li><p>Sketch a graph of <m>y = f(x)</m> and explain why <m>f</m> is an invertible function.</p></li>
 <li><p>Let <m>g</m> be the inverse of <m>f</m> and determine a formula for <m>g</m>.</p></li>
 <li><p>Compute <m>f'(x)</m>, <m>g'(x)</m>, <m>f'(2)</m>, and <m>g'(6)</m>.  What is the special relationship between <m>f'(2)</m> and <m>g'(6)</m>?  Why?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -492,13 +536,13 @@ Let <m>f(x) = \frac{1}{4}x^3 + 4.</m>
 <statement>
 <p>
 Let <m>h(x) = x + \sin(x)</m>.
-</p>
-
 <ol>
 <li><p>Sketch a graph of <m>y = h(x)</m> and explain why <m>h</m> must be invertible.</p></li>
 <li><p>Explain why it does not appear to be algebraically possible to determine a formula for <m>h^{-1}</m>.</p></li>
 <li><p>Observe that the point <m>(\frac{\pi}{2}, \frac{\pi}{2} + 1)</m> lies on the graph of <m>y = h(x)</m>.  Determine the value of <m>(h^{-1})'(\frac{\pi}{2} + 1)</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

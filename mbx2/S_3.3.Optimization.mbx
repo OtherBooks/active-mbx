@@ -27,8 +27,6 @@ Our emphasis in this section is on finding the global extreme values of a functi
 <exploration xml:id="PA_3.3">
 <p>
 Let <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>.
-</p>
-
 <ol>
 <li><p>Determine all of the critical numbers of <m>f</m>.</p></li>
 <li><p>Construct a first derivative sign chart for <m>f</m> and thus determine all intervals on which <m>f</m> is increasing or decreasing.</p></li>
@@ -37,6 +35,8 @@ Let <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>.
 <li><p>Explain why <m>f(x) > 2</m> for every value of <m>x</m>.</p></li>
 <li><p>Does <m>f</m> have a global minimum?  If so, why, and what is its value and where is the minimum attained?  If not, explain why.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -49,8 +49,6 @@ For the functions in <xref ref="F_3.3.Intro">Figure</xref> and <xref ref="PA_3.3
 <activity xml:id="A_3.3.1">
 <p>
 Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2.</m>
-</p>
-
 <ol>
 <li><p>Find all critical numbers of <m>g</m> that lie in the interval <m>-2 \le x \le 3</m>.</p></li>
 <li><p>Use a graphing utility to construct the graph of <m>g</m> on the interval <m>-2 \le x \le 3</m>.</p></li>
@@ -58,23 +56,37 @@ Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2.</m>
 <li><p>How do your answers change if we instead consider the interval <m>-2 \le x \le 2</m>?</p></li>
 <li><p>What if we instead consider the interval <m>-2 \le x \le 1</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.</p></li>
 <li><p>\href{http://wolframalpha.com}{<c>http://wolframalfpha.com</c>} is a great choice.</p></li>
 <li><p>On the graph, look for the lowest and highest possible values of the function.</p></li>
 <li><p>Ask yourself the same questions as (a)-(c), simply using the new interval.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.</p></li>
 <li><p>\href{http://wolframalpha.com}{<c>http://wolframalfpha.com</c>} is a great choice.</p></li>
 <li><p>On the graph, look for the lowest and highest possible values of the function.</p></li>
 <li><p>Ask yourself the same questions as (a)-(c), simply using the new interval.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since <m>g'(x) = x^2 - 2</m>, the critical numbers of <m>g</m> are <m>x = \pm \sqrt{2} \approx \pm 1.414</m>, both of which lie in the interval <m>-2 \le x \le 3</m>.</p></li>
 <li><p>The figure shown below shows three related plots, each with the emphases on the interval provided in (c), (d), and (e).
@@ -83,7 +95,10 @@ Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2.</m>
 <li><p>On <m>[-2,2]</m>, <m>g</m> has a global maximum at <m>x = -\sqrt{2}</m> and a global minimum at <m>x = \sqrt{2}</m>.</p></li>
 <li><p>On <m>[-2,3]</m>, <m>g</m> has a global maximum at <m>x = -\sqrt{2}</m> and a global minimum at <m>x = 1</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 In <xref ref="A_3.3.1">Activity</xref>, we saw how the absolute maximum and absolute minimum of a function on a closed, bounded interval <m>[a,b]</m>, depend not only on the critical numbers of the function, but also on the selected values of <m>a</m> and <m>b</m>. These observations demonstrate several important facts that hold much more generally. First, we state an important result called the Extreme Value Theorem.
 </p>
@@ -95,18 +110,16 @@ If <m>f</m> is a continuous function on a closed interval <m>[a,b]</m>, then <m>
 
 <p>
 The Extreme Value Theorem tells us that provided a function is continuous, on any closed interval <m>[a,b]</m> the function has to achieve both an absolute minimum and an absolute maximum. Note, however, that this result does not tell us where these extreme values occur, but rather only that they must exist. As seen in the examples of <xref ref="A_3.3.1">Activity</xref>, it is apparent that the only possible locations for relative extremes are either the endpoints of the interval or at a critical number (the latter being where a relative minimum or maximum could occur, which is a potential location for an absolute extreme). Thus, we have the following approach to finding the absolute maximum and minimum of a continuous function <m>f</m> on the interval <m>[a,b]</m>:
-</p>
-
 <ul>
 <li><p>find all critical numbers of <m>f</m> that lie in the interval;</p></li>
 <li><p>evaluate the function <m>f</m> at each critical number in the interval and at each endpoint of the interval;</p></li>
 <li><p>from among the noted function values, the smallest is the absolute minimum of <m>f</m> on the interval, while the largest is the absolute maximum.</p></li>
 </ul>
+
+</p>
 <activity xml:id="A_3.3.2">
 <p>
 Find the <em>exact</em> absolute maximum and minimum of each function on the stated interval.
-</p>
-
 <ol>
 <li><p><m>h(x) = xe^{-x}</m>, <m>[0,3]</m></p></li>
 <li><p><m>p(t) = \sin(t) + \cos(t)</m>, <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m></p></li>
@@ -115,58 +128,75 @@ Find the <em>exact</em> absolute maximum and minimum of each function on the sta
 <li><p><m>h(x) =  xe^{-ax}</m>, <m>[0, \frac{2}{a}]</m> (<m>a > 0</m>)</p></li>
 <li><p><m>f(x) = b - e^{-(x-a)^2}</m>, <m>(-\infty, \infty)</m>, <m>a, b > 0</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>After computing <m>h'(x)</m>, factor to write the derivative as a product.</p></li>
 <li><p>The sine and cosine functions have the same value at <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.</p></li>
 <li><p>Upon finding <m>q'(x)</m>, factor its numerator.</p></li>
 <li><p>Remember that <m>e^{-(x-2)^2}</m> is never zero.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>After computing <m>h'(x)</m>, factor to write the derivative as a product.  Remember that <m>e^{-x} \ne 0</m> for all <m>x</m>.</p></li>
 <li><p>The sine and cosine functions have the same value at <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.  Which of these occur within the given interval?</p></li>
 <li><p>Upon finding <m>q'(x)</m>, factor its numerator.  Observe that even though <m>q'(2)</m> is not defined, <m>2</m> is not a critical number because <m>q(2)</m> is not defined; moreover, <m>2</m> is not in the interval under consideration.</p></li>
 <li><p>Remember that <m>e^{-(x-2)^2}</m> is never zero.  Note that the domain being considered is all real numbers.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>For <m>h(x) = xe^{-x}</m>, we know that <m>h'(x) = xe^{-x}(-1) + e^{-x} = e^{-x}(-x+1)</m>.  Therefore, the only critical value of <m>h</m> is <m>x = 1</m>.  Next, we compute <m>h(1)</m>, <m>h(0)</m>, and <m>h(3)</m>.  Observe that
-</p>
-
 <ul>
 <li><p><m>h(1) = e^{-1} \approx 0.36788</m></p></li>
 <li><p><m>h(0) = 0</m></p></li>
 <li><p><m>h(3) = 3e^{-3} \approx 0.14936</m></p></li>
 </ul>
+
+</p>
 Thus, on <m>[0,3]</m>, the absolute maximum of <m>h</m> is <m>e^{-1}</m> and the absolute minimum is <m>0</m>.</li>
 <li><p>Given <m>p(t) = \sin(t) + \cos(t)</m>, it follows <m>p'(t) = \cos(t) - \sin(t)</m>, so <m>p'(t) = 0</m> implies that <m>\cos(t) =\sin(t)</m>.   The sine and cosine functions have the same value at <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.  The only time this occurs in <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m> is for <m>x = \frac{\pi}{4}</m>, and thus this is the only critical value of <m>p</m> in the given interval.  Now,
-</p>
-
 <ul>
 <li><p><m>p(\frac{\pi}{4}) = \sin(\frac{\pi}{4}) + \cos(\frac{\pi}{4}) = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} = \sqrt{2} \approx 1.41421</m></p></li>
 <li><p><m>p(-\frac{\pi}{2}) = \sin(-\frac{\pi}{2}) + \cos(-\frac{\pi}{2}) = -1 + 0 = -1</m></p></li>
 <li><p><m>p(\frac{\pi}{2}) = \sin(\frac{\pi}{2}) + \cos(\frac{\pi}{2}) = 1 + 0 = 1</m></p></li>
 </ul>
+
+</p>
 Therefore, on <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m>, the absolute maximum of <m>p</m> is <m>\sqrt{2}</m> and the absolute minimum is <m>-1</m>.</li>
 <li><p>With <m>q(x) = \frac{x^2}{x-2}</m>, we have
 <me>
   q'(x) = \frac{(x-2)(2x) - x^2(1)}{(x-2)^2} = \frac{2x^2 - 4x - x^2}{(x-2)^2} = \frac{x^2-4x}{(x-2)^2} = \frac{x(x-4)}{(x-2)^2}.
 </me>
 Hence, the critical values of <m>q</m> are <m>x = 0</m> and <m>x = 4</m>.  Only the latter critical value lies in the interval <m>[3,7]</m>, and thus we evaluate <m>q</m> and find
-</p>
-
 <ul>
 <li><p><m>q(4) = \frac{16}{2} = 8</m></p></li>
 <li><p><m>q(3) = \frac{9}{1} = 9</m></p></li>
 <li><p><m>q(7) = \frac{49}{5} = 9.8</m></p></li>
 </ul>
+
+</p>
 We now see that on <m>[3,7]</m> the absolute maximum of <m>q</m> is 9.8 and the absolute minimum is 8.</li>
 <li><p>Here, we first observe that we are working on the domain of all real numbers, not a closed bounded interval.  Hence, we need to think about the overall behavior of the function.  First, since <m>f(x) = 4 - e^{-(x-2)^2}</m>, by the chain rule we see that <m>f'(x) = -e^{-(x-2)^2}(-2(x-2)) = 2(x-2)e^{-(x-2)^2}.</m>  Since <m>e^{-(x-2)^2}</m> is always positive (in particular, never zero), it follows that the only critical value of <m>f</m> is <m>x = 2</m>.  Furthermore, with <m>f'(x) = 2(x-2)e^{-(x-2)^2}</m>, we see that for <m>x \lt  2</m>, <m>f'(x) \lt  0</m>, while for <m>x > 2</m>, <m>f'(x) > 0</m>.  This tells us by the first derivative test that <m>f</m> is decreasing for <m>x \lt  2</m> and increasing for <m>x > 2</m>, which tells us that <m>f</m> has an absolute minimum at <m>x = 2</m>, and <m>f</m> does not have an absolute maximum.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 One of the big lessons in finding absolute extreme values is the realization that the interval we choose has nearly the same impact on the problem as the function under consideration. Consider, for instance, the function pictured in <xref ref="F_3.3.Interval">Figure</xref>.
 </p>
@@ -233,13 +263,12 @@ Setting <m>A'(x) = 0</m>, it follows that <m>x = \frac{180}{4\sqrt{3}+9} \approx
 
 <p>
 Evaluating <m>A</m> at the critical number and endpoints, we see that
-</p>
-
 <ul>
 <li><p><m>A\left(\frac{180}{4\sqrt{3}+9}\right) = \frac{\sqrt{3}(\frac{180}{4\sqrt{3}+9})^2}{4} + \left( \frac{20-\frac{180}{4\sqrt{3}+9}}{4} \right)^2 \approx 10.8741</m></p></li>
 <li><p><m>A(0) = 25</m></p></li>
 <li><p><m>A(20) = \frac{\sqrt{3}}{36}(400) = \frac{100}{9} \sqrt{3} \approx 19.2450</m></p></li>
 </ul>
+</p>
 
 <p>
 Thus, the absolute minimum occurs when <m>x \approx 11.3007</m> and results in the minimum area of approximately <m>10.8741</m> square centimeters, while the absolute maximum occurs when we invest all of the wire in the square (and none in the triangle), resulting in 25 square centimeters of area. These results are confirmed by a plot of <m>y = A(x)</m> on the interval <m>[0,20]</m>, as shown in <xref ref="F_3.3.Ex1Plot">Figure</xref>.
@@ -252,8 +281,6 @@ Thus, the absolute minimum occurs when <m>x \approx 11.3007</m> and results in t
 <p>
 A piece of cardboard that is <m>10 \times 15</m> (each measured in inches) is being made into a box without a top. To do so,
 squares are cut from each corner of the box and the remaining sides are folded up. If the box needs to be at least 1 inch deep and no more than 3 inches deep, what is the maximum possible volume of the box? what is the minimum volume? Justify your answers using calculus.
-</p>
-
 <ol>
 <li><p>Draw a labeled diagram that shows the given information.  What variable should we introduce to represent the choice we make in creating the box?  Label the diagram appropriately with the variable, and write a sentence to state what the variable represents.</p></li>
 <li><p>Determine a formula for the function <m>V</m> (that depends on the variable in (a)) that tells us the volume of the box.</p></li>
@@ -262,8 +289,11 @@ squares are cut from each corner of the box and the remaining sides are folded u
 <li><p>Evaluate <m>V</m> at each of the endpoints of the domain and at any critical numbers that lie in the domain.</p></li>
 <li><p>What is the maximum possible volume of the box?  the minimum?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Consider letting the length of one side of the removed squares be represented by <m>x</m>.</p></li>
 <li><p>Remember that the volume of a box is length <times /> width <times /> height.</p></li>
@@ -272,7 +302,13 @@ squares are cut from each corner of the box and the remaining sides are folded u
 <li><p>Which critical numbers satisfy <m>1 \le x \le 3</m>?</p></li>
 <li><p>Evaluate the function at appropriate points.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Consider letting the length of one side of the removed squares be represented by <m>x</m>.  Note, then, that one side of the box will have length <m>10 - 2x</m>.</p></li>
 <li><p>Remember that the volume of a box is length <times /> width <times /> height.  Write each of length, width, and height in terms of <m>x</m>.</p></li>
@@ -281,8 +317,13 @@ squares are cut from each corner of the box and the remaining sides are folded u
 <li><p>Which critical numbers satisfy <m>1 \le x \le 3</m>?</p></li>
 <li><p>Evaluate the function at appropriate points and see which is greatest and which is least.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>We let <m>x</m> represent the length of a side of the square that is cut from each corner, so that we have the following picture:
 	<image width="73%" source="images/3_3_Act3Soln" /></p></li>
@@ -296,17 +337,17 @@ squares are cut from each corner of the box and the remaining sides are folded u
   x = \frac{25 \pm 5\sqrt{7}}{6} \approx 6.371459426, 1.961873908.
 </me></p></li>
 <li><p>Only the latter critical number is in the relevant domain of <m>V</m>, and hence we consider
-</p>
-
 <ul>
 <li><p><m>V(1.961873908) = 132.0382370</m></p></li>
 <li><p><m>V(1) = 104</m></p></li>
 <li><p><m>V(3) = 108</m></p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Hence the absolute maximum possible volume of the box is 132.0382370 and occurs when <m>x = 1.961873908</m>, while the absolute minimum is 104, which occurs when <m>x=1</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The approaches shown in <xref ref="Ex_3.3.1">Example</xref> and experienced in <xref ref="A_3.3.3">Activity</xref> include standard steps that we undertake in almost every applied optimization problem: we draw a picture to demonstrate the situation, introduce one or more variables to represent quantities that are changing, work to find a function that models the quantity to be optimized, and then decide an appropriate domain for that function. Once that work is done, we are in the familiar situation of finding the absolute minimum and maximum of a function over a particular domain, at which time we apply the calculus ideas that we have been studying to this point in <xref ref="C_3">Chapter</xref>.
 </p>
@@ -328,14 +369,14 @@ If we are working to find absolute extremes on a restricted interval, then we fi
 <statement>
 <p>
 Based on the given information about each function, decide whether the function has global maximum, a global minimum, neither, both, or that it is not possible to say without more information. Assume that each function is twice differentiable and defined for all real numbers, unless noted otherwise. In each case, write one sentence to explain your conclusion.
-</p>
-
 <ol>
 <li><p><m>f</m> is a function such that <m>f''(x) \lt  0</m> for every <m>x</m>.</p></li>
 <li><p><m>g</m> is a function with two critical numbers <m>a</m> and <m>b</m> (where <m>a \lt  b</m>), and <m>g'(x) \lt  0</m> for <m>x \lt  a</m>, <m>g'(x) \lt  0</m> for <m>a \lt  x \lt  b</m>, and <m>g'(x) > 0</m> for <m>x > b</m>.</p></li>
 <li><p><m>h</m> is a function with two critical numbers <m>a</m> and <m>b</m> (where <m>a \lt  b</m>), and <m>h'(x) \lt  0</m> for <m>x \lt  a</m>, <m>h'(x) > 0</m> for <m>a \lt  x \lt  b</m>, and <m>h'(x) \lt  0</m> for <m>x > b</m>.  In addition, <m>\lim_{x \to \infty} h(x) = 0</m> and <m>\lim_{x \to -\infty} h(x) = 0</m>.</p></li>
 <li><p><m>p</m> is a function differentiable everywhere except at <m>x = a</m> and <m>p''(x) > 0</m> for <m>x \lt  a</m> and <m>p''(x) \lt  0</m> for <m>x > a</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -343,14 +384,14 @@ Based on the given information about each function, decide whether the function 
 <statement>
 <p>
 For each family of functions that depends on one or more parameters, determine the function's absolute maximum and absolute minimum on the given interval.
-</p>
-
 <ol>
 <li><p><m>p(x) = x^3 - a^2x</m>,  <m>[0,a]</m> (<m>a>0</m>)</p></li>
 <li><p><m>r(x) = axe^{-bx}</m>,   <m>[\frac{1}{2b}, b]</m> (<m>a, b>0</m>)</p></li>
 <li><p><m>w(x) = a(1-e^{-bx})</m>,   <m>[b, 3b]</m> (<m>a, b>0</m>)</p></li>
 <li><p><m>s(x) = \sin(kx)</m>,   <m>[\frac{\pi}{3k}, \frac{5\pi}{6k}]</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -358,14 +399,14 @@ For each family of functions that depends on one or more parameters, determine t
 <statement>
 <p>
 For each of the functions described below (each continuous on <m>[a,b]</m>), state the location of the function's absolute maximum and absolute minimum on the interval <m>[a,b]</m>, or say there is not enough information provided to make a conclusion. Assume that any critical numbers mentioned in the problem statement represent all of the critical numbers the function has in <m>[a,b]</m>. In each case, write one sentence to explain your answer.
-</p>
-
 <ol>
 <li><p><m>f'(x) \le 0</m> for all <m>x</m> in <m>[a,b]</m></p></li>
 <li><p><m>g</m> has a critical number at <m>c</m> such that <m>a \lt  c\lt  b</m> and <m>g'(x) > 0</m> for <m>x \lt  c</m> and <m>g'(x) \lt  0</m> for <m>x > c</m></p></li>
 <li><p><m>h(a) = h(b)</m> and <m>h''(x) \lt  0</m> for all <m>x</m> in <m>[a,b]</m></p></li>
 <li><p><m>p(a) > 0</m>, <m>p(b) \lt  0</m>, and for the critical number <m>c</m> such that <m>a \lt  c \lt  b</m>, <m>p'(x) \lt  0</m> for <m>x \lt  c</m> and <m>p'(x) > 0</m> for <m>x > c</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -373,14 +414,14 @@ For each of the functions described below (each continuous on <m>[a,b]</m>), sta
 <statement>
 <p>
 Let <m>s(t) = 3\sin(2(t-\frac{\pi}{6})) + 5.</m> Find the exact absolute maximum and minimum of <m>s</m> on the provided intervals by testing the endpoints and finding and evaluating all relevant critical numbers of <m>s</m>.
-</p>
-
 <ol>
 <li><p><m>[\frac{\pi}{6}, \frac{7\pi}{6}]</m></p></li>
 <li><p><m>[0, \frac{\pi}{2}]</m></p></li>
 <li><p><m>[0, 2\pi]</m></p></li>
 <li><p><m>[\frac{\pi}{3}, \frac{5\pi}{6}]</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

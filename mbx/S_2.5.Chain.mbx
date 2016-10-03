@@ -44,7 +44,7 @@
     <p>But before we can learn what the chain rule says and why it works, we first need to be comfortable decomposing composite functions so that we can correctly identify the inner and outer functions, as we did in the example above with <m>C(x) = \sin(x^2).</m></p>
 
     <exploration xml:id="PA_2.5">
-      <p>For each function given below, identify its fundamental algebraic structure. In particular, is the given function a sum, product, quotient, or composition of basic functions? If the function is a composition of basic functions, state a formula for the inner function <m>g</m> and the outer function <m>f</m> so that the overall composite function can be written in the form <m>f(g(x))</m>. If the function is a sum, product, or quotient of basic functions, use the appropriate rule to determine its derivative.</p>
+      <p>For each function given below, identify its fundamental algebraic structure. In particular, is the given function a sum, product, quotient, or composition of basic functions? If the function is a composition of basic functions, state a formula for the inner function <m>g</m> and the outer function <m>f</m> so that the overall composite function can be written in the form <m>f(g(x))</m>. If the function is a sum, product, or quotient of basic functions, use the appropriate rule to determine its derivative.
 
       <ol>
         <li><p><m>h(x) = \tan(2^x)</m></p></li>
@@ -59,6 +59,7 @@
 
         <li><p><m>z(x) = \sqrt{\tan(x)}</m></p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -170,7 +171,7 @@
     <p>The chain rule now substantially expands the library of functions we can differentiate, as the following activity demonstrates.</p>
 
     <activity xml:id="A_2.5.1">
-      <p>For each function given below, identify an inner function <m>g</m> and outer function <m>f</m> to write the function in the form <m>f(g(x))</m>. Then, determine <m>f'(x)</m>, <m>g'(x)</m>, and <m>f'(g(x))</m>, and finally apply the chain rule to determine the derivative of the given function.</p>
+      <p>For each function given below, identify an inner function <m>g</m> and outer function <m>f</m> to write the function in the form <m>f(g(x))</m>. Then, determine <m>f'(x)</m>, <m>g'(x)</m>, and <m>f'(g(x))</m>, and finally apply the chain rule to determine the derivative of the given function.
 
       <ol>
         <li><p><m>h(x) = \cos(x^4)</m></p></li>
@@ -183,86 +184,96 @@
 
         <li><p><m>m(x) = (\sec(x) + e^x)^9</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>The outer function is <m>f(x) = \cos(x)</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = \sqrt{x}</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = 2^x</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = x^5</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = x^9</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = 2^x</m>, while the inner function is <m>g(x) = \sin(x)</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>.</p></li>
+
+          <li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>, and we know that
+              <me>
+                f'(x) = -\sin(x), g'(x) = 4x^3, \ \mbox{and}  \ f'(g(x)) = -\sin(x^4).
+              </me>
+              Hence, by the chain rule,
+              <me>
+                h'(x) = f'(g(x))g'(x) = -4x^3\sin(x^4).
+              </me>
+            </p></li>
+
+          <li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>, and we know that
+              <me>
+                f'(x) = \frac{1}{2\sqrt{x}}, g'(x) = \sec^2(x), \ \mbox{and}  \ f'(g(x)) = \frac{1}{2\sqrt{\tan(x)}}.
+              </me>
+              Hence, by the chain rule,
+              <me>
+                h'(x) = f'(g(x))g'(x) = \frac{\sec^2(x)}{2\sqrt{\tan(x)}}.
+              </me>
+            </p></li>
+
+          <li><p>The outer function is <m>f(x) = 2^x</m>, while the inner function is <m>g(x) = \sin(x)</m>, and we know that
+              <me>
+                f'(x) = 2^x \ln(2), g'(x) = \cos(x), \ \mbox{and}  \ f'(g(x)) = 2^{\sin(x)}\ln(2).
+              </me>
+              Hence, by the chain rule,
+              <me>
+                h'(x) = f'(g(x))g'(x) = 2^{\sin(x)}\ln(2)\cos(x).
+              </me>
+            </p></li>
+
+          <li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>, and we know that
+              <me>
+                f'(x) = 5x^4, g'(x) = -\csc^2(x), \ \mbox{and}  \ f'(g(x)) = 5\cot^4(x).
+              </me>
+              Hence, by the chain rule,
+              <me>
+                h'(x) = f'(g(x))g'(x) = -5\cot^4(x) \csc^2(x).
+              </me>
+            </p></li>
+
+          <li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>, and we know that
+              <me>
+                f'(x) = 9x^8, g'(x) = \sec(x)\tan(x) + e^x, \ \mbox{and}  \ f'(g(x)) = 9(\sec(x)+e^x)^8.
+              </me>
+              Hence, by the chain rule,
+              <me>
+                h'(x) = f'(g(x))g'(x) = 9(\sec(x)+e^x)^8 (\sec(x)\tan(x) + e^x).
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>The outer function is <m>f(x) = \cos(x)</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = \sqrt{x}</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = 2^x</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = x^5</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = x^9</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = 2^x</m>, while the inner function is <m>g(x) = \sin(x)</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>.</p></li>
-
-        <li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>, and we know that
-            <me>
-              f'(x) = -\sin(x), g'(x) = 4x^3, \ \mbox{and}  \ f'(g(x)) = -\sin(x^4).
-            </me>
-            Hence, by the chain rule,
-            <me>
-              h'(x) = f'(g(x))g'(x) = -4x^3\sin(x^4).
-            </me>
-          </p></li>
-
-        <li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>, and we know that
-            <me>
-              f'(x) = \frac{1}{2\sqrt{x}}, g'(x) = \sec^2(x), \ \mbox{and}  \ f'(g(x)) = \frac{1}{2\sqrt{\tan(x)}}.
-            </me>
-            Hence, by the chain rule,
-            <me>
-              h'(x) = f'(g(x))g'(x) = \frac{\sec^2(x)}{2\sqrt{\tan(x)}}.
-            </me>
-          </p></li>
-
-        <li><p>The outer function is <m>f(x) = 2^x</m>, while the inner function is <m>g(x) = \sin(x)</m>, and we know that
-            <me>
-              f'(x) = 2^x \ln(2), g'(x) = \cos(x), \ \mbox{and}  \ f'(g(x)) = 2^{\sin(x)}\ln(2).
-            </me>
-            Hence, by the chain rule,
-            <me>
-              h'(x) = f'(g(x))g'(x) = 2^{\sin(x)}\ln(2)\cos(x).
-            </me>
-          </p></li>
-
-        <li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>, and we know that
-            <me>
-              f'(x) = 5x^4, g'(x) = -\csc^2(x), \ \mbox{and}  \ f'(g(x)) = 5\cot^4(x).
-            </me>
-            Hence, by the chain rule,
-            <me>
-              h'(x) = f'(g(x))g'(x) = -5\cot^4(x) \csc^2(x).
-            </me>
-          </p></li>
-
-        <li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>, and we know that
-            <me>
-              f'(x) = 9x^8, g'(x) = \sec(x)\tan(x) + e^x, \ \mbox{and}  \ f'(g(x)) = 9(\sec(x)+e^x)^8.
-            </me>
-            Hence, by the chain rule,
-            <me>
-              h'(x) = f'(g(x))g'(x) = 9(\sec(x)+e^x)^8 (\sec(x)\tan(x) + e^x).
-            </me>
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -330,7 +341,7 @@
     </p>
 
     <activity xml:id="A_2.5.2">
-      <p>For each of the following functions, find the function's derivative. State the rule(s) you use, label relevant derivatives appropriately, and be sure to clearly identify your overall answer.</p>
+      <p>For each of the following functions, find the function's derivative. State the rule(s) you use, label relevant derivatives appropriately, and be sure to clearly identify your overall answer.
 
       <ol>
         <li><p><m>p(r) = 4\sqrt{r^6 + 2e^r}</m></p></li>
@@ -343,86 +354,97 @@
 
         <li><p><m>c(x) = \sin(e^{x^2})</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Use the constant multiple rule first, followed by the chain rule.</p></li>
+
+          <li><p>Observe that <m>m</m> is fundamentally a product of composite functions.</p></li>
+
+          <li><p>Note that <m>h</m> is a quotient of composite functions.</p></li>
+
+          <li><p>The function <m>s</m> is a composite function with outer function <m>2^z</m>.</p></li>
+
+          <li><p>It is possible for a function to be a composite function with more than two functions in the chain.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Note that <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Now use the chain rule to complete the remaining derivative.</p></li>
+
+          <li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  What rule is needed to execute the remaining two derivatives?</p></li>
+
+          <li><p>Note that by the quotient rule,
+              <me>
+                h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}.
+              </me>
+              What work remains to find <m>h'(y)</m>?</p></li>
+
+          <li><p>By the chain rule, <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.  What rule should next be applied?</p></li>
+
+          <li><p>If we first apply the chain rule to the outer function (the sine function), note that
+              <me>
+                c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}].
+              </me>
+              What rule is needed to differentiate the inner function, <m>e^{x^2}</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>By the constant multiple rule, <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Using the chain rule to complete the remaining derivative, we see that
+              <me>
+                p'(r) = 4 \frac{1}{2\sqrt{r^6 + 2e^r}} \frac{d}{dr}[r^6 + 2e^r] = \frac{4(6r^5 + 2e^r)}{2\sqrt{r^6 + 2e^r}}.
+              </me>
+            </p></li>
+
+          <li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  Applying the chain rule to differentiate <m>\cos(v^3)</m> and <m>\sin(v^2)</m>, we see that
+              <me>
+                m'(v) = \sin(v^2) [-\sin(v^3) \cdot 3v^2] + \cos(v^3) [\cos(v^2) \cdot 2v] = -3v^2 \sin(v^2)\sin(v^3) + 2v \cos(v^3)\cos(v^2).
+              </me>
+            </p></li>
+
+          <li><p>By the quotient rule,
+              <me>
+                h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}.
+              </me>
+              Applying the chain rule to differentiate <m>\cos(10y)</m> and <m>e^{4y}</m>, it follows
+              <me>
+                h'(y) = \frac{(e^{4y}+1) [-10\sin(10y)] - \cos(10y) [4e^{4y}]}{(e^{4y}+1)^2}.
+              </me>
+            </p></li>
+
+          <li><p>By the chain rule, <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.  Then by the product rule, we find that
+              <me>
+                s'(z) = 2^{z^2\sec(z)} \ln(2) [z^2 \sec(z)\tan(z) + \sec(z) \cdot 2z].
+              </me>
+            </p></li>
+
+          <li><p>If we first apply the chain rule to the outer function (the sine function), note that
+              <me>
+                c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}].
+              </me>
+              Next, we again apply the chain rule, but this time to <m>e^{x^2}</m>, and get
+              <me>
+                c'(x) = \cos(e^{x^2}) [e^{x^2}\cdot 2x].
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Use the constant multiple rule first, followed by the chain rule.</p></li>
 
-        <li><p>Observe that <m>m</m> is fundamentally a product of composite functions.</p></li>
-
-        <li><p>Note that <m>h</m> is a quotient of composite functions.</p></li>
-
-        <li><p>The function <m>s</m> is a composite function with outer function <m>2^z</m>.</p></li>
-
-        <li><p>It is possible for a function to be a composite function with more than two functions in the chain.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Note that <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Now use the chain rule to complete the remaining derivative.</p></li>
-
-        <li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  What rule is needed to execute the remaining two derivatives?</p></li>
-
-        <li><p>Note that by the quotient rule,
-            <me>
-              h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}.
-            </me>
-            What work remains to find <m>h'(y)</m>?</p></li>
-
-        <li><p>By the chain rule, <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.  What rule should next be applied?</p></li>
-
-        <li><p>If we first apply the chain rule to the outer function (the sine function), note that
-            <me>
-              c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}].
-            </me>
-            What rule is needed to differentiate the inner function, <m>e^{x^2}</m>?</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>By the constant multiple rule, <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Using the chain rule to complete the remaining derivative, we see that
-            <me>
-              p'(r) = 4 \frac{1}{2\sqrt{r^6 + 2e^r}} \frac{d}{dr}[r^6 + 2e^r] = \frac{4(6r^5 + 2e^r)}{2\sqrt{r^6 + 2e^r}}.
-            </me>
-          </p></li>
-
-        <li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  Applying the chain rule to differentiate <m>\cos(v^3)</m> and <m>\sin(v^2)</m>, we see that
-            <me>
-              m'(v) = \sin(v^2) [-\sin(v^3) \cdot 3v^2] + \cos(v^3) [\cos(v^2) \cdot 2v] = -3v^2 \sin(v^2)\sin(v^3) + 2v \cos(v^3)\cos(v^2).
-            </me>
-          </p></li>
-
-        <li><p>By the quotient rule,
-            <me>
-              h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}.
-            </me>
-            Applying the chain rule to differentiate <m>\cos(10y)</m> and <m>e^{4y}</m>, it follows
-            <me>
-              h'(y) = \frac{(e^{4y}+1) [-10\sin(10y)] - \cos(10y) [4e^{4y}]}{(e^{4y}+1)^2}.
-            </me>
-          </p></li>
-
-        <li><p>By the chain rule, <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.  Then by the product rule, we find that
-            <me>
-              s'(z) = 2^{z^2\sec(z)} \ln(2) [z^2 \sec(z)\tan(z) + \sec(z) \cdot 2z].
-            </me>
-          </p></li>
-
-        <li><p>If we first apply the chain rule to the outer function (the sine function), note that
-            <me>
-              c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}].
-            </me>
-            Next, we again apply the chain rule, but this time to <m>e^{x^2}</m>, and get
-            <me>
-              c'(x) = \cos(e^{x^2}) [e^{x^2}\cdot 2x].
-            </me>
-          </p></li>
-      </ol>
-    </solution>
     <p>The chain rule now adds substantially to our ability to do different familiar problems that involve derivatives. Whether finding the equation of the tangent line to a curve, the instantaneous velocity of a moving particle, or the instantaneous rate of change of a certain quantity, if the function under consideration involves a composition of other functions, the chain rule is indispensable.</p>
 
     <activity xml:id="A_2.5.3">
-      <p>Use known derivative rules, including the chain rule, as needed to answer each of the following questions.</p>
+      <p>Use known derivative rules, including the chain rule, as needed to answer each of the following questions.
 
       <ol>
         <li><p>Find an equation for the tangent line to the curve <m>y= \sqrt{e^x + 3}</m> at the point where <m>x=0</m>.</p></li>
@@ -489,52 +511,62 @@
             </tabular>
             If <m>C(x)</m> is a function given by the formula <m>f(g(x))</m>, determine <m>C'(2)</m>.   In addition, if <m>D(x)</m> is the function <m>f(f(x))</m>, find <m>D'(-1)</m>.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m>.</p></li>
+
+          <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.</p></li>
+
+          <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot.</p></li>
+
+          <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m> and recall the point-slope form of the tangent line.</p></li>
+
+          <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.  Consider writing <m>s(t) = (t^2 + 1)^{-3}</m> for ease of differentiation.</p></li>
+
+          <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot so this derivative measures the instantaneous rate of change of barometric pressure with respect to elevation.</p></li>
+
+          <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?  What does the chain rule tell us about <m>\frac{d}{dx}[f(f(x))]</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> By the chain rule <m>f'(x) = \frac{e^x}{2\sqrt{e^x + 3}}</m>, and thus <m>f'(0) = \frac{1}{4}</m>.  Note further that <m>f(0) = \sqrt{1 + 3} = 2</m>.  The tangent line is therefore the line through <m>(0,2)</m> with slope <m>1/4</m>, which is
+              <me>
+                y - 2 = \frac{1}{4}(x-0).
+              </me>
+            </p></li>
+
+          <li><p>Observe that <m>s(t) = (t^2 + 1)^{-3}</m>, and thus by the chain rule, <m>s'(t) = -3(t^2 + 1)^{-4}(2t).</m>  We therefore see that <m>s'(1) = -\frac{6}{16} = -\frac{3}{8}</m> inches per second, so the particle is moving left at the instant <m>t = 1</m>.</p></li>
+
+          <li><p>First, <m>P'(h) = \frac{dP}{dh} = 30 e^{-0.0000323h} (-0.0000323).</m>  Therefore, <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> inches of mercury per foot.  This tells us that the barometric pressure is dropping very slightly for each additional foot of elevation gaine.</p></li>
+
+          <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  Therefore, <m>C'(2) = f'(g(2))g'(2)</m>.  From the given table, <m>g(2) = -1</m>, so applying this result and using additional given information,
+              <me>
+                C'(2) = f'(-1) g'(2) = (-5)(2) = -10.
+              </me>
+              For <m>D(x) = f(f(x))</m>, the chain rule tells us that <m>D'(x) = f'(f(x))f'(x)</m>, so <m>D'(-1) = f'(f(-1))f'(-1)</m>.  Using the given table, it follows
+              <me>
+                D'(-1) = f'(2)f'(-1) = (4)(-5) = -20.
+              </me>
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m>.</p></li>
-
-        <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.</p></li>
-
-        <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot.</p></li>
-
-        <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m> and recall the point-slope form of the tangent line.</p></li>
-
-        <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.  Consider writing <m>s(t) = (t^2 + 1)^{-3}</m> for ease of differentiation.</p></li>
-
-        <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot so this derivative measures the instantaneous rate of change of barometric pressure with respect to elevation.</p></li>
-
-        <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?  What does the chain rule tell us about <m>\frac{d}{dx}[f(f(x))]</m>?</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> By the chain rule <m>f'(x) = \frac{e^x}{2\sqrt{e^x + 3}}</m>, and thus <m>f'(0) = \frac{1}{4}</m>.  Note further that <m>f(0) = \sqrt{1 + 3} = 2</m>.  The tangent line is therefore the line through <m>(0,2)</m> with slope <m>1/4</m>, which is
-            <me>
-              y - 2 = \frac{1}{4}(x-0).
-            </me>
-          </p></li>
-
-        <li><p>Observe that <m>s(t) = (t^2 + 1)^{-3}</m>, and thus by the chain rule, <m>s'(t) = -3(t^2 + 1)^{-4}(2t).</m>  We therefore see that <m>s'(1) = -\frac{6}{16} = -\frac{3}{8}</m> inches per second, so the particle is moving left at the instant <m>t = 1</m>.</p></li>
-
-        <li><p>First, <m>P'(h) = \frac{dP}{dh} = 30 e^{-0.0000323h} (-0.0000323).</m>  Therefore, <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> inches of mercury per foot.  This tells us that the barometric pressure is dropping very slightly for each additional foot of elevation gaine.</p></li>
-
-        <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  Therefore, <m>C'(2) = f'(g(2))g'(2)</m>.  From the given table, <m>g(2) = -1</m>, so applying this result and using additional given information,
-            <me>
-              C'(2) = f'(-1) g'(2) = (-5)(2) = -10.
-            </me>
-            For <m>D(x) = f(f(x))</m>, the chain rule tells us that <m>D'(x) = f'(f(x))f'(x)</m>, so <m>D'(-1) = f'(f(-1))f'(-1)</m>.  Using the given table, it follows
-            <me>
-              D'(-1) = f'(2)f'(-1) = (4)(-5) = -20.
-            </me>
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -579,11 +611,10 @@
           </me>
         </p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.</p>
+          <p>Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.
 
           <ol>
             <li><p>Let <m>h(x) = f(g(x))</m>.  Find the exact instantaneous rate of change of <m>h</m> at the point where <m>x = \frac{\pi}{4}.</m></p></li>
@@ -592,11 +623,12 @@
 
             <li><p>Let <m>h(x) = f(g(x))</m> and <m>r(x) = g(f(x))</m>.  Which of these functions has a derivative that is periodic?  Why?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Let <m>u(x)</m> be a differentiable function. For each of the following functions, determine the derivative. Each response will involve <m>u</m> and/or <m>u'</m>.</p>
+          <p>Let <m>u(x)</m> be a differentiable function. For each of the following functions, determine the derivative. Each response will involve <m>u</m> and/or <m>u'</m>.
 
           <ol>
             <li><p><m>p(x) = e^{u(x)}</m></p></li>
@@ -611,6 +643,7 @@
 
             <li><p><m>b(x) = u^4(x)</m></p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -634,10 +667,9 @@
       <exercise>
         <statement>
           <p>If a spherical tank of radius 4 feet has <m>h</m> feet of water present in the tank, then the volume of water in the tank is given by the formula
-            <me>
-              V = \frac{\pi}{3} h^2(12-h).
-            </me>
-          </p>
+          <me>
+            V = \frac{\pi}{3} h^2(12-h).
+          </me>
 
           <ol>
             <li><p>At what instantaneous rate is the volume of water in the tank changing with respect to the <em>height</em> of the water at the instant <m>h = 1</m>?  What are the units on this quantity?</p></li>
@@ -648,6 +680,7 @@
 
             <li><p>What are the main differences between the rates found in (a) and (c)?  Include a discussion of the relevant units.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

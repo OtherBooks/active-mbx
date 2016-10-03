@@ -46,8 +46,6 @@ In <xref ref="PA_8.5">Preview Activity</xref>, we begin our explorations of appr
 <exploration xml:id="PA_8.5">
 <p>
 <xref ref="PA_8.3">Preview Activity</xref> showed how we can approximate the number <m>e</m> using linear, quadratic, and other polynomial functions; we then used similar ideas in <xref ref="PA_8.4">Preview Activity</xref> to approximate <m>\ln(2)</m>. In this activity, we review and extend the process to find the ``best" quadratic approximation to the exponential function <m>e^x</m> around the origin. Let <m>f(x) = e^x</m> throughout this activity.
-</p>
-
 <ol>
 <li><p>Find a formula for <m>P_1(x)</m>, the linearization of <m>f(x)</m> at <m>x=0</m>.  (We label this linearization <m>P_1</m> because it is a first degree polynomial approximation.) Recall that <m>P_1(x)</m> is a good approximation to <m>f(x)</m> for values of <m>x</m> close to <m>0</m>. Plot <m>f</m> and <m>P_1</m> near <m>x=0</m> to illustrate this fact.
 
@@ -77,8 +75,6 @@ Remember that <m>P_1(x)</m> was a good linear approximation to <m>f(x)</m> near 
   <mrow>  P''_2(0) \amp = f''(0).</mrow>
 </md>
 Remember, we are letting <m>P_2(x) = P_1(x) + c_2x^2</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -132,9 +128,10 @@ Explain why the condition <m>P''_2(0) = f''(0)</m> will put an appropriate ``ben
 The second derivative of a function tells us the concavity of the function. Concavity measures how the slopes of the tangent lines to the graph of the function are changing. This tells us how much bend there is in the graph. So if <m>P''_2(0) = f''(0)</m>, then <m>P_2</m> will have the same bend in it at <m>x=0</m> as <m>f</m> does. This will make the graph of <m>P_2</m> mold to the graph of <m>f</m> around <m>x=0</m>.
 </p>
 </solution></p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -322,12 +319,8 @@ We have just seen that the <m>n</m>th order Taylor polynomial centered at <m>a =
 
 <p>
 In this activity, we determine small order Taylor polynomials for several other familiar functions, and look for general patterns that will help us find the Taylor series expansions a bit later.
-</p>
-
 <ol>
 <li><p>Let <m>f(x) = \frac{1}{1-x}</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -337,11 +330,8 @@ Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>. Then find the
 <title>(ii)</title>
 <p>
 Based on your results from part (i), determine a general formula for <m>f^{(k)}(0)</m>.</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Let <m>f(x) = \cos(x)</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -351,11 +341,8 @@ Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>. Then find the
 <title>(ii)</title>
 <p>
 Based on your results from part (i), find a general formula for <m>f^{(k)}(0)</m>.  (Think about how <m>k</m> being even or odd affects the value of the <m>k</m>th derivative.)</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Let <m>f(x) = \sin(x)</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -365,20 +352,33 @@ Calculate the first four derivatives of <m>f(x)</m> at <m>x=0</m>. Then find the
 <title>(ii)</title>
 <p>
 Based on your results from part (i), find a general formula for <m>f^{(k)}(0)</m>.  (Think about how <m>k</m> being even or odd affects the value of the <m>k</m>th derivative.)</p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>\begin{thmlist}</p></li>
 <li><p>The first four derivatives of <m>f(x)</m> at <m>x=0</m> are
@@ -451,7 +451,10 @@ This makes sense since <m>f(x)</m> is the sum of the geometric series with ratio
 
     \end{thmlist}</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 It is possible that an <m>n</m>th order Taylor polynomial is not a polynomial of degree <m>n</m>; that is, the order of the approximation can be different from the degree of the polynomial. For example, in <xref ref="x8.5.Act2">Activity</xref> we found that the second order Taylor polynomial <m>P_2(x)</m> centered at 0 for <m>\sin(x)</m> is <m>P_2(x) = x</m>. In this case, the second order Taylor polynomial is a degree 1 polynomial.
 </p>
@@ -508,24 +511,36 @@ In the special case where <m>a=0</m> in <xref ref="D_8.5.Taylor_series">Definiti
 <activity xml:id="x8.5.Act2b">
 <p>
 In <xref ref="x8.5.Act2">Activity</xref> we determined small order Taylor polynomials for a few familiar functions, and also found general patterns in the derivatives evaluated at 0. Use that information to write the Taylor series centered at 0 for the following functions.
-</p>
-
 <ol>
 <li><p><m>f(x) = \frac{1}{1-x}</m></p></li>
 <li><p><m>f(x) = \cos(x)</m> (You will need to carefully consider how to indicate that many of the coefficients are 0. Think about a general way to represent an even integer.)</p></li>
 <li><p><m>f(x) = \sin(x)</m>  (You will need to carefully consider how to indicate that many of the coefficients are 0. Think about a general way to represent an odd integer.)</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>\begin{thmlist}</p></li>
 <li><p>The first four derivatives of <m>f(x)</m> at <m>x=0</m> are
@@ -598,7 +613,10 @@ This makes sense since <m>f(x)</m> is the sum of the geometric series with ratio
 
     \end{thmlist}</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The next activity further considers the important issue of the <m>x</m>-values for which the Taylor series of a function converges to the function itself.
 </p>
@@ -608,17 +626,29 @@ The next activity further considers the important issue of the <m>x</m>-values f
 <li><p>Draw the graphs of several of the Taylor polynomials centered at 0 (of order at least 6) for <m>\cos(x)</m> and convince yourself that these Taylor polynomials converge to <m>\cos(x)</m> for every value of <m>x</m>. Write the Taylor series centered at 0 for <m>\cos(x)</m>.</p></li>
 <li><p>Draw the graphs of several of the Taylor polynomials centered at 0 for <m>\frac{1}{1-x}</m>. Based on your graphs, for what values of <m>x</m>  do these Taylor polynomials appear to converge to <m>\frac{1}{1-x}</m>? How is this situation different from what we observe with <m>e^x</m> and <m>\cos(x)</m>?  In addition, write the Taylor series centered at 0 for <m>\frac{1}{1-x}</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>The graphs of the 10th (magenta), 20th (blue), and 30th (green) Taylor polynomials centered at 0 for <m>e^x</m> are shown below along with the graph of <m>f(x)</m> in red:
 <image width="73%" source="images/8_5_exp_graphs" />  
@@ -640,7 +670,10 @@ Based on the <m>n</m>th order Taylor polynomials we found earlier for <m>\frac{1
   \sum_{k=0}^{\infty} x^k.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The Maclaurin series for <m>e^x</m>, <m>\sin(x)</m>, <m>\cos(x)</m>, and <m>\frac{1}{1-x}</m> will be used frequently, so we should be certain to know and recognize them well.
 </p>
@@ -730,8 +763,6 @@ Thus, we have found that
 
 <p>
 There are three important possibilities for <m>L</m>: <m>L</m> can be 0, a finite positive value, or infinite. Based on this value of <m>L</m>, we can therefore determine for which values of <m>x</m> the original Taylor series converges.
-</p>
-
 <ul>
 <li><p>If <m>L = 0</m>, then the Taylor series converges on <m>(-\infty, \infty)</m>.</p></li>
 <li><p>If <m>L</m> is infinite, then the Taylor series converges only at <m>x = a</m>.</p></li>
@@ -749,6 +780,7 @@ which is also the interval
 </me>
 Because the Ratio Test is inconclusive when the <m>|x-a| \cdot L = 1</m>, the endpoints <m>a \pm \frac{1}{L}</m> have to be checked separately.</p></li>
 </ul>
+</p>
 
 <p>
 It is important to notice that the set of <m>x</m> values at which a Taylor series converges is always an interval centered at <m>x=a</m>. For this reason, the set on which a Taylor series converges is called the <em>interval of convergence</em>. Half the length of the interval of convergence is called the <em>radius of convergence</em><index><main>Taylor series</main><sub>radius of convergence</sub></index>. If the interval of convergence of a Taylor series is infinite, then we say that the radius of convergence is infinite.
@@ -759,17 +791,29 @@ It is important to notice that the set of <m>x</m> values at which a Taylor seri
 <li><p>Use the Ratio Test to explicitly determine the interval of convergence of the Taylor series for <m>f(x) = \cos(x)</m> centered at <m>x=0</m>.</p></li>
 <li><p>Use the Ratio Test to explicitly determine the interval of convergence of the Taylor series for <m>f(x) = \sin(x)</m> centered at <m>x=0</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Using the Ratio Test with the <m>k</m>th term <m>\frac{|x|^{2k}}{(2k)!}</m> we get
 <md>
@@ -790,15 +834,18 @@ So the interval of convergence of the Taylor series for <m>f(x) = \sin(x)</m> ce
   \lim_{k \to \infty} \frac{ |x|^{k+1} }{ |x|^{k} } = \lim_{k \to \infty} |x| = |x|,
 </me>
 So the series <m>\sum_{k=0}^{\infty} x^k</m> converges absolutely when <m>|x| \lt  1</m> or for <m>-1 \lt  x \lt  1</m> and diverges when <m>|x| > 1</m>. Since the Ratio Test doesn't tell us what happens when <m>x=1</m>, we need to check the endpoints separately.
-</p>
-
 <ul>
 <li><p>When <m>x=1</m> we have the series <m>\sum_{k=0}^{\infty} 1</m> which diverges since <m>\lim_{k \to \infty} 1 \neq 0</m>.</p></li>
 <li><p>When <m>x=-1</m> we have the series <m>\sum_{k=0}^{\infty} (-1)^k</m> which diverges since <m>\lim_{k \to \infty} (-1)^k</m> does not exist.</p></li>
 </ul>
+
+</p>
 Therefore, the interval of convergence of the Taylor series for <m>f(x) = \frac{1}{1-x}</m> centered at <m>x=0</m> is <m>(-1,1)</m>.</li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The Ratio Test tells us how we can determine the set of <m>x</m> values for which a Taylor series converges absolutely. However, just because a Taylor series for a function <m>f</m> converges, we cannot be certain that the Taylor series actually converges to <m>f(x)</m> on its interval of convergence. To show why and where a Taylor series does in fact converge to the function <m>f</m>, we next consider the error that is present in Taylor polynomials.
 </p>
@@ -938,16 +985,26 @@ with an actual difference of about 0.0000500159.
 <p>
 Let <m>P_n(x)</m> be the <m>n</m>th order Taylor polynomial for <m>\sin(x)</m> centered at <m>x=0</m>. Determine how large we need to choose <m>n</m> so that <m>P_n(2)</m> approximates <m>\sin(2)</m> to 20 decimal places.
 </p>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <p>
 In this example, if we can find a value of <m>n</m> so that
@@ -997,6 +1054,7 @@ A computer algebra system gives
 and we can see that these agree to 20 places.
 </p>
 </solution>
+</activity>
 
 <example xml:id="Ex_8.5.4">
 <statement>
@@ -1040,8 +1098,6 @@ for every real number <m>x</m>.
 <ol>
 <li><p>Show that the Taylor series centered at 0 for <m>\cos(x)</m> converges to <m>\cos(x)</m> for every real number <m>x</m>.</p></li>
 <li><p>Next we consider the Taylor series for <m>e^x</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -1055,16 +1111,22 @@ Show that the Taylor series centered at 0 for <m>e^x</m> converges to <m>e^x</m>
 <title>(iii)</title>
 <p>
 Explain why the Taylor series centered at 0 for <m>e^x</m> converges to <m>e^x</m> for every real number <m>x</m>. Recall that we earlier showed that the Taylor series centered at 0 for <m>e^x</m> converges for all <m>x</m>, and we have now completed the argument that the Taylor series for <m>e^x</m> actually converges to <m>e^x</m> for all <m>x</m>.</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Let <m>P_n(x)</m> be the <m>n</m>th order Taylor polynomial for <m>e^x</m> centered at 0. Find a value of <m>n</m> so that <m>P_n(5)</m> approximates <m>e^5</m> correct to 8 decimal places.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Since the derivatives of <m>\cos(x)</m> are all either <m>\pm \cos(x)</m> or <m>\pm \sin(x)</m>, we see that all of the derivatives of <m>\cos(x)</m> are bounded above by 1. If <m>P_n(x)</m> is the <m>n</m>th order Taylor polynomial for <m>\cos(x)</m>, then for any <m>x</m> we have
 <me>
@@ -1106,7 +1168,10 @@ We want a value of <m>n</m> that makes this error term less than <m>10^{-8}</m>.
 </me>
 so we can choose <m>n=28</m>. A computer algebra system shows that <m>P_{28}(5) \approx 148.413159102551</m> while <m>e^5 \approx 148.413159102577</m> and we can see that these two approximations agree to 8 decimal places.</p></li>
 </ol>
+
+</p>
 </hint>
+</activity>
 </subsection>
 
 
@@ -1138,13 +1203,13 @@ so we can choose <m>n=28</m>. A computer algebra system shows that <m>P_{28}(5) 
 <statement>
 <p>
 In this exercise we investigation the Taylor series of polynomial functions.
-</p>
-
 <ol>
 <li><p>Find the 3rd order Taylor polynomial centered at <m>a = 0</m> for <m>f(x) = x^3-2x^2+3x-1</m>. Does your answer surprise you? Explain.</p></li>
 <li><p>Without doing any additional computation, find the 4th, 12th, and 100th order Taylor polynomials (centered at <m>a = 0</m>) for <m>f(x) = x^3-2x^2+3x-1</m>. Why should you expect this?</p></li>
 <li><p>Now suppose <m>f(x)</m> is a degree <m>m</m> polynomial. Completely describe the <m>n</m>th order Taylor polynomial (centered at <m>a = 0</m>) for each <m>n</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -1152,13 +1217,13 @@ In this exercise we investigation the Taylor series of polynomial functions.
 <statement>
 <p>
 The examples we have considered in this section have all been for Taylor polynomials and series centered at 0, but Taylor polynomials and series can be centered at any value of <m>a</m>. We look at examples of such Taylor polynomials in this exercise.
-</p>
-
 <ol>
 <li><p>Let <m>f(x) = \sin(x)</m>. Find the Taylor polynomials up through order four of <m>f</m> centered at <m>x = \frac{\pi}{2}</m>. Then find the Taylor series for <m>f(x)</m> centered at <m>x = \frac{\pi}{2}</m>. Why should you have expected the result?</p></li>
 <li><p>Let <m>f(x) = \ln(x)</m>. Find the Taylor polynomials up through order four of <m>f</m> centered at <m>x = 1</m>. Then find the Taylor series for <m>f(x)</m> centered at <m>x = 1</m>.</p></li>
 <li><p>Use your result from (b) to determine which Taylor polynomial will approximate <m>\ln(2)</m> to two decimal places. Explain in detail how you know you have the desired accuracy.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -1166,16 +1231,12 @@ The examples we have considered in this section have all been for Taylor polynom
 <statement>
 <p>
 We can use known Taylor series to obtain other Taylor series, and we explore that idea in this exercise, as a preview of work in the following section.
-</p>
-
 <ol>
 <li><p>Calculate the first four derivatives of <m>\sin(x^2)</m> and hence find the fourth order Taylor polynomial for <m>\sin(x^2)</m> centered at <m>a=0</m>.</p></li>
 <li><p>Part (a) demonstrates the brute force approach to computing Taylor polynomials and series. Now we find an easier method that utilizes a known Taylor series. Recall that the Taylor series centered at 0 for <m>f(x) = \sin(x)</m> is
 <men xml:id="eq_8.5_Exercise3" >
   \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!}.
 </men>
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -1185,9 +1246,10 @@ Substitute <m>x^2</m> for <m>x</m> in the Taylor series <xref ref="eq_8.5_Exerci
 <title>(ii)</title>
 <p>
 What should we expect the interval of convergence of the series for <m>\sin(x^2)</m> to be? Explain in detail.</p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -1198,13 +1260,13 @@ Based on the examples we have seen, we might expect that the Taylor series for a
     \begin{cases}e^{-1/x^2} \amp \\text{ if }  x \neq 0, \\
     0   \amp \\text{ if }  x = 0.
 \end{cases}</m>
-</p>
-
 <ol>
 <li><p>Show, using the definition of the derivative, that <m>f'(0) = 0</m>.</p></li>
 <li><p>It can be shown that <m>f^{(n)}(0) = 0</m> for all <m>n \geq 2</m>. Assuming that this is true, find the Taylor series for <m>f</m> centered at 0.</p></li>
 <li><p>What is the interval of convergence of the Taylor series centered at 0 for <m>f</m>? Explain. For which values of <m>x</m> the interval of convergence of the Taylor series does the Taylor series converge to <m>f(x)</m>?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

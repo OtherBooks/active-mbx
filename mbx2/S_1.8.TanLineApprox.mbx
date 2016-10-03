@@ -97,8 +97,6 @@ The next activity explores some additional important properties of the local lin
 <activity xml:id="A_1.8.1">
 <p>
 Suppose it is known that for a given differentiable function <m>y = g(x)</m>, its local linearization at the point where <m>a = -1</m> is given by <m>L(x) = -2 + 3(x+1)</m>.
-</p>
-
 <ol>
 <li><p>Compute the values of <m>L(-1)</m> and <m>L'(-1)</m>.</p></li>
 <li><p>What must be the values of <m>g(-1)</m> and <m>g'(-1)</m>?  Why?</p></li>
@@ -107,12 +105,15 @@ Suppose it is known that for a given differentiable function <m>y = g(x)</m>, it
 <li><p>Suppose that you also know that <m>g''(-1) = 2.</m>  What does this tell you about the graph of <m>y = g(x)</m> at <m>a = -1</m>?</p></li>
 <li><p>For <m>x</m> near <m>-1</m>, sketch the graph of the local linearization <m>y = L(x)</m> as well as a possible graph of <m>y = g(x)</m> on the axes provided in <xref ref="F_1.8.Act1">Figure</xref>.</p></li>
 </ol>
+
+</p>
 <figure xml:id="F_1.8.Act1" >
 <caption>Axes for plotting <m>y = L(x)</m> and <m>y = g(x)</m>.</caption>
 <image width="73%" source="images/1_8_Act1" />
 </figure>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Follow the rule for <m>L</m>.</p></li>
 <li><p>Recall that the form of the local linearization is <m>L(x) = g(a) + g'(a)(x-a)</m>.</p></li>
@@ -121,7 +122,13 @@ Suppose it is known that for a given differentiable function <m>y = g(x)</m>, it
 <li><p>What does the second derivative tell you about the shape of a curve?</p></li>
 <li><p>Use your work above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Follow the rule for <m>L</m> and note that you can easily compute <m>L'(x)</m>.</p></li>
 <li><p>Recall that the form of the local linearization is <m>L(x) = g(a) + g'(a)(x-a)</m>.  What is the value of <m>a</m> for the given function <m>L</m>?</p></li>
@@ -130,7 +137,10 @@ Suppose it is known that for a given differentiable function <m>y = g(x)</m>, it
 <li><p>What does a positive second derivative tell you about the shape of a curve at a point?</p></li>
 <li><p>Use your work above, and think about the value, slope, and concavity of <m>y = g(x)</m> at <m>a = -1</m>.</p></li>
 </ol>
+
+</p>
 </hint>
+</activity>
 <p>
 As we saw in the example provided by <xref ref="A_1.8.1">Activity</xref>, the local linearization <m>y = L(x)</m> is a linear function that shares two important values with the function <m>y = f(x)</m> that it is derived from. In particular, observe that since <m>L(x) = f(a) + f'(a)(x-a)</m>, it follows that <m>L(a) = f(a)</m>. In addition, since <m>L</m> is a linear function, its derivative is its slope. Hence, <m>L'(x) = f'(a)</m> for every value of <m>x</m>, and specifically <m>L'(a) = f'(a)</m>. Therefore, we see that <m>L</m> is a linear function that has both the same value and the same slope as the function <m>f</m> at the point <m>(a,f(a))</m>.
 </p>
@@ -156,21 +166,19 @@ We explore these ideas further in the following activity.
 <activity xml:id="A_1.8.2">
 <p>
 This activity concerns a function <m>f(x)</m> about which the following information is known:
-</p>
-
 <ul>
 <li><p><m>f</m> is a differentiable function defined at every real number <m>x</m></p></li>
 <li><p><m>f(2) = -1</m></p></li>
 <li><p><m>y = f'(x)</m> has its graph given in <xref ref="F_1.8.Act2">Figure</xref></p></li>
 </ul>
+
+</p>
 <figure xml:id="F_1.8.Act2" >
 <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
 <image width="73%" source="images/1_8_Act2" />
 </figure>
 <p>
 Your task is to determine as much information as possible about <m>f</m> (especially near the value <m>a = 2</m>) by responding to the questions below.
-</p>
-
 <ol>
 <li><p>Find a formula for the tangent line approximation, <m>L(x)</m>, to <m>f</m> at the point <m>(2,-1)</m>.</p></li>
 <li><p>Use the tangent line approximation to estimate the value of <m>f(2.07)</m>.  Show your work carefully and clearly.</p></li>
@@ -179,8 +187,11 @@ Your task is to determine as much information as possible about <m>f</m> (especi
 <li><p>Sketch a possible graph of <m>y = f(x)</m> near <m>x = 2</m> on the lefthand grid in <xref ref="F_1.8.Act2">Figure</xref>.  Include a sketch of <m>y=L(x)</m> (found in part (a)).  Explain how you know the graph of <m>y = f(x)</m> looks like you have drawn it.</p></li>
 <li><p>Does your estimate in (b) over- or under-estimate the true value of <m>f(2.07)</m>?  Why?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Find the value of <m>f'(2)</m> from the given graph of <m>f</m>.</p></li>
 <li><p>Remember that <m>f(2.07) \approx L(2.07)</m>.</p></li>
@@ -189,7 +200,13 @@ Your task is to determine as much information as possible about <m>f</m> (especi
 <li><p>Draw <m>y = L(x)</m> first.  Then think about options for <m>f</m> relative to the graph of <m>L</m>.</p></li>
 <li><p>Does the tangent line lie above or below the graph of <m>y = f(x)</m> at <m>(2,3)</m>?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Find the value of <m>f'(2)</m> from the given graph of <m>f</m>, and note that you are given that <m>f(2) = -1</m>.</p></li>
 <li><p>Remember that <m>f(2.07) \approx L(2.07)</m>.</p></li>
@@ -198,7 +215,10 @@ Your task is to determine as much information as possible about <m>f</m> (especi
 <li><p>Draw <m>y = L(x)</m> first.  Then think about options for <m>f</m> relative to the graph of <m>L</m>.  Is <m>f</m> concave up or concave down before <m>x = 2</m>?  after <m>x = 2</m>?</p></li>
 <li><p>Does the tangent line lie above or below the graph of <m>y = f(x)</m> at <m>(2,3)</m>?  You may have to consider values less than <m>x = 2</m> and values greater than <m>x = 2</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <ol>
 <li><p>Since <m>f(2) = -1</m> and <m>f'(2) = 2</m>, we have <m>L(x) = -1 + 2(x-2)</m>.</p></li>
@@ -210,6 +230,7 @@ Your task is to determine as much information as possible about <m>f</m> (especi
 </ol>
 <image width="73%" source="images/1_8_Act2" /> 
 </solution>
+</activity>
 <p>
 The idea that a differentiable function looks linear and can be well-approximated by a linear function is an important one that finds wide application in calculus. For example, by approximating a function with its local linearization, it is possible to develop an effective algorithm to estimate the zeroes of a function. Local linearity also helps us to make further sense of certain challenging limits. For instance, we have seen that a limit such as
 <me>
@@ -254,14 +275,14 @@ This is an author note.
 <statement>
 <p>
 A certain function <m>y=p(x)</m> has its local linearization at <m>a = 3</m> given by <m>L(x) = -2x + 5</m>.
-</p>
-
 <ol>
 <li><p>What are the values of <m>p(3)</m> and <m>p'(3)</m>?  Why?</p></li>
 <li><p>Estimate the value of <m>p(2.79)</m>.</p></li>
 <li><p>Suppose that <m>p''(3) = 0</m> and you know that <m>p''(x) \lt  0</m> for <m>x \lt  3</m>.  Is your estimate in (b) too large or too small?</p></li>
 <li><p>Suppose that <m>p''(x) > 0</m> for <m>x > 3</m>.  Use this fact and the additional information above to sketch an accurate graph of <m>y = p(x)</m> near <m>x = 3</m>.  Include a sketch of <m>y = L(x)</m> in your work.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -304,13 +325,13 @@ A potato is placed in an oven, and the potato's temperature <m>F</m> (in degrees
 <statement>
 <p>
 An object moving along a straight line path has a differentiable position function <m>y = s(t)</m>; <m>s(t)</m> measures the object's position relative to the origin at time <m>t</m>. It is known that at time <m>t = 9</m> seconds, the object's position is <m>s(9) = 4</m> feet (i.e., 4 feet to the right of the origin). Furthermore, the object's instantaneous velocity at <m>t = 9</m> is <m>-1.2</m> feet per second, and its acceleration at the same instant is <m>0.08</m> feet per second per second.
-</p>
-
 <ol>
 <li><p>Use local linearity to estimate the position of the object at <m>t = 9.34</m>.</p></li>
 <li><p>Is your estimate likely too large or too small?  Why?</p></li>
 <li><p>In everyday language, describe the behavior of the moving object at <m>t = 9</m>.  Is it moving toward the origin or away from it? Is its velocity increasing or decreasing?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -318,13 +339,13 @@ An object moving along a straight line path has a differentiable position functi
 <statement>
 <p>
 For a certain function <m>f</m>, its derivative is known to be <m>f'(x) = (x-1)e^{-x^2}</m>. Note that you do not know a formula for <m>y = f(x)</m>.
-</p>
-
 <ol>
 <li><p>At what <m>x</m>-value(s) is <m>f'(x) = 0</m>?  Justify your answer algebraically, but include a graph of <m>f'</m> to support your conclusion.</p></li>
 <li><p>Reasoning graphically, for what intervals of <m>x</m>-values is <m>f''(x) > 0</m>?  What does this tell you about the  behavior of the original function <m>f</m>?  Explain.</p></li>
 <li><p>Assuming that <m>f(2) = -3</m>, estimate the value of <m>f(1.88)</m> by finding and using the tangent line approximation to <m>f</m> at <m>x=2</m>.  Is your estimate larger or smaller than the true value of <m>f(1.88)</m>?  Justify your answer.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

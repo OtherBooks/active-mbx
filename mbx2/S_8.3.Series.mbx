@@ -21,8 +21,6 @@ as a geometric series, we found a way to write the repeating decimal expansion o
 <exploration xml:id="PA_8.3">
 <p>
 Have you ever wondered how your calculator can produce a numeric approximation for complicated numbers like <m>e</m>, <m>\pi</m> or <m>\ln(2)</m>? After all, the only operations a calculator can really perform are addition, subtraction, multiplication, and division, the operations that make up polynomials. This activity provides the first steps in understanding how this process works. Throughout the activity, let <m>f(x) = e^x</m>.
-</p>
-
 <ol>
 <li><p>Find the tangent line to <m>f</m> at <m>x=0</m> and use this linearization to approximate <m>e</m>.  That is, find a formula <m>L(x)</m> for the tangent line, and compute <m>L(1)</m>, since <m>L(1) \approx f(1) = e</m>.
 
@@ -51,8 +49,6 @@ for <m>x</m> close to <m>0</m> and so
 </p>
 </solution></p></li>
 <li><p>The linearization of <m>e^x</m> does not provide a good approximation to <m>e</m> since 1 is not very close to 0. To obtain a better approximation, we alter our approach a bit. Instead of using a straight line to approximate <m>e</m>, we put an appropriate bend in our estimating function to make it better fit the graph of <m>e^x</m> for <m>x</m> close to 0. With the linearization, we had both <m>f(x)</m> and <m>f'(x)</m> share the same value as the linearization at <m>x=0</m>. We will now use a quadratic approximation <m>P_2(x)</m> to <m>f(x) = e^x</m> centered at <m>x=0</m> which has the property that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \\text{ and }  <m>P''_2(0) = f''(0)</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -114,9 +110,10 @@ Then
 </me>
 </p>
 </solution></p></li>
-</ul>
-</li>
+</ul></p></li>
 </ol>
+
+</p>
 </exploration>
 <p>
 <xref ref="PA_8.3">Preview Activity</xref> shows that an approximation to <m>e</m> using a linear polynomial is 2, an approximation to <m>e</m> using a quadratic polynomial is <m>2.5</m>, and an approximation using a cubic polynomial is 2.6667. As we will see later, if we continue this process we can obtain approximations from quartic (degree 4), quintic (degree 5), and higher degree polynomials giving us the following approximations to <m>e</m>:
@@ -195,8 +192,6 @@ Consider the series
 
 <p>
 While it is physically impossible to add an infinite collection of numbers, we can, of course, add any finite collection of them. In what follows, we investigate how understanding how to find the <m>n</m>th partial sum (that is, the sum of the first <m>n</m> terms) enables us to make sense of the infinite sum.
-</p>
-
 <ol>
 <li><p>Sum the first two numbers in this series. That is, find a numeric value for
 <me>
@@ -216,17 +211,31 @@ While it is physically impossible to add an infinite collection of numbers, we c
 </table></p></li>
 <li><p>The sums in the table in (c) form a sequence whose <m>n</m>th term is <m>S_n =  \sum_{k=1}^{n} \frac{1}{k^2}</m>. Based on your calculations in the table, do you think the sequence <m>\{S_n\}</m> converges or diverges? Explain. How do you think this sequence <m>\{S_n\}</m> is related to the series <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>See the Table in part (c).</p></li>
 <li><p>See the Table in part (c).</p></li>
@@ -240,7 +249,10 @@ While it is physically impossible to add an infinite collection of numbers, we c
 </tabular></p></li>
 <li><p>These sums in the table in part (c) seem to indicate that the sequence <m>\{S_n\}</m> converges to something a bit larger than 1.5. Since the sequence <m>\{S_n\}</m> is found by adding up the first <m>k</m> terms of the series, we should expect that the series <m>\sum_{k=1}^{n} \frac{1}{k^2}</m> is the limit of the sequence <m>\{S_n\}</m> as <m>n</m> goes to infinity.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The example in <xref ref="x8.3.Act1">Activity</xref> illustrates how we define the sum of an infinite series. We can add up the first <m>n</m> terms of the series to obtain a new sequence of numbers (called the <em>sequence of partial sums</em><index><main>partial sum</main></index><index><main>sequence of partial sums</main></index>). Provided that sequence converges, the corresponding infinite series is said to converge, and we say that we can find the sum of the series.
 </p>
@@ -348,8 +360,6 @@ If the <em>series</em> <m>\sum a_k</m> converges, then an important result neces
 <p>
 Assume that the series <m>\sum_{k=1}^{\infty} a_k</m>
 converges and has sum equal to <m>L</m>.
-</p>
-
 <ol>
 <li><p>What is the <m>n</m>th partial sum <m>S_n</m> of the series <m>\sum_{k=1}^{\infty} a_k</m>?</p></li>
 <li><p>What is the <m>(n-1)</m>st partial sum <m>S_{n-1}</m> of the series <m>\sum_{k=1}^{\infty} a_k</m>?</p></li>
@@ -357,17 +367,31 @@ converges and has sum equal to <m>L</m>.
 <li><p>Since we are assuming that  <m>\sum_{k=1}^{\infty} a_k = L</m>, what does that tell us about <m>\lim_{n \to \infty} S_n</m>? Why?  What does that tell us about <m>\lim_{n \to \infty} S_{n-1}</m>? Why?</p></li>
 <li><p>Combine the results of the previous two parts of this activity to determine <m>\lim_{n \to \infty} a_n = \lim_{n \to \infty} (S_n - S_{n-1})</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>The <m>n</m>th partial sum of the series <m>\sum_{k=1}^{\infty} a_k</m> is
 <me>
@@ -394,7 +418,10 @@ so <m>\lim_{n \to \infty} S_{n-1} = L</m> as well.</p></li>
   <mrow>  \amp = 0.</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The result of <xref ref="x8.3.Act2">Activity</xref> is the following important conditional statement:
 </p>
@@ -412,29 +439,44 @@ diverges.
 <activity xml:id="x8.3.Act3">
 <p>
 Determine if the Divergence Test applies to the following series. If the test does not apply, explain why. If the test does apply, what does it tell us about the series?
-</p>
-
 <ol>
 <li><p><m>\sum \frac{k}{k+1}</m></p></li>
 <li><p><m>\sum (-1)^k</m></p></li>
 <li><p><m>\sum \frac{1}{k}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since the sequence <m>\frac{k}{k+1}</m> converges to 1 and not 0 as <m>k</m> goes to infinity, the Divergence Test applies here and shows that the series <m>\sum \frac{k}{k+1}</m> diverges.</p></li>
 <li><p>Since <m>\lim_{k \to \infty} \frac{1}{k} = 0</m>, the Divergence Test does not apply to this series.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 <em>Note well:</em> be very careful with the Divergence Test. This test only tells us what happens to a series if the terms of the corresponding sequence do not converge to 0. If the sequence of the terms of the series does converge to 0, the Divergence Test does not apply: indeed, as we will soon see, a series whose terms go to zero may either converge or diverge.
 </p>
@@ -493,8 +535,6 @@ Through this last expression for <m>S_n</m>, we can visualize this partial sum a
 </figure>
 <p>
 The graph of the continuous function <m>f</m> defined by <m>f(x) = \frac{1}{x}</m> is overlaid on this plot.
-</p>
-
 <ol>
 <li><p>Explain how this picture represents a particular Riemann sum.</p></li>
 <li><p>What is the definite integral that corresponds to the Riemann sum you considered in (a)?</p></li>
@@ -502,17 +542,31 @@ The graph of the continuous function <m>f</m> defined by <m>f(x) = \frac{1}{x}</
 <li><p>If instead of considering the 9th partial sum, we consider the <m>n</m>th partial sum, and we let <m>n</m> go to infinity, we can then compare the series <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> to the improper integral <m>\int_{1}^{\infty} \frac{1}{x} \ dx</m>.  Which of these quantities is larger?  Why?</p></li>
 <li><p>Does the improper integral <m>\int_{1}^{\infty} \frac{1}{x} \ dx</m> converge or diverge? What does that result, together with your work in (d), tell us about the series <m>\sum_{k=1}^{\infty} \frac{1}{k}</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Notice that the <m>n</m>th partial sum of the series <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> is equal to the left hand Riemann sum of <m>f(x)</m> on the interval <m>[1,n]</m>.</p></li>
 <li><p>Since <m>f</m> is a decreasing function, it follows that
@@ -532,7 +586,10 @@ The graph of the continuous function <m>f</m> defined by <m>f(x) = \frac{1}{x}</
 </md>
 Since the value of the series <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> exceeds the value of the infinite improper integral, we must conclude that the series <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> diverges.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The ideas from <xref ref="x8.3.Act4">Activity</xref> hold more generally. Suppose that <m>f</m> is a continuous decreasing function and that <m>a_k = f(k)</m> for each value of <m>k</m>. Consider the corresponding series <m>\sum_{k=1}^{\infty} a_k</m>. The partial sum
 <me>
@@ -571,12 +628,11 @@ So if <m>\int_{1}^{\infty} f(x) \ dx</m> converges, then so does <m>\sum_{k=2}^{
 
 <p>
 <em>The Integral Test. </em> Let <m>f</m> be a real valued function and assume <m>f</m> is decreasing and positive for all <m>x</m> larger than some number <m>c</m>. Let <m>a_k = f(k)</m> for each positive integer <m>k</m>.
-</p>
-
 <ol>
 <li><p>If the improper integral <m>\int_{c}^{\infty} f(x) \, dx</m> converges, then the series <m>\sum_{k=1}^{\infty} a_k</m> converges.</p></li>
 <li><p>If the improper integral <m>\int_{c}^{\infty} f(x) \, dx</m> diverges, then the series <m>\sum_{k=1}^{\infty} a_k</m> diverges.</p></li>
 </ol>
+</p>
 
 <p>
 Note that the Integral Test compares a given infinite series to a natural, corresponding improper integral and basically says that the infinite series and corresponding improper integral both have the same convergence status. In the next activity, we apply the Integral Test to determine the convergence or divergence of a class of important series.
@@ -584,8 +640,6 @@ Note that the Integral Test compares a given infinite series to a natural, corre
 <activity xml:id="x8.3.Act5">
 <p>
 The series <m>\sum \frac{1}{k^p}</m> are special series called <m>p</m>-series. We have already seen that the <m>p</m>-series with <m>p=1</m> (the harmonic series) diverges. We investigate the behavior of other <m>p</m>-series in this activity.
-</p>
-
 <ol>
 <li><p>Evaluate the improper integral <m>\int_1^{\infty} \frac{1}{x^2} \ dx</m>. Does the series <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>
 converge or diverge? Explain.</p></li>
@@ -598,17 +652,31 @@ converges?</p></li>
 The <m>p</m>-series <m>\sum_{k=1}^{\infty} \frac{1}{k^p}</m> converges if and only if <fillin />.
 </blockquote></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>We evaluate the improper integral:
 <md>
@@ -647,7 +715,10 @@ So the improper integral <m>\int_1^{\infty} \frac{1}{x^p} \ dx</m> diverges when
 The <m>p</m>-series <m>\sum_{k=1}^{\infty} \frac{1}{k^p}</m> converges if and only if <m>p > 1</m>.
 </blockquote></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -663,8 +734,6 @@ The Integral Test allows us to determine the convergence of an entire family of 
 <activity xml:id="x8.3.Act6">
 <p>
 Consider the series <m>\sum \frac{k+1}{k^3+2}</m>. Since the convergence or divergence of a series only depends on the behavior of the series for large values of <m>k</m>, we might examine the terms of this series more closely as <m>k</m> gets large.
-</p>
-
 <ol>
 <li><p>By computing the value of <m>\frac{k+1}{k^3+2}</m> for <m>k = 100</m> and <m>k = 1000</m>, explain why the terms <m>\frac{k+1}{k^3+2}</m> are essentially <m>\frac{k}{k^3}</m> when <m>k</m> is large.</p></li>
 <li><p>Let's formalize our observations in (a) a bit more. Let <m>a_k =  \frac{k+1}{k^3+2}</m> and <m>b_k =  \frac{k}{k^3}</m>. Calculate
@@ -674,17 +743,31 @@ Consider the series <m>\sum \frac{k+1}{k^3+2}</m>. Since the convergence or dive
 What does the value of the limit tell you about <m>a_k</m> and <m>b_k</m> for large values of <m>k</m>? Compare your response from part (a).</p></li>
 <li><p>Does the series <m>\sum \frac{k}{k^3}</m> converge or diverge? Why? What do you think that tells us about the convergence or divergence of the series <m>\sum \frac{k+1}{k^3+2}</m>? Explain.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>When <m>k</m> is very large, the constant 1 in the numerator is negligible compared to <m>k</m> and the constant 2 in the denominator is negligible compared to <m>k^3</m>. So the numerator looks like <m>k</m> and the denominator <m>k^3</m> when <m>k</m> is large. It follows that <m>\frac{k+1}{k^3+2}</m> looks like <m>\frac{k}{k^3}</m> when <m>k</m> is large.</p></li>
 <li><p>Note that
@@ -697,7 +780,10 @@ What does the value of the limit tell you about <m>a_k</m> and <m>b_k</m> for la
 This tells us that <m>a_k \approx b_k</m> for large values of <m>k</m>, which is what we suggested in part (a).</p></li>
 <li><p>Since <m>\frac{k}{k^3} = \frac{1}{k^2}</m>, the series <m>\sum \frac{k}{k^3}</m> is a <m>p</m>-series with <m>p=2</m> and so converges. Since <m>a_k \approx b_k</m> for large values of <m>k</m>, it seems reasonable to expect that <m>\sum a_k \approx \sum b_k</m> for large <m>k</m>s. Since <m>\sum a_k</m> is finite, we should then conclude that <m>\sum b_k</m> is also finite. So <m>\sum \frac{k+1}{k^3+2}</m> should be a convergent series.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 <xref ref="x8.3.Act6">Activity</xref> illustrates how we can compare one series with positive terms to another whose behavior (that is, whether the series converges or diverges) we know. More generally, suppose we have two series <m>\sum a_k</m> and <m>\sum b_k</m> with positive terms and we know the behavior of the series <m>\sum a_k</m>. Recall that the convergence or divergence of a series depends only on what happens to the terms of the series for large values of <m>k</m>, so if we know that <m>a_k</m> and <m>b_k</m> are essentially proportional to each other for large <m>k</m>, then the two series <m>\sum a_k</m> and <m>\sum b_k</m>
 should behave the same way. In other words, if there is a positive finite constant <m>c</m> such that
@@ -734,16 +820,26 @@ Use the Limit Comparison Test to determine the convergence or divergence of the 
 </me>
 by comparing it to the series <m>\sum \frac{1}{k^2}</m>.
 </p>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <p>
 Let <m>b_k = \frac{k^2+1}{k^4+2k+2}</m> and <m>a_k = \frac{1}{k^2}</m>. Then
@@ -759,6 +855,7 @@ Let <m>b_k = \frac{k^2+1}{k^4+2k+2}</m> and <m>a_k = \frac{1}{k^2}</m>. Then
 Since <m>\lim_{k \to \infty} \frac{b_k}{a_k}</m> is a finite positive constant, the Limit Comparison Test shows that <m>\sum \frac{1}{k^2}</m> and <m>\sum \frac{k^2+1}{k^4+2k+2}</m> either both converge or both diverge. We know that <m>\sum \frac{1}{k^2}</m> is a <m>p</m>-series with <m>p > 1</m> and so <m>\sum \frac{1}{k^2}</m> converges. Therefore, the series <m>\sum \frac{k^2+1}{k^4+2k+2}</m> also converges.
 </p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -778,8 +875,6 @@ Consider the series defined by
 
 <p>
 This series is not a geometric series, but this activity will illustrate how we might compare this series to a geometric one. Recall that a series <m>\sum a_k</m> is geometric if the ratio <m>\frac{a_{k+1}}{a_k}</m> is always the same. For the series in <xref ref="eq_8.3_ratio_example" />, note that <m>a_k = \frac{2^k}{3^k-k}</m>.
-</p>
-
 <ol>
 <li><p>To see if <m>\sum \frac{2^k}{3^k-k}</m> is comparable to a geometric series, we analyze the ratios of successive terms in the series. Complete <xref ref="T_8.3.3_ratio_test">Table</xref>, listing your calculations to at least 8 decimal places.
 <table xml:id="T_8.3.3_ratio_test" >
@@ -799,17 +894,31 @@ This series is not a geometric series, but this activity will illustrate how we 
 <li><p>Based on your calculations in <xref ref="T_8.3.3_ratio_test">Table</xref>, what can we say about the ratio <m>\frac{a_{k+1}}{a_k}</m> if <m>k</m> is large?</p></li>
 <li><p>Do you agree or disagree with the statement: <q>the series <m>\sum \frac{2^k}{3^k-k}</m> is approximately geometric when <m>k</m> is large</q>? If not, why not? If so, do you think the series <m>\sum \frac{2^k}{3^k-k}</m> converges or diverges? Explain.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Ratios of successive summands in the series are shown (to 10 decimal places) in the following table.
 <tabular>
@@ -826,7 +935,10 @@ This series is not a geometric series, but this activity will illustrate how we 
 <li><p>The calculations in the table in part (a) seem to indicate that the ratio <m>\frac{a_{k+1}}{a_k}</m> is roughly <m>\frac{2}{3}</m> when <m>k</m> is large.</p></li>
 <li><p>Since <m>\frac{a_{k+1}}{a_k} \approx \frac{2}{3}</m> for large <m>k</m>, the series <m>\sum \frac{2^k}{3^k-k}</m> is approximately the same as <m>\sum \left(\frac{2}{3}\right)^k</m> when <m>k</m> is large. So the series <m>\sum \frac{2^k}{3^k-k}</m> is approximately geometric with ratio <m>\frac{2}{3}</m> when <m>k</m> is large. Since the series <m>\sum \left(\frac{2}{3}\right)^k</m> converges because the ratio is less than 1, we expect that the series <m>\sum \frac{2^k}{3^k-k}</m> will also converge.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 We can generalize the argument in <xref ref="x8.3.Act8">Activity</xref> in the following way. Consider the series <m>\sum a_k.</m>
 If
@@ -847,13 +959,12 @@ be an infinite series. Suppose
 <me>
   \lim_{k \to \infty} \frac{|a_{k+1}|}{|a_k|} = r.
 </me>
-</p>
-
 <ol>
 <li><p>If <m>0 \leq r \lt  1</m>, then the series <m>\sum a_k</m> converges.</p></li>
 <li><p>If <m>1 \lt  r</m>, then the series <m>\sum a_k</m> diverges.</p></li>
 <li><p>If <m>r = 1</m>, then the test is inconclusive.</p></li>
 </ol>
+</p>
 
 <p>
 <em>Note well:</em> The Ratio Test takes a given series and looks at the limit of the ratio of consecutive terms; in so doing, the test is essentially asking, <q>is this series approximately geometric?</q> If the series can be thought of as essentially geometric, the test use the limiting common ratio to determine if the given series converges.
@@ -865,25 +976,37 @@ We have now encountered several tests for determining convergence or divergence 
 <activity xml:id="x8.3.Act9">
 <p>
 Determine whether each of the following series converges or diverges. Explicitly state which test you use.
-</p>
-
 <ol>
 <li><p><m>\sum \frac{k}{2^k}</m></p></li>
 <li><p><m>\sum \frac{k^3+2}{k^2+1}</m></p></li>
 <li><p><m>\sum \frac{10^k}{k!}</m></p></li>
 <li><p><m>\sum \frac{k^3-2k^2+1}{k^6+4}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Since <m>\lim_{n \to \infty} \frac{n}{2^n} = 0</m>, the Divergence Test does not apply. The Ratio Test is a good one to apply with series whose terms involve exponentials and polynomials.
 
@@ -921,7 +1044,10 @@ so the Ratio Test shows that <m>\sum \frac{10^k}{k!}</m> converges.</p></li>
 </md>
 Since <m>\sum \frac{1}{k^3}</m> is a <m>p</m>-series with <m>p=3>1</m>, the series <m>\sum \frac{1}{k^3}</m> converges. Consequently, the Limit Comparison Test shows that <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> converges as well.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -938,8 +1064,6 @@ where <m>a_k</m> is a real number for each positive integer <m>k</m>.</p></li>
   S_n = a_1+a_2+ \cdots + a_n = \sum_{k=1}^{n} a_k.
 </me></p></li>
 <li><p>The sequence <m>\{S_n\}</m> of partial sums of a series <m>\sum_{k=1}^{\infty} a_k</m> tells us about the convergence or divergence of the series.  In particular
-</p>
-
 <ul>
 <li>
 <title>-</title>
@@ -952,8 +1076,7 @@ The series <m>\sum_{k=1}^{\infty} a_k</m> converges if the sequence <m>\{S_n\}</
 <title>-</title>
 <p>
 The series <m>\sum_{k=1}^{\infty} a_k</m> diverges if the sequence <m>\{S_n\}</m> of partial sums diverges.</p></li>
-</ul>
-</li>
+</ul></p></li>
 </ul>
 
 
@@ -962,8 +1085,6 @@ The series <m>\sum_{k=1}^{\infty} a_k</m> diverges if the sequence <m>\{S_n\}</m
 <statement>
 <p>
 In this exercise we investigate the sequence <m>\left\{\frac{b^n}{n!}\right\}</m> for any constant <m>b</m>.
-</p>
-
 <ol>
 <li><p>Use the Ratio Test to determine if the series <m>\sum \frac{10^k}{k!}</m> converges or diverges.
 
@@ -1008,6 +1129,8 @@ Since the limit of the ratio of successive terms is less than 1, we conclude tha
 </p>
 </solution></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -1015,8 +1138,6 @@ Since the limit of the ratio of successive terms is less than 1, we conclude tha
 <statement>
 <p>
 There is a test for convergence similar to the Ratio Test called the <em>Root Test</em>. Suppose we have a series <m>\sum a_k</m> of positive terms so that <m>a_n \to 0</m> as <m>n \to \infty</m>.
-</p>
-
 <ol>
 <li><p>Assume
 <me>
@@ -1059,6 +1180,8 @@ with <m>0 \lt  r \lt  1</m>.
 </p>
 </solution></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -1073,12 +1196,8 @@ The associative and distributive laws of addition allow us to add finite sums in
 
 <p>
 However, we do need to be careful extending rules like this to infinite series.
-</p>
-
 <ol>
 <li><p>Let <m>a_n =  1 + \frac{1}{2^n}</m> and <m>b_n = -1</m> for each nonnegative integer <m>n</m>.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -1096,14 +1215,11 @@ Explain why
   \sum_{k=0}^{\infty} a_k + \sum_{k=0}^{\infty} b_k \neq \sum_{k=0}^{\infty} (a_k+b_k).
 </me>
 This shows that it is possible to have to two divergent series <m>\sum_{k=0}^{\infty} a_k</m> and <m>\sum_{k=0}^{\infty} b_k</m> but yet have the series <m>\sum_{k=0}^{\infty} (a_k+b_k)</m> converge.</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>While part (a) shows that we cannot add series term by term in general, we can under reasonable conditions. The problem in part (a) is that we tried to add divergent series. In this exercise we will show that if <m>\sum a_k</m> and <m>\sum b_k</m> are convergent series, then <m>\sum (a_k+b_k)</m> is a convergent series and
 <me>
   \sum (a_k+b_k) = \sum a_k + \sum b_k.
 </me>
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -1120,10 +1236,11 @@ Use the previous result and properties of limits to show that
   \sum_{k=1}^{\infty} (a_k+b_k) = \sum_{k=1}^{\infty} a_k + \sum_{k=1}^{\infty} b_k.
 </me>
 (Note that the starting point of the sum is irrelevant in this problem, so it doesn't matter where we begin the sum.)</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Use the prior result to find the sum of the series <m>\sum_{k=0}^{\infty} \frac{2^k+3^k}{5^k}</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 

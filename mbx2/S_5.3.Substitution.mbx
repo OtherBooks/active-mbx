@@ -73,8 +73,6 @@ In words, we say that the derivative of a composite function <m>c(x) = f(u(x))</
 </ol>
 </li>
 <li><p>For each of the following functions, use your work in (a) to help you determine the general antiderivative<fn>Recall that the general antiderivative of a function includes <q><m>+C</m></q> to reflect the entire family of functions that share the same derivative.</fn> of the function.  Label each antiderivative by name (e.g., the antiderivative of <m>m</m> should be called <m>M</m>).  In addition, check your work by computing the derivative of each proposed antiderivative.
-</p>
-
 <ol>
 <li>
 <title>i.</title>
@@ -96,11 +94,8 @@ In words, we say that the derivative of a composite function <m>c(x) = f(u(x))</
 <title>v.</title>
 <p>
 <m>w(x) = 3^{4-11x}</m></p></li>
-</ol>
-</li>
+</ol></p></li>
 <li><p>Based on your experience in parts (a) and (b), conjecture an antiderivative for each of the following functions.  Test your conjectures by computing the derivative of each proposed antiderivative.
-</p>
-
 <ol>
 <li>
 <title>i.</title>
@@ -114,8 +109,7 @@ In words, we say that the derivative of a composite function <m>c(x) = f(u(x))</
 <title>iii.</title>
 <p>
 <m>c(x) = xe^{x^2}</m></p></li>
-</ol>
-</li>
+</ol></p></li>
 </ol>
 </exploration>
 </introduction>
@@ -179,8 +173,6 @@ When we find an antiderivative, we will often say that we <em>evaluate an indefi
 <activity xml:id="A_5.3.1">
 <p>
 Evaluate each of the following indefinite integrals. Check each antiderivative that you find by differentiating.
-</p>
-
 <ol>
 <li><p><m>\int \sin(8-3x) \, dx</m></p></li>
 <li><p><m>\int \sec^2 (4x) \, dx</m></p></li>
@@ -189,21 +181,38 @@ Evaluate each of the following indefinite integrals. Check each antiderivative t
 <li><p><m>\int \frac{1}{\sqrt{1-16x^2}}\, dx</m></p></li>
 <li><p><m>\int 5^{-x}\, dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -326,8 +335,6 @@ the missing <m>x</m> to multiply <m>e^{x^2}</m> makes the <m>u</m>-substitution 
 <activity xml:id="A_5.3.2">
 <p>
 Evaluate each of the following indefinite integrals by using these steps:
-</p>
-
 <ul>
 <li><p>Find two functions within the integrand that form (up to a possible missing constant) a function-derivative pair;</p></li>
 <li><p>Make a substitution and convert the integral to one involving <m>u</m> and <m>du</m>;</p></li>
@@ -341,21 +348,38 @@ Evaluate each of the following indefinite integrals by using these steps:
 <li><p><m>\int e^x \sin(e^x) \, dx</m></p></li>
 <li><p><m>\int \frac{\cos(\sqrt{x})}{\sqrt{x}}~dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -395,28 +419,43 @@ which is, of course, the same result.
 <activity xml:id="A_5.3.3">
 <p>
 Evaluate each of the following definite integrals exactly through an appropriate <m>u</m>-substitution.
-</p>
-
 <ol>
 <li><p><m>\int_1^2 \frac{x}{1 + 4x^2} \, dx</m></p></li>
 <li><p><m>\int_0^1 e^{-x} (2e^{-x}+3)^{9} \, dx</m></p></li>
 <li><p><m>\int_{2/\pi}^{4/\pi} \frac{\cos\left(\frac{1}{x}\right)}{x^{2}} \,dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -442,8 +481,6 @@ A key part of choosing the expression in <m>x</m> to be represented by <m>u</m> 
 <statement>
 <p>
 This problem centers on finding antiderivatives for the basic trigonometric functions other than <m>\sin(x)</m> and <m>\cos(x)</m>.
-</p>
-
 <ol>
 <li><p>Consider the indefinite integral <m>\int \tan(x) \, dx</m>.  By rewriting the integrand as <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m> and identifying an appropriate function-derivative pair, make a <m>u</m>-substitution and hence evaluate <m>\int \tan(x) \, dx</m>.</p></li>
 <li><p>In a similar way, evaluate <m>\int \cot(x) \, dx</m>.</p></li>
@@ -456,6 +493,8 @@ Evaluate this integral using the substitution <m>u = \sec(x) + \tan(x)</m>.</p><
 <li><p>Combine your work in (c) and (d) to determine <m>\int \sec(x) \, dx</m>.</p></li>
 <li><p>Using (c)-(e) as a guide, evaluate <m>\int \csc(x) \, dx</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -463,14 +502,14 @@ Evaluate this integral using the substitution <m>u = \sec(x) + \tan(x)</m>.</p><
 <statement>
 <p>
 Consider the indefinite integral <m>\int x \sqrt{x-1} \, dx.</m>
-</p>
-
 <ol>
 <li><p>At first glance, this integrand may not seem suited to substitution due to the presence of <m>x</m> in separate locations in the integrand.  Nonetheless, using the composite function <m>\sqrt{x-1}</m> as a guide, let <m>u = x-1</m>.  Determine expressions for both <m>x</m> and <m>dx</m> in terms of <m>u</m>.</p></li>
 <li><p>Convert the given integral in <m>x</m> to a new integral in <m>u</m>.</p></li>
 <li><p>Evaluate the integral in (b) by noting that <m>\sqrt{u} = u^{1/2}</m> and observing that it is now possible to rewrite the integrand in <m>u</m> by expanding through multiplication.</p></li>
 <li><p>Evaluate each of the integrals <m>\int x^2 \sqrt{x-1} \, dx</m> and <m>\int x \sqrt{x^2 - 1} \, dx</m>.  Write a paragraph to discuss the similarities among the three indefinite integrals in this problem and the role of substitution and algebraic rearrangement in each.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -478,8 +517,6 @@ Consider the indefinite integral <m>\int x \sqrt{x-1} \, dx.</m>
 <statement>
 <p>
 Consider the indefinite integral <m>\int \sin^3(x) \, dx</m>.
-</p>
-
 <ol>
 <li><p>Explain why the substitution <m>u = \sin(x)</m> will not work to help evaluate the given integral.</p></li>
 <li><p>Recall the Fundamental Trigonometric Identity, which states that <m>\sin^2(x) + \cos^2(x) = 1</m>.  By observing that <m>\sin^3(x) = \sin(x) \cdot \sin^2(x)</m>, use the Fundamental Trigonometric Identity to rewrite the integrand as the product of <m>\sin(x)</m> with another function.</p></li>
@@ -487,6 +524,8 @@ Consider the indefinite integral <m>\int \sin^3(x) \, dx</m>.
 <li><p>Use your work in (a)-(c) to evaluate the  indefinite integral <m>\int \sin^3(x) \, dx</m>.</p></li>
 <li><p>Use a similar approach to evaluate <m>\int \cos^3(x) \, dx</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -502,14 +541,14 @@ For the town of Mathland, MI, residential power consumption has shown certain tr
 <p>
 Here, <m>t</m> measures time in hours after midnight on a typical weekday, and <m>r</m> is the rate of consumption in megawatts<fn>The unit <em>megawatt</em> is itself a rate, which measures energy consumption per unit time.  A <em>megawatt-hour</em> is the total amount of energy that is equivalent to a constant stream of 1 megawatt of power being sustained for 1 hour.</fn> at time <m>t</m>.
 Units are critical throughout this problem.
-</p>
-
 <ol>
 <li><p>Sketch a carefully labeled graph of <m>r(t)</m> on the interval [0,24] and explain its meaning.  Why is this a reasonable model of power consumption?</p></li>
 <li><p>Without calculating its value, explain the meaning of <m>\int_0^{24} r(t) \, dt</m>.   Include appropriate units on your answer.</p></li>
 <li><p>Determine the exact amount of power Mathland consumes in a typical day.</p></li>
 <li><p>What is Mathland's average rate of energy consumption in a given 24-hour period?  What are the units on this quantity?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

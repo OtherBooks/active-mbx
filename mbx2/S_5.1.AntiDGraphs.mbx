@@ -97,8 +97,9 @@ Suppose that the function <m>y = f(x)</m> is given by the graph shown in <xref r
 <li><p>Based on your responses to all of the preceding questions, sketch a complete and accurate graph of <m>y = F(x)</m> on the axes provided, being sure to indicate the behavior of <m>F</m> for <m>x \lt  0</m> and <m>x > 7</m>.  Clearly indicate the scale on the vertical and horizontal axes of your graph.</p></li>
 <li><p>What happens if we change one key piece of information:  in particular, say that <m>G</m> is an antiderivative of <m>f</m> and <m>G(0) = 0</m>.  How (if at all) would your answers to the preceding questions change?  Sketch a graph of <m>G</m> on the same axes as the graph of <m>F</m> you constructed in (e).</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Consider the sign of <m>F' = f</m>.</p></li>
 <li><p>Consider the sign of <m>F'' = f'</m>.</p></li>
@@ -107,7 +108,13 @@ Suppose that the function <m>y = f(x)</m> is given by the graph shown in <xref r
 <li><p>Use the function values found in (d) and the earlier information regarding the shape of <m>F</m>.</p></li>
 <li><p>Note that <m>G(1) = G(0) + \int_0^1 f(t) \, dt</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Consider the sign of <m>F' = f</m> and recall that wherever <m>F' > 0</m>, <m>F</m> is increasing.</p></li>
 <li><p>Consider the sign of <m>F'' = f'</m> and recall that wherever <m>F''>0</m>, <m>F</m> is concave up.  Note particularly that <m>F''>0</m> if and only if <m>f</m> is increasing.</p></li>
@@ -116,8 +123,13 @@ Suppose that the function <m>y = f(x)</m> is given by the graph shown in <xref r
 <li><p>Use the function values found in (d) and the earlier information regarding the shape of <m>F</m>.</p></li>
 <li><p>Note that <m>G(1) = G(0) + \int_0^1 f(t) \, dt</m>.  Since <m>G(0) = 0</m> (while <m>F(0) = -1</m>), this changes each response in (e) by the same constant amount.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Wherever <m>F' > 0</m>, <m>F</m> is increasing, so <m>F</m> is increasing on <m>(0,2)</m> and <m>(5,7)</m>, while <m>F</m> is decreasing on <m>(2,5)</m>.</p></li>
 <li><p>Wherever <m>F''>0</m>, <m>F</m> is concave up; note particularly that <m>F''>0</m> if and only if <m>f</m> is increasing.  Thus, <m>F</m> is concave up on <m>(0,1)</m>, <m>(4,6)</m>, and concave down on <m>(1,3)</m>, <m>(6,7)</m>, and neither on <m>(3,4)</m>.</p></li>
@@ -126,7 +138,10 @@ Suppose that the function <m>y = f(x)</m> is given by the graph shown in <xref r
 <li><p>Use the function values found in (d) and the earlier information regarding the shape of <m>F</m>.</p></li>
 <li><p>Note that <m>G(1) = G(0) + \int_0^1 f(t) \, dt</m>.  Since <m>G(0) = 0</m> (while <m>F(0) = -1</m>), this changes each response in by 1: <m>G(x) = F(x) + 1</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -173,8 +188,6 @@ and thus <m>C = 3 - \frac{8}{3} = \frac{1}{3}</m>. Therefore, the particular ant
 <activity xml:id="A_5.1.2">
 <p>
 For each of the following functions, sketch an accurate graph of the antiderivative that satisfies the given initial condition. In addition, sketch the graph of two additional antiderivatives of the given function, and state the corresponding initial conditions that each of them satisfy. If possible, find an algebraic formula for the antiderivative that satisfies the initial condition.
-</p>
-
 <ol>
 <li><p>original function: <m>g(x) = \left| x \right| - 1</m>; 
 
@@ -196,16 +209,20 @@ initial condition: <m>P(0) = 1</m>;
 
 interval for sketch: <m>[-1,3]</m></p></li>
 </ol>
-</activity>
-  <hint>
-<p>
-For
+
 </p>
-</hint>  <hint>
+<hint>
 <p>
 For
 </p>
 </hint>
+
+<hint>
+<p>
+For
+</p>
+</hint>
+</activity>
 </subsection>
 
 
@@ -263,8 +280,9 @@ Suppose that <m>g</m> is given by the graph at left in <xref ref="F_5.1.Act3">Fi
 <li><p>Based on your responses to all of the preceding questions, sketch a complete and accurate graph of <m>y = A(x)</m> on the axes provided, being sure to indicate the behavior of <m>A</m> for <m>x \lt  0</m> and <m>x > 6</m>.</p></li>
 <li><p>How does the graph of <m>B</m> compare to <m>A</m> if <m>B</m> is instead defined by <m>B(x) = \int_0^x g(t) \, dt</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Where is <m>A</m> accumulating positive signed area?</p></li>
 <li><p>As <m>A</m> accumulates positive or negative signed area, where is the rate at which such area is accumulated increasing?</p></li>
@@ -273,7 +291,13 @@ Suppose that <m>g</m> is given by the graph at left in <xref ref="F_5.1.Act3">Fi
 <li><p>Use your work in (a)-(d) appropriately.</p></li>
 <li><p>What is the value of <m>B(0)</m>?  How does this compare to <m>A(0)</m>?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Where is <m>A</m> accumulating positive signed area? Where is <m>A</m> accumulating negative signed area?</p></li>
 <li><p>As <m>A</m> accumulates positive or negative signed area, where is the rate at which such area is accumulated increasing?  Contrast, for instance, the behavior of <m>A</m> on the intervals <m>(0,1)</m> and <m>(1,2)</m>.</p></li>
@@ -282,8 +306,13 @@ Suppose that <m>g</m> is given by the graph at left in <xref ref="F_5.1.Act3">Fi
 <li><p>Use your work in (a)-(d) appropriately.</p></li>
 <li><p>What is the value of <m>B(0)</m>?  How does this compare to <m>A02)</m>?  What if we compare <m>B(1)</m> and <m>A(1)</m>?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p><m>A</m> is accumulating positive signed area wherever <m>g</m> is positive, and thus <m>A</m> is increasing on <m>(0,1.5)</m>, <m>(4,6)</m>;  <m>A</m> is accumulating negative signed area and therefore decreasing wherever <m>g</m> is negative, which occurs on <m>(1.5,4)</m>.</p></li>
 <li><p>Here we want to consider where <m>A</m> is changing at an increasing rate (concave up) or changing at a decreasing rate (concave down).  On <m>(0,1)</m> and <m>(4,5)</m>, <m>A</m> is increasing, and we can also see that since <m>g</m> is increasing, <m>A</m> is increasing at an increasing rate.  Similarly, on <m>(3,4)</m> (where <m>g</m> is negative so <m>A</m> is decreasing), since <m>g</m> is increasing it follows that <m>A</m> is decreasing at an increasing rate.  Thus, <m>A</m> is concave up on <m>(0,1)</m> and <m>(3,5)</m>.  Analogous reasoning shows that <m>A</m> is concave down on <m>(1,3)</m> and <m>(5,6)</m>.</p></li>
@@ -292,7 +321,10 @@ Suppose that <m>g</m> is given by the graph at left in <xref ref="F_5.1.Act3">Fi
 <li><p>Use your work in (a)-(d) appropriately.</p></li>
 <li><p>Note that <m>B(0) = 0</m>, while <m>A(0) = -\frac{1}{2}</m>.  Likewise, <m>B(1) = \frac{1}{2}</m>, while <m>A(1) = 0</m>.  Indeed, we can see that for any value of <m>x</m>, <m>B(x) = A(x) + \frac{1}{2}</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 

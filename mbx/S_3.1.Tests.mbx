@@ -97,7 +97,7 @@
     <p>Now, by the first derivative test, to find relative extremes of <m>f</m> we look for critical numbers at which <m>f'</m> changes sign. In this example, <m>f'</m> only changes sign at <m>x = 3</m>, where <m>f'</m> changes from positive to negative, and thus <m>f</m> has a relative maximum at <m>x = 3</m>. While <m>f</m> has a critical number at <m>x = -1</m>, since <m>f</m> is increasing both before and after <m>x = -1</m>, <m>f</m> has neither a minimum nor a maximum at <m>x = -1</m>.</p>
 
     <activity xml:id="A_3.1.1">
-      <p>Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>. Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.</p>
+      <p>Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>. Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.
 
       <ol>
         <li><p>Determine all critical numbers of <m>g</m>.</p></li>
@@ -110,55 +110,65 @@
 
         <li><p>Sketch a possible graph of <m>y = g(x)</m>.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>For which <m>x</m> is <m>g'(x) = 0</m>?</p></li>
+
+          <li><p>Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.</p></li>
+
+          <li><p>Use your first derivative sign chart from (b).</p></li>
+
+          <li><p>Try expanding the numerator before evaluating the limit.</p></li>
+
+          <li><p>Think carefully about the information from the sign chart found in (b).</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>For which <m>x</m> is <m>g'(x) = 0</m>?  Remember that a fraction's value is zero if and only if its numerator is zero.</p></li>
+
+          <li><p>Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.  How do the signs of <m>(x+4)</m> and <m>(x-2)</m> then determine the overall sign of <m>g'(x)</m>?</p></li>
+
+          <li><p>Use your first derivative sign chart from (b) and remember to the first derivative test.</p></li>
+
+          <li><p>Try expanding the numerator before evaluating the limit and think about what you know about the limit of a rational function as <m>x \to \infty</m>.</p></li>
+
+          <li><p>Focus on where <m>g</m> is increasing and decreasing, along with where it must have a horizontal tangent line.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>, we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.  While <m>x = 2</m> makes <m>g'</m> undefined, we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>, so <m>x = 2</m> is not in the domain of <m>g</m>, and hence is technically not a critical value of <m>g</m>.  Nonetheless, we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.</p></li>
+
+          <li><p>The first derivative sign chart shows that <m>g'(x) > 0</m> for <m>x \lt  -4</m>, <m>g'(x) \lt  0</m> for <m>-4 \lt  x \lt  1</m>, <m>g'(x) \lt  0</m> for <m>1 \lt  x \lt  2</m>, and <m>g'(x) > 0</m> for <m>x > 2</m>.  By the first derivative test, <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.  As these are the only two critical values, these are the only two locations for possible extremes.  (Note: although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>, this is due to a vertical asymptote, and <m>g</m> does not have a minimum there.)</p></li>
+
+          <li><p>Because <m>g</m> is decreasing as <m>x \to 2^-</m> (where <m>g</m> has a vertical asymptote), <m>g</m> does not have a global minimum.  For <m>x > 2</m>, <m>g</m> is always increasing, which suggests that <m>g</m> does not have a global maximum (though we do not know for sure that <m>g</m> increases without bound).</p></li>
+
+          <li><p>We observe that
+              <md>
+                <mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow>
+                <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow>
+                <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow>
+                <mrow>=\mathstrut \amp  \infty</mrow>
+              </md>
+              Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>, this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.</p></li>
+
+          <li><p>From all of our work above, we know that <m>g</m> has a local maximum at <m>x = -4</m>, a horizontal tangent line with neither a max nor min at <m>x = 1</m>, and a vertical asymptote at <m>x = 2</m>, plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.  Thus, a possible graph of <m>g</m> is the following.
+              <image width="73%" source="images/3_1_Act1Soln" />
+            </p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>For which <m>x</m> is <m>g'(x) = 0</m>?</p></li>
-
-        <li><p>Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.</p></li>
-
-        <li><p>Use your first derivative sign chart from (b).</p></li>
-
-        <li><p>Try expanding the numerator before evaluating the limit.</p></li>
-
-        <li><p>Think carefully about the information from the sign chart found in (b).</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>For which <m>x</m> is <m>g'(x) = 0</m>?  Remember that a fraction's value is zero if and only if its numerator is zero.</p></li>
-
-        <li><p>Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.  How do the signs of <m>(x+4)</m> and <m>(x-2)</m> then determine the overall sign of <m>g'(x)</m>?</p></li>
-
-        <li><p>Use your first derivative sign chart from (b) and remember to the first derivative test.</p></li>
-
-        <li><p>Try expanding the numerator before evaluating the limit and think about what you know about the limit of a rational function as <m>x \to \infty</m>.</p></li>
-
-        <li><p>Focus on where <m>g</m> is increasing and decreasing, along with where it must have a horizontal tangent line.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>, we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.  While <m>x = 2</m> makes <m>g'</m> undefined, we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>, so <m>x = 2</m> is not in the domain of <m>g</m>, and hence is technically not a critical value of <m>g</m>.  Nonetheless, we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.</p></li>
-
-        <li><p>The first derivative sign chart shows that <m>g'(x) > 0</m> for <m>x \lt  -4</m>, <m>g'(x) \lt  0</m> for <m>-4 \lt  x \lt  1</m>, <m>g'(x) \lt  0</m> for <m>1 \lt  x \lt  2</m>, and <m>g'(x) > 0</m> for <m>x > 2</m>.  By the first derivative test, <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.  As these are the only two critical values, these are the only two locations for possible extremes.  (Note: although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>, this is due to a vertical asymptote, and <m>g</m> does not have a minimum there.)</p></li>
-
-        <li><p>Because <m>g</m> is decreasing as <m>x \to 2^-</m> (where <m>g</m> has a vertical asymptote), <m>g</m> does not have a global minimum.  For <m>x > 2</m>, <m>g</m> is always increasing, which suggests that <m>g</m> does not have a global maximum (though we do not know for sure that <m>g</m> increases without bound).</p></li>
-
-        <li><p>We observe that
-            <md>
-              <mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow>
-              <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow>
-              <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow>
-              <mrow>=\mathstrut \amp  \infty</mrow>
-            </md>
-            Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>, this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.</p></li>
-
-        <li><p>From all of our work above, we know that <m>g</m> has a local maximum at <m>x = -4</m>, a horizontal tangent line with neither a max nor min at <m>x = 1</m>, and a vertical asymptote at <m>x = 2</m>, plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.  Thus, a possible graph of <m>g</m> is the following.
-            <image width="73%" source="images/3_1_Act1Soln" />
-          </p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -242,44 +252,54 @@
 
         <li><p>Assuming that <m>g''(x)</m> is a polynomial (and that all important behavior of <m>g''</m> is seen in the graph above, what degree polynomial do you think <m>g(x)</m> is?  Why?</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>What must be true of <m>g''(x)</m> at a point of inflection?</p></li>
+
+          <li><p>Use the given graph to decide where <m>g''</m> is positive and negative.</p></li>
+
+          <li><p>What does the second derivative test say?</p></li>
+
+          <li><p>Can you guess a formula for <m>g''(x)</m> based on its graph?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>At what points on the given graph does <m>g''(x)</m> change sign?</p></li>
+
+          <li><p>From the given graph, where is <m>g''(x) > 0</m>?  <m>g''(x) \lt  0</m>?</p></li>
+
+          <li><p>What does the second derivative test say?  What is <m>g''(-1.67857351)</m>?</p></li>
+
+          <li><p>Can you guess a formula for <m>g''(x)</m> based on its graph?  Note that <m>g''</m> appears to have a repeated root at <m>x = 2</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Based on the given graph of <m>g''</m>, the only point at which <m>g''</m> changes sign is <m>x = -1</m>, and hence this is an inflection point of <m>g</m>.</p></li>
+
+          <li><p>Note that <m>g''(x) > 0</m> for <m>x \lt  -1</m>, <m>g''(x) \lt  0</m> for <m>-1 \lt  x \lt  2</m>, and <m>g''(x) \lt  0</m> for <m>x > 2</m>.  This tells us that <m>g</m> is concave up for <m>x \lt  -1</m>, concave down for <m>-1 \lt  x \lt  2</m>, and concave down for <m>x > 2</m>.</p></li>
+
+          <li><p>Given that <m>g'(-1.67857351) = 0</m>, we know that <m>g</m> has a horizontal tangent line at this critical value.  In addition, from the given graph of <m>g''</m>, we see that <m>g''( -1.67857351) > 0</m> and observe that <m>g</m> is concave up at <m>x</m>-values near <m>-1.67857351</m>.  By the second derivative test, <m>g</m> has a local minimum at <m>x = -1.67857351</m>.</p></li>
+
+          <li><p>From the given graph, since <m>g''</m> has a simple zero at <m>x = -1</m> and a repeated zero at <m>x = 2</m>, it appears that <m>g''</m> is a degree 3 polynomial.  If so, then <m>g'</m> is a degree 4 polynomial, and <m>g</m> is a degree 5 polynomial.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>What must be true of <m>g''(x)</m> at a point of inflection?</p></li>
 
-        <li><p>Use the given graph to decide where <m>g''</m> is positive and negative.</p></li>
-
-        <li><p>What does the second derivative test say?</p></li>
-
-        <li><p>Can you guess a formula for <m>g''(x)</m> based on its graph?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>At what points on the given graph does <m>g''(x)</m> change sign?</p></li>
-
-        <li><p>From the given graph, where is <m>g''(x) > 0</m>?  <m>g''(x) \lt  0</m>?</p></li>
-
-        <li><p>What does the second derivative test say?  What is <m>g''(-1.67857351)</m>?</p></li>
-
-        <li><p>Can you guess a formula for <m>g''(x)</m> based on its graph?  Note that <m>g''</m> appears to have a repeated root at <m>x = 2</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Based on the given graph of <m>g''</m>, the only point at which <m>g''</m> changes sign is <m>x = -1</m>, and hence this is an inflection point of <m>g</m>.</p></li>
-
-        <li><p>Note that <m>g''(x) > 0</m> for <m>x \lt  -1</m>, <m>g''(x) \lt  0</m> for <m>-1 \lt  x \lt  2</m>, and <m>g''(x) \lt  0</m> for <m>x > 2</m>.  This tells us that <m>g</m> is concave up for <m>x \lt  -1</m>, concave down for <m>-1 \lt  x \lt  2</m>, and concave down for <m>x > 2</m>.</p></li>
-
-        <li><p>Given that <m>g'(-1.67857351) = 0</m>, we know that <m>g</m> has a horizontal tangent line at this critical value.  In addition, from the given graph of <m>g''</m>, we see that <m>g''( -1.67857351) > 0</m> and observe that <m>g</m> is concave up at <m>x</m>-values near <m>-1.67857351</m>.  By the second derivative test, <m>g</m> has a local minimum at <m>x = -1.67857351</m>.</p></li>
-
-        <li><p>From the given graph, since <m>g''</m> has a simple zero at <m>x = -1</m> and a repeated zero at <m>x = 2</m>, it appears that <m>g''</m> is a degree 3 polynomial.  If so, then <m>g'</m> is a degree 4 polynomial, and <m>g</m> is a degree 5 polynomial.</p></li>
-      </ol>
-    </solution>
     <p>As we will see in more detail in the following section, derivatives also help us to understand families of functions that differ only by changing one or more parameters. For instance, we might be interested in understanding the behavior of all functions of the form <m>f(x) = a(x-h)^2 + k</m> where <m>a</m>, <m>h</m>, and <m>k</m> are numbers that may vary. In the following activity, we investigate a particular example where the value of a single parameter has considerable impact on how the graph appears.</p>
 
     <activity xml:id="A_3.1.3">
-      <p>Consider the family of functions given by <m>h(x) = x^2 + \cos(kx)</m>, where <m>k</m> is an arbitrary positive real number.</p>
+      <p>Consider the family of functions given by <m>h(x) = x^2 + \cos(kx)</m>, where <m>k</m> is an arbitrary positive real number.
 
       <ol>
         <li><p>Use a graphing utility to sketch the graph of <m>h</m> for several different <m>k</m>-values, including <m>k = 1,3,5,10</m>.  Plot <m>h(x) = x^2 + \cos(3x)</m> on the axes provided below.
@@ -295,54 +315,64 @@
 
         <li><p>Explain why, no matter the value of <m>k</m>, <m>h</m> can only have finitely many critical numbers.</p></li>
       </ol>
-    </activity>
-    <hint>
-      <ol>
-        <li><p>Be sure to try some values between 1.5 and 2.</p></li>
+      </p>
+      <hint>
+        <p>
 
-        <li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.</p></li>
+        <ol>
+          <li><p>Be sure to try some values between 1.5 and 2.</p></li>
 
-        <li><p>What is the largest value of <m>k\sin(kx)</m>?  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Be sure to try some values between 1.5 and 2.  Remember that an inflection point is a point where concavity changes.</p></li>
+          <li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.</p></li>
 
-        <li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.  In particular, note that <m>h'(x) = 2x - k\sin(kx)</m>.</p></li>
+          <li><p>What is the largest value of <m>k\sin(kx)</m>?  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
 
-        <li><p>Explain why <m>-k \le k\sin(kx) \le k</m>.  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>In the graph below,
-            <image width="73%" source="images/3_1_Act3Soln" />
-            <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue, while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.  Close inspection of the light blue graph reveals some subtle changes in concavity around <m>x \approx \pm 0.5</m>.  For values smaller than <m>1.6</m>, it is very hard to visually detect any inflection points in <m>h(x)</m>.</p></li>
+        <ol>
+          <li><p>Be sure to try some values between 1.5 and 2.  Remember that an inflection point is a point where concavity changes.</p></li>
 
-        <li><p>Treating <m>k</m> as an arbitrary constant, we first observe that <m>h'(x) = 2x - k\sin(kx)</m>. Again treating <m>k</m> as a constant and differentiating, we find
-            <me>
-              h''(x) = 2 - k^2\cos(kx).
-            </me>
-            We seek the values of <m>x</m> for which <m>h''(x) = 0</m> at which <m>h''</m> changes sign.  Setting <m>h''(x) = 0</m> and rearranging the resulting equation, we now seek <m>x</m> such that
-            <me>
-              k^2 \cos(kx) = 2,
-            </me>
-            or
-            <me>
-              \cos(kx) = \frac{2}{k^2}.
-            </me>
-            Now, remember that <m>k</m> is an arbitrary positive constant and recall that <m>-1 \le \cos(\theta) \le 1</m> for all input values <m>\theta</m>.  If <m>\frac{2}{k^2} > 1</m>, then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.  Hence, whenever <m>k^2 \lt  2</m>, or <m>k \lt  \sqrt{2} \approx 1.414</m>, it follows that the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>, which means that <m>h''(x)</m> is never zero (indeed, for these <m>k</m>-values, <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
+          <li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.  In particular, note that <m>h'(x) = 2x - k\sin(kx)</m>.</p></li>
+
+          <li><p>Explain why <m>-k \le k\sin(kx) \le k</m>.  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>In the graph below,
+              <image width="73%" source="images/3_1_Act3Soln" />
+              <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue, while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.  Close inspection of the light blue graph reveals some subtle changes in concavity around <m>x \approx \pm 0.5</m>.  For values smaller than <m>1.6</m>, it is very hard to visually detect any inflection points in <m>h(x)</m>.</p></li>
+
+          <li><p>Treating <m>k</m> as an arbitrary constant, we first observe that <m>h'(x) = 2x - k\sin(kx)</m>. Again treating <m>k</m> as a constant and differentiating, we find
+              <me>
+                h''(x) = 2 - k^2\cos(kx).
+              </me>
+              We seek the values of <m>x</m> for which <m>h''(x) = 0</m> at which <m>h''</m> changes sign.  Setting <m>h''(x) = 0</m> and rearranging the resulting equation, we now seek <m>x</m> such that
+              <me>
+                k^2 \cos(kx) = 2,
+              </me>
+              or
+              <me>
+                \cos(kx) = \frac{2}{k^2}.
+              </me>
+              Now, remember that <m>k</m> is an arbitrary positive constant and recall that <m>-1 \le \cos(\theta) \le 1</m> for all input values <m>\theta</m>.  If <m>\frac{2}{k^2} > 1</m>, then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.  Hence, whenever <m>k^2 \lt  2</m>, or <m>k \lt  \sqrt{2} \approx 1.414</m>, it follows that the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>, which means that <m>h''(x)</m> is never zero (indeed, for these <m>k</m>-values, <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
 		
-            On the other hand, if <m>k \ge \sqrt{2}</m>, then <m>\frac{2}{k^2} \le 1</m>, which guarantees that <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions, due to the periodicity of the cosine function.  At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign, and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.</p></li>
+              On the other hand, if <m>k \ge \sqrt{2}</m>, then <m>\frac{2}{k^2} \le 1</m>, which guarantees that <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions, due to the periodicity of the cosine function.  At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign, and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.</p></li>
 
-        <li><p>To see why <m>h</m> can only have a finite number of critical values regardless of the value of <m>k</m>, consider the equation
-            <me>
-              0 = h'(x) = 2x - k\sin(kx),
-            </me>
-            which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, we know that <m>-k \le k\sin(kx) \le k</m>.  Once <m>|x|</m> is sufficiently large, we are guaranteed that <m>|2x| > k</m>, which means that for large <m>x</m>, <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.   Moreover, for relatively small values of <m>x</m>, the functions <m>2x</m> and <m>k\sin(kx)</m> can only intersect finitely many times since <m>k\sin(kx)</m> oscillates a finite number of times.  This is why <m>h</m> can only have a finite number of critical values, regardless of the value of <m>k</m>.</p></li>
-      </ol>
-    </solution>
+          <li><p>To see why <m>h</m> can only have a finite number of critical values regardless of the value of <m>k</m>, consider the equation
+              <me>
+                0 = h'(x) = 2x - k\sin(kx),
+              </me>
+              which implies that <m>2x = k\sin(kx)</m>.  Since <m>-1 \le \sin(kx) \le 1</m>, we know that <m>-k \le k\sin(kx) \le k</m>.  Once <m>|x|</m> is sufficiently large, we are guaranteed that <m>|2x| > k</m>, which means that for large <m>x</m>, <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.   Moreover, for relatively small values of <m>x</m>, the functions <m>2x</m> and <m>k\sin(kx)</m> can only intersect finitely many times since <m>k\sin(kx)</m> oscillates a finite number of times.  This is why <m>h</m> can only have a finite number of critical values, regardless of the value of <m>k</m>.</p></li>
+        </ol>
+        </p>
+      </solution>
+    </activity>
   </subsection>
 
   <subsection>
@@ -354,11 +384,10 @@
 
       <li><p>Given a twice differentiable function <m>f</m>, if we have a horizontal tangent line at <m>x = p</m> and <m>f''(p)</m> is nonzero, then the fact that <m>f''</m> tells us the concavity of <m>f</m> will determine whether <m>f</m> has a maximum or minimum at <m>x = p</m>.  In particular, if <m>f'(p) = 0</m> and <m>f''(p) \lt  0</m>, then <m>f</m> is concave down at <m>p</m> and <m>f</m> has a local maximum there, while if <m>f'(p) = 0</m> and <m>f''(p) > 0</m>, then <m>f</m> has a local minimum at <m>p</m>.  If <m>f'(p) = 0</m> and <m>f''(p) = 0</m>, then the second derivative does not tell us whether <m>f</m> has a local extreme at <m>p</m> or not.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>This problem concerns a function about which the following information is known:</p>
+          <p>This problem concerns a function about which the following information is known:
 
           <ul>
             <li><p><m>f</m> is a differentiable function defined at every real number <m>x</m></p></li>
@@ -367,6 +396,7 @@
 
             <li><p><m>y = f'(x)</m> has its graph given at center in <xref ref="F_3.1.Ez1">Figure</xref></p></li>
           </ul>
+          </p>
 
           <figure xml:id="F_3.1.Ez1" >
             <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
@@ -386,7 +416,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Suppose that <m>g</m> is a differentiable function and <m>g'(2) = 0</m>. In addition, suppose that on <m>1 \lt  x\lt  2</m> and <m>2 \lt  x \lt  3</m> it is known that <m>g'(x)</m> is positive.</p>
+          <p>Suppose that <m>g</m> is a differentiable function and <m>g'(2) = 0</m>. In addition, suppose that on <m>1 \lt  x\lt  2</m> and <m>2 \lt  x \lt  3</m> it is known that <m>g'(x)</m> is positive.
 
           <ol>
             <li><p>Does <m>g</m> have a local maximum, local minimum, or neither at <m>x = 2</m>?  Why?</p></li>
@@ -395,6 +425,7 @@
 
             <li><p>Besides being a critical number of <m>g</m>, what is special about the value <m>x = 2</m> in terms of the behavior of the graph of <m>g</m>?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -419,7 +450,7 @@
       </exercise>
       <exercise>
         <statement>
-          <p>Let <m>p</m> be a function whose second derivative is <m>p''(x) = (x+1)(x-2)e^{-x}</m>.</p>
+          <p>Let <m>p</m> be a function whose second derivative is <m>p''(x) = (x+1)(x-2)e^{-x}</m>.
 
           <ol>
             <li><p>Construct a second derivative sign chart for <m>p</m> and determine all inflection points of <m>p</m>.</p></li>
@@ -428,6 +459,7 @@
 
             <li><p>If the point <m>(2, \frac{12}{e^2})</m> lies on the graph of <m>y = p(x)</m> and <m>p'(2) = -\frac{5}{e^2}</m>, find the equation of the tangent line to <m>y = p(x)</m> at the point where <m>x = 2</m>.  Does the tangent line lie above the curve, below the curve, or neither at this value?  Why?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

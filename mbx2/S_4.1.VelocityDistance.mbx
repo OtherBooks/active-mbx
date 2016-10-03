@@ -32,8 +32,6 @@ In a much smaller number of situations so far, we have encountered the reverse s
 <exploration xml:id="PA_4.1">
 <p>
 Suppose that a person is taking a walk along a long straight path and walks at a constant rate of 3 miles per hour.
-</p>
-
 <ol>
 <li><p>On the left-hand axes provided in <xref ref="F_4.1.PA1">Figure</xref>, sketch a labeled graph of the velocity function <m>v(t) = 3</m>.  
 <figure xml:id="F_4.1.PA1" >
@@ -46,6 +44,8 @@ Note that while the scale on the two sets of axes is the same, the units on the 
 <li><p>On the right-hand axes provided in <xref ref="F_4.1.PA1">Figure</xref>, sketch a labeled graph of the position function <m>y = s(t)</m>.</p></li>
 <li><p>For what values of <m>t</m> is the position function <m>s</m> increasing?  Explain why this is the case using relevant information about the velocity function <m>v</m>.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -118,23 +118,35 @@ Suppose that a person is walking in such a way that her velocity varies slightly
 <li><p>Now suppose that you know that <m>v</m> is given by <m>v(t) = 0.5t^3-1.5t^2+1.5t+1.5</m>. Remember that <m>v</m> is the derivative of the walker's position function, <m>s</m>.  Find a formula for <m>s</m> so that <m>s' = v</m>.</p></li>
 <li><p>Based on your work in (c), what is the value of <m>s(2) - s(0)</m>?  What is the meaning of this quantity?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>For instance, the approximate distance traveled on <m>[0,0.5]</m> can be computed by <m>v(0) \cdot 0.5 = 1.5 \cdot 0.5 = 0.75</m> miles.</p></li>
 <li><p>Think about the possibility of using a larger number of rectangles.</p></li>
 <li><p>If <m>v(t) = t^3</m> and we seek a function <m>s</m> such that <m>s' = v</m>, note that <m>s</m> has to involve <m>t^4</m>.</p></li>
 <li><p>Observe that this quantity is measuring a change in position.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>For instance, the approximate distance traveled on <m>[0,0.5]</m> can be computed by <m>v(0) \cdot 0.5 = 1.5 \cdot 0.5 = 0.75</m> mile, while the approximate distance on <m>[0.5,1]</m> can be computed by <m>v(0.5) \cdot 0.5 = 1.9375 \cdot 0.5 = 0.9688</m>.</p></li>
 <li><p>Think about the possibility of using a larger number of rectangles that are narrower in width.</p></li>
 <li><p>If <m>v(t) = t^3</m> and we seek a function <m>s</m> such that <m>s' = v</m>, note that one possible formula for <m>s</m> is <m>s(t) = \frac{1}{4}t^4</m>.</p></li>
 <li><p>Observe that this quantity is measuring a change in position.  How is its value connected to other earlier work you've done?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Using rectangles of width <m>\triangle t = 0.5</m> and choosing to set the heights of the rectangles from the function value at the left end of the interval, we see the following graph and find the sum of the areas of the rectangles to be
 	<image width="73%" source="images/4_1_Act1Soln" />
@@ -152,7 +164,10 @@ Thus, the distance traveled is approximately <m>D \approx 3.75</m> miles.</p></l
 then it is straightforward to check that <m>s'(t) = \frac{1}{2}t^3 - \frac{3}{2}t^2 + \frac{3}{2}t + \frac{3}{2}</m>, which is precisely the formula for <m>v(t)</m> that we were given.</p></li>
 <li><p>By the rule found in (c) for <m>s</m>, we have that <m>s(2) - s(0) = \frac{1}{8}2^4 - \frac{1}{2}2^3 + \frac{3}{4}2^2 + \frac{3}{2} 2 = 2 - 4 + 3 + 3 = 4</m>.  This is the change in the walker's position over the time interval <m>[0,2]</m>, and since the velocity is always positive, this is actually the exact distance traveled.  We see how both earlier estimates (<m>3.75</m> and <m>3.785</m>) are good approximations to this value.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -194,8 +209,6 @@ For now, it is most important to observe that if we are given a formula for a ve
 <activity xml:id="A_4.1.2">
 <p>
 A ball is tossed vertically in such a way that its velocity function is given by <m>v(t) = 32 - 32t</m>, where <m>t</m> is measured in seconds and <m>v</m> in feet per second. Assume that this function is valid for <m>0 \le t \le 2</m>.
-</p>
-
 <ol>
 <li><p>For what values of <m>t</m> is the velocity of the ball positive?  What does this tell you about the motion of the ball on this interval of time values?</p></li>
 <li><p>Find an antiderivative, <m>s</m>, of <m>v</m> that satisfies <m>s(0) = 0</m>.</p></li>
@@ -204,12 +217,15 @@ A ball is tossed vertically in such a way that its velocity function is given by
 <li><p>Answer the same questions as in (c) and (d) but instead using the interval <m>[0,1]</m>.</p></li>
 <li><p>What is the value of <m>s(2) - s(0)</m>?  What does this result tell you about the flight of the ball?  How is this value connected to the provided graph of <m>y = v(t)</m>?  Explain.</p></li>
 </ol>
+
+</p>
 <figure xml:id="F_4.1.Act2" >
 <caption>The graph of <m>y = v(t)</m>.</caption>
 <image width="73%" source="images/4_1_Act2" />
 </figure>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Where is velocity zero?</p></li>
 <li><p>Since <m>v</m> is linear, note that <m>s</m> must be quadratic.</p></li>
@@ -218,7 +234,13 @@ A ball is tossed vertically in such a way that its velocity function is given by
 <li><p>See (c) and (d) above.</p></li>
 <li><p>What does it mean for the change of the ball's position to be zero?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Where is velocity zero? Recall that positive velocity makes the position function increasing.</p></li>
 <li><p>Since <m>v</m> is linear, note that <m>s</m> must be quadratic.  What function has derivative <m>32</m>?  What function has derivative <m>32t</m>?</p></li>
@@ -227,8 +249,13 @@ A ball is tossed vertically in such a way that its velocity function is given by
 <li><p>See (c) and (d) above.</p></li>
 <li><p>What does it mean for the change of the ball's position to be zero?  How should we think of the area that lies beneath the <m>t</m>-axis on the interval <m>1 \lt  t \lt  2</m>?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Note that <m>v(1) = 0</m> and for <m>0 \lt  t \lt  1</m>, <m>v(t) > 0</m>.  This means that on the interval <m>(0,1)</m>, the position function <m>s</m> is increasing because velocity is positive.</p></li>
 <li><p>We can check that the derivative of <m>s(t) = 32t - 16t^2</m> is <m>s'(t) = v(t) = 32 - 32t</m>, and that <m>s(0) = 0</m>, so this is the antiderivative of <m>v</m> that we desire.</p></li>
@@ -237,7 +264,10 @@ A ball is tossed vertically in such a way that its velocity function is given by
 <li><p><m>s(1) - s(0) = (32 - 16) - (0-0) = 16</m>, which is the vertical distance the ball traveled on the interval <m>[0,1]</m>.  The area under the velocity curve on <m>[0,1]</m> is the area of the triangle with height 32 (ft/sec) and base 1 (second), which is <m>A = \frac{1}{2} \cdot 1 \cdot 32 = 16</m> feet.  These two results are identical, in part due to the fact that we are using two different perspectives to compute the same quantity, which is distance traveled.</p></li>
 <li><p>Observe that <m>s(2) - s(0) = (32 - 32) - (0 - 0) = 0</m>.  This means that the ball has zero change in position on the interval <m>[0,2]</m>.  But we already established that on the interval <m>[0,1]</m>, the ball traveled 16 feet vertically; since the velocity becomes negative on the interval <m>1 \lt  t \lt  2</m>, there we know the ball's position is decreasing, so it is falling back to earth.  The resulting zero change in position means that at <m>t = 2</m> the ball has returned to the location from which it was tossed.  If we view the area between the velocity function and the <m>t</m>-axis as being negative wherever <m>v</m> is negative, then we see that the areas of the two triangles involved are opposites, which in some sense results in the <q>total area</q> being zero, matching the change in position.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -322,30 +352,40 @@ Suppose that an object moving along a straight line path has its velocity <m>v</
 </figure>
 <p>
 Suppose further that the object's initial position at time <m>t = 0</m> is <m>s(0) = 1</m>.
-</p>
-
 <ol>
 <li><p>Determine the total distance traveled and the total change in position on the time interval <m>0 \le t \le 2</m>.  What is the object's position at <m>t = 2</m>?</p></li>
 <li><p>On what time intervals is the moving object's position function increasing?  Why?  On what intervals is the object's position decreasing?  Why?</p></li>
 <li><p>What is the object's position at <m>t = 8</m>?  How many total meters has it traveled to get to this point (including distance in both directions)?  Is this different from the object's total change in position on <m>t = 0</m> to <m>t = 8</m>?</p></li>
 <li><p>Find the exact position of the object at <m>t = 1, 2, 3, \ldots, 8</m> and use this data to sketch an accurate graph of <m>y = s(t)</m> on the axes provided at right.  How can you use the provided information about <m>y = v(t)</m> to determine the concavity of <m>s</m> on each relevant interval?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Find the area of each triangular region formed between <m>y = v(t)</m> and the <m>t</m>-axis.</p></li>
 <li><p>Recall that <m>v = s'</m>, and here we are given complete information about <m>v</m>.</p></li>
 <li><p>Be careful to address whether <m>v</m> is positive or negative when calculating areas and adding the results.</p></li>
 <li><p>Consider finding the area bounded by <m>y = v(t)</m> and the <m>t</m>-axis on each interval <m>[0,1]</m>, <m>[1,2]</m>, <m>\ldots</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Find the area of the triangular regions formed between <m>y = v(t)</m> and the <m>t</m>-axis on <m>[0,1]</m> and <m>[1,2]</m>.</p></li>
 <li><p>Recall that <m>v = s'</m>, and here we are given complete information about <m>v</m>.</p></li>
 <li><p>Be careful to address whether <m>v</m> is positive or negative when calculating areas and adding the results.</p></li>
 <li><p>Consider finding the area bounded by <m>y = v(t)</m> and the <m>t</m>-axis on each interval <m>[0,1]</m>, <m>[1,2]</m>, <m>\ldots</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <ol>
 <li><p>By finding the area of the triangular regions formed between <m>y = v(t)</m> and the <m>t</m>-axis on <m>[0,1]</m> and <m>[1,2]</m> (each of which is <m>1</m>), it follows that the object's total distance traveled is <m>2</m>, while its change in position is <m>0</m>.  The latter is true since the net signed area bounded by <m>v</m> on <m>[0,2]</m> is <m>1 - 1 = 0</m>.</p></li>
@@ -358,6 +398,7 @@ Suppose further that the object's initial position at time <m>t = 0</m> is <m>s(
 </ol>
 <image width="73%" source="images/4_1_Act3Soln" /> 
 </solution>
+</activity>
 </subsection>
 
 
@@ -398,8 +439,6 @@ Suppose that the biker's velocity function is given by the graph in <xref ref="F
 <statement>
 <p>
 A toy rocket is launched vertically from the ground on a day with no wind. The rocket's vertical velocity at time <m>t</m> (in seconds) is given by <m>v(t)= 500-32t</m> feet/sec.
-</p>
-
 <ol>
 <li><p>At what time after the rocket is launched does the rocket's velocity equal zero?  Call this time value <m>a</m>.  What happens to the rocket at <m>t = a</m>?</p></li>
 <li><p>Find the value of the total area enclosed by <m>y = v(t)</m> and the <m>t</m>-axis on the interval <m>0 \le t \le a</m>.  What does this area represent in terms of the physical setting of the problem?</p></li>
@@ -407,6 +446,8 @@ A toy rocket is launched vertically from the ground on a day with no wind. The r
 <li><p>Compute the value of <m>s(a) - s(0)</m>.  What does this number represent in terms of the physical setting of the problem?</p></li>
 <li><p>Compute <m>s(5) - s(1)</m>.  What does this number tell you about the rocket's flight?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -421,14 +462,14 @@ An object moving along a horizontal axis has its instantaneous velocity at time 
 </figure>
 <p>
 Assume that the curves that make up the parts of the graph of <m>y=v(t)</m> are either portions of straight lines or portions of circles.
-</p>
-
 <ol>
 <li><p>Determine the exact total distance the object traveled on <m>0 \le t \le 2</m>.</p></li>
 <li><p>What is the value and meaning of <m>s(5) - s(2)</m>, where <m>y = s(t)</m> is the position function of the moving object?</p></li>
 <li><p>On which time interval did the object travel the greatest distance: <m>[0,2]</m>, <m>[2,4]</m>, or <m>[5,7]</m>?</p></li>
 <li><p>On which time interval(s) is the position function <m>s</m> increasing?  At which point(s) does <m>s</m> achieve a relative maximum?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 

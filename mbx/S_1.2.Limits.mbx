@@ -26,7 +26,7 @@
     <p>This is where the idea of <em>limits</em> comes in. By using a limit, we'll be able to allow <m>x</m> to get arbitrarily close, but not equal, to <m>1</m> and fully understand the behavior of <m>g(x)</m> near this value. We'll develop key language, notation, and conceptual understanding in what follows, but for now we consider a preliminary activity that uses the graphical interpretation of a function to explore points on a graph where interesting behavior occurs.</p>
 
     <exploration xml:id="PA_1.2">
-      <p>Suppose that <m>g</m> is the function given by the graph below. Use the graph to answer each of the following questions.</p>
+      <p>Suppose that <m>g</m> is the function given by the graph below. Use the graph to answer each of the following questions.
 
       <ol>
         <li><p>Determine the values <m>g(-2)</m>, <m>g(-1)</m>, <m>g(0)</m>, <m>g(1)</m>, and <m>g(2)</m>, if defined.  If the function value is not defined, explain what feature of the graph tells you this.</p></li>
@@ -35,6 +35,7 @@
 
         <li><p>What happens as <m>x</m> gets closer and closer (but not equal) to <m>a = 1</m>?  Does the function <m>g(x)</m> get as close as we would like to a single value?</p></li>
       </ol>
+      </p>
 
       <figure xml:id="F_1.2.PA1" >
         <caption>Graph of <m>y = g(x)</m> for <xref ref="PA_1.2">Preview Activity</xref>.</caption>
@@ -70,13 +71,14 @@
 
     <example xml:id="Ex_1.2.Limits">
       <statement>
-        <p>For each of the following functions, we'd like to know whether or not the function has a limit at the stated <m>a</m>-values. Use both numerical and algebraic approaches to investigate and, if possible, estimate or determine the value of the limit. Compare the results with a careful graph of the function on an interval containing the points of interest.</p>
+        <p>For each of the following functions, we'd like to know whether or not the function has a limit at the stated <m>a</m>-values. Use both numerical and algebraic approaches to investigate and, if possible, estimate or determine the value of the limit. Compare the results with a careful graph of the function on an interval containing the points of interest.
 
         <ol>
           <li><p><m>f(x) = \frac{4-x^2}{x+2}</m>; <m>a = -1</m>, <m>a = -2</m></p></li>
 
           <li><p><m>g(x) = \sin\left(\frac{\pi}{x}\right)</m>; <m>a = 3</m>, <m>a = 0</m></p></li>
         </ol>
+        </p>
       </statement>
     </example>
 
@@ -86,8 +88,7 @@
       <caption>Tables and graph for <m>f(x) = \frac{4-x^2}{x+2}</m>.</caption>
       <tabular>
       <row>
-      <cell>\raisebox{.5in}{
-      <tabular>
+      <cell><tabular>
         <row>
           <cell><m>x</m></cell>
           <cell><m>f(x)</m></cell>
@@ -128,10 +129,8 @@
           <cell>-1.0001</cell>
           <cell>3.0001</cell>
         </row>
-      </tabular>
-      }</cell>
-      <cell>\raisebox{.5in}{
-      <tabular>
+      </tabular></cell>
+      <cell><tabular>
         <row>
           <cell><m>x</m></cell>
           <cell><m>f(x)</m></cell>
@@ -172,8 +171,7 @@
           <cell>-2.0001</cell>
           <cell>4.0001</cell>
         </row>
-      </tabular>
-      }</cell>
+      </tabular></cell>
       <cell><image width="73%" source="images/1_2_Ex1f" /></cell>
       </row>
       </tabular>
@@ -202,8 +200,7 @@
       <caption>Tables and graph for <m>g(x) = \sin\left(\frac{\pi}{x}\right)</m>.</caption>
       <tabular>
       <row>
-      <cell>\raisebox{-.05in}{
-      <tabular>
+      <cell><tabular>
         <row>
           <cell><m>x</m></cell>
           <cell><m>g(x)</m></cell>
@@ -244,10 +241,8 @@
           <cell>3.0001</cell>
           <cell>0.86604</cell>
         </row>
-      </tabular>
-      }</cell>
-      <cell>\raisebox{-.05in}{
-      <tabular>
+      </tabular></cell>
+      <cell><tabular>
         <row>
           <cell><m>x</m></cell>
           <cell><m>g(x)</m></cell>
@@ -288,8 +283,7 @@
           <cell>0.0001</cell>
           <cell>0</cell>
         </row>
-      </tabular>
-      }</cell>
+      </tabular></cell>
       <cell><image width="73%" source="images/1_2_Ex1g" /></cell>
       </row>
       </tabular>
@@ -314,7 +308,7 @@
     <p>An important lesson to take from <xref ref="Ex_1.2.Limits">Example</xref> is that tables can be misleading when determining the value of a limit. While a table of values is useful for investigating the possible value of a limit, we should also use other tools to confirm the value, if we think the table suggests the limit exists.</p>
 
     <activity xml:id="A_1.2.1">
-      <p>Estimate the value of each of the following limits by constructing appropriate tables of values. Then determine the exact value of the limit by using algebra to simplify the function. Finally, plot each function on an appropriate interval to check your result visually.</p>
+      <p>Estimate the value of each of the following limits by constructing appropriate tables of values. Then determine the exact value of the limit by using algebra to simplify the function. Finally, plot each function on an appropriate interval to check your result visually.
 
       <ol>
         <li><p><m>\lim_{x \to 1} \frac{x^2 - 1}{x-1}</m></p></li>
@@ -323,36 +317,45 @@
 
         <li><p><m>\lim_{x \to 0} \frac{\sqrt{x+1} - 1}{x}</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p><m>(x^2 - 1)</m> can be factored.</p></li>
+
+          <li><p>Expand the expression <m>(2+x)^3</m>, and then combine like terms in the numerator.</p></li>
+
+          <li><p>Try multiplying the given function by this fancy form of 1: <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p><m>(x^2 - 1) = (x+1)(x-1)</m>.</p></li>
+
+          <li><p>Expand the expression <m>(2+x)^3</m> using the rule <m>(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3</m>, and then combine like terms in the numerator.</p></li>
+
+          <li><p>Try multiplying the given function by this fancy form of 1: <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.  Expand and simplify the numerator, and then see what happens as <m>x \to 0</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>Estimating the values of the limits with tables is straightforward and should suggest the exact values stated below.
+
+        <ol>
+          <li><p><m>\lim_{x \to 1} \frac{x^2 - 1}{x-1} = \lim_{x \to 1} \frac{(x+1)(x-1)}{x-1} = \lim_{x \to 1} (x+1) = 2</m>.</p></li>
+
+          <li><p><m>\lim_{x \to 0} \frac{(2+x)^3 - 8}{x} = \lim_{x \to 0} \frac{8 + 12x + 6x^2 + x^3 - 8}{x} = \lim_{x \to 0} \frac{12x + 6x^2 + x^3}{x} =  \lim_{x \to 0} (12 + 6x + x^2) = 12</m>.</p></li>
+
+          <li><p><m>\lim_{x \to 0} \frac{\sqrt{x+1} - 1}{x} = \lim_{x \to 0} \frac{\sqrt{x+1} - 1}{x} \cdot \frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1} = \lim_{x \to 0} \frac{x+1-1}{x(\sqrt{x+1}+1)} = \lim_{x \to 0} \frac{1}{\sqrt{x+1}+1} = \frac{1}{2}.</m></p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p><m>(x^2 - 1)</m> can be factored.</p></li>
 
-        <li><p>Expand the expression <m>(2+x)^3</m>, and then combine like terms in the numerator.</p></li>
-
-        <li><p>Try multiplying the given function by this fancy form of 1: <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p><m>(x^2 - 1) = (x+1)(x-1)</m>.</p></li>
-
-        <li><p>Expand the expression <m>(2+x)^3</m> using the rule <m>(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3</m>, and then combine like terms in the numerator.</p></li>
-
-        <li><p>Try multiplying the given function by this fancy form of 1: <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.  Expand and simplify the numerator, and then see what happens as <m>x \to 0</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <p>Estimating the values of the limits with tables is straightforward and should suggest the exact values stated below.</p>
-
-      <ol>
-        <li><p><m>\lim_{x \to 1} \frac{x^2 - 1}{x-1} = \lim_{x \to 1} \frac{(x+1)(x-1)}{x-1} = \lim_{x \to 1} (x+1) = 2</m>.</p></li>
-
-        <li><p><m>\lim_{x \to 0} \frac{(2+x)^3 - 8}{x} = \lim_{x \to 0} \frac{8 + 12x + 6x^2 + x^3 - 8}{x} = \lim_{x \to 0} \frac{12x + 6x^2 + x^3}{x} =  \lim_{x \to 0} (12 + 6x + x^2) = 12</m>.</p></li>
-
-        <li><p><m>\lim_{x \to 0} \frac{\sqrt{x+1} - 1}{x} = \lim_{x \to 0} \frac{\sqrt{x+1} - 1}{x} \cdot \frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1} = \lim_{x \to 0} \frac{x+1-1}{x(\sqrt{x+1}+1)} = \lim_{x \to 0} \frac{1}{\sqrt{x+1}+1} = \frac{1}{2}.</m></p></li>
-      </ol>
-    </solution>
     <p>This concludes a rather lengthy introduction to the notion of limits. It is important to remember that our primary motivation for considering limits of functions comes from our interest in studying the rate of change of a function. To that end, we close this section by revisiting our previous work with average and instantaneous velocity and highlighting the role that limits play.</p>
   </subsection>
 
@@ -373,7 +376,7 @@
     <p>Again, the most important idea here is that to compute instantaneous velocity<index><main>instantaneous velocity</main></index>, we take a limit of average velocities as the time interval shrinks. Two different activities offer the opportunity to investigate these ideas and the role of limits further.</p>
 
     <activity xml:id="A_1.2.2">
-      <p>Consider a moving object whose position function is given by <m>s(t) = t^2</m>, where <m>s</m> is measured in meters and <m>t</m> is measured in minutes.</p>
+      <p>Consider a moving object whose position function is given by <m>s(t) = t^2</m>, where <m>s</m> is measured in meters and <m>t</m> is measured in minutes.
 
       <ol>
         <li><p>Determine the most simplified expression for the average velocity of the object on the interval <m>[3, 3+h]</m>, where <m>h > 0</m>.</p></li>
@@ -382,38 +385,49 @@
 
         <li><p>Determine the instantaneous velocity of the object when <m>t = 3</m>.  Include units on your answer.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p><m>s(3+h) = (3+h)^2</m>.</p></li>
+
+          <li><p>Recall that <m>AV_{[a,b]} = \frac{s(b)-s(a)}{b-a}</m>.</p></li>
+
+          <li><p>Consider <m>\lim_{h \to 0} \frac{s(3+h)-s(3)}{h}</m> and use your work in (a).</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p><m>s(3+h) = (3+h)^2 = 9 + 6h + h^2</m>; show that <m>s(3+h) - s(3) = 6h + h^2</m>.</p></li>
+
+          <li><p>Compute <m>AV_{[3,3.2]} = \frac{s(3.2)-s(3)}{3.2-3}</m>.</p></li>
+
+          <li><p>Consider <m>\lim_{h \to 0} \frac{s(3+h)-s(3)}{h} = \lim_{h \to 0} \frac{6h + h^2}{h}</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Observe that <m>AV_{[3, 3+h]} =  \frac{s(3+h)-s(3)}{h} = \frac{(3+h)^2 - 3^2}{h} = \frac{9 + 6h + h^2 - 9}{h} = \frac{6h + h^2}{h} = \frac{h(6 + h)}{h} = 6 + h.</m></p></li>
+
+          <li><p>Using the expression just found in (a) with <m>h = 0.2</m>, <m>AV_{[3,3.2]} = 6 + 0.2 = 6.2</m> meters/min.</p></li>
+
+          <li><p>Taking the limit of average velocity and using our work from (a), we find that
+              <me>
+                IV_{t = 3} = \lim_{h \to 0} AV_{[3, 3+h]} = \lim_{h \to 0} 6+h = 6,
+              </me>
+              so the instantaneous velocity of the object when <m>t = 3</m> is 6 meters per minute.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p><m>s(3+h) = (3+h)^2</m>.</p></li>
 
-        <li><p>Recall that <m>AV_{[a,b]} = \frac{s(b)-s(a)}{b-a}</m>.</p></li>
-
-        <li><p>Consider <m>\lim_{h \to 0} \frac{s(3+h)-s(3)}{h}</m> and use your work in (a).</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p><m>s(3+h) = (3+h)^2 = 9 + 6h + h^2</m>; show that <m>s(3+h) - s(3) = 6h + h^2</m>.</p></li>
-
-        <li><p>Compute <m>AV_{[3,3.2]} = \frac{s(3.2)-s(3)}{3.2-3}</m>.</p></li>
-
-        <li><p>Consider <m>\lim_{h \to 0} \frac{s(3+h)-s(3)}{h} = \lim_{h \to 0} \frac{6h + h^2}{h}</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Observe that <m>AV_{[3, 3+h]} =  \frac{s(3+h)-s(3)}{h} = \frac{(3+h)^2 - 3^2}{h} = \frac{9 + 6h + h^2 - 9}{h} = \frac{6h + h^2}{h} = \frac{h(6 + h)}{h} = 6 + h.</m></p></li>
-
-        <li><p>Using the expression just found in (a) with <m>h = 0.2</m>, <m>AV_{[3,3.2]} = 6 + 0.2 = 6.2</m> meters/min.</p></li>
-
-        <li><p>Taking the limit of average velocity and using our work from (a), we find that
-            <me>
-              IV_{t = 3} = \lim_{h \to 0} AV_{[3, 3+h]} = \lim_{h \to 0} 6+h = 6,
-            </me>
-            so the instantaneous velocity of the object when <m>t = 3</m> is 6 meters per minute.</p></li>
-      </ol>
-    </solution>
     <p>The closing activity of this section asks you to make some connections among average velocity, instantaneous velocity, and slopes of certain lines.</p>
 
     <activity xml:id="A_1.2.3">
@@ -431,34 +445,44 @@
 
         <li><p>Use the graph to estimate the instantaneous velocity of the object when <m>t = 2</m>.  Should this instantaneous velocity at <m>t = 2</m> be greater or less than the average velocity on <m>[1.5,2.5]</m> that you computed in (a)?  Why?</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.</p></li>
+
+          <li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.</p></li>
+
+          <li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.  For example, the average velocity on <m>[0.5,1]</m> is <m>\frac{1-1}{1-0.5} = 0</m>.</p></li>
+
+          <li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.  If those lines' slopes are approaching a single number, that number represents the instantaneous velocity.</p></li>
+
+          <li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?  By drawing this line that looks like <m>s(t)</m> near the point <m>(2,s(2))</m> and comparing the line through the points <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>, you should be able to compare the lines and see which has greater slope.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>The average velocity on <m>[0.5,1]</m> is the slope of the line joining the points <m>(0.5,s(0.5))</m> and <m>(1,s(1))</m>, which is <m>AV_{[0.5,1]} = \frac{1-1}{1-0.5} = 0</m>.  On <m>[1.5,2.5]</m>, we similarly find <m>AV_{[1.5,2.5]} = \frac{3-1}{2.5-1.5} = 2</m>, and on <m>[0,5]</m>, we have <m>AV_{[0,5]} = \frac{5-0}{5-0} = 1</m>.</p></li>
+
+          <li><p>Take shorter and shorter time intervals and draw the lines whose slopes represent average velocity.  If those lines' slopes are approaching a single number, that number represents the instantaneous velocity.  For example, to estimate the instantaneous velocity at <m>t = 2</m>, we might consider average velocities on <m>[2,3]</m>, <m>[2,2.5]</m>, and <m>[2,2.25]</m>.</p></li>
+
+          <li><p>If we draw the line through <m>(2,2)</m> and <m>(2.1,s(2.1))</m>, it looks like the line's slope is approximately 2.5: if we go over one grid-width, we appear to go up about 2.5.  The slope of this line is clearly greater than the slope of the line through <m>(1.5, s(1.5))</m> and <m>(2.5, s(2.5))</m>, which is 2. Hence the instantaneous velocity at <m>t = 2</m> is greater than the average velocity on <m>[1.5,2.5]</m>.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.</p></li>
 
-        <li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.</p></li>
-
-        <li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.  For example, the average velocity on <m>[0.5,1]</m> is <m>\frac{1-1}{1-0.5} = 0</m>.</p></li>
-
-        <li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.  If those lines' slopes are approaching a single number, that number represents the instantaneous velocity.</p></li>
-
-        <li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?  By drawing this line that looks like <m>s(t)</m> near the point <m>(2,s(2))</m> and comparing the line through the points <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>, you should be able to compare the lines and see which has greater slope.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>The average velocity on <m>[0.5,1]</m> is the slope of the line joining the points <m>(0.5,s(0.5))</m> and <m>(1,s(1))</m>, which is <m>AV_{[0.5,1]} = \frac{1-1}{1-0.5} = 0</m>.  On <m>[1.5,2.5]</m>, we similarly find <m>AV_{[1.5,2.5]} = \frac{3-1}{2.5-1.5} = 2</m>, and on <m>[0,5]</m>, we have <m>AV_{[0,5]} = \frac{5-0}{5-0} = 1</m>.</p></li>
-
-        <li><p>Take shorter and shorter time intervals and draw the lines whose slopes represent average velocity.  If those lines' slopes are approaching a single number, that number represents the instantaneous velocity.  For example, to estimate the instantaneous velocity at <m>t = 2</m>, we might consider average velocities on <m>[2,3]</m>, <m>[2,2.5]</m>, and <m>[2,2.25]</m>.</p></li>
-
-        <li><p>If we draw the line through <m>(2,2)</m> and <m>(2.1,s(2.1))</m>, it looks like the line's slope is approximately 2.5: if we go over one grid-width, we appear to go up about 2.5.  The slope of this line is clearly greater than the slope of the line through <m>(1.5, s(1.5))</m> and <m>(2.5, s(2.5))</m>, which is 2. Hence the instantaneous velocity at <m>t = 2</m> is greater than the average velocity on <m>[1.5,2.5]</m>.</p></li>
-      </ol>
-    </solution>
     <p>\begin{authornote}
       This is an author note.
       \end{authornote}</p>
@@ -475,11 +499,10 @@
 
       <li><p>The instantaneous velocity of a moving object at a fixed time is found by taking the limit of average velocities of the object over shorter and shorter time intervals that all contain the time of interest.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Consider the function whose formula is <m>f(x) = \frac{16-x^4}{x^2-4}</m>.</p>
+          <p>Consider the function whose formula is <m>f(x) = \frac{16-x^4}{x^2-4}</m>.
 
           <ol>
             <li><p>What is the domain of <m>f</m>?</p></li>
@@ -495,11 +518,12 @@
 
             <li><p>Based on all of your work above, construct an accurate, labeled graph of <m>y = f(x)</m> on the interval <m>[1,3]</m>, and write a sentence that explains what you now know about <m>\lim_{x \to 2} \frac{16-x^4}{x^2-4}</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Let <m>g(x) = -\frac{|x+3|}{x+3}</m>.</p>
+          <p>Let <m>g(x) = -\frac{|x+3|}{x+3}</m>.
 
           <ol>
             <li><p>What is the domain of <m>g</m>?</p></li>
@@ -516,6 +540,7 @@
 
             <li><p>Based on all of your work above, construct an accurate, labeled graph of <m>y = g(x)</m> on the interval <m>[-4,-2]</m>, and write a sentence that explains what you now know about <m>\lim_{x \to -3} g(x)</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -528,7 +553,7 @@
           </figure>
 
           <ol>
-            <li><p><m>y = f(x)</m> such that</p>
+            <li><p><m>y = f(x)</m> such that
 
             <ul>
               <li><p><m>f(-2) = 2</m> and <m>\lim_{x \to -2} f(x) = 1</m></p></li>
@@ -539,10 +564,9 @@
 
               <li><p><m>f(2) = 1</m> and <m>\lim_{x \to 2} f(x)</m> does not exist.</p></li>
             </ul>
+            </p></li>
 
-            </li>
-
-            <li><p><m>y = g(x)</m> such that</p>
+            <li><p><m>y = g(x)</m> such that
 
             <ul>
               <li><p><m>g(-2) = 3</m>, <m>g(-1) = -1</m>, <m>g(1) = -2</m>, and <m>g(2) = 3</m></p></li>
@@ -551,14 +575,13 @@
 
               <li><p><m>g(0)</m> is not defined and <m>\lim_{x \to 0} g(x)</m> does not exist.</p></li>
             </ul>
-
-            </li>
+            </p></li>
           </ol>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>A bungee jumper dives from a tower at time <m>t=0</m>. Her height <m>s</m> in feet at time <m>t</m> in seconds is given by <m>s(t) = 100\cos(0.75t) \cdot e^{-0.2t}+100</m>.</p>
+          <p>A bungee jumper dives from a tower at time <m>t=0</m>. Her height <m>s</m> in feet at time <m>t</m> in seconds is given by <m>s(t) = 100\cos(0.75t) \cdot e^{-0.2t}+100</m>.
 
           <ol>
             <li><p>Write an expression for the average velocity of the bungee jumper on the interval 
@@ -568,6 +591,7 @@
 
             <li><p>What is the meaning of the value of the limit in (b)?  What are its units?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

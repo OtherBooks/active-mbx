@@ -25,8 +25,6 @@ equations that we have seen in earlier work this chapter.
 <exploration xml:id="PA_7.6">
 <p>
 Recall that one model for population growth states that a population grows at a rate proportional to its size.
-</p>
-
 <ol>
 <li><p>We begin with the differential equation
 <me>
@@ -50,6 +48,8 @@ As before, sketch a slope field as well as a few typical solutions on the follow
 <li><p>If <m>P(0)</m> is positive, describe the long-term behavior of the
   solution.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -102,8 +102,6 @@ express this assumption as
   \frac{dP}{dt} = kP
 </me>
 where <m>k</m> is a constant of proportionality.
-</p>
-
 <ol>
 <li><p>Use the data in the table to estimate the derivative <m>P'(0)</m>
   using a central difference.  Assume that <m>t=0</m> corresponds to the
@@ -127,21 +125,38 @@ Find the solution to this initial value problem.</p></li>
   population?  Why or why not?  Explain your thinking using a couple
   of complete sentences.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 Our work in <xref ref="A_7.6.1">Activity</xref> shows that that the exponential model is fairly accurate for years
 relatively close to 2000. However, if we go too far into the
@@ -417,21 +432,36 @@ with the graph of <m>\frac{dP}{dt}</m> vs.<nbsp /><m>P</m> shown below.
 </me>
 Verify algebraically that <m>P(0) = P_0</m> and that <m>\lim_{t\to\infty} P(t) = N</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -460,8 +490,6 @@ people that have heard the rumor on day <m>t</m>. The equation
 </me>
 describes how <m>p</m> changes. Suppose initially that one-tenth of
 the people have heard the rumor; that is, <m>p(0) = 0.1</m>.
-</p>
-
 <ol>
 <li><p>What happens to <m>p(t)</m> after a very long time?</p></li>
 <li><p>Determine a formula for the function <m>p(t)</m>.</p></li>
@@ -469,6 +497,8 @@ the people have heard the rumor; that is, <m>p(0) = 0.1</m>.
 <li><p>How long does it take before 80<percent /> of the people have heard
       the rumor?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -481,8 +511,6 @@ a colony in a Petri dish, where <m>b</m> is measured in thousands and
 6,000 bacteria and the per capita growth rate is 3. A few days
 later, you measure that there are 9,000 bacteria and the per
 capita growth rate is 2.
-</p>
-
 <ol>
 <li><p>Assume that the per capita growth rate 
     <m>\frac{db/dt}{b}</m> is a linear function of <m>b</m>.  Use the
@@ -494,6 +522,8 @@ capita growth rate is 2.
 <li><p>If there are initially 1,000 bacteria, how long will it take
     to reach 80<percent /> of the carrying capacity?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -507,8 +537,6 @@ the logistic equation
 </me>
 where <m>P</m> is measured in thousands of fish and <m>t</m> is measured in
 years.
-</p>
-
 <ol>
 <li><p>What is the carrying capacity of this population?</p></li>
 <li><p>Suppose that a long time has passed and that the fish
@@ -522,6 +550,8 @@ years.
 <li><p>How long will it take for the population to be within 10<percent />
       of the carrying capacity?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

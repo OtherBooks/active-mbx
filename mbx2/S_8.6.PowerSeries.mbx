@@ -47,8 +47,6 @@ To do so, we assume that we have a solution <m>y=f(x)</m> and that <m>f(x)</m> h
   y = f(x) = \sum_{k=0}^{\infty} a_kx^k,
 </me>
 where the coefficients <m>a_k</m> are undetermined. Our task is to find the coefficients.
-</p>
-
 <ol>
 <li><p>Assume that we can differentiate a power series term by term.  By taking the derivative of <m>f(x)</m> with respect to <m>x</m> and substituting the result into the differential equation <xref ref="eq_PA8.6_Resistance_ode" />, show that the equation
 <me>
@@ -134,6 +132,8 @@ So the functions that satisfy the differential equation <xref ref="eq_PA8.6_Resi
 </p>
 </solution></p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -271,8 +271,6 @@ This is an alternating series, and since the sequence <m>\left\{ \frac{1}{n^2} \
 <activity xml:id="x8.6.Act1">
 <p>
 Determine the interval of convergence of each power series.
-</p>
-
 <ol>
 <li><p><m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m></p></li>
 <li><p><m>\sum_{k=1}^{\infty} kx^k</m></p></li>
@@ -280,17 +278,31 @@ Determine the interval of convergence of each power series.
 <li><p><m>\sum_{k=1}^{\infty} \frac{x^k}{(2k)!}</m></p></li>
 <li><p><m>\sum_{k=1}^{\infty} k!x^k</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>We use the Ratio Test with <m>a_k = \frac{|x-1|^k}{3k}</m>:
 <md>
@@ -299,12 +311,12 @@ Determine the interval of convergence of each power series.
   <mrow>  \amp = |x-1|.</mrow>
 </md>
 So the power series <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> converges absolutely when <m>|x-1| \lt  1</m> or when <m>0 \lt  x \lt  2</m> and diverges outside this interval. To completely determine the interval of convergence, we need to check what happens at the endpoints of this interval.
-</p>
-
 <ul>
 <li><p>When <m>x=0</m> our power series is <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{3k}</m> which is just a scalar multiple of the alternating harmonic series and so converges.</p></li>
 <li><p>When <m>x=2</m> our power series is <m>\sum_{k=1}^{\infty} \frac{1}{3k}</m> which is just a scalar multiple of the harmonic series and so diverges.</p></li>
 </ul>
+
+</p>
 Therefore, the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> is <m>[0,2)</m>.</li>
 <li><p>We use the Ratio Test with <m>a_k = k|x|^k</m>:
 <md>
@@ -312,12 +324,12 @@ Therefore, the interval of convergence of the power series <m>\sum_{k=1}^{\infty
   <mrow>  \amp = |x|.</mrow>
 </md>
 So the power series <m>\sum_{k=1}^{\infty} kx^k</m> converges absolutely when <m>|x| \lt  1</m> or when <m>-1 \lt  x \lt  1</m> and diverges outside this interval. To completely determine the interval of convergence, we need to check what happens at the endpoints of this interval.
-</p>
-
 <ul>
 <li><p>When <m>x=-1</m> our power series is <m>\sum_{k=1}^{\infty} (-1)^k k</m>. Since <m>k \to \infty</m> as <m>k \to infty</m>, this series diverges by the Divergence Test.</p></li>
 <li><p>When <m>x=1</m> our power series is <m>\sum_{k=1}^{\infty} k</m> which again diverges by the Divergence Test.</p></li>
 </ul>
+
+</p>
 Therefore, the interval of convergence of the power series <m>\sum_{k=1}^{\infty} kx^k</m> is <m>(-1,1)</m>.</li>
 <li><p>We use the Ratio Test with <m>a_k = \frac{k^2|x+1|^k}{4^k}</m>:
 <md>
@@ -326,12 +338,12 @@ Therefore, the interval of convergence of the power series <m>\sum_{k=1}^{\infty
   <mrow>  \amp = \frac{1}{4}|x+1|.</mrow>
 </md>
 So the power series <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> converges absolutely when <m>\frac{1}{4}|x+1| \lt  1</m> or when <m>-5 \lt  x \lt  3</m> and diverges outside this interval. To completely determine the interval of convergence, we need to check what happens at the endpoints of this interval.
-</p>
-
 <ul>
 <li><p>When <m>x=-5</m> our power series is <m>\sum_{k=1}^{\infty} (-1)^k k^2</m>. Since <m>k^2 \to \infty</m> as <m>k \to \infty</m>, this series diverges by the Divergence Test.</p></li>
 <li><p>When <m>x=3</m> our power series is <m>\sum_{k=1}^{\infty} k^2</m>, which again diverges by the Divergence Test.</p></li>
 </ul>
+
+</p>
 Therefore, the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> is <m>(-5,3)</m>.</li>
 <li><p>We use the Ratio Test with <m>a_k = \frac{|x|^k}{(2k)!}</m>:
 <md>
@@ -347,7 +359,10 @@ So the power series <m>\sum_{k=1}^{\infty} \frac{x^k}{(2k)!}</m> converges absol
 </md>
 unless <m>x=0</m>. So the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{x^k}{k!}</m> is <m>\{0\}</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -363,24 +378,36 @@ Our goal in this activity is to find a power series expansion for <m>f(x) = \fra
 
 <p>
 While we could use the methods of <xref ref="S_8.5.Taylor">Section</xref> and differentiate <m>f(x) = \frac{1}{1+x^2}</m> several times to look for patterns and find the Taylor series for <m>f(x)</m>, we seek an alternate approach because of how complicated the derivatives of <m>f(x)</m> quickly become.
-</p>
-
 <ol>
 <li><p>What is the Taylor series expansion for <m>g(x) = \frac{1}{1-x}</m>? What is the interval of convergence of this series?</p></li>
 <li><p>How is <m>g(-x^2)</m> related to <m>f(x)</m>? Explain, and hence substitute <m>-x^2</m> for <m>x</m> in the power series expansion for <m>g(x)</m>. Given the relationship between <m>g(-x^2)</m> and <m>f(x)</m>, how is the resulting series related to <m>f(x)</m>?</p></li>
 <li><p>For which values of <m>x</m> will this power series expansion for <m>f(x)</m> be valid? Why?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Recall that
 <me>
@@ -397,7 +424,10 @@ for <m>-1 \lt  x \lt  1</m>.</p></li>
 ]</p></li>
 <li><p>This power series expansion for <m>f(x)</m> will be valid as long as <m>-1 \lt  (-x)^2 \lt  1</m> or for <m>-1 \lt  x \lt  1</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 In a previous section we determined several important Maclaurin series and their intervals of convergence. Here, we list these key functions and remind ourselves of their corresponding expansions.
 </p>
@@ -416,8 +446,6 @@ Let <m>f</m> be the function given by the power series expansion
 <me>
   f(x) = \sum_{k=0}^{\infty} (-1)^k \frac{x^{2k}}{(2k)!}.
 </me>
-</p>
-
 <ol>
 <li><p>Assume that we can differentiate a power series term by term, just like we can differentiate a (finite) polynomial. Use the fact that
 <me>
@@ -427,17 +455,31 @@ to find a power series expansion for <m>f'(x)</m>.</p></li>
 <li><p>Observe that <m>f(x)</m> and <m>f'(x)</m> have familiar Taylor series.  What familiar functions are these? What known relationship does our work demonstrate?</p></li>
 <li><p>What is the series expansion for <m>f''(x)</m>?  What familiar function is <m>f''(x)</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Note that
 <me>
@@ -448,7 +490,10 @@ to find a power series expansion for <m>f'(x)</m>.</p></li>
   \frac{d}{dx} \cos(x) = -\sin(x).
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 It turns out that our work in <xref ref="x8.6.Act2">Activity</xref> holds more generally. The corresponding theorem, which we will not prove, states that we can differentiate a power series for a function <m>f</m> term by term and obtain the series expansion for <m>f'</m>, and similarly we can integrate a series expansion for a function <m>f</m> term by term and obtain the series expansion for <m>\int f(x) \ dx</m>. For both, the radius of convergence of the resulting series is the same as the original, though it is possible that the convergence status of the resulting series may differ at the endpoints. The formal statement of the Power Series Differentiation and Integration Theorem follows.
 </p>
@@ -534,16 +579,26 @@ converges both when <m>x = -1</m> and when <m>x = 1</m>; in each case, we have a
 <p>
 Find a power series expansion for <m>\ln(1+x)</m> centered at <m>x=0</m> and determine its interval of convergence. (<em>Hint</em>: Use the Taylor series expansion for <m>\frac{1}{1+x}</m> centered at <m>x=0</m>.)
 </p>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
 <p>
 Using the Taylor series
@@ -572,6 +627,7 @@ and so <m>C = 0</m>. We conclude that
 for <m>-1 \lt  x \lt  1</m>.
 </p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -592,13 +648,13 @@ for <m>-1 \lt  x \lt  1</m>.
 <statement>
 <p>
 We can use power series to approximate definite integrals to which known techniques of integration do not apply. We will illustrate this in this exercise with the definite integral <m>\int_0^1 \sin(x^2) \ ds</m>.
-</p>
-
 <ol>
 <li><p>Use the Taylor series for <m>\sin(x)</m> to find the Taylor series for <m>\sin(x^2)</m>. What is the interval of convergence for the Taylor series for <m>\sin(x^2)</m>? Explain.</p></li>
 <li><p>Integrate the Taylor series for <m>\sin(x^2)</m> term by term to obtain a power series expansion for <m>\int \sin(x^2) \ dx</m>.</p></li>
 <li><p>Use the result from part (b) to explain how to evaluate <m>\int_0^1 \sin(x^2) \ dx</m>. Determine the number of terms you will need to approximate <m>\int_0^1 \sin(x^2) \ dx</m> to 3 decimal places.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -609,8 +665,6 @@ There is an important connection between power series and Taylor series. Suppose
 <me>
   f(x) = \sum_{k=0}^{\infty} a_kx^k.
 </me>
-</p>
-
 <ol>
 <li><p>Determine the first 4 derivatives of <m>f</m> evaluated at 0 in terms of the coefficients <m>a_k</m>.</p></li>
 <li><p>Show that <m>f^{(n)}(0) = n!a_n</m> for each positive integer <m>n</m>.
@@ -649,6 +703,7 @@ for each <m>k \geq 0</m>. But these are just the coefficients of the Taylor seri
 </solution></p></li>
 <li><p>Explain how the result of (b) tells us the following:</p></li>
 </ol>
+</p>
 
 <p>
 \\text{ 
@@ -680,12 +735,8 @@ Now consider the power series
 
 <p>
 We will determine the sum of this power series in this exercise.
-</p>
-
 <ol>
 <li><p>Explain why each of the following is true.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -695,8 +746,7 @@ We will determine the sum of this power series in this exercise.
 <title>(ii)</title>
 <p>
 <m>x^2F(x) = \sum_{k=2}^{\infty} f_{k-2}x^k</m></p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Show that
 <me>
   F(x) - xF(x) - x^2F(x) = x.
@@ -708,6 +758,7 @@ We will determine the sum of this power series in this exercise.
 to find a simple form for <m>F(x)</m> that doesn't involve a sum.</p></li>
 <li><p>Use a computer algebra system or some other method to calculate the first 8 derivatives of <m>\frac{x}{1-x-x^2}</m> evaluated at 0. Why shouldn't the results surprise you?</p></li>
 </ol>
+</p>
 
 <p>
 Airy's equation<fn>The general differential equations of the form <m>y'' \pm k^2xy = 0</m> is called Airy's equation. These equations arise in many problems, such as the study of diffraction of light, diffraction of radio waves around an object, aerodynamics, and the buckling of a uniform column under its own weight.</fn>
@@ -720,10 +771,7 @@ can be used to model an undamped vibrating spring with spring constant <m>x</m> 
 </me>
 where the coefficients are undetermined. Our job is to find the coefficients.
 </p>
-</statement>
-</exercise>
 <exercise>
-<statement>
 <p>
 Differentiate the series for <m>y</m> term by term to find the series for <m>y'</m>. Then repeat to find the series for <m>y''</m>.
 </p>
@@ -839,8 +887,6 @@ Notice that we have like powers of <m>x</m> in our two series, so we can combine
 <statement>
 <p>
 Use equation <xref ref="eq_PA8.6_Airy_sum_3" /> to show the following:
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -855,6 +901,8 @@ Use equation <xref ref="eq_PA8.6_Airy_sum_3" /> to show the following:
 <p>
 <m>a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \\text{ for }  k \geq 1</m>.</p></li>
 </ul>
+
+</p>
 </statement>
 <solution>
 <p>
@@ -888,8 +936,6 @@ These last equations are called <em>recurrence relations</em> and allow us to wr
 
 <p>
 It may not be obvious, but there is a pattern.
-</p>
-
 <ul>
 <li><p>All of the terms involving <m>a_2</m> are 0. These terms are <m>a_2</m>, <m>a_5</m>, <m>a_8</m>, etc. The subscripts of these terms are all of the form <m>3k+2</m>. So <m>a_{3k+2} = 0</m> for every positive integer <m>k</m>.</p></li>
 <li><p>The terms that involve <m>a_0</m> have the form <m>a_3</m>, <m>a_6</m>, <m>a_{9}</m>, etc. and are all of the form <m>a_{3k}</m> for positive integers <m>k</m>. The pattern in the denominators of the coefficient for <m>a_{3k}</m> is <m>(2)(3)(5)(6) \cdots (3k-1)(3k)</m>. So
@@ -901,6 +947,8 @@ It may not be obvious, but there is a pattern.
   a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \\text{ for }  k \geq 1.
 </me></p></li>
 </ul>
+
+</p>
 </solution>
 </exercise>
 

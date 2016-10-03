@@ -40,8 +40,6 @@ situations, but we will still be able to make accurate approximations.
 The position of a moving object is given by the
 function <m>s(t)</m>, where <m>s</m> is measured in feet and <m>t</m> in seconds. We
 determine that the velocity is <m>v(t) = 4t + 1</m> feet per second.
-</p>
-
 <ol>
 <li><p>How much does the position change over the time interval
   <m>[0,4]</m>?</p></li>
@@ -59,6 +57,8 @@ determine that the velocity is <m>v(t) = 4t + 1</m> feet per second.
 <li><p>If, in addition to knowing the velocity function is <m>v(t) = 4t+1</m>, we know the initial position <m>s(0)</m>, how many possibilities
   are there for <m>s(t)</m>?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -139,8 +139,6 @@ Express the following statements as
 differential equations. In each case, you will need to introduce notation
 to describe the important quantities in the statement so be sure to
 clearly state what your notation means.
-</p>
-
 <ol>
 <li><p>The population of a town grows continuously at an annual rate of
           1.25<percent />.</p></li>
@@ -158,21 +156,38 @@ clearly state what your notation means.
           the difference between the soda's temperature and
           the room's temperature every minute.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -243,21 +258,36 @@ the Earth's atmosphere.
           values of the velocity for which the velocity 
           remains constant.</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The point of this activity is to demonstrate how differential
 equations model processes in the real world. In this example, two
@@ -356,29 +386,44 @@ Consider the differential equation
 
 <p>
 Which of the following functions are solutions of this differential equation?
-</p>
-
 <ol>
 <li><p><m>v(t) = 1.5t - 0.25t^2</m>.</p></li>
 <li><p><m>v(t) = 3 + 2e^{-0.5t}</m>.</p></li>
 <li><p><m>v(t) = 3</m>.</p></li>
 <li><p><m>v(t) = 3 + Ce^{-0.5t}</m> where <m>C</m> is any constant.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 This activity shows us something interesting. Notice that the
 differential equation has infinitely many solutions, which are
@@ -492,8 +537,6 @@ Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law o
 <me>
   \frac{dT}{dt}= -\frac1{15}T+5.
 </me>
-</p>
-
 <ol>
 <li><p>Supposes that <m>T(0)=105</m>.  What does the differential
     equation give us for the value of <m>\frac{dT}{dt}\vert_{T=105}</m>?  Explain in a
@@ -510,6 +553,8 @@ Fahrenheit and <m>t</m> in minutes. A physical principle known as Newton's Law o
         solution to the differential equation with initial value <m>T(0)
         = 105</m>.  What happens to this solution after a long time?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -549,16 +594,12 @@ where <m>f(P)</m> is the function graphed below.
 <statement>
 <p>
 In this problem, we test further what it means for a function to be a solution to a given differential equation.
-</p>
-
 <ol>
 <li><p>Consider the differential equation
 <me>
   \frac{dy}{dt} = y - t.
 </me>
 Determine whether the following functions are solutions to the given differential equation.
-</p>
-
 <ul>
 <li>
 <title>(i)</title>
@@ -572,8 +613,7 @@ Determine whether the following functions are solutions to the given differentia
 <title>(iii)</title>
 <p>
 <m>y(t) = t + 2</m></p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>When you weigh bananas in a scale at the grocery store, the
       height <m>h</m> of the bananas is described by the differential
       equation
@@ -586,6 +626,8 @@ where <m>k</m> is the <em>spring constant</em>, a constant that depends
       is given by <m>h(t) = 4\sin(3t)</m>.  What is the value of the spring
       constant?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

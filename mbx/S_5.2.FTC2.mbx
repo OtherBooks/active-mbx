@@ -42,10 +42,10 @@
 
     <exploration xml:id="PA_5.2">
       <p>Consider the function <m>A</m> defined by the rule
-        <me>
-          A(x) = \int_1^x f(t) \, dt,
-        </me>
-        where <m>f(t) = 4-2t</m>.</p>
+      <me>
+        A(x) = \int_1^x f(t) \, dt,
+      </me>
+      where <m>f(t) = 4-2t</m>.
 
       <ol>
         <li><p>Compute <m>A(1)</m> and <m>A(2)</m> exactly.</p></li>
@@ -58,6 +58,7 @@
 
         <li><p>While we have defined <m>f</m> by the rule <m>f(t) = 4-2t</m>, it is equivalent to say that <m>f</m> is given by the rule <m>f(x) = 4 - 2x</m>.  What do you observe about the relationship between <m>A</m> and <m>f</m>?</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -111,7 +112,7 @@
         <image width="73%" source="images/5_2_Act1" />
       </figure>
 
-      <p>In addition, let <m>A</m> be the function defined by the rule <m>A(x) = \int_2^x f(t) \, dt</m>.</p>
+      <p>In addition, let <m>A</m> be the function defined by the rule <m>A(x) = \int_2^x f(t) \, dt</m>.
 
       <ol>
         <li><p>What does the Second FTC tell us about the relationship between <m>A</m> and <m>f</m>?</p></li>
@@ -124,46 +125,56 @@
 
         <li><p>With as little additional work as possible, sketch precise graphs of the functions <m>B(x) = \int_3^x f(t) \, dt</m> and <m>C(x) = \int_1^x f(t) \, dt</m>.  Justify your results with at least one sentence of explanation.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>If you don't recall it, review the statement of the Second FTC above.</p></li>
+
+          <li><p>Note that <m>A(1)= \int_2^1 f(t) \, dt</m>.</p></li>
+
+          <li><p>Don't miss our key conclusion from (a).</p></li>
+
+          <li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>.</p></li>
+
+          <li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Review the statement of the Second FTC above; what does that theorem tell you about <m>A'</m>?</p></li>
+
+          <li><p>Note that <m>A(1)= \int_2^1 f(t) \, dt</m>; don't forget that <m>\int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>.</p></li>
+
+          <li><p>Don't miss our key conclusion from (a), which enables us to gain information from the derivative of <m>A</m> about where <m>A</m> is increasing, decreasing, concave up, and concave down.</p></li>
+
+          <li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>; note that <m>F</m> could be equivalently defined by the rule <m>F(x) = \int_0^x f(t) \, dt - 1</m>.</p></li>
+
+          <li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?  Between <m>C</m> and <m>f</m>?  Note, too, that we can write <m>B(x) = F(x) - F(3)</m>, where <m>F</m> is any antiderivative of <m>f</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>By the Second FTC, <m>A'(x) = f(x)</m>.</p></li>
+
+          <li><p>Since <m>A(1)= \int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>, it follows <m>A(1) = -\frac{\pi}{4}</m>.</p></li>
+
+          <li><p>Note that <m>A</m> is increasing wherever <m>f</m> is positive, and <m>A</m> is CCU wherever <m>f</m> is increasing.  Similar conclusions follow for <m>A</m> being decreasing and/or concave down.  Moreover, <m>A(2) = 0</m>, <m>A(3) = -0.5</m>, <m>A(4) = -1.5</m>, <m>A(5) = -2</m>, <m>A(6) = -2 + \frac{\pi}{4}</m>, and <m>A(7) = -2 + \frac{\pi}{2}</m>.</p></li>
+
+          <li><p>In our current example, <m>A</m> is an antiderivative of <m>f</m> that satisfies <m>A(0) = -\frac{1}{2} - \frac{\pi}{4}</m>.  Our earlier work with <m>F</m> showed that <m>F</m> is an antiderivative of <m>F</m> that satisfied <m>F(0) = -1</m>.  Since <m>F</m> and <m>A</m> are both antiderivatives of <m>f</m>, they differ by a constant, and that constant is <m>-1 - (-\frac{1}{2} - \frac{\pi}{4}) = \frac{\pi}{4} - \frac{1}{2}</m>.</p></li>
+
+          <li><p>The Second FTC tells us that <m>B' = f</m> and <m>C' = f</m>.  Thus, <m>B</m> and <m>C</m> are each antiderivatives of <m>f</m>, have the same shape as <m>A</m> and <m>F</m>, and each differ from <m>A</m> by just a constant.  Observing that <m>B(3) = 0</m> and <m>C(1) = 0</m> enables us to easily sketch these shifted versions of <m>A</m>.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>If you don't recall it, review the statement of the Second FTC above.</p></li>
-
-        <li><p>Note that <m>A(1)= \int_2^1 f(t) \, dt</m>.</p></li>
-
-        <li><p>Don't miss our key conclusion from (a).</p></li>
-
-        <li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>.</p></li>
-
-        <li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Review the statement of the Second FTC above; what does that theorem tell you about <m>A'</m>?</p></li>
-
-        <li><p>Note that <m>A(1)= \int_2^1 f(t) \, dt</m>; don't forget that <m>\int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>.</p></li>
-
-        <li><p>Don't miss our key conclusion from (a), which enables us to gain information from the derivative of <m>A</m> about where <m>A</m> is increasing, decreasing, concave up, and concave down.</p></li>
-
-        <li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>; note that <m>F</m> could be equivalently defined by the rule <m>F(x) = \int_0^x f(t) \, dt - 1</m>.</p></li>
-
-        <li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?  Between <m>C</m> and <m>f</m>?  Note, too, that we can write <m>B(x) = F(x) - F(3)</m>, where <m>F</m> is any antiderivative of <m>f</m>.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>By the Second FTC, <m>A'(x) = f(x)</m>.</p></li>
-
-        <li><p>Since <m>A(1)= \int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>, it follows <m>A(1) = -\frac{\pi}{4}</m>.</p></li>
-
-        <li><p>Note that <m>A</m> is increasing wherever <m>f</m> is positive, and <m>A</m> is CCU wherever <m>f</m> is increasing.  Similar conclusions follow for <m>A</m> being decreasing and/or concave down.  Moreover, <m>A(2) = 0</m>, <m>A(3) = -0.5</m>, <m>A(4) = -1.5</m>, <m>A(5) = -2</m>, <m>A(6) = -2 + \frac{\pi}{4}</m>, and <m>A(7) = -2 + \frac{\pi}{2}</m>.</p></li>
-
-        <li><p>In our current example, <m>A</m> is an antiderivative of <m>f</m> that satisfies <m>A(0) = -\frac{1}{2} - \frac{\pi}{4}</m>.  Our earlier work with <m>F</m> showed that <m>F</m> is an antiderivative of <m>F</m> that satisfied <m>F(0) = -1</m>.  Since <m>F</m> and <m>A</m> are both antiderivatives of <m>f</m>, they differ by a constant, and that constant is <m>-1 - (-\frac{1}{2} - \frac{\pi}{4}) = \frac{\pi}{4} - \frac{1}{2}</m>.</p></li>
-
-        <li><p>The Second FTC tells us that <m>B' = f</m> and <m>C' = f</m>.  Thus, <m>B</m> and <m>C</m> are each antiderivatives of <m>f</m>, have the same shape as <m>A</m> and <m>F</m>, and each differ from <m>A</m> by just a constant.  Observing that <m>B(3) = 0</m> and <m>C(1) = 0</m> enables us to easily sketch these shifted versions of <m>A</m>.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -233,54 +244,59 @@
 
         <li><p>Sketch an accurate graph of <m>y = F(x)</m> on the righthand axes provided, and clearly label the vertical axes with appropriate scale.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Use computing technology appropriately to generate the desired graph.</p></li>
+
+          <li><p>Again, recall the statement of the Second FTC.</p></li>
+
+          <li><p>Where is <m>F'</m> positive?  <m>F'</m> negative?</p></li>
+
+          <li><p>Note that <m>F'' = f'</m>.</p></li>
+
+          <li><p>Remember that <m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt</m>.</p></li>
+
+          <li><p>Don't forget that <m>F(0) = 0</m>.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Use computing technology appropriately to generate the desired graph.</p></li>
+
+          <li><p>Again, recall the statement of the Second FTC.</p></li>
+
+          <li><p>Where is <m>F'</m> positive?  <m>F'</m> negative?  Remember that <m>F</m> is increasing wherever <m>F'</m> is positive.</p></li>
+
+          <li><p>Note that <m>F'' = f'</m>, which tells us that <m>F''(t) = \frac{1-t^2}{(1+t^2)^2}</m>.  Where is <m>F''</m> positive? negative?</p></li>
+
+          <li><p>Remember that <m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt</m>.  Try a midpoint sum with at least 10 subintervals.</p></li>
+
+          <li><p>Don't forget that <m>F(0) = 0</m>.  Use the values and information you've found in (b)-(e).</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <ol>
+          <li><p>See the plot at below left.</p></li>
+
+          <li><p><m>F' = f</m>, by the Second FTC.</p></li>
+
+          <li><p><m>F</m> is increasing wherever <m>F'=f</m> is positive, so for all <m>x > 0</m>.  Similarly, <m>F</m> is decreasing for <m>x \lt  0</m></p></li>
+
+          <li><p><m>F</m> is CCU wherever <m>F' = f</m> is increasing or wherever <m>F'' = f'</m> is positive.  It is straightforward to show that <m>f''</m> is positive for <m>-1 \lt  x \lt  1</m> and negative otherwise, thus <m>F</m> is CCU on <m>-1 \lt  x \lt  1</m> and CCD for <m>x \lt  -1</m> and <m>x > 1</m>.</p></li>
+
+          <li><p><m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt \approx 2.35973</m>, using a midpoint Riemann sum with 10 subintervals.  Similarly, <m>F(10) = \int_0^{10} \frac{t}{1+t^2} \, dt \approx 2.35973</m>.</p></li>
+
+          <li><p>Recalling that <m>F(0) = 0</m> and using the values and information we've found in (b)-(e), we arrive at the graph at below right.</p></li>
+        </ol>
+        <image width="73%" source="images/5_2_Act2_soln" />
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Use computing technology appropriately to generate the desired graph.</p></li>
-
-        <li><p>Again, recall the statement of the Second FTC.</p></li>
-
-        <li><p>Where is <m>F'</m> positive?  <m>F'</m> negative?</p></li>
-
-        <li><p>Note that <m>F'' = f'</m>.</p></li>
-
-        <li><p>Remember that <m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt</m>.</p></li>
-
-        <li><p>Don't forget that <m>F(0) = 0</m>.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Use computing technology appropriately to generate the desired graph.</p></li>
-
-        <li><p>Again, recall the statement of the Second FTC.</p></li>
-
-        <li><p>Where is <m>F'</m> positive?  <m>F'</m> negative?  Remember that <m>F</m> is increasing wherever <m>F'</m> is positive.</p></li>
-
-        <li><p>Note that <m>F'' = f'</m>, which tells us that <m>F''(t) = \frac{1-t^2}{(1+t^2)^2}</m>.  Where is <m>F''</m> positive? negative?</p></li>
-
-        <li><p>Remember that <m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt</m>.  Try a midpoint sum with at least 10 subintervals.</p></li>
-
-        <li><p>Don't forget that <m>F(0) = 0</m>.  Use the values and information you've found in (b)-(e).</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>See the plot at below left.</p></li>
-
-        <li><p><m>F' = f</m>, by the Second FTC.</p></li>
-
-        <li><p><m>F</m> is increasing wherever <m>F'=f</m> is positive, so for all <m>x > 0</m>.  Similarly, <m>F</m> is decreasing for <m>x \lt  0</m></p></li>
-
-        <li><p><m>F</m> is CCU wherever <m>F' = f</m> is increasing or wherever <m>F'' = f'</m> is positive.  It is straightforward to show that <m>f''</m> is positive for <m>-1 \lt  x \lt  1</m> and negative otherwise, thus <m>F</m> is CCU on <m>-1 \lt  x \lt  1</m> and CCD for <m>x \lt  -1</m> and <m>x > 1</m>.</p></li>
-
-        <li><p><m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt \approx 2.35973</m>, using a midpoint Riemann sum with 10 subintervals.  Similarly, <m>F(10) = \int_0^{10} \frac{t}{1+t^2} \, dt \approx 2.35973</m>.</p></li>
-
-        <li><p>Recalling that <m>F(0) = 0</m> and using the values and information we've found in (b)-(e), we arrive at the graph at below right.</p></li>
-      </ol>
-
-      <image width="73%" source="images/5_2_Act2_soln" />
-    </solution>
   </subsection>
 
   <subsection>
@@ -321,7 +337,7 @@
     <p>The observations made in the preceding two paragraphs demonstrate that differentiating and integrating (where we integrate from a constant up to a variable) are almost inverse processes. In one sense, this should not be surprising: integrating involves antidifferentiating, which reverses the process of differentiating. On the other hand, we see that there is some subtlety involved, as integrating the derivative of a function does not quite produce the function itself. This is connected to a key fact we observed in <xref ref="S_5.1.AntiDGraphs">Section</xref>, which is that any function has an entire family of antiderivatives, and any two of those antiderivatives differ only by a constant.</p>
 
     <activity xml:id="A_5.2.3">
-      <p>Evaluate each of the following derivatives and definite integrals. Clearly cite whether you use the First or Second FTC in so doing.</p>
+      <p>Evaluate each of the following derivatives and definite integrals. Clearly cite whether you use the First or Second FTC in so doing.
 
       <ol>
         <li><p><m>\frac{d}{dx} \left[ \int_4^x e^{t^2} \, dt \right]</m></p></li>
@@ -335,22 +351,32 @@
         <li><p><m>\frac{d}{dx} \left[ \int_4^{x^3} \sin(t^2) \, dt \right]</m> 
              (Hint: Let <m>F(x) = \int_4^x \sin(t^2) \, dt</m> and observe that this problem is asking you to evaluate <m>\frac{d}{dx} \left[F(x^3)] \right]</m>.</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>For</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>For</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Using</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>For</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>For</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Using</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -370,7 +396,6 @@
           </me>
         </p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
@@ -398,7 +423,7 @@
             </me>
           </p>
 
-          <p>Both <m>R(t)</m> and <m>S(t)</m> are measured in cubic yards of sand per hour, <m>t</m> is measured in hours, and the valid times are <m>0 \le t \le 6</m>. At time <m>t = 0</m>, the beach holds 2500 cubic yards of sand.</p>
+          <p>Both <m>R(t)</m> and <m>S(t)</m> are measured in cubic yards of sand per hour, <m>t</m> is measured in hours, and the valid times are <m>0 \le t \le 6</m>. At time <m>t = 0</m>, the beach holds 2500 cubic yards of sand.
 
           <ol>
             <li><p>What definite integral measures how much sand the tide will remove during the time period <m>0 \le t \le 6</m>?  Why?</p></li>
@@ -409,6 +434,7 @@
 
             <li><p>Over the time interval <m>0 \le t \le 6</m>, at what time <m>t</m> is the amount of sand on the beach least?  What is this minimum value?  Explain and justify your answers fully.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -494,8 +520,8 @@
           <p>\endgroup</p>
 
           <p>Let a new function <m>m</m>, that also depends on <m>h</m>, (say <m>y = m(h)</m>) measure
-            the number of minutes required for a plane at altitude <m>h</m> to climb the
-            next foot of altitude.</p>
+          the number of minutes required for a plane at altitude <m>h</m> to climb the
+          next foot of altitude.
 
           <ol>
             <li><p>Determine a similar table of values for <m>m(h)</m> and explain how it is related to the table above.  Be sure to discuss the units on <m>m</m>.</p></li>
@@ -511,6 +537,7 @@
 
             <li><p>Estimate the values of <m>M(6000)</m> and <m>M(10000)</m> as accurately as you can.  Include units on your results.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

@@ -64,10 +64,9 @@
           <title>v.</title>
           <p><m>r(x) = 3^{4-11x}</m></p></li>
       </ol>
-
       </li>
 
-      <li><p>For each of the following functions, use your work in (a) to help you determine the general antiderivative<fn>Recall that the general antiderivative of a function includes <q><m>+C</m></q> to reflect the entire family of functions that share the same derivative.</fn> of the function.  Label each antiderivative by name (e.g., the antiderivative of <m>m</m> should be called <m>M</m>).  In addition, check your work by computing the derivative of each proposed antiderivative.</p>
+      <li><p>For each of the following functions, use your work in (a) to help you determine the general antiderivative<fn>Recall that the general antiderivative of a function includes <q><m>+C</m></q> to reflect the entire family of functions that share the same derivative.</fn> of the function.  Label each antiderivative by name (e.g., the antiderivative of <m>m</m> should be called <m>M</m>).  In addition, check your work by computing the derivative of each proposed antiderivative.
 
       <ol>
         <li>
@@ -90,10 +89,9 @@
           <title>v.</title>
           <p><m>w(x) = 3^{4-11x}</m></p></li>
       </ol>
+      </p></li>
 
-      </li>
-
-      <li><p>Based on your experience in parts (a) and (b), conjecture an antiderivative for each of the following functions.  Test your conjectures by computing the derivative of each proposed antiderivative.</p>
+      <li><p>Based on your experience in parts (a) and (b), conjecture an antiderivative for each of the following functions.  Test your conjectures by computing the derivative of each proposed antiderivative.
 
       <ol>
         <li>
@@ -108,8 +106,7 @@
           <title>iii.</title>
           <p><m>c(x) = xe^{x^2}</m></p></li>
       </ol>
-
-      </li>
+      </p></li>
       </ol>
     </exploration>
   </introduction>
@@ -162,7 +159,7 @@
     <p>When we find an antiderivative, we will often say that we <em>evaluate an indefinite integral</em><index><main>indefinite integral</main><sub>evaluate</sub></index>; said differently, the instruction to evaluate an indefinite integral means to find the general antiderivative. Just as the notation <m>\frac{d}{dx} [ \Box ]</m> means <q>find the derivative with respect to <m>x</m> of <m>\Box</m>,</q> the notation <m>\int \Box \, dx</m> means <q>find a function of <m>x</m> whose derivative is <m>\Box</m>.</q></p>
 
     <activity xml:id="A_5.3.1">
-      <p>Evaluate each of the following indefinite integrals. Check each antiderivative that you find by differentiating.</p>
+      <p>Evaluate each of the following indefinite integrals. Check each antiderivative that you find by differentiating.
 
       <ol>
         <li><p><m>\int \sin(8-3x) \, dx</m></p></li>
@@ -177,22 +174,32 @@
 
         <li><p><m>\int 5^{-x}\, dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -291,7 +298,7 @@
       the missing <m>x</m> to multiply <m>e^{x^2}</m> makes the <m>u</m>-substitution <m>u = x^2</m> no longer possible. Hence, part of the lesson of <m>u</m>-substitution is just how specialized the process is: it only applies to situations where, up to a missing constant, the integrand that is present is the result of applying the Chain Rule to a different, related function.</p>
 
     <activity xml:id="A_5.3.2">
-      <p>Evaluate each of the following indefinite integrals by using these steps:</p>
+      <p>Evaluate each of the following indefinite integrals by using these steps:
 
       <ul>
         <li><p>Find two functions within the integrand that form (up to a possible missing constant) a function-derivative pair;</p></li>
@@ -304,7 +311,6 @@
 
         <li><p>Check your work by differentiating the function of <m>x</m>.  You should come up with the integrand originally given.</p></li>
       </ul>
-
       <ol>
         <li><p><m>\int \frac{x^2}{5x^3+1} \, dx</m></p></li>
 
@@ -312,22 +318,32 @@
 
         <li><p><m>\int \frac{\cos(\sqrt{x})}{\sqrt{x}}~dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -360,7 +376,7 @@
       which is, of course, the same result.</p>
 
     <activity xml:id="A_5.3.3">
-      <p>Evaluate each of the following definite integrals exactly through an appropriate <m>u</m>-substitution.</p>
+      <p>Evaluate each of the following definite integrals exactly through an appropriate <m>u</m>-substitution.
 
       <ol>
         <li><p><m>\int_1^2 \frac{x}{1 + 4x^2} \, dx</m></p></li>
@@ -369,22 +385,32 @@
 
         <li><p><m>\int_{2/\pi}^{4/\pi} \frac{\cos\left(\frac{1}{x}\right)}{x^{2}} \,dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -404,11 +430,10 @@
           </me>
           A key part of choosing the expression in <m>x</m> to be represented by <m>u</m> is the identification of a function-derivative pair.  To do so, we often look for an <q>inner</q> function <m>g(x)</m> that is part of a composite function, while investigating whether <m>g'(x)</m> (or a constant multiple of <m>g'(x)</m>) is present as a multiplying factor of the integrand.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>This problem centers on finding antiderivatives for the basic trigonometric functions other than <m>\sin(x)</m> and <m>\cos(x)</m>.</p>
+          <p>This problem centers on finding antiderivatives for the basic trigonometric functions other than <m>\sin(x)</m> and <m>\cos(x)</m>.
 
           <ol>
             <li><p>Consider the indefinite integral <m>\int \tan(x) \, dx</m>.  By rewriting the integrand as <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m> and identifying an appropriate function-derivative pair, make a <m>u</m>-substitution and hence evaluate <m>\int \tan(x) \, dx</m>.</p></li>
@@ -427,11 +452,12 @@
 
             <li><p>Using (c)-(e) as a guide, evaluate <m>\int \csc(x) \, dx</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the indefinite integral <m>\int x \sqrt{x-1} \, dx.</m></p>
+          <p>Consider the indefinite integral <m>\int x \sqrt{x-1} \, dx.</m>
 
           <ol>
             <li><p>At first glance, this integrand may not seem suited to substitution due to the presence of <m>x</m> in separate locations in the integrand.  Nonetheless, using the composite function <m>\sqrt{x-1}</m> as a guide, let <m>u = x-1</m>.  Determine expressions for both <m>x</m> and <m>dx</m> in terms of <m>u</m>.</p></li>
@@ -442,11 +468,12 @@
 
             <li><p>Evaluate each of the integrals <m>\int x^2 \sqrt{x-1} \, dx</m> and <m>\int x \sqrt{x^2 - 1} \, dx</m>.  Write a paragraph to discuss the similarities among the three indefinite integrals in this problem and the role of substitution and algebraic rearrangement in each.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the indefinite integral <m>\int \sin^3(x) \, dx</m>.</p>
+          <p>Consider the indefinite integral <m>\int \sin^3(x) \, dx</m>.
 
           <ol>
             <li><p>Explain why the substitution <m>u = \sin(x)</m> will not work to help evaluate the given integral.</p></li>
@@ -459,6 +486,7 @@
 
             <li><p>Use a similar approach to evaluate <m>\int \cos^3(x) \, dx</m>.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -470,7 +498,7 @@
           </p>
 
           <p>Here, <m>t</m> measures time in hours after midnight on a typical weekday, and <m>r</m> is the rate of consumption in megawatts<fn>The unit <em>megawatt</em> is itself a rate, which measures energy consumption per unit time.  A <em>megawatt-hour</em> is the total amount of energy that is equivalent to a constant stream of 1 megawatt of power being sustained for 1 hour.</fn> at time <m>t</m>.
-            Units are critical throughout this problem.</p>
+          Units are critical throughout this problem.
 
           <ol>
             <li><p>Sketch a carefully labeled graph of <m>r(t)</m> on the interval [0,24] and explain its meaning.  Why is this a reasonable model of power consumption?</p></li>
@@ -481,6 +509,7 @@
 
             <li><p>What is Mathland's average rate of energy consumption in a given 24-hour period?  What are the units on this quantity?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

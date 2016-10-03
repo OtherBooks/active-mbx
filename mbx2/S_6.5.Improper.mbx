@@ -41,14 +41,10 @@ A company with a large customer base has a call center that receives thousands o
 
 <p>
 Use this information to answer the following questions.
-</p>
-
 <ol>
 <li><p>Determine the fraction of callers who wait between 5 and 10 minutes.</p></li>
 <li><p>Determine the fraction of callers who wait between 10 and 20 minutes.</p></li>
 <li><p>Next, let's study how the fraction who wait up to a certain number of minutes:
-</p>
-
 <ul>
 <li>
 <title>i.</title>
@@ -62,11 +58,12 @@ What is the fraction of callers who wait between 0 and 10 minutes?</p></li>
 <title>iii.</title>
 <p>
 Between 0 and 15 minutes?  Between 0 and 20?</p></li>
-</ul>
-</li>
+</ul></p></li>
 <li><p>Let <m>F(b)</m> represent the fraction of callers who wait between <m>0</m> and <m>b</m> minutes.  Find a formula for <m>F(b)</m> that involves a definite integral, and then use the First FTC to find a formula for <m>F(b)</m> that does not involve a definite integral.</p></li>
 <li><p>What is the value of the limit <m>\lim_{b \to \infty} F(b)</m>?  What is its meaning in the context of the problem?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -141,8 +138,6 @@ Now, use your work from (ii.) to evaluate the limit given by
 </ol>
 </li>
 <li><p>Next, we investigate <m>\int_1^{\infty} \frac{1}{x^{3/2}} \, dx</m>.
-</p>
-
 <ol>
 <li>
 <title>i.</title>
@@ -159,26 +154,40 @@ Now, use your work from (ii.) to evaluate the limit given by
 <me>
   \lim_{b \to \infty}  \int_1^{b} \frac{1}{x^{3/2}} \, dx.
 </me></p></li>
-</ol>
-</li>
+</ol></p></li>
 <li><p>Plot the functions <m>y = \frac{1}{x}</m> and <m>y = \frac{1}{x^{3/2}}</m> on the same coordinate axes for the values <m>x = 0 \ldots 10</m>.  How would you compare their behavior as <m>x</m> increases without bound?  What is similar?  What is different?</p></li>
 <li><p>How would you characterize the value of <m>\int_1^{\infty} \frac{1}{x} \, dx</m>? of <m>\int_1^{\infty} \frac{1}{x^{3/2}} \, dx</m>?  What does this tell us about the respective areas bounded by these two curves for <m>x \ge 1</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -203,8 +212,6 @@ We normally restrict our interest to improper integrals for which the integrand 
 <activity xml:id="A_6.5.2">
 <p>
 Determine whether each of the following improper integrals converges or diverges. For each integral that converges, find its exact value.
-</p>
-
 <ol>
 <li><p><m>\int_1^{\infty} \frac{1}{x^2} \, dx</m></p></li>
 <li><p><m>\int_0^{\infty} e^{-x/4} \, dx</m></p></li>
@@ -213,21 +220,38 @@ Determine whether each of the following improper integrals converges or diverges
 <li><p><m>\int_0^{\infty} x e^{-x/4} \, dx</m></p></li>
 <li><p><m>\int_1^{\infty} \frac{1}{x^p} \, dx</m>, where <m>p</m> is a positive real number</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -290,8 +314,6 @@ since <m>\frac{1}{a-2} \to -\infty</m> as <m>a</m> approaches 2 from the left. T
 <activity xml:id="A_6.5.3">
 <p>
 For each of the following definite integrals, decide whether the integral is improper or not. If the integral is proper, evaluate it using the First FTC. If the integral is improper, determine whether or not the integral converges or diverges; if the integral converges, find its exact value.
-</p>
-
 <ol>
 <li><p><m>\int_0^1 \frac{1}{x^{1/3}} \, dx</m></p></li>
 <li><p><m>\int_0^2 e^{-x} \, dx</m></p></li>
@@ -300,21 +322,38 @@ For each of the following definite integrals, decide whether the integral is imp
 <li><p><m>\int_0^{\pi/2} \tan(x) \, dx</m></p></li>
 <li><p><m>\int_0^1 \frac{1}{\sqrt{1-x^2}} \, dx</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -340,8 +379,6 @@ where <m>p</m> is a positive real number.  We can show that this improper integr
 <statement>
 <p>
 Determine, with justification, whether each of the following improper integrals converges or diverges.
-</p>
-
 <ol>
 <li><p><m>\int_e^{\infty} \frac{\ln(x)}{x} \, dx</m></p></li>
 <li><p><m>\int_e^{\infty} \frac{1}{x\ln(x)} \, dx</m></p></li>
@@ -350,6 +387,8 @@ Determine, with justification, whether each of the following improper integrals 
 <li><p><m>\int_0^1 \frac{\ln(x)}{x} \, dx</m></p></li>
 <li><p><m>\int_0^1 \ln(x) \, dx</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -368,8 +407,6 @@ It therefore follows that
   \int_1^b \frac{1}{1+x^3} \, dx \lt  \int_1^b \frac{1}{x^3} \, dx
 </me>
 for every <m>b > 1</m>. If we let <m>b \to \infty</m> so as to consider the two improper integrals <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> and <m>\int_1^\infty \frac{1}{x^3} \, dx</m>, we know that the larger of the two improper integrals converges. And thus, since the smaller one lies below a convergent integral, it follows that the smaller one must converge, too. In particular, <m>\int_1^\infty \frac{1}{1+x^3} \, dx</m> must converge, even though we never explicitly evaluated the corresponding limit of proper integrals. We use this idea and similar ones in the exercises that follow.
-</p>
-
 <ol>
 <li><p>Explain why <m>x^2 + x + 1 > x^2</m> for all <m>x \ge 1</m>, and hence show that <m>\int_1^{\infty} \frac{1}{x^2 + x + 1} \, dx</m> converges by comparison to <m>\int_1^{\infty} \frac{1}{x^2} \, dx</m>.</p></li>
 <li><p>Observe that for each <m>x > 1</m>, <m>\ln(x) \lt  x</m>.  Explain why
@@ -383,6 +420,8 @@ for each <m>b > 2</m>.	Why must it be true that <m>\int_2^b \frac{1}{\ln(x)} \, 
 </me>
 converges or diverges.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

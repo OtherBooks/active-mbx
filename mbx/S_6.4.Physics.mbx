@@ -47,7 +47,7 @@
     <p>Of course, the formula <m>W = F \cdot d</m> only applies when the force is constant while it is exerted over the distance <m>d</m>. In <xref ref="PA_6.4">Preview Activity</xref>, we explore one way that we can use a definite integral to compute the total work accomplished when the force exerted varies.</p>
 
     <exploration xml:id="PA_6.4">
-      <p>A bucket is being lifted from the bottom of a 50-foot deep well; its weight (including the water), <m>B</m>, in pounds at a height <m>h</m> feet above the water is given by the function <m>B(h)</m>. When the bucket leaves the water, the bucket and water together weigh <m>B(0) = 20</m> pounds, and when the bucket reaches the top of the well, <m>B(50) = 12</m> pounds. Assume that the bucket loses water at a constant rate (as a function of height, <m>h</m>) throughout its journey from the bottom to the top of the well.</p>
+      <p>A bucket is being lifted from the bottom of a 50-foot deep well; its weight (including the water), <m>B</m>, in pounds at a height <m>h</m> feet above the water is given by the function <m>B(h)</m>. When the bucket leaves the water, the bucket and water together weigh <m>B(0) = 20</m> pounds, and when the bucket reaches the top of the well, <m>B(50) = 12</m> pounds. Assume that the bucket loses water at a constant rate (as a function of height, <m>h</m>) throughout its journey from the bottom to the top of the well.
 
       <ol>
         <li><p>Find a formula for <m>B(h)</m>.</p></li>
@@ -62,6 +62,7 @@
 
         <li><p>Evaluate the definite integral <m>\int_0^{50} B(h) \, dh</m>.  What is the meaning of the value you find?  Why?</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -120,25 +121,33 @@
           <title>iii.</title>
           <p>Find the work required to extend the spring from 1 foot beyond its natural length to 1.5 feet beyond its natural length.</p></li>
       </ol>
-
       </li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -210,22 +219,31 @@
 
         <li><p>Consider a trough with triangular ends, as pictured in <xref ref="F_6.4.Act2Trough">Figure</xref>, where the tank is 10 feet long, the top is 5 feet wide, and the tank is 4 feet deep.  Say that the trough is full to within 1 foot of the top with water of weight density 62.4 pounds/ft<m>^3</m>, and a pump is used to empty the tank until the water remaining in the tank is 1 foot deep.</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -294,22 +312,32 @@
 
         <li><p>Consider a trough with triangular ends, as pictured in <xref ref="F_6.4.Act3Trough">Figure</xref>, where the tank is 10 feet long, the top is 5 feet wide, and the tank is 4 feet deep.  Say that the trough is full to within 1 foot of the top with water of weight density 62.4 pounds/ft<m>^3</m>.  How much force does the water exert against one of the triangular ends?</p></li>
       </ol>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
+
     <p>While there are many different formulas that we use in solving problems involving work, force, and pressure, it is important to understand that the fundamental ideas behind these problems are similar to several others that we've encountered in applications of the definite integral. In particular, the basic idea is to take a difficult problem and somehow slice it into more manageable pieces that we understand, and then use a definite integral to add up these simpler pieces.</p>
   </subsection>
 
@@ -322,11 +350,10 @@
 
       <li><p>Because work is computed as the product of force and distance (provided force is constant), and the force water exerts on a dam can be computed as the product of pressure and area (provided pressure is constant), problems involving these concepts are similar to earlier problems we did using definite integrals to find distance (via <q>distance equals rate times time</q>)  and mass (<q>mass equals density times volume</q>).</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its graph that lies in the first quadrant between the <m>y</m>-axis and the first positive value of <m>x</m> for which <m>f(x) = 0</m>. Let <m>R</m> denote the region bounded by this portion of <m>f</m>, the <m>x</m>-axis, and the <m>y</m>-axis. Assume that <m>x</m> and <m>y</m> are each measured in feet.</p>
+          <p>Consider the curve <m>f(x) = 3 \cos(\frac{x^3}{4})</m> and the portion of its graph that lies in the first quadrant between the <m>y</m>-axis and the first positive value of <m>x</m> for which <m>f(x) = 0</m>. Let <m>R</m> denote the region bounded by this portion of <m>f</m>, the <m>x</m>-axis, and the <m>y</m>-axis. Assume that <m>x</m> and <m>y</m> are each measured in feet.
 
           <ol>
             <li><p>Picture the coordinate axes rotated 90 degrees clockwise so that the positive <m>x</m>-axis points straight down, and the positive <m>y</m>-axis points to the right.  Suppose that <m>R</m> is rotated about the <m>x</m> axis to form a solid of revolution, and we consider this solid as a storage tank.  Suppose that the resulting tank is filled to a depth of 1.5 feet with water weighing 62.4 pounds per cubic foot.  Find the amount of work required to lower the water in the tank until it is 0.5 feet deep, by pumping the water to the top of the tank.</p></li>
@@ -335,17 +362,19 @@
 
             <li><p>Suppose that the tank described in (b) is completely filled with water.  Find the total force due to hydrostatic pressure exerted by the water on one end of the tank.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet. It is filled completely with water whose weight density is 62.4 lbs/ft<m>^3</m>, and the top of the tank is two feet underground.</p>
+          <p>A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet. It is filled completely with water whose weight density is 62.4 lbs/ft<m>^3</m>, and the top of the tank is two feet underground.
 
           <ol>
             <li><p>Set up, but do not evaluate, an integral expression that represents the amount of work required to empty the top half of the water in the tank to a truck whose tank lies 4.5 feet above ground.</p></li>
 
             <li><p>With the tank now only half-full, set up, but do not evaluate an integral expression that represents the total force due to hydrostatic pressure against one end of the tank.</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

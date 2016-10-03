@@ -49,8 +49,6 @@ A person walking along a straight path has her velocity in miles per hour at tim
 </figure>
 <p>
 Note that in each diagram, we use four rectangles to estimate the area under <m>y = v(t)</m> on the interval <m>[0,2]</m>, but the method by which the four rectangles' respective heights are decided varies among the three individual graphs.
-</p>
-
 <ol>
 <li><p>How are the heights of rectangles in the left-most diagram being chosen?  Explain, and hence determine the value of
 <me>
@@ -70,6 +68,8 @@ by evaluating the function <m>y = v(t)</m> at appropriately chosen values and ob
 </me></p></li>
 <li><p>Of the estimates <m>S</m>, <m>T</m>, and <m>U</m>, which do you think is the best approximation of <m>D</m>, the total distance the person traveled on <m>[0,2]</m>?  Why?</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -108,8 +108,6 @@ Sigma notation allows us the flexibility to easily vary the function being used 
 <activity xml:id="A_4.2.1">
 <p>
 For each sum written in sigma notation, write the sum long-hand and evaluate the sum to find its value. For each sum written in expanded form, write the sum in sigma notation.
-</p>
-
 <ol>
 <li><p><m>\sum_{k=1}^{5} (k^2 + 2)</m></p></li>
 <li><p><m>\sum_{i=3}^{6} (2i-1)</m></p></li>
@@ -117,8 +115,11 @@ For each sum written in sigma notation, write the sum long-hand and evaluate the
 <li><p><m>4 + 8 + 16 + 32 + \cdots + 256</m></p></li>
 <li><p><m>\sum_{i=1}^{6} \frac{1}{2^i}</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Observe that when <m>k = 1</m>, <m>k^2 + 2 = 1^2 + 2 = 3</m>.  This is the first term in the sum.</p></li>
 <li><p>Note that this sum starts at <m>i = 3</m>.</p></li>
@@ -126,7 +127,13 @@ For each sum written in sigma notation, write the sum long-hand and evaluate the
 <li><p>What pattern do you observe in the terms of the sum?</p></li>
 <li><p>Write every term in the sum as a fraction with denominator <m>2^6 = 64</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Observe that when <m>k = 1</m>, <m>k^2 + 2 = 1^2 + 2 = 3</m>.  This is the first term in the sum.  The last term in the sum occurs when <m>k = 5</m>, which is <m>5^2 + 2 = 27</m>.</p></li>
 <li><p>Note that this sum starts at <m>i = 3</m> and the first term is <m>(2\cdot 3 - 1) = 5</m>.</p></li>
@@ -134,8 +141,13 @@ For each sum written in sigma notation, write the sum long-hand and evaluate the
 <li><p>What pattern do you observe in the terms of the sum?</p></li>
 <li><p>Write every term in the sum as a fraction with denominator <m>2^6 = 64</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p><md>
   <mrow>  \sum_{k=1}^{5} (k^2 + 2) =\mathstrut \amp  (1^2 + 2) + (2^2 + 2) + (3^2 + 2) + (4^2 + 2) + (5^2 + 2)</mrow>
@@ -166,7 +178,10 @@ We note that <m>k=7</m> is the end value of the index since <m>4 \cdot 7  = 28</
   <mrow>  =\mathstrut \amp  \frac{63}{64}.</mrow>
 </md></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -287,31 +302,43 @@ At \href{http://gvsu.edu/s/a9}{<c>http://gvsu.edu/s/a9</c>}, the applet noted ea
 <activity xml:id="A_4.2.2">
 <p>
 Suppose that an object moving along a straight line path has its velocity in feet per second at time <m>t</m> in seconds given by <m>v(t) = \frac{2}{9}(t-3)^2 + 2</m>.
-</p>
-
 <ol>
 <li><p>Carefully sketch the region whose exact area will tell you the value of the distance the object traveled on the time interval <m>2 \le t \le 5</m>.</p></li>
 <li><p>Estimate the distance traveled on <m>[2,5]</m> by computing <m>L_4</m>, <m>R_4</m>, and <m>M_4</m>.</p></li>
 <li><p>Does averaging <m>L_4</m> and <m>R_4</m> result in the same value as <m>M_4</m>?  If not, what do you think the average of <m>L_4</m> and <m>R_4</m> measures?</p></li>
 <li><p>For this question, think about an arbitrary function <m>f</m>, rather than the particular function <m>v</m> given above.  If <m>f</m> is positive and increasing on <m>[a,b]</m>, will <m>L_n</m> over-estimate or under-estimate the exact area under <m>f</m> on <m>[a,b]</m>?  Will <m>R_n</m> over- or under-estimate the exact area under <m>f</m> on <m>[a,b]</m>? Explain.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>y = v(t)</m> is a parabola with vertex <m>(3,2)</m>.</p></li>
 <li><p>Recall the formulas for <m>L_n</m>, <m>R_n</m>, and <m>M_n</m>.</p></li>
 <li><p>Think about what the average of <m>L_1</m> and <m>R_1</m> measures.</p></li>
 <li><p>Consider carefully the role of endpoints in generating <m>L_n</m> and <m>R_n</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>y = v(t)</m> is a parabola with vertex <m>(3,2)</m>.</p></li>
 <li><p>Recall the formulas for <m>L_n</m>, <m>R_n</m>, and <m>M_n</m>.</p></li>
 <li><p>Think about what the average of <m>L_1</m> and <m>R_1</m> measures.</p></li>
 <li><p>Consider carefully the role of endpoints in generating <m>L_n</m> and <m>R_n</m> and what you know about the behavior of an always increasing function.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>The region whose exact area tells us the value of the distance the object traveled on the time interval <m>2 \le t \le 5</m> is shown below.
 	<image width="73%" source="images/4_2_Act2Soln" /></p></li>
@@ -325,7 +352,10 @@ Suppose that an object moving along a straight line path has its velocity in fee
 This average actually measures what would result from using four trapezoids, rather than rectangles, to estimate the area on each subinterval.  One reason this is so is because the area of a trapezoid is the average of the bases times the width, and the <q>bases</q> are given by the function values at the left and right endpoints.</p></li>
 <li><p>If <m>f</m> is positive and increasing on <m>[a,b]</m>, <m>L_n</m> will under-estimate the exact area under <m>f</m> on <m>[a,b]</m>.  Because <m>f</m> is increasing, its value at the left endpoint of any subinterval will be lower than every other function value in the interval, and thus the rectangle with that height lies exclusively below the curve.  In a similar way, <m>R_n</m> over-estimates the exact area under <m>f</m> on <m>[a,b]</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -367,31 +397,43 @@ Suppose that an object moving along a straight line path has its velocity <m>v</
 <me>
   v(t) = \frac{1}{2}t^2 - 3t + \frac{7}{2}.
 </me>
-</p>
-
 <ol>
 <li><p>Compute <m>M_5</m>, the middle Riemann sum, for <m>v</m> on the time interval <m>[1,5]</m>.  Be sure to clearly identify the value of <m>\triangle t</m> as well as the locations of <m>t_0</m>, <m>t_1</m>, <m>\cdots</m>, <m>t_5</m>.  In addition, provide a careful sketch of the function and the corresponding rectangles that are being used in the sum.</p></li>
 <li><p>Building on your work in (a), estimate the total change in position of the object on the interval <m>[1,5]</m>.</p></li>
 <li><p>Building on your work in (a) and (b), estimate the total distance traveled by the object on <m>[1,5]</m>.</p></li>
 <li><p>Use appropriate computing technology<fn>For instance, consider the applet at \href{http://gvsu.edu/s/a9}{<c>http://gvsu.edu/s/a9</c>} and change the function and adjust the locations of the blue points that represent the interval endpoints <m>a</m> and <m>b</m>.</fn> to compute <m>M_{10}</m> and <m>M_{20}</m>.  What exact value do you think the middle sum eventually approaches as <m>n</m> increases without bound?  What does that number represent in the physical context of the overall problem?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>\triangle t = \frac{5-1}{5}</m>.</p></li>
 <li><p>Change in position is tied to the net signed area bounded by the velocity function.</p></li>
 <li><p>Think about how total distance is different from change in position when the velocity is sometimes negative.</p></li>
 <li><p>Besides the noted applet, computer algebra systems such as <em>Maple</em> and <em>Mathematica</em> offer this utility.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>\triangle t = \frac{5-1}{5}</m>, so, for example, <m>t_1 = 1 + \frac{4}{5} = 1.8</m>.</p></li>
 <li><p>Change in position is tied to the net signed area bounded by the velocity function.</p></li>
 <li><p>Think about how total distance is different from change in position when the velocity is sometimes negative.</p></li>
 <li><p>Besides the noted applet, computer algebra systems such as <em>Maple</em> and <em>Mathematica</em> offer this utility.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>For this Riemann sum with five subintervals, <m>\triangle t = \frac{5-1}{5} = \frac{4}{5}</m>, so <m>t_0 = 1</m>, <m>t_1 = 1.8</m>, <m>t_2 = 2.6</m>, <m>t_3 = 3.4</m>, <m>t_4 = 4.2</m> and <m>t_5 = 4</m>.  It follows that
 <md>
@@ -408,7 +450,10 @@ A sketch is shown below.
 </me></p></li>
 <li><p>Using appropriate technology, <m>M_{10} = -1.36</m> and <m>M_{20} = -1.34</m>.  Further calculations suggest that <m>M_n \to -\frac{4}{3} = -1.\overline{33}</m> as <m>n \to \infty</m>, and this number represents the object's total change in position on <m>[1,5]</m>.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -436,14 +481,14 @@ where <m>x_0 = a</m>, <m>x_i = a + i\triangle x</m>, and <m>x_n = b</m>, using <
 <statement>
 <p>
 Consider the function <m>f(x) = 3x + 4</m>.
-</p>
-
 <ol>
 <li><p>Compute <m>M_4</m> for <m>y=f(x)</m> on the interval <m>[2,5]</m>.  Be sure to clearly identify the value of <m>\triangle x</m>, as well as the locations of <m>x_0, x_1, \ldots, x_4</m>.  Include a careful sketch of the function and the corresponding rectangles being used in the sum.</p></li>
 <li><p>Use a familiar geometric formula to determine the exact value of the area of the region bounded by <m>y = f(x)</m> and the <m>x</m>-axis on <m>[2,5]</m>.</p></li>
 <li><p>Explain why the values you computed in (a) and (b) turn out to be the same.  Will this be true if we use a number different than <m>n = 4</m> and compute <m>M_n</m>?  Will <m>L_4</m> or <m>R_4</m> have the same value as the exact area of the region found in (b)?</p></li>
 <li><p>Describe the collection of functions <m>g</m> for which it will always be the case that <m>M_n</m>, regardless of the value of <m>n</m>, gives the exact net signed area bounded between the function <m>g</m> and the <m>x</m>-axis on the interval <m>[a,b]</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -454,14 +499,14 @@ Let <m>S</m> be the sum given by
 <me>
   S = ((1.4)^2 + 1) \cdot 0.4 + ((1.8)^2 + 1) \cdot 0.4 + ((2.2)^2 + 1) \cdot 0.4 + ((2.6)^2 + 1) \cdot 0.4 +((3.0)^2 + 1) \cdot 0.4.
 </me>
-</p>
-
 <ol>
 <li><p>Assume that <m>S</m> is a right Riemann sum.  For what function <m>f</m> and what interval <m>[a,b]</m> is <m>S</m> an approximation of the area under <m>f</m> and above the <m>x</m>-axis on <m>[a,b]</m>?  Why?</p></li>
 <li><p>How does your answer to (a) change if <m>S</m> is a left Riemann sum?  a middle Riemann sum?</p></li>
 <li><p>Suppose that <m>S</m> really is a right Riemann sum.  What is geometric quantity does <m>S</m> approximate?</p></li>
 <li><p>Use sigma notation to write a new sum <m>R</m> that is the right Riemann sum for the same function, but that uses twice as many subintervals as <m>S</m>.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 

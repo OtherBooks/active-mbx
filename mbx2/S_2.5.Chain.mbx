@@ -55,8 +55,6 @@ But before we can learn what the chain rule says and why it works, we first need
 <exploration xml:id="PA_2.5">
 <p>
 For each function given below, identify its fundamental algebraic structure. In particular, is the given function a sum, product, quotient, or composition of basic functions? If the function is a composition of basic functions, state a formula for the inner function <m>g</m> and the outer function <m>f</m> so that the overall composite function can be written in the form <m>f(g(x))</m>. If the function is a sum, product, or quotient of basic functions, use the appropriate rule to determine its derivative.
-</p>
-
 <ol>
 <li><p><m>h(x) = \tan(2^x)</m></p></li>
 <li><p><m>p(x) = 2^x \tan(x)</m></p></li>
@@ -65,6 +63,8 @@ For each function given below, identify its fundamental algebraic structure. In 
 <li><p><m>w(x) = \sqrt{x} + \tan(x)</m></p></li>
 <li><p><m>z(x) = \sqrt{\tan(x)}</m></p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -197,8 +197,6 @@ The chain rule now substantially expands the library of functions we can differe
 <activity xml:id="A_2.5.1">
 <p>
 For each function given below, identify an inner function <m>g</m> and outer function <m>f</m> to write the function in the form <m>f(g(x))</m>. Then, determine <m>f'(x)</m>, <m>g'(x)</m>, and <m>f'(g(x))</m>, and finally apply the chain rule to determine the derivative of the given function.
-</p>
-
 <ol>
 <li><p><m>h(x) = \cos(x^4)</m></p></li>
 <li><p><m>p(x) = \sqrt{ \tan(x) }</m></p></li>
@@ -206,8 +204,11 @@ For each function given below, identify an inner function <m>g</m> and outer fun
 <li><p><m>z(x) = \cot^5(x)</m></p></li>
 <li><p><m>m(x) = (\sec(x) + e^x)^9</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>The outer function is <m>f(x) = \cos(x)</m>.</p></li>
 <li><p>The outer function is <m>f(x) = \sqrt{x}</m>.</p></li>
@@ -215,7 +216,13 @@ For each function given below, identify an inner function <m>g</m> and outer fun
 <li><p>The outer function is <m>f(x) = x^5</m>.</p></li>
 <li><p>The outer function is <m>f(x) = x^9</m>.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>.</p></li>
 <li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>.</p></li>
@@ -223,8 +230,13 @@ For each function given below, identify an inner function <m>g</m> and outer fun
 <li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>.</p></li>
 <li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>, and we know that
 <me>
@@ -267,7 +279,10 @@ Hence, by the chain rule,
   h'(x) = f'(g(x))g'(x) = 9(\sec(x)+e^x)^8 (\sec(x)\tan(x) + e^x).
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -329,8 +344,6 @@ From our work above with <m>a</m> and <m>b</m>, we know the derivatives of <m>3^
 <activity xml:id="A_2.5.2">
 <p>
 For each of the following functions, find the function's derivative. State the rule(s) you use, label relevant derivatives appropriately, and be sure to clearly identify your overall answer.
-</p>
-
 <ol>
 <li><p><m>p(r) = 4\sqrt{r^6 + 2e^r}</m></p></li>
 <li><p><m>m(v) = \sin(v^2) \cos(v^3)</m></p></li>
@@ -338,8 +351,11 @@ For each of the following functions, find the function's derivative. State the r
 <li><p><m>s(z) = 2^{z^2 \sec (z)}</m></p></li>
 <li><p><m>c(x) = \sin(e^{x^2})</m></p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Use the constant multiple rule first, followed by the chain rule.</p></li>
 <li><p>Observe that <m>m</m> is fundamentally a product of composite functions.</p></li>
@@ -347,7 +363,13 @@ For each of the following functions, find the function's derivative. State the r
 <li><p>The function <m>s</m> is a composite function with outer function <m>2^z</m>.</p></li>
 <li><p>It is possible for a function to be a composite function with more than two functions in the chain.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Note that <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Now use the chain rule to complete the remaining derivative.</p></li>
 <li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  What rule is needed to execute the remaining two derivatives?</p></li>
@@ -363,8 +385,13 @@ What work remains to find <m>h'(y)</m>?</p></li>
 </me>
 What rule is needed to differentiate the inner function, <m>e^{x^2}</m>?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>By the constant multiple rule, <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Using the chain rule to complete the remaining derivative, we see that
 <me>
@@ -395,15 +422,16 @@ Next, we again apply the chain rule, but this time to <m>e^{x^2}</m>, and get
   c'(x) = \cos(e^{x^2}) [e^{x^2}\cdot 2x].
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 <p>
 The chain rule now adds substantially to our ability to do different familiar problems that involve derivatives. Whether finding the equation of the tangent line to a curve, the instantaneous velocity of a moving particle, or the instantaneous rate of change of a certain quantity, if the function under consideration involves a composition of other functions, the chain rule is indispensable.
 </p>
 <activity xml:id="A_2.5.3">
 <p>
 Use known derivative rules, including the chain rule, as needed to answer each of the following questions.
-</p>
-
 <ol>
 <li><p>Find an equation for the tangent line to the curve <m>y= \sqrt{e^x + 3}</m> at the point where <m>x=0</m>.</p></li>
 <li><p>If <m>\displaystyle s(t) = \frac{1}{(t^2+1)^3}</m> represents the position function of a particle moving horizontally along an axis at time <m>t</m> (where <m>s</m> is measured in inches and <m>t</m> in seconds), find the particle's instantaneous velocity at <m>t=1</m>.  Is the particle moving to the left or right at that instant?</p></li>
@@ -424,23 +452,37 @@ Compute <m>dP/dh</m> and explain what this derivative function tells you about a
 </tabular>
 If <m>C(x)</m> is a function given by the formula <m>f(g(x))</m>, determine <m>C'(2)</m>.   In addition, if <m>D(x)</m> is the function <m>f(f(x))</m>, find <m>D'(-1)</m>.</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m>.</p></li>
 <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.</p></li>
 <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot.</p></li>
 <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m> and recall the point-slope form of the tangent line.</p></li>
 <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.  Consider writing <m>s(t) = (t^2 + 1)^{-3}</m> for ease of differentiation.</p></li>
 <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot so this derivative measures the instantaneous rate of change of barometric pressure with respect to elevation.</p></li>
 <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?  What does the chain rule tell us about <m>\frac{d}{dx}[f(f(x))]</m>?</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> By the chain rule <m>f'(x) = \frac{e^x}{2\sqrt{e^x + 3}}</m>, and thus <m>f'(0) = \frac{1}{4}</m>.  Note further that <m>f(0) = \sqrt{1 + 3} = 2</m>.  The tangent line is therefore the line through <m>(0,2)</m> with slope <m>1/4</m>, which is
 <me>
@@ -457,7 +499,10 @@ For <m>D(x) = f(f(x))</m>, the chain rule tells us that <m>D'(x) = f'(f(x))f'(x)
   D'(-1) = f'(2)f'(-1) = (4)(-5) = -20.
 </me></p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -512,13 +557,13 @@ In the process of getting comfortable with derivative rules, an excellent exerci
 <statement>
 <p>
 Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.
-</p>
-
 <ol>
 <li><p>Let <m>h(x) = f(g(x))</m>.  Find the exact instantaneous rate of change of <m>h</m> at the point where <m>x = \frac{\pi}{4}.</m></p></li>
 <li><p>Which function is changing most rapidly at <m>x = 0.25</m>:  <m>h(x) = f(g(x))</m> or <m>r(x) = g(f(x))</m>?  Why?</p></li>
 <li><p>Let <m>h(x) = f(g(x))</m> and <m>r(x) = g(f(x))</m>.  Which of these functions has a derivative that is periodic?  Why?</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -526,8 +571,6 @@ Consider the basic functions <m>f(x) = x^3</m> and <m>g(x) = \sin(x)</m>.
 <statement>
 <p>
 Let <m>u(x)</m> be a differentiable function. For each of the following functions, determine the derivative. Each response will involve <m>u</m> and/or <m>u'</m>.
-</p>
-
 <ol>
 <li><p><m>p(x) = e^{u(x)}</m></p></li>
 <li><p><m>q(x) = u(e^x)</m></p></li>
@@ -536,6 +579,8 @@ Let <m>u(x)</m> be a differentiable function. For each of the following function
 <li><p><m>a(x) = u(x^4)</m></p></li>
 <li><p><m>b(x) = u^4(x)</m></p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -563,14 +608,14 @@ If a spherical tank of radius 4 feet has <m>h</m> feet of water present in the t
 <me>
   V = \frac{\pi}{3} h^2(12-h).
 </me>
-</p>
-
 <ol>
 <li><p>At what instantaneous rate is the volume of water in the tank changing with respect to the <em>height</em> of the water at the instant <m>h = 1</m>?  What are the units on this quantity?</p></li>
 <li><p>Now suppose that the height of water in the tank is being regulated by an inflow and outflow (e.g., a faucet and a drain) so that the height of the water at time <m>t</m> is given by the rule <m>h(t) = \sin(\pi t) + 1</m>, where <m>t</m> is measured in hours (and <m>h</m> is still measured in feet).  At what rate is the height of the water changing with respect to time at the instant <m>t = 2</m>?</p></li>
 <li><p>Continuing under the assumptions in (b), at what instantaneous rate is the volume of water in the tank changing with respect to <em>time</em> at the instant <m>t = 2</m>?</p></li>
 <li><p>What are the main differences between the rates found in (a) and (c)?  Include a discussion of the relevant units.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 </exercises>

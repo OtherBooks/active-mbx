@@ -2,8 +2,6 @@
 <title>Features of the Text</title>
 <p>
 Instructors and students alike will find several consistent features in the presentation, including:
-</p>
-
 <ul>
 <li><p><em>Motivating Questions.</em>  At the start of each section, we list 2-3 <em>motivating questions</em> that provide motivation for why the following material is of interest to us.  One goal of each section is to answer each of the motivating questions.</p></li>
 <li><p><em>Preview Activities.</em> Each section of the text begins with a short introduction, followed by a <em>preview activity</em>.  This brief reading and the preview activity are designed to foreshadow the upcoming ideas in the remainder of the section; both the reading and preview activity are intended to be accessible to students <em>in advance</em> of class, and indeed to be completed by students before a day on which a particular section is to be considered.</p></li>
@@ -13,4 +11,6 @@ Instructors and students alike will find several consistent features in the pres
 <li><p><em>Links to Java Applets.</em>  Many of the ideas of calculus are best understood dynamically; java applets offer an often ideal format for investigations and demonstrations.  Relying primarily on the work of David Austin of Grand Valley State University and Marc Renault of Shippensburg University, each of whom has developed a large library of applets for calculus, we frequently point the reader (through active links in the .pdf version of the text) to applets that are relevant for key ideas under consideration.</p></li>
 <li><p><em>Summary of Key Ideas.</em>  Each section concludes with a summary of the key ideas encountered in the preceding section; this summary normally reflects responses to the motivating questions that began the section.</p></li>
 </ul>
+
+</p>
 </section>

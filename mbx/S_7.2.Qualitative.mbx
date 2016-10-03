@@ -39,10 +39,9 @@
 
     <exploration xml:id="PA_7.2">
       <p>Let's consider the initial value problem
-        <me>
-          \frac{dy}{dt} = t - 2, \ \ y(0) = 1.
-        </me>
-      </p>
+      <me>
+        \frac{dy}{dt} = t - 2, \ \ y(0) = 1.
+      </me>
 
       <ol>
         <li><p>Use the differential equation to find the slope of the tangent
@@ -68,6 +67,7 @@
         <li><p>Graph the solution you found in (d) on the axes provided, and compare it to the sketch
               you made using the tangent lines.</p></li>
       </ol>
+      </p>
     </exploration>
   </introduction>
 
@@ -113,10 +113,9 @@
 
     <activity xml:id="A_7.2.1">
       <p>Consider the autonomous differential equation
-        <me>
-          \frac{dy}{dt} = -\frac 12( y - 4).
-        </me>
-      </p>
+      <me>
+        \frac{dy}{dt} = -\frac 12( y - 4).
+      </me>
 
       <ol>
         <li><p>Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m> on the axes provided.  Looking at the
@@ -138,22 +137,32 @@
 
         <li><p>What is special about the solution where <m>y(0) = 4</m>?</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -179,10 +188,9 @@
 
     <activity xml:id="A_7.2.2">
       <p>Consider the autonomous differential equation
-        <me>
-          \frac{dy}{dt} = -\frac 12 y(y-4).
-        </me>
-      </p>
+      <me>
+        \frac{dy}{dt} = -\frac 12 y(y-4).
+      </me>
 
       <ol>
         <li><p>Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m>.  Looking at the
@@ -224,22 +232,32 @@
             <image width="73%" source="images/7_2_Act2_4" />
           </p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -257,15 +275,13 @@
             equilibrium solutions.  These may be classified as stable or
             unstable, depending on the behavior of nearby solutions.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
           <p>Consider the differential equation
-            <me>
-              \frac{dy}{dt} = t-y.
-            </me>
-          </p>
+          <me>
+            \frac{dy}{dt} = t-y.
+          </me>
 
           <ol>
             <li><p>Sketch a slope field on the plot below:
@@ -282,6 +298,7 @@
                     have sketched, what is the relationship between <m>t</m> and <m>y</m> at a
                     point where a solution has a local minimum?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
@@ -322,13 +339,12 @@
       <exercise>
         <statement>
           <p>The population of a species of fish in a lake is <m>P(t)</m> where
-            <m>P</m> is measured in thousands of fish and <m>t</m> is measured in
-            months. The growth of the population is described by the
-            differential equation
-            <me>
-              \frac{dP}{dt} = f(P) = P(6-P).
-            </me>
-          </p>
+          <m>P</m> is measured in thousands of fish and <m>t</m> is measured in
+          months. The growth of the population is described by the
+          differential equation
+          <me>
+            \frac{dP}{dt} = f(P) = P(6-P).
+          </me>
 
           <ol>
             <li><p>Sketch a graph of <m>f(P) = P(6-P)</m> and use it to determine the
@@ -354,15 +370,16 @@
                     population?  If fish are removed at this maximum rate, what is the
                     eventual population of fish?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
           <p>Let <m>y(t)</m> be the number of thousands of mice that live on a
-            farm; assume time <m>t</m> is measured in years.<fn>This problem is based on an ecological analysis
-                presented in a research paper by C.S. Hollings:  The Components of
-                Predation as Revealed by a Study of Small Mammal Predation of the
-                European Pine Sawfly, <em>Canadian Entomology</em> <em>91</em>: 283-320.</fn></p>
+          farm; assume time <m>t</m> is measured in years.<fn>This problem is based on an ecological analysis
+              presented in a research paper by C.S. Hollings:  The Components of
+              Predation as Revealed by a Study of Small Mammal Predation of the
+              European Pine Sawfly, <em>Canadian Entomology</em> <em>91</em>: 283-320.</fn>
 
           <ol>
             <li><p>The population of the mice grows at a yearly rate that is twenty times 
@@ -392,6 +409,7 @@
 
             <li><p>What is the smallest number of cats you would need to keep the mice population from growing arbitrarily large?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
     </exercises>

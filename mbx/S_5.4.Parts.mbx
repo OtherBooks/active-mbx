@@ -54,10 +54,9 @@
           <title>v.</title>
           <p><m>r(x) = e^x \sin(x)</m></p></li>
       </ol>
-
       </li>
 
-      <li><p>Use your work in (a) to help you evaluate the following indefinite integrals.  Use differentiation to check your work.</p>
+      <li><p>Use your work in (a) to help you evaluate the following indefinite integrals.  Use differentiation to check your work.
 
       <ol>
         <li>
@@ -80,14 +79,12 @@
           <title>v.</title>
           <p><m>\int 1 + \ln(x) \, dx</m></p></li>
       </ol>
-
-      </li>
+      </p></li>
 
       <li><p>Observe that the examples in (b) work nicely because of the derivatives you were asked to calculate in (a).  Each integrand in (b) is precisely the result of differentiating one of the products of basic functions found in (a).  To see what happens when an integrand is still a product but not necessarily the result of differentiating an elementary product, we consider how to evaluate
-        <me>
-          \int x\cos(x) \, dx.
-        </me>
-      </p>
+      <me>
+        \int x\cos(x) \, dx.
+      </me>
 
       <ol>
         <li>
@@ -110,8 +107,7 @@
           <title>iii.</title>
           <p>For which product of basic functions have you now found the antiderivative?</p></li>
       </ol>
-
-      </li>
+      </p></li>
       </ol>
     </exploration>
   </introduction>
@@ -183,7 +179,7 @@
     <p>There are at least two additional important observations to make from <xref ref="Ex_5.4.IBP">Example</xref>. First, the general technique of Integration by Parts involves trading the problem of integrating the product of two functions for the problem of integrating the product of two related functions. In particular, we convert the problem of evaluating <m>\int u \, dv</m> for that of evaluating <m>\int v \, du</m>. This perspective clearly shapes our choice of <m>u</m> and <m>v</m>. In <xref ref="Ex_5.4.IBP">Example</xref>, the original integral to evaluate was <m>\int x \cos(x) \,dx</m>, and through the substitution provided by Integration by Parts, we were instead able to evaluate <m>\int \sin(x) \cdot 1 \, dx</m>. Note that the original function <m>x</m> was replaced by its derivative, while <m>\cos(x)</m> was replaced by its antiderivative. Second, observe that when we get to the final stage of evaluating the last remaining antiderivative, it is at this step that we include the integration constant, <m>+C</m>.</p>
 
     <activity xml:id="A_5.4.1">
-      <p>Evaluate each of the following indefinite integrals. Check each antiderivative that you find by differentiating.</p>
+      <p>Evaluate each of the following indefinite integrals. Check each antiderivative that you find by differentiating.
 
       <ol>
         <li><p><m>\int te^{-t} \, dt</m></p></li>
@@ -194,22 +190,32 @@
 
         <li><p><m>\int x \ln(x) \, dx</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -237,7 +243,7 @@
     <p>The problems briefly introduced here exemplify that we sometimes must think creatively in choosing the variables for substitution in Integration by Parts, as well as that it is entirely possible that we will need to use the technique of substitution for an additional change of variables within the process of integrating by parts.</p>
 
     <activity xml:id="A_5.4.2">
-      <p>Evaluate each of the following indefinite integrals, using the provided hints.</p>
+      <p>Evaluate each of the following indefinite integrals, using the provided hints.
 
       <ol>
         <li><p>Evaluate <m>\int \arctan(x) \, dx</m> by using Integration by Parts with the substitution <m>u = \arctan(x)</m> and <m>dv = 1 \, dx</m>.</p></li>
@@ -250,22 +256,32 @@
 
         <li><p>Evaluate <m>\int e^{2t} \cos(e^t) \, dt</m>.  You will find it helpful to note that <m>e^{2t} = e^t \cdot e^t.</m></p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -321,7 +337,7 @@
     <p>Note that since we never actually encountered an integral we could evaluate directly, we didn't have the opportunity to add the integration constant <m>C</m> until the final step, at which point we include it as part of the most general antiderivative that we sought from the outset in evaluating an indefinite integral.</p>
 
     <activity xml:id="A_5.4.3">
-      <p>Evaluate each of the following indefinite integrals.</p>
+      <p>Evaluate each of the following indefinite integrals.
 
       <ol>
         <li><p><m>\int x^2 \sin(x) \, dx</m></p></li>
@@ -335,22 +351,32 @@
         <li><p><m>\int t \arctan(t) \,dt</m> 
              (<em>Hint:</em> At a certain point in this problem, it is very helpful to note that <m>\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}.</m>)</p></li>
       </ol>
+      </p>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Small hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <hint>
+        <p>
+
+        <ol>
+          <li><p>Big hints for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </hint>
+      <solution>
+        <p>
+
+        <ol>
+          <li><p>Solutions for each of the prompts above.</p></li>
+        </ol>
+        </p>
+      </solution>
     </activity>
-    <hint>
-      <ol>
-        <li><p>Small hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <hint>
-      <ol>
-        <li><p>Big hints for each of the prompts above.</p></li>
-      </ol>
-    </hint>
-    <solution>
-      <ol>
-        <li><p>Solutions for each of the prompts above.</p></li>
-      </ol>
-    </solution>
   </subsection>
 
   <subsection>
@@ -403,11 +429,10 @@
 
       <li><p>When deciding to integrate by parts, we normally have a product of functions present in the integrand and we have to select both <m>u</m> and <m>dv</m>.  That selection is guided by the overall principal that we desire the new integral <m>\int v \, du</m> to not be any more difficult or complicated than the original integral <m>\int u \, dv</m>.  In addition, it is often helpful to recognize if one of the functions present is much easier to differentiate than antidifferentiate (such as <m>\ln(x)</m>), in which case that function often is best assigned the variable <m>u</m>.  For sure, when choosing <m>dv</m>, the corresponding function must be one that we can antidifferentiate.</p></li>
     </ul>
-
     <exercises>
       <exercise>
         <statement>
-          <p>Let <m>f(t) = te^{-2t}</m> and <m>F(x) = \int_0^x f(t) \, dt</m>.</p>
+          <p>Let <m>f(t) = te^{-2t}</m> and <m>F(x) = \int_0^x f(t) \, dt</m>.
 
           <ol>
             <li><p>Determine <m>F'(x)</m>.</p></li>
@@ -416,11 +441,12 @@
 
             <li><p>Is <m>F</m> an increasing or decreasing function for <m>x > 0</m>?  Why?</p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>
         <statement>
-          <p>Consider the indefinite integral given by <m>\int e^{2x} \cos(e^x) \, dx</m>.</p>
+          <p>Consider the indefinite integral given by <m>\int e^{2x} \cos(e^x) \, dx</m>.
 
           <ol>
             <li><p>Noting that <m>e^{2x} = e^x \cdot e^x</m>, use the substitution <m>z = e^{x}</m> to determine a new, equivalent integral in the variable <m>z</m>.</p></li>
@@ -429,7 +455,7 @@
 
             <li><p>How is the problem of evaluating <m>\int e^{2x} \cos(e^{2x}) \, dx</m> different from evaluating the integral in (a)?  Do so.</p></li>
 
-            <li><p>Evaluate each of the following integrals as well, keeping in mind the approach(es) used earlier in this problem:</p>
+            <li><p>Evaluate each of the following integrals as well, keeping in mind the approach(es) used earlier in this problem:
 
             <ul>
               <li><p><m>\int e^{2x} \sin(e^x) \, dx</m></p></li>
@@ -438,9 +464,9 @@
 
               <li><p><m>\int xe^{x^2} \cos(e^{x^2}) \sin(e^{x^2}) \, dx</m></p></li>
             </ul>
-
-            </li>
+            </p></li>
           </ol>
+          </p>
         </statement>
       </exercise>
       <exercise>

@@ -24,8 +24,6 @@ Consider the initial value problem
 <me>
   \frac{dy}{dt} = \frac12 (y + 1), \ y(0) = 0.
 </me>
-</p>
-
 <ol>
 <li><p>Use the differential equation to find the slope of the tangent
   line to the solution <m>y(t)</m> at <m>t=0</m>.  Then use the given initial value to
@@ -44,6 +42,8 @@ Consider the initial value problem
   the value of the solution at <m>t=4</m>.</p></li>
 <li><p>Repeat the same step to find an approximation for <m>y(6)</m>.</p></li>
 </ol>
+
+</p>
 </exploration>
 </introduction>
 
@@ -193,8 +193,6 @@ Consider the initial value problem
 <me>
   \frac{dy}{dt} = 2t-1, \ y(0) = 0
 </me>
-</p>
-
 <ol>
 <li><p>Use Euler's method with <m>\Delta t = 0.2</m> to approximate the solution
 at <m>t_i = 0.2, 0.4, 0.6, 0.8</m>, and <m>1.0</m>.   Record your work in the following table, and sketch the points <m>(t_i,
@@ -229,28 +227,42 @@ y_i)</m> on the following axes provided.
   1</m>?  What does this mean about different solutions to this
   differential equation?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
-  
+</activity>
 <activity xml:id="A_7.3.2">
 <p>
 Consider the differential equation
 <m>\frac{dy}{dt} = 6y-y^2</m>.
-</p>
-
 <ol>
 <li><p>Sketch the slope field for this differential equation on the axes provided at left below.
 
@@ -284,21 +296,38 @@ Consider the differential equation
 <li><p>What happens if we apply Euler's method to approximate the
   solution with <m>y(0) = 6</m>?</p></li>
 </ol>
-</activity>
-  <hint>
+
+</p>
+<hint>
+<p>
+
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
 </ol>
-</hint>  <hint>
+
+</p>
+</hint>
+
+<hint>
+<p>
+
 <ol>
 <li><p>Big hints for each of the prompts above.</p></li>
 </ol>
-</hint>  
+
+</p>
+</hint>
+
 <solution>
+<p>
+
 <ol>
 <li><p>Solutions for each of the prompts above.</p></li>
 </ol>
+
+</p>
 </solution>
+</activity>
 </subsection>
 
 
@@ -394,8 +423,6 @@ this law is expressed at
 where <m>k</m> is a constant of proportionality. In this problem,
 temperature is
 measured in degrees Fahrenheit and time in minutes.
-</p>
-
 <ol>
 <li><p>Two calculus students, Alice and Bob, enter a 70<m>^\circ</m>
     classroom at the same time.  Each has a cup of coffee that is
@@ -425,6 +452,8 @@ Implement Euler's
 <li><p>Explain the similarities and differences that you see in the
     behavior of Alice's and Bob's cups of coffee.</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
@@ -444,8 +473,6 @@ for some constant of proportionality <m>K</m>.
 <p>
 In this problem, we will see how to use this fact to improve our
 estimates, using an idea called <em>accelerated convergence</em>.
-</p>
-
 <ol>
 <li><p>We will create a new approximation by assuming the error is
     <em>exactly</em> proportional to <m>\Delta t</m>, according to the formula
@@ -474,6 +501,8 @@ Approximate <m>y(0.3)</m> by applying Euler's method to find
     accelerated convergence to obtain a better approximation.  (For the sake of comparison, you want to  note that the actual value is <m>y(0.3) =
     0.0408</m>.)</p></li>
 </ol>
+
+</p>
 </statement>
 </exercise>
 
