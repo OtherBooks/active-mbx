@@ -78,22 +78,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>It's very important to use a straightedge for accuracy.</p></li>
-
-          <li><p><m>f'(0) \approx 1</m>, as for each grid box we move horizontally, we go up about 1.5 grid boxes.</p></li>
-
-          <li><p><m>f'(0) \approx \frac{\sin(h)}{h}</m> for small values of <m>h</m>.  Try using <m>h = 0.001</m> and <m>h = -.001</m>.</p></li>
-
-          <li><p>Recall that heights on <m>f'</m> come from slopes on <m>f</m>.  From your earlier work, you should know several places <m>f'(x) = 0</m>, plus that <m>f'(0) \approx 1</m>.  Plot these values on the grid for <m>y = f'(x)</m>.</p></li>
-
-          <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function, or possibly some multiple of such a function.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <ol>
           <li><p>See the figure below.</p></li>
@@ -148,22 +132,6 @@
           <li><p>Recall that heights on <m>g'</m> come from slopes on <m>g</m>.</p></li>
 
           <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>It's very important to use a straightedge for accuracy.</p></li>
-
-          <li><p><m>g'(\frac{\pi}{2}) \approx -1</m>, as for each grid box we move horizontally, we go down about 1.5 grid boxes.</p></li>
-
-          <li><p><m>g'(\frac{\pi}{2}) \approx \frac{\cos(\frac{\pi}{2}+h)}{h}</m> for small values of <m>h</m>.  Try using <m>h = 0.001</m> and <m>h = -.001</m>.</p></li>
-
-          <li><p>Recall that heights on <m>g'</m> come from slopes on <m>g</m>.  From your earlier work, you should know several places <m>g'(x) = 0</m>, plus that <m>g'(0) \approx 1</m>.  Plot these values on the grid for <m>y = g'(x)</m>.</p></li>
-
-          <li><p>It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function, or possibly some multiple of such a function.</p></li>
         </ol>
         </p>
       </hint>
@@ -227,22 +195,6 @@
           <li><p><m>\sin(\frac{\pi}{2})</m> is a constant.</p></li>
 
           <li><p><m>P'(a)</m> tells us the instantaneous rate of change of <m>P</m> with respect to time at the instant <m>t = a</m>, and its units are <q>units of <m>P</m> per unit of time.</q></p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Recall the constant multiple and sum rules.</p></li>
-
-          <li><p><m>f'(a)</m> tells us the slope of the tangent line at <m>(a,f(a))</m>.</p></li>
-
-          <li><p>Find both a point on the tangent line and the slope of the tangent line.</p></li>
-
-          <li><p><m>\sin(\frac{\pi}{2})</m> is a constant.</p></li>
-
-          <li><p><m>P'(a)</m> tells us the instantaneous rate of change of <m>P</m> with respect to time at the instant <m>t = a</m>.</p></li>
         </ol>
         </p>
       </hint>

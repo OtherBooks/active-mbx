@@ -75,7 +75,7 @@ This principle holds in general simply due to the fact that distance equals rate
 <me>
   A = v(a) (b-a) = v(a) \triangle t,
 </me>
-where <m>\triangle t</m> is the change in <m>t</m> over the interval. Note, too, that we could use any value of <m>v(t)</m> on the interval <m>[a,b]</m>, since the velocity is constant; we simply chose <m>v(a)</m>, the value at the interval's left endpoint. For several examples where the velocity function is piecewise constant, see \href{http://gvsu.edu/s/9T}{<c>http://gvsu.edu/s/9T</c>}.<fn>Marc Renault, calculus applets.</fn>
+where <m>\triangle t</m> is the change in <m>t</m> over the interval. Note, too, that we could use any value of <m>v(t)</m> on the interval <m>[a,b]</m>, since the velocity is constant; we simply chose <m>v(a)</m>, the value at the interval's left endpoint. For several examples where the velocity function is piecewise constant, see <url href="http://gvsu.edu/s/9T"><c>http://gvsu.edu/s/9T</c></url>.<fn>Marc Renault, calculus applets.</fn>
 </p>
 
 <p>
@@ -97,7 +97,7 @@ If we want to estimate the area under the non-constant velocity function on a wi
 <image width="73%" source="images/4_1_VelArea2" />
 </figure>
 <p>
-find the area of each rectangle, and add up the total. Obviously there are choices to make and issues to understand: how many rectangles should we use? where should we evaluate the function to decide the rectangle's height? what happens if velocity is sometimes negative? can we attain the exact area under any non-constant curve? These questions and more are ones we will study in what follows; for now it suffices to realize that the simple idea of the area of a rectangle gives us a powerful tool for estimating both distance traveled from a velocity function as well as the area under an arbitrary curve. To explore the setting of multiple rectangles to approximate area under a non-constant velocity function, see the applet found at \href{http://gvsu.edu/s/9U}{<c>http://gvsu.edu/s/9U</c>}.<fn>Marc Renault, calculus applets.</fn>
+find the area of each rectangle, and add up the total. Obviously there are choices to make and issues to understand: how many rectangles should we use? where should we evaluate the function to decide the rectangle's height? what happens if velocity is sometimes negative? can we attain the exact area under any non-constant curve? These questions and more are ones we will study in what follows; for now it suffices to realize that the simple idea of the area of a rectangle gives us a powerful tool for estimating both distance traveled from a velocity function as well as the area under an arbitrary curve. To explore the setting of multiple rectangles to approximate area under a non-constant velocity function, see the applet found at <url href="http://gvsu.edu/s/9U"><c>http://gvsu.edu/s/9U</c></url>.<fn>Marc Renault, calculus applets.</fn>
 </p>
 <activity xml:id="A_4.1.1">
 <p>
@@ -126,19 +126,6 @@ Suppose that a person is walking in such a way that her velocity varies slightly
 <li><p>Think about the possibility of using a larger number of rectangles.</p></li>
 <li><p>If <m>v(t) = t^3</m> and we seek a function <m>s</m> such that <m>s' = v</m>, note that <m>s</m> has to involve <m>t^4</m>.</p></li>
 <li><p>Observe that this quantity is measuring a change in position.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>For instance, the approximate distance traveled on <m>[0,0.5]</m> can be computed by <m>v(0) \cdot 0.5 = 1.5 \cdot 0.5 = 0.75</m> mile, while the approximate distance on <m>[0.5,1]</m> can be computed by <m>v(0.5) \cdot 0.5 = 1.9375 \cdot 0.5 = 0.9688</m>.</p></li>
-<li><p>Think about the possibility of using a larger number of rectangles that are narrower in width.</p></li>
-<li><p>If <m>v(t) = t^3</m> and we seek a function <m>s</m> such that <m>s' = v</m>, note that one possible formula for <m>s</m> is <m>s(t) = \frac{1}{4}t^4</m>.</p></li>
-<li><p>Observe that this quantity is measuring a change in position.  How is its value connected to other earlier work you've done?</p></li>
 </ol>
 
 </p>
@@ -233,21 +220,6 @@ A ball is tossed vertically in such a way that its velocity function is given by
 <li><p>The region whose area is sought is triangular.</p></li>
 <li><p>See (c) and (d) above.</p></li>
 <li><p>What does it mean for the change of the ball's position to be zero?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Where is velocity zero? Recall that positive velocity makes the position function increasing.</p></li>
-<li><p>Since <m>v</m> is linear, note that <m>s</m> must be quadratic.  What function has derivative <m>32</m>?  What function has derivative <m>32t</m>?</p></li>
-<li><p>Observe that you are taking the difference between two values of the position function.</p></li>
-<li><p>The region whose area is sought is triangular.  Simply use the known formula for the area of a triangle; do not use approximating rectangles.</p></li>
-<li><p>See (c) and (d) above.</p></li>
-<li><p>What does it mean for the change of the ball's position to be zero?  How should we think of the area that lies beneath the <m>t</m>-axis on the interval <m>1 \lt  t \lt  2</m>?</p></li>
 </ol>
 
 </p>
@@ -365,19 +337,6 @@ Suppose further that the object's initial position at time <m>t = 0</m> is <m>s(
 
 <ol>
 <li><p>Find the area of each triangular region formed between <m>y = v(t)</m> and the <m>t</m>-axis.</p></li>
-<li><p>Recall that <m>v = s'</m>, and here we are given complete information about <m>v</m>.</p></li>
-<li><p>Be careful to address whether <m>v</m> is positive or negative when calculating areas and adding the results.</p></li>
-<li><p>Consider finding the area bounded by <m>y = v(t)</m> and the <m>t</m>-axis on each interval <m>[0,1]</m>, <m>[1,2]</m>, <m>\ldots</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Find the area of the triangular regions formed between <m>y = v(t)</m> and the <m>t</m>-axis on <m>[0,1]</m> and <m>[1,2]</m>.</p></li>
 <li><p>Recall that <m>v = s'</m>, and here we are given complete information about <m>v</m>.</p></li>
 <li><p>Be careful to address whether <m>v</m> is positive or negative when calculating areas and adding the results.</p></li>
 <li><p>Consider finding the area bounded by <m>y = v(t)</m> and the <m>t</m>-axis on each interval <m>[0,1]</m>, <m>[1,2]</m>, <m>\ldots</m>.</p></li>

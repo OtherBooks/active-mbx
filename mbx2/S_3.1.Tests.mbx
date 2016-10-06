@@ -139,20 +139,6 @@ Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2<
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>For which <m>x</m> is <m>g'(x) = 0</m>?  Remember that a fraction's value is zero if and only if its numerator is zero.</p></li>
-<li><p>Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.  How do the signs of <m>(x+4)</m> and <m>(x-2)</m> then determine the overall sign of <m>g'(x)</m>?</p></li>
-<li><p>Use your first derivative sign chart from (b) and remember to the first derivative test.</p></li>
-<li><p>Try expanding the numerator before evaluating the limit and think about what you know about the limit of a rational function as <m>x \to \infty</m>.</p></li>
-<li><p>Focus on where <m>g</m> is increasing and decreasing, along with where it must have a horizontal tangent line.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -290,19 +276,6 @@ Suppose that <m>g</m> is a function whose second derivative, <m>g''</m>, is give
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>At what points on the given graph does <m>g''(x)</m> change sign?</p></li>
-<li><p>From the given graph, where is <m>g''(x) > 0</m>?  <m>g''(x) \lt  0</m>?</p></li>
-<li><p>What does the second derivative test say?  What is <m>g''(-1.67857351)</m>?</p></li>
-<li><p>Can you guess a formula for <m>g''(x)</m> based on its graph?  Note that <m>g''</m> appears to have a repeated root at <m>x = 2</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -341,18 +314,6 @@ What is the smallest value of <m>k</m> at which you think you can see (just by l
 <li><p>Be sure to try some values between 1.5 and 2.</p></li>
 <li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.</p></li>
 <li><p>What is the largest value of <m>k\sin(kx)</m>?  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Be sure to try some values between 1.5 and 2.  Remember that an inflection point is a point where concavity changes.</p></li>
-<li><p>Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.  In particular, note that <m>h'(x) = 2x - k\sin(kx)</m>.</p></li>
-<li><p>Explain why <m>-k \le k\sin(kx) \le k</m>.  How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?</p></li>
 </ol>
 
 </p>

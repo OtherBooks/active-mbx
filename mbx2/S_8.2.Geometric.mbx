@@ -24,15 +24,15 @@ Suppose warfarin is taken by a particular patient in a 5 mg dose each day. The d
 <li><p>Explain why <m>Q(1) = 5 \times 0.08</m> mg.</p></li>
 <li><p>Explain why <m>Q(2) = (5+Q(1)) \times 0.08</m> mg. Then show that
 <me>
-  Q(2) = (5 \times 0.08)\left(1+0.08\right) \\text{ mg } .
+  Q(2) = (5 \times 0.08)\left(1+0.08\right) \text{ mg } .
 </me></p></li>
 <li><p>Explain why <m>Q(3) = (5+Q(2)) \times 0.08</m> mg. Then show that
 <me>
-  Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \\text{ mg } .
+  Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \text{ mg } .
 </me></p></li>
 <li><p>Explain why <m>Q(4) = (5+Q(3)) \times 0.08</m> mg. Then show that
 <me>
-  Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \\text{ mg } .
+  Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \text{ mg } .
 </me></p></li>
 <li><p>There is a pattern that you should see emerging. Use this pattern to find a formula for <m>Q(n)</m>, where <m>n</m> is an arbitrary positive integer.</p></li>
 <li><p>Complete <xref ref="T_8.2_Warfarin">Table</xref> with values of <m>Q(n)</m> for the provided <m>n</m>-values (reporting <m>Q(n)</m> to 10 decimal places). What appears to be happening to the sequence <m>Q(n)</m> as <m>n</m> increases?
@@ -104,16 +104,6 @@ In this activity we will find a shortcut formula for <m>S_n</m> that does not in
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -156,7 +146,7 @@ where <m>a</m> and <m>r</m> are real numbers such that <m>r \ne 1</m>. The geome
 <p>
 We now apply equation <xref ref="eq_8.2_part_sum_geometric" /> to the example involving warfarin from <xref ref="PA_8.2">Preview Activity</xref>. Recall that
 <me>
-  Q(n)=(5 \times 0.08)\left(1+0.08+0.08^2+0.08^3+ \cdots + 0.08^{n-1}\right) \\text{ mg } ,
+  Q(n)=(5 \times 0.08)\left(1+0.08+0.08^2+0.08^3+ \cdots + 0.08^{n-1}\right) \text{ mg } ,
 </me>
 so <m>Q(n)</m> is a geometric sum with <m>a=5 \times 0.08 = 0.4</m> and <m>r = 0.08</m>. Thus,
 <me>
@@ -241,16 +231,6 @@ Explain.</li>
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -352,16 +332,6 @@ Remove the common factor of <m>ar^n</m> from each term to find the sum of the se
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>

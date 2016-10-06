@@ -158,20 +158,6 @@ Use the Fundamental Theorem of Calculus to evaluate each of the following integr
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Find a function whose derivative is <m>2 - 2x</m>.</p></li>
-<li><p>Recall that <m>\frac{d}{dx}[\cos(x)] = -\sin(x)</m>.</p></li>
-<li><p>What is special about <m>e^x</m> when it comes to differentiation?</p></li>
-<li><p>Think about the derivative of <m>x^6</m> and how you might choose an appropriate constant by which to multiply this function.</p></li>
-<li><p>Find an antiderivative for each of the three individual terms in the integrand.  Note, for instance, that <m>\frac{d}{dx} [\frac{3}{4} x^4 ] = 3x^3.</m></p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -320,12 +306,6 @@ Use your knowledge of derivatives of basic functions to complete the above table
 <hint>
 <p>
 For the table, you might start by constructing a list of all the basic functions whose derivative you know. For the three definite integrals, be sure to recall the sum and constant multiple rules, which work not only for differentiating, but also for antidifferentiating.
-</p>
-</hint>
-
-<hint>
-<p>
-For the table, you might start by constructing a list of all the basic functions whose derivative you know. For example, we know that <m>\frac{d}{dx} [\csc(x)] = -\csc(x) \cot(x).</m> For the three definite integrals, be sure to recall the sum and constant multiple rules, which work not only for differentiating, but also for antidifferentiating. Then use the FTC.
 </p>
 </hint>
 
@@ -528,19 +508,6 @@ During a 40-minute workout, a person riding an exercise machine burns calories a
 <li><p>Use the FTC.</p></li>
 <li><p>Recall the formula for <m>c_{\mbox{\tiny{AVG}} [0,40]}</m>.</p></li>
 <li><p>Think carefully about which function tells you the instantaneous rate at which calories are burned.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>What are the units on the area of a rectangle found in a Riemann sum for the function <m>y= c(t)</m>?  What will be the units on area bounded by the curve?</p></li>
-<li><p>Use a definite integral and the FTC, as well as your work in (a).</p></li>
-<li><p>Recall the formula for <m>c_{\mbox{\tiny{AVG}} [0,30]}</m>.  Think about the relevant integral in terms of three subintervals: <m>[0,10]</m>, <m>[10,30]</m>, and <m>[30,40]</m>.</p></li>
-<li><p>Think carefully about which function tells you the instantaneous rate at which calories are burned, and consider your result in (c).</p></li>
 </ol>
 
 </p>

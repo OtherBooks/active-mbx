@@ -127,7 +127,7 @@ using the shorthand notation <m>\{s_n\}</m>. The value <m>s_n</m> (alternatively
 Find a formula for <m>s_n</m> and use appropriate technological tools to draw a graph of entries in this sequence by plotting points of the form <m>(n,s_n)</m> for some values of <m>n</m>. Most graphing calculators can plot sequences; directions follow for the TI-84.
 <ul>
 <li><p>In the MODE menu, highlight SEQ in the FUNC line and press ENTER.</p></li>
-<li><p>In the Y= menu, you will now see lines to enter sequences. Enter a value for <m>n</m>Min (where the sequence starts), a function for <m>u(n)</m> (the <m>n</m>th term in the sequence), and the value of <m>u_{n\\text{ Min } }</m>.</p></li>
+<li><p>In the Y= menu, you will now see lines to enter sequences. Enter a value for <m>n</m>Min (where the sequence starts), a function for <m>u(n)</m> (the <m>n</m>th term in the sequence), and the value of <m>u_{n\text{ Min } }</m>.</p></li>
 <li><p>Set your window coordinates (this involves choosing limits for <m>n</m> as well as the window coordinates XMin, XMax, YMin, and YMax.</p></li>
 <li><p>The GRAPH key will draw a plot of your  sequence.</p></li>
 </ul>
@@ -142,16 +142,6 @@ Using your knowledge of limits of continuous functions as <m>x \to \infty</m>, d
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -186,16 +176,6 @@ Next we formalize the ideas from <xref ref="x8.1.Act1">Activity</xref>.
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -250,16 +230,6 @@ Use graphical and/or algebraic methods to determine whether each of the followin
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>

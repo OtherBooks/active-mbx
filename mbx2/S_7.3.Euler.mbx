@@ -138,7 +138,7 @@ table as shown. We begin with the given initial data.
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell><m>t_i</m></cell><cell><m>y_i</m></cell><cell><m>dy/dt</m></cell><cell><m>\Delta y</m></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-<row><cell>0.0000</cell><cell>1.0000</cell><cell>\hphantom{-1.0000}</cell><cell>\hphantom{-0.2000}</cell></row>
+<row><cell>0.0000</cell><cell>1.0000</cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 </tabular>
 <p>
@@ -203,9 +203,9 @@ y_i)</m> on the following axes provided.
 <row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 
 <row><cell  >
-  \vphantom{{M}}0.0000</cell><cell>0.0000</cell><cell>\hphantom{1.0000}</cell><cell>\hphantom{0.2000}</cell></row>
+  \vphantom{{M}}0.0000</cell><cell>0.0000</cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-<row><cell>\vphantom{{M}}0.2000</cell><cell>\hphantom{MMMMMM}</cell><cell>\hphantom{MMMMMM}</cell><cell>\hphantom{MMMMMM}</cell></row>
+<row><cell>\vphantom{{M}}0.2000</cell><cell></cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell>\vphantom{{M}}0.4000</cell><cell></cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
@@ -234,16 +234,6 @@ y_i)</m> on the following axes provided.
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -280,9 +270,9 @@ Consider the differential equation
 <row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 
 <row><cell  >
-  \vphantom{{M}}0.0</cell><cell>1.0000</cell><cell>\hphantom{1.0000}</cell><cell>\hphantom{0.2000}</cell></row>
+  \vphantom{{M}}0.0</cell><cell>1.0000</cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-<row><cell>\vphantom{{M}}0.2</cell><cell>\hphantom{MMMMMM}</cell><cell>\hphantom{MMMMMM}</cell><cell>\hphantom{MMMMMM}</cell></row>
+<row><cell>\vphantom{{M}}0.2</cell><cell></cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
 <row><cell>\vphantom{{M}}0.4</cell><cell></cell><cell></cell><cell></cell></row>
 <row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
@@ -303,16 +293,6 @@ Consider the differential equation
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>

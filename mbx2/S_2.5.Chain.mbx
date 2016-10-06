@@ -220,20 +220,6 @@ For each function given below, identify an inner function <m>g</m> and outer fun
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>The outer function is <m>f(x) = \cos(x)</m>, while the inner function is <m>g(x) = x^4</m>.</p></li>
-<li><p>The outer function is <m>f(x) = \sqrt{x}</m>, while the inner function is <m>g(x) = \tan(x)</m>.</p></li>
-<li><p>The outer function is <m>f(x) = 2^x</m>, while the inner function is <m>g(x) = \sin(x)</m>.</p></li>
-<li><p>The outer function is <m>f(x) = x^5</m>, while the inner function is <m>g(x) = \cot(x)</m>.</p></li>
-<li><p>The outer function is <m>f(x) = x^9</m>, while the inner function is <m>g(x) = \sec(x) + e^x</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -367,28 +353,6 @@ For each of the following functions, find the function's derivative. State the r
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Note that <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}].</m>  Now use the chain rule to complete the remaining derivative.</p></li>
-<li><p>Observe that by the product rule, <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)].</m>  What rule is needed to execute the remaining two derivatives?</p></li>
-<li><p>Note that by the quotient rule,
-<me>
-  h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}.
-</me>
-What work remains to find <m>h'(y)</m>?</p></li>
-<li><p>By the chain rule, <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.  What rule should next be applied?</p></li>
-<li><p>If we first apply the chain rule to the outer function (the sine function), note that
-<me>
-  c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}].
-</me>
-What rule is needed to differentiate the inner function, <m>e^{x^2}</m>?</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -462,19 +426,6 @@ If <m>C(x)</m> is a function given by the formula <m>f(g(x))</m>, determine <m>C
 <li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.</p></li>
 <li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot.</p></li>
 <li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Let <m>f(x) = \sqrt{e^x + 3}.</m> Find <m>f'(x)</m> and <m>f'(0)</m> and recall the point-slope form of the tangent line.</p></li>
-<li><p>Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.  Consider writing <m>s(t) = (t^2 + 1)^{-3}</m> for ease of differentiation.</p></li>
-<li><p>Note that the units on <m>dP/dh</m> are inches of mercury per foot so this derivative measures the instantaneous rate of change of barometric pressure with respect to elevation.</p></li>
-<li><p>Since <m>C(x) = f(g(x)),</m> it follows <m>C'(x) = f'(g(x))g'(x).</m>  What is <m>C'(2)</m>?  What does the chain rule tell us about <m>\frac{d}{dx}[f(f(x))]</m>?</p></li>
 </ol>
 
 </p>

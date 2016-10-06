@@ -48,7 +48,7 @@ for <m>x</m> close to <m>0</m> and so
 </me>
 </p>
 </solution></p></li>
-<li><p>The linearization of <m>e^x</m> does not provide a good approximation to <m>e</m> since 1 is not very close to 0. To obtain a better approximation, we alter our approach a bit. Instead of using a straight line to approximate <m>e</m>, we put an appropriate bend in our estimating function to make it better fit the graph of <m>e^x</m> for <m>x</m> close to 0. With the linearization, we had both <m>f(x)</m> and <m>f'(x)</m> share the same value as the linearization at <m>x=0</m>. We will now use a quadratic approximation <m>P_2(x)</m> to <m>f(x) = e^x</m> centered at <m>x=0</m> which has the property that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \\text{ and }  <m>P''_2(0) = f''(0)</m>.
+<li><p>The linearization of <m>e^x</m> does not provide a good approximation to <m>e</m> since 1 is not very close to 0. To obtain a better approximation, we alter our approach a bit. Instead of using a straight line to approximate <m>e</m>, we put an appropriate bend in our estimating function to make it better fit the graph of <m>e^x</m> for <m>x</m> close to 0. With the linearization, we had both <m>f(x)</m> and <m>f'(x)</m> share the same value as the linearization at <m>x=0</m>. We will now use a quadratic approximation <m>P_2(x)</m> to <m>f(x) = e^x</m> centered at <m>x=0</m> which has the property that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \text{ and }  <m>P''_2(0) = f''(0)</m>.
 <ul>
 <li>
 <title>(i)</title>
@@ -223,16 +223,6 @@ While it is physically impossible to add an infinite collection of numbers, we c
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -379,16 +369,6 @@ converges and has sum equal to <m>L</m>.
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -451,16 +431,6 @@ Determine if the Divergence Test applies to the following series. If the test do
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -549,16 +519,6 @@ The graph of the continuous function <m>f</m> defined by <m>f(x) = \frac{1}{x}</
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -664,16 +624,6 @@ The <m>p</m>-series <m>\sum_{k=1}^{\infty} \frac{1}{k^p}</m> converges if and on
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -755,16 +705,6 @@ What does the value of the limit tell you about <m>a_k</m> and <m>b_k</m> for la
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -825,16 +765,6 @@ by comparing it to the series <m>\sum \frac{1}{k^2}</m>.
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -901,16 +831,6 @@ This series is not a geometric series, but this activity will illustrate how we 
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -989,16 +909,6 @@ Determine whether each of the following series converges or diverges. Explicitly
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -1253,7 +1163,7 @@ In the Limit Comparison Test we compared the behavior of a series to one whose b
 <ol>
 <li><p>Consider the series
 <me>
-  \sum \frac{1}{k^2}  \\text{ and }   \sum \frac{1}{k^2+k}.
+  \sum \frac{1}{k^2}  \text{ and }   \sum \frac{1}{k^2+k}.
 </me>
 We know that the series <m>\sum \frac{1}{k^2}</m> is a <m>p</m>-series with <m>p = 2 > 1</m> and so <m>\sum \frac{1}{k^2}</m> converges. In this part of the exercise we will see how to use information about <m>\sum \frac{1}{k^2}</m> to determine information about <m>\sum \frac{1}{k^2+k}</m>. Let <m>a_k = \frac{1}{k^2}</m> and <m>b_k = \frac{1}{k^2+k}</m>.
 </p>
@@ -1275,7 +1185,7 @@ Since <m>S_1 = 1</m> and <m>T_1 = \frac{1}{2}</m>, we see that <m>S_1 > T_1</m>.
 <p>
 Recall that
 <me>
-  S_2 = S_1 + a_2  \\text{ and }   T_2 = T_1 + b_2.
+  S_2 = S_1 + a_2  \text{ and }   T_2 = T_1 + b_2.
 </me>
 Which is larger, <m>a_2</m> or <m>b_2</m>? Based on that answer, which is larger, <m>S_2</m> or <m>T_2</m>?
 
@@ -1290,7 +1200,7 @@ Since <m>a_2 = \frac{1}{4}</m> and <m>b_2 = \frac{1}{6}</m>, it is the case that
 <p>
 Recall that
 <me>
-  S_3 = S_2 + a_3  \\text{ and }   T_3 = T_2 + b_3.
+  S_3 = S_2 + a_3  \text{ and }   T_3 = T_2 + b_3.
 </me>
 Which is larger, <m>a_3</m> or <m>b_3</m>? Based on that answer, which is larger, <m>S_3</m> or <m>T_3</m>?
 
@@ -1334,7 +1244,7 @@ Since <m>\sum \frac{1}{k^2}</m> is a <m>p</m>-series with <m>p=2 > 1</m>, we kno
 <li><p>The example in the previous part of this exercise illustrates a more general result. Explain why the Direct Comparison Test, stated here, works.
     
 
-\\text{ 
+\text{ 
 <em>The Direct Comparison Test. </em> If
 <me>
   0 \leq b_k \leq a_k

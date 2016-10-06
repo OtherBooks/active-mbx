@@ -45,7 +45,7 @@ According to U.S.<nbsp />postal regulations, the girth plus the length of a parc
 <p>
 Many of the steps in <xref ref="PA_3.4">Preview Activity</xref> are ones that we will execute in any applied optimization problem. We briefly summarize those here to provide an overview of our approach in subsequent questions.
 <ul>
-<li><p>Draw a picture and introduce variables.  It is essential to first understand what quantities are allowed to vary in the problem and then to represent those values with variables.  Constructing a figure with the variables labeled is almost always an essential first step.  Sometimes drawing several diagrams can be especially helpful to get a sense of the situation.  A nice example of this can be seen at \href{http://gvsu.edu/s/99}{<c>http://gvsu.edu/s/99</c>}, where the choice of where to bend a piece of wire into the shape of a rectangle determines both the rectangle's shape and area.</p></li>
+<li><p>Draw a picture and introduce variables.  It is essential to first understand what quantities are allowed to vary in the problem and then to represent those values with variables.  Constructing a figure with the variables labeled is almost always an essential first step.  Sometimes drawing several diagrams can be especially helpful to get a sense of the situation.  A nice example of this can be seen at <url href="http://gvsu.edu/s/99"><c>http://gvsu.edu/s/99</c></url>, where the choice of where to bend a piece of wire into the shape of a rectangle determines both the rectangle's shape and area.</p></li>
 <li><p>Identify the quantity to be optimized as well as any key relationships among the variable quantities.  Essentially this step involves writing equations that involve the variables that have been introduced: one to represent the quantity whose minimum or maximum is sought, and possibly others that show how multiple variables in the problem may be interrelated.</p></li>
 <li><p>Determine a function of a single variable that models the quantity to be optimized; this may involve using other relationships among variables to eliminate one or more variables in the function formula.  For example, in <xref ref="PA_3.4">Preview Activity</xref>, we initially found that <m>V = x^2 y</m>, but then the additional relationship that <m>4x + y = 108</m> (girth plus length equals 108 inches) allows us to relate <m>x</m> and <m>y</m> and thus observe equivalently that <m>y = 108-4x</m>.  Substituting for <m>y</m> in the volume equation yields <m>V(x) = x^2(108-4x)</m>, and thus we have written the volume as a function of the single variable <m>x</m>.</p></li>
 <li><p>Decide the domain on which to consider the function being optimized.  Often the physical constraints of the problem will limit the possible values that the independent variable can take on.  Thinking back to the diagram describing the overall situation and any relationships among variables in the problem often helps identify the smallest and largest values of the input variable.</p></li>
@@ -73,19 +73,6 @@ A soup can in the shape of a right circular cylinder is to be made from two mate
 <li><p>Remember that volume is the area of the base times the height, while surface are can be thought of in terms of the area of the two lids, plus the area of the <q>side</q> of the can.</p></li>
 <li><p>Use the fact that <m>V = 16</m> to write one of the variables in terms of the other to get the cost as a function of a single variable.</p></li>
 <li><p>Differentiate the total cost function and find its critical value(s) first.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Note that both the radius and the height of the can are variable.</p></li>
-<li><p>Remember that volume is the area of the base times the height, while surface are can be thought of in terms of the area of the two lids, plus the area of the <q>side</q> of the can.  The side of the can has the shape of a rectangle (think about cutting the cylinder vertically and unrollling it).  The cost of the can is directly related to surface area.  For instance, the cost of the lids is <m>2 \cdot 0.027 \cdot</m>(area of one lid).</p></li>
-<li><p>Use the fact that <m>V = 16</m> to write one of the variables in terms of the other to get the cost as a function of a single variable.</p></li>
-<li><p>Differentiate the total cost function and find its critical value(s) first.  Use either the first or second derivative test to justify your conclusion.</p></li>
 </ol>
 
 </p>
@@ -133,12 +120,6 @@ Let <m>x</m> be the distance from <m>Z</m> to <m>Q</m>. What is then the distanc
 </p>
 </hint>
 
-<hint>
-<p>
-Let <m>x</m> be the distance from <m>Z</m> to <m>Q</m>. What is then the distance from <m>P</m> to <m>Z</m> in terms of <m>x</m>? How about the distance from <m>Z</m> to the cabin? Remember that since distance equals rate times time, time is given by distance divided by rate. Find an expression for the total time, <m>T</m>, as a function of <m>x</m>.
-</p>
-</hint>
-
 <solution>
 <p>
 We begin by letting <m>x</m> be the distance from <m>Z</m> to <m>Q</m>. Since it is 3 km from <m>P</m> to <m>Q</m>, the distance from <m>P</m> to <m>Z</m> is <m>3-x</m>. Further, by the Pythagorean Theorem, the distance from <m>Z</m> to the cabin is <m>\sqrt{4+x^2}</m>.
@@ -182,7 +163,7 @@ Finally, we evaluate <m>T</m> at the only critical number in the interval and at
 </solution>
 </activity>
 <p>
-In more geometric problems, we often use curves or functions to provide natural constraints. For instance, we could investigate which isosceles triangle that circumscribes a unit circle has the smallest area, which you can explore for yourself at \href{http://gvsu.edu/s/9b}{<c>http://gvsu.edu/s/9b</c>}. Or similarly, for a region bounded by a parabola, we might seek the rectangle of largest area that fits beneath the curve, as shown at \href{http://gvsu.edu/s/9c}{<c>http://gvsu.edu/s/9c</c>}. The next activity is similar to the latter problem.
+In more geometric problems, we often use curves or functions to provide natural constraints. For instance, we could investigate which isosceles triangle that circumscribes a unit circle has the smallest area, which you can explore for yourself at <url href="http://gvsu.edu/s/9b"><c>http://gvsu.edu/s/9b</c></url>. Or similarly, for a region bounded by a parabola, we might seek the rectangle of largest area that fits beneath the curve, as shown at <url href="http://gvsu.edu/s/9c"><c>http://gvsu.edu/s/9c</c></url>. The next activity is similar to the latter problem.
 </p>
 <activity xml:id="A_3.4.3">
 <p>
@@ -191,12 +172,6 @@ Consider the region in the <m>x</m>-<m>y</m> plane that is bounded by the <m>x</
 <hint>
 <p>
 Let <m>x</m> represent half the width of the rectangle's base. How does the rectangle's height depend on <m>x</m>?
-</p>
-</hint>
-
-<hint>
-<p>
-Let <m>x</m> represent half the width of the rectangle's base. How does the rectangle's height depend on <m>x</m>? Don't forget that every point that lies on the parabola is of the form <m>(x,25-x^2)</m>.
 </p>
 </hint>
 
@@ -247,12 +222,6 @@ A trough is being constructed by bending a <m>4 \times 24</m> (measured in feet)
 <hint>
 <p>
 Drop altitudes from the top of the trough to the base of length 2. In the two triangles that are formed, what are the lengths of the legs in terms of <m>\theta</m>?
-</p>
-</hint>
-
-<hint>
-<p>
-Drop altitudes from the top of the trough to the base of length 2. In the two triangles that are formed, what are the lengths of the legs in terms of <m>\theta</m>? What is the overall area in terms of <m>\theta</m>? (Note that since the length of the trough is constant, the volume will be maximized by maximizing cross-sectional area.) Finally, after you differentiate <m>A(\theta)</m>, use the identity <m>\sin^2(\theta) = 1 - \cos^2(\theta)</m> to write <m>A'(\theta)</m> solely in terms of the cosine function and note that the result is a quadratic equation in <m>\cos(theta)</m>.
 </p>
 </hint>
 

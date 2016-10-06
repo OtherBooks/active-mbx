@@ -150,8 +150,8 @@
       <row>
         <cell>0.0000</cell>
         <cell>1.0000</cell>
-        <cell>\hphantom{-1.0000}</cell>
-        <cell>\hphantom{-0.2000}</cell>
+        <cell></cell>
+        <cell></cell>
       </row>
       <row bottom="minor">
         <cell></cell>
@@ -397,8 +397,8 @@
               <row>
                 <cell  >\vphantom{{M}}0.0000</cell>
                 <cell>0.0000</cell>
-                <cell>\hphantom{1.0000}</cell>
-                <cell>\hphantom{0.2000}</cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row bottom="minor">
                 <cell></cell>
@@ -409,9 +409,9 @@
               </row>
               <row>
                 <cell>\vphantom{{M}}0.2000</cell>
-                <cell>\hphantom{MMMMMM}</cell>
-                <cell>\hphantom{MMMMMM}</cell>
-                <cell>\hphantom{MMMMMM}</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row bottom="minor">
                 <cell></cell>
@@ -497,14 +497,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -558,8 +550,8 @@
               <row>
                 <cell  >\vphantom{{M}}0.0</cell>
                 <cell>1.0000</cell>
-                <cell>\hphantom{1.0000}</cell>
-                <cell>\hphantom{0.2000}</cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row bottom="minor">
                 <cell></cell>
@@ -570,9 +562,9 @@
               </row>
               <row>
                 <cell>\vphantom{{M}}0.2</cell>
-                <cell>\hphantom{MMMMMM}</cell>
-                <cell>\hphantom{MMMMMM}</cell>
-                <cell>\hphantom{MMMMMM}</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
               </row>
               <row bottom="minor">
                 <cell></cell>
@@ -645,14 +637,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>

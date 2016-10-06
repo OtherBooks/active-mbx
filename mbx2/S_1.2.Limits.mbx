@@ -232,18 +232,6 @@ Estimate the value of each of the following limits by constructing appropriate t
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p><m>(x^2 - 1) = (x+1)(x-1)</m>.</p></li>
-<li><p>Expand the expression <m>(2+x)^3</m> using the rule <m>(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3</m>, and then combine like terms in the numerator.</p></li>
-<li><p>Try multiplying the given function by this fancy form of 1: <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.  Expand and simplify the numerator, and then see what happens as <m>x \to 0</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 Estimating the values of the limits with tables is straightforward and should suggest the exact values stated below.
@@ -303,18 +291,6 @@ Consider a moving object whose position function is given by <m>s(t) = t^2</m>, 
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p><m>s(3+h) = (3+h)^2 = 9 + 6h + h^2</m>; show that <m>s(3+h) - s(3) = 6h + h^2</m>.</p></li>
-<li><p>Compute <m>AV_{[3,3.2]} = \frac{s(3.2)-s(3)}{3.2-3}</m>.</p></li>
-<li><p>Consider <m>\lim_{h \to 0} \frac{s(3+h)-s(3)}{h} = \lim_{h \to 0} \frac{6h + h^2}{h}</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -354,18 +330,6 @@ For the moving object whose position <m>s</m> at time <m>t</m> is given by the g
 <li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.</p></li>
 <li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.</p></li>
 <li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Remember that average velocity on an interval computes the quotient of <q>change in <m>s</m> over change in <m>t</m>.</q>  This is the slope of the line between the corresponding two points on the graph of <m>s</m>.  For example, the average velocity on <m>[0.5,1]</m> is <m>\frac{1-1}{1-0.5} = 0</m>.</p></li>
-<li><p>Think about shorter and shorter time intervals and drawing the lines whose slopes represent average velocity.  If those lines' slopes are approaching a single number, that number represents the instantaneous velocity.</p></li>
-<li><p>Think about zooming in on the graph at <m>t = 2</m> and drawing a line that, up close, looks just like the curve <m>s(t)</m>.  What is the approximate slope of that line?  By drawing this line that looks like <m>s(t)</m> near the point <m>(2,s(2))</m> and comparing the line through the points <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>, you should be able to compare the lines and see which has greater slope.</p></li>
 </ol>
 
 </p>

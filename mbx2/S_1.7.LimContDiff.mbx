@@ -91,11 +91,11 @@ In <xref ref="PA_1.7">Preview Activity</xref>, the function <m>f</m> given in <x
 <p>
 Consider a function that is piecewise-defined according to the formula
 <me>
-  f(x) = \begin{cases}3(x+2)+2 \amp  \\text{ for \(-3 \lt  x \lt  -2\) }  \\
-  \frac{2}{3}(x+2)+1 \amp  \\text{ for \(-2 \le x \lt  -1\) }  \\
-  \frac{2}{3}(x+2)+1 \amp  \\text{ for \(-1 \lt  x \lt  1\) }  \\
-  2 \amp  \\text{ for \(x = 1\) }  \\
-  4-x \amp  \\text{ for \(x > 1\) } 
+  f(x) = \begin{cases}3(x+2)+2 \amp  \text{ for \(-3 \lt  x \lt  -2\) }  \\
+  \frac{2}{3}(x+2)+1 \amp  \text{ for \(-2 \le x \lt  -1\) }  \\
+  \frac{2}{3}(x+2)+1 \amp  \text{ for \(-1 \lt  x \lt  1\) }  \\
+  2 \amp  \text{ for \(x = 1\) }  \\
+  4-x \amp  \text{ for \(x > 1\) } 
 \end{cases}
 </me>
 </p>
@@ -126,20 +126,6 @@ Use the given formula to answer the following questions.
 <li><p>Use your work in (c) and compare left- and right-hand limits.</p></li>
 <li><p>Use your work in (a) and (c).</p></li>
 <li><p>Note that <m>f</m> is piecewise linear.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Find the interval in which <m>a</m> lies and evaluate the function there.  For example, <m>f(-2) = \frac{2}{3}(-2+2) + 1</m>, based on the formula for <m>f</m>.</p></li>
-<li><p>Remember that for <m>\lim_{x \to a^-} f(x)</m>, we only consider values of <m>x</m> such that <m>x \lt  a</m>.  Find the right formula to use in the piecewise definition for <m>f</m> to fit the values you are considering.  For example, as <m>x \to -2^-</m>, we use the formula <m>3(x+2)+2</m> and see that <m>3(x+2)+2 \to 3(-2+2)+2 = 2</m> as <m>x \to -2^+</m>.</p></li>
-<li><p>Use your work in (c) and compare left- and right-hand limits.  Remember that the overall limit exists if and only if both left and right limits exists and are equal in value.</p></li>
-<li><p>Use your work in (a) and (c).</p></li>
-<li><p>Note that <m>f</m> is piecewise linear.  For instance, <m>y = 3(x+2) + 2</m> is a line through <m>(-2,2)</m> with slope 3 and is valid on the interval <m>-3 \lt  x \lt  -2</m>.</p></li>
 </ol>
 
 </p>
@@ -259,20 +245,6 @@ This activity builds on your work in <xref ref="PA_1.7">Preview Activity</xref>,
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Consider the left- and right-hand limits at each value, and recall that they must both exist and be equal in order for the overall limit to exist.</p></li>
-<li><p>Carefully examine places on the graph where there's an open circle; at such locations, look vertically to see if the function has an assigned value at that point.</p></li>
-<li><p>Are there locations on the graph where the function has a limit but there's a hole in the graph?</p></li>
-<li><p>Remember that at least one of three conditions must fail: if the function lacks a limit, if the function is undefined, or if the limit exists but does not equal the function value, then <m>f</m> is not continuous at the point.</p></li>
-<li><p>Note that the definition of being continuous requires the limit to exist.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -316,7 +288,7 @@ But the function <m>f</m> in <xref ref="F_1.7.NotDiff">Figure</xref> is not diff
 </p>
 
 <p>
-To make a more general observation, if a function does have a tangent line at a given point, when we zoom in on the point of tangency, the function and the tangent line should appear essentially indistinguishable<fn>See, for instance, \href{http://gvsu.edu/s/6J}{<c>http://gvsu.edu/s/6J</c>} for an applet (due to David Austin, GVSU) where zooming in shows the increasing similarity between the tangent line and the curve.</fn>. Conversely, if we have a function such that when we zoom in on a point the function looks like a single straight line, then the function should have a tangent line there, and thus be differentiable. Hence, a function that is differentiable at <m>x = a</m> will, up close, look more and more like its tangent line at <m>(a,f(a))</m>, and thus we say that a function is differentiable at <m>x = a</m> is <em>locally linear</em>. <index><main>locally linear</main></index>
+To make a more general observation, if a function does have a tangent line at a given point, when we zoom in on the point of tangency, the function and the tangent line should appear essentially indistinguishable<fn>See, for instance, <url href="http://gvsu.edu/s/6J"><c>http://gvsu.edu/s/6J</c></url> for an applet (due to David Austin, GVSU) where zooming in shows the increasing similarity between the tangent line and the curve.</fn>. Conversely, if we have a function such that when we zoom in on a point the function looks like a single straight line, then the function should have a tangent line there, and thus be differentiable. Hence, a function that is differentiable at <m>x = a</m> will, up close, look more and more like its tangent line at <m>(a,f(a))</m>, and thus we say that a function is differentiable at <m>x = a</m> is <em>locally linear</em>. <index><main>locally linear</main></index>
 </p>
 
 <p>
@@ -353,20 +325,6 @@ In this activity, we explore two different functions and classify the points at 
 <li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?</p></li>
 <li><p>You might start by identifying points where <m>f</m> is not continuous.</p></li>
 <li><p>What does being differentiable at a point tell you about continuity there?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Think about how <m>g</m> is a piecewise linear function.</p></li>
-<li><p>Recall that <m>g'(0) = \lim_{h \to 0} \frac{g(0 + h) - g(0)}{h}.</m></p></li>
-<li><p>What is the value of <m>|h|</m> when <m>h \lt  0</m>?  What does this tell you about <m>\frac{|h|}{h}</m> when <m>h \lt  0</m>?</p></li>
-<li><p>Start by identifying points where <m>f</m> is not continuous.  Then strive to identify any corner points.</p></li>
-<li><p>What does being differentiable at a point tell you about continuity at that point?</p></li>
 </ol>
 
 </p>

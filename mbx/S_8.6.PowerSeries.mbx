@@ -244,14 +244,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -351,14 +343,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -436,14 +420,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -540,14 +516,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -652,61 +620,64 @@
           </ol>
           </p>
 
-          <p>\\text{ 
+          <p>\text{ 
             On its interval of convergence, a power series is the Taylor series of its sum.
              }</p>
         </statement>
       </exercise>
       <exercise>
-      <statement>
-        <p>In this exercise we will begin with a strange power series and then find its sum. The Fibonacci sequence <m>\{f_n\}</m> is a famous sequence whose first few terms are
-          <me>
-            f_0 = 0, f_1 = 1, f_2 = 1, f_3 = 2, f_4 = 3, f_5 = 5, f_6 = 8, f_7 = 13, \cdots,
-          </me>
-          where each term in the sequence after the first two is the sum of the preceding two terms. That is, <m>f_0 = 0</m>, <m>f_1 = 1</m> and for <m>n \geq 2</m> we have
-          <me>
-            f_n = f_{n-1} + f_{n-2}.
-          </me>
-        </p>
+        <statement>
+          <p>In this exercise we will begin with a strange power series and then find its sum. The Fibonacci sequence <m>\{f_n\}</m> is a famous sequence whose first few terms are
+            <me>
+              f_0 = 0, f_1 = 1, f_2 = 1, f_3 = 2, f_4 = 3, f_5 = 5, f_6 = 8, f_7 = 13, \cdots,
+            </me>
+            where each term in the sequence after the first two is the sum of the preceding two terms. That is, <m>f_0 = 0</m>, <m>f_1 = 1</m> and for <m>n \geq 2</m> we have
+            <me>
+              f_n = f_{n-1} + f_{n-2}.
+            </me>
+          </p>
 
-        <p>Now consider the power series
-          <me>
-            F(x) = \sum_{k=0}^{\infty} f_kx^k.
-          </me>
-        </p>
+          <p>Now consider the power series
+            <me>
+              F(x) = \sum_{k=0}^{\infty} f_kx^k.
+            </me>
+          </p>
 
-        <p>We will determine the sum of this power series in this exercise.
+          <p>We will determine the sum of this power series in this exercise.
 
-        <ol>
-          <li><p>Explain why each of the following is true.
+          <ol>
+            <li><p>Explain why each of the following is true.
 
-          <ul>
-            <li>
-              <title>(i)</title>
-              <p><m>xF(x) = \sum_{k=1}^{\infty} f_{k-1}x^k</m></p></li>
+            <ul>
+              <li>
+                <title>(i)</title>
+                <p><m>xF(x) = \sum_{k=1}^{\infty} f_{k-1}x^k</m></p></li>
 
-            <li>
-              <title>(ii)</title>
-              <p><m>x^2F(x) = \sum_{k=2}^{\infty} f_{k-2}x^k</m></p></li>
-          </ul>
-          </p></li>
-
-          <li><p>Show that
-              <me>
-                F(x) - xF(x) - x^2F(x) = x.
-              </me>
+              <li>
+                <title>(ii)</title>
+                <p><m>x^2F(x) = \sum_{k=2}^{\infty} f_{k-2}x^k</m></p></li>
+            </ul>
             </p></li>
 
-          <li><p>Now use the equation
-              <me>
-                F(x) - xF(x) - x^2F(x) = x
-              </me>
-              to find a simple form for <m>F(x)</m> that doesn't involve a sum.</p></li>
+            <li><p>Show that
+                <me>
+                  F(x) - xF(x) - x^2F(x) = x.
+                </me>
+              </p></li>
 
-          <li><p>Use a computer algebra system or some other method to calculate the first 8 derivatives of <m>\frac{x}{1-x-x^2}</m> evaluated at 0. Why shouldn't the results surprise you?</p></li>
-        </ol>
-        </p>
+            <li><p>Now use the equation
+                <me>
+                  F(x) - xF(x) - x^2F(x) = x
+                </me>
+                to find a simple form for <m>F(x)</m> that doesn't involve a sum.</p></li>
 
+            <li><p>Use a computer algebra system or some other method to calculate the first 8 derivatives of <m>\frac{x}{1-x-x^2}</m> evaluated at 0. Why shouldn't the results surprise you?</p></li>
+          </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+      <statement>
         <p>Airy's equation<fn>The general differential equations of the form <m>y'' \pm k^2xy = 0</m> is called Airy's equation. These equations arise in many problems, such as the study of diffraction of light, diffraction of radio waves around an object, aerodynamics, and the buckling of a uniform column under its own weight.</fn>
           <men xml:id="eq_PA8.6_Airy_equation" >
             y'' + xy = 0,
@@ -818,25 +789,25 @@
 
             <li>
               <title>(ii)</title>
-              <p><m>a_{3k} = \frac{1}{(2)(3)(5)(6) \cdots (3k-1)(3k)} a_0 \\text{ for }  k \geq 1</m>,</p></li>
+              <p><m>a_{3k} = \frac{1}{(2)(3)(5)(6) \cdots (3k-1)(3k)} a_0 \text{ for }  k \geq 1</m>,</p></li>
 
             <li>
               <title>(iii)</title>
-              <p><m>a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \\text{ for }  k \geq 1</m>.</p></li>
+              <p><m>a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \text{ for }  k \geq 1</m>.</p></li>
           </ul>
           </p>
         </statement>
         <solution>
           <p>Equation <xref ref="eq_PA8.6_Airy_sum_3" /> implies that
             <me>
-              a_2 = 0 \ \\text{ and }  \ (k+1)(k+2)a_{k+2}+a_{k-2} = 0 \\text{ for all }  k \geq 1.
+              a_2 = 0 \ \text{ and }  \ (k+1)(k+2)a_{k+2}+a_{k-2} = 0 \text{ for all }  k \geq 1.
             </me>
           </p>
 
           <p>Solving for <m>a_{k+2}</m> in the second equation shows that
             <md>
               <mrow>a_2 \amp = 0</mrow>
-              <mrow>a_{k+2} \amp = -\frac{1}{(k+1)(k+2)}a_{k-1} \\text{ for }   k \geq 1.</mrow>
+              <mrow>a_{k+2} \amp = -\frac{1}{(k+1)(k+2)}a_{k-1} \text{ for }   k \geq 1.</mrow>
             </md>
           </p>
 
@@ -860,13 +831,13 @@
 
             <li><p>The terms that involve <m>a_0</m> have the form <m>a_3</m>, <m>a_6</m>, <m>a_{9}</m>, etc. and are all of the form <m>a_{3k}</m> for positive integers <m>k</m>. The pattern in the denominators of the coefficient for <m>a_{3k}</m> is <m>(2)(3)(5)(6) \cdots (3k-1)(3k)</m>. So
                 <me>
-                  a_{3k} = \frac{1}{(2)(3)(5)(6) \cdots (3k-1)(3k)} a_0 \\text{ for }  k \geq 1.
+                  a_{3k} = \frac{1}{(2)(3)(5)(6) \cdots (3k-1)(3k)} a_0 \text{ for }  k \geq 1.
                 </me>
               </p></li>
 
             <li><p>The terms that involve <m>a_1</m> have the form <m>a_4</m>, <m>a_7</m>, <m>a_{10}</m>, etc. and are all of the form <m>a_{3k+1}</m> for positive integers <m>k</m>. The pattern in the denominators of the coefficient for <m>a_{3k+1}</m> is <m>(3)(4)(6)(7) \cdots (3k)(3k+1)</m>. So
                 <me>
-                  a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \\text{ for }  k \geq 1.
+                  a_{3k+1} = \frac{1}{(3)(4)(6)(7) \cdots (3k)(3k+1)} a_1 \text{ for }  k \geq 1.
                 </me>
               </p></li>
           </ul>

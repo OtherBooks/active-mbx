@@ -240,7 +240,7 @@
         <ul>
           <li><p>In the MODE menu, highlight SEQ in the FUNC line and press ENTER.</p></li>
 
-          <li><p>In the Y= menu, you will now see lines to enter sequences. Enter a value for <m>n</m>Min (where the sequence starts), a function for <m>u(n)</m> (the <m>n</m>th term in the sequence), and the value of <m>u_{n\\text{ Min } }</m>.</p></li>
+          <li><p>In the Y= menu, you will now see lines to enter sequences. Enter a value for <m>n</m>Min (where the sequence starts), a function for <m>u(n)</m> (the <m>n</m>th term in the sequence), and the value of <m>u_{n\text{ Min } }</m>.</p></li>
 
           <li><p>Set your window coordinates (this involves choosing limits for <m>n</m> as well as the window coordinates XMin, XMax, YMin, and YMax.</p></li>
 
@@ -259,14 +259,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -302,14 +294,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -357,14 +341,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>

@@ -56,12 +56,12 @@ for <m>x</m> close to <m>0</m> and so
 </me>
 </p>
 </solution></p></li>
-<li><p>The linearization of <m>\ln(1+x)</m> does not provide a very good approximation to <m>\ln(2)</m> since 1 is not that close to 0. To obtain a better approximation, we alter our approach; instead of using a straight line to approximate <m>\ln(2)</m>, we use a quadratic function to account for the concavity of <m>\ln(1+x)</m> for <m>x</m> close to 0. With the linearization, both the function's value and slope agree with the linearization's value and slope at <m>x=0</m>. We will now make a quadratic approximation <m>P_2(x)</m> to <m>f(x) = \ln(1+x)</m> centered at <m>x=0</m> with the property that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \\text{ and }  <m>P''_2(0) = f''(0)</m>.
+<li><p>The linearization of <m>\ln(1+x)</m> does not provide a very good approximation to <m>\ln(2)</m> since 1 is not that close to 0. To obtain a better approximation, we alter our approach; instead of using a straight line to approximate <m>\ln(2)</m>, we use a quadratic function to account for the concavity of <m>\ln(1+x)</m> for <m>x</m> close to 0. With the linearization, both the function's value and slope agree with the linearization's value and slope at <m>x=0</m>. We will now make a quadratic approximation <m>P_2(x)</m> to <m>f(x) = \ln(1+x)</m> centered at <m>x=0</m> with the property that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \text{ and }  <m>P''_2(0) = f''(0)</m>.
 <ul>
 <li>
 <title>(i)</title>
 <p>
-Let <m>P_2(x) =  x - \frac{x^2}{2}</m>. Show that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \\text{ and }  <m>P''_2(0) = f''(0)</m>. Use <m>P_2(x)</m> to approximate <m>\ln(2)</m> by using the fact that <m>P_2(1) \approx f(1)</m>.
+Let <m>P_2(x) =  x - \frac{x^2}{2}</m>. Show that <m>P_2(0) = f(0)</m>, <m>P'_2(0) = f'(0)</m>, \text{ and }  <m>P''_2(0) = f''(0)</m>. Use <m>P_2(x)</m> to approximate <m>\ln(2)</m> by using the fact that <m>P_2(1) \approx f(1)</m>.
 
 
 <solution>
@@ -203,16 +203,6 @@ Remember that, by definition, a series converges if and only if its correspondin
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -321,16 +311,6 @@ Which series converge and which diverge? Justify your answers.
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -431,16 +411,6 @@ to within 0.0001.
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 First note that the sequence <m>\left\{\frac{1}{k^4}\right\}</m> decreases to 0, so the series <m>\sum_{k=1}^{\infty} \frac{(-1)^{k+1}}{k^4}</m> converges by the Alternating Series Test. Let <m>S</m> be the sum <m>\sum_{k=1}^{\infty} \frac{(-1)^{k+1}}{k^4}</m> and <m>S_n</m> the <m>n</m>th partial sum of the series. We know that
@@ -506,16 +476,6 @@ converge to 0, what do you think the previous two results tell us about the conv
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -607,16 +567,6 @@ Does this series converge absolutely? Hint: Use the fact that <m>\ln(k) \lt  \sq
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
@@ -777,16 +727,6 @@ For (a)-(j), use appropriate tests to determine the convergence or divergence of
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>

@@ -127,26 +127,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Note that <m>\pi</m> is a constant.</p></li>
-
-          <li><p>Observe that <m>g</m> an exponential function.</p></li>
-
-          <li><p><m>h</m> is a power function.</p></li>
-
-          <li><p><m>3^{1/2}</m> is a constant.</p></li>
-
-          <li><p><m>\sqrt{2}</m> is a constant, so <m>r</m> is an exponential function.</p></li>
-
-          <li><p>Remember the notation here means <q>take the derivative with respect to <m>q</m> of <m>q^{-1}</m>.</q>  Note that <m>q{-1}</m> is a power function.</p></li>
-
-          <li><p>Recall that <m>\frac{1}{t^3} = t^{-3}</m>.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -225,26 +205,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Use the sum rule; think about which functions in the sum are power functions and which are exponential.</p></li>
-
-          <li><p>Use the sum rule together with the constant multiple rule.  Note which functions are exponential and which are powers of <m>x</m>.</p></li>
-
-          <li><p>Recall that <m>\sqrt{z} = z^{1/2}</m>; also rewrite <m>\frac{1}{z^4}</m> as a power of <m>z</m>.</p></li>
-
-          <li><p>Note that <m>\sqrt{53}</m>, <m>\pi</m>, and <m>e^4</m> are all constants.</p></li>
-
-          <li><p>Expand the product and combine like terms before attempting to find the derivative.</p></li>
-
-          <li><p>Rewrite the single fraction as a sum of three fractions, and simplify.  That is, note that <m>q(x) = \frac{x^3 - x + 2}{x} = \frac{x^3}{x} - \frac{x}{x} + \frac{2}{x}</m></p></li>
-
-          <li><p>Note that <q><m>a</m></q> is the independent variable and <m>p(a)</m> is simply a polynomial in <m>a</m>.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -307,20 +267,6 @@
           <li><p>What two important pieces of information do you need to know to determine the equation of a line?</p></li>
 
           <li><p>What information do you find in both (a) and (c)?</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Remember that <m>h'(a)</m> tells us the slope of the tangent line to <m>y = h(z)</m> at the point <m>(a,h(a))</m>.</p></li>
-
-          <li><p>Think about how the units on <m>P'(t)</m> are the units of <m>P</m> per unit of <m>t</m>.  For the second question, consider the meaning of <m>P''(t)</m>.</p></li>
-
-          <li><p>Find both <m>(-1,p(-1))</m> and <m>p'(-1)</m>.</p></li>
-
-          <li><p>Note that both questions require you to find the value of the given function's derivative at a particular point.  How is that value used differently in questions (a) and (c)?</p></li>
         </ol>
         </p>
       </hint>

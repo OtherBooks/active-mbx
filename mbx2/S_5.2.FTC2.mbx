@@ -42,7 +42,7 @@ We recall further that the value of a definite integral may have additional mean
 </p>
 
 <p>
-Next, remember that in the last part of <xref ref="S_5.1.AntiDGraphs">Section</xref>, we studied integral functions of the form <m>A(x) = \int_c^x f(t) \, dt</m>. <xref ref="F_5.1.IntFxn">Figure</xref> is a particularly important image to keep in mind as we work with integral functions, and the corresponding java applet at \href{http://gvsu.edu/s/cz}{<c>http://gvsu.edu/s/cz</c>} is likewise foundational to our understanding of the function <m>A</m>. In what follows, we use the First FTC to gain additional understanding of the function <m>A(x) = \int_c^x f(t) \, dt</m>, where the integrand <m>f</m> is given (either through a graph or a formula), and <m>c</m> is a constant. In particular, we investigate further the special nature of the relationship between the functions <m>A</m> and <m>f</m>.
+Next, remember that in the last part of <xref ref="S_5.1.AntiDGraphs">Section</xref>, we studied integral functions of the form <m>A(x) = \int_c^x f(t) \, dt</m>. <xref ref="F_5.1.IntFxn">Figure</xref> is a particularly important image to keep in mind as we work with integral functions, and the corresponding java applet at <url href="http://gvsu.edu/s/cz"><c>http://gvsu.edu/s/cz</c></url> is likewise foundational to our understanding of the function <m>A</m>. In what follows, we use the First FTC to gain additional understanding of the function <m>A(x) = \int_c^x f(t) \, dt</m>, where the integrand <m>f</m> is given (either through a graph or a formula), and <m>c</m> is a constant. In particular, we investigate further the special nature of the relationship between the functions <m>A</m> and <m>f</m>.
 </p>
 <exploration xml:id="PA_5.2">
 <p>
@@ -143,20 +143,6 @@ In addition, let <m>A</m> be the function defined by the rule <m>A(x) = \int_2^x
 <li><p>Don't miss our key conclusion from (a).</p></li>
 <li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>.</p></li>
 <li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Review the statement of the Second FTC above; what does that theorem tell you about <m>A'</m>?</p></li>
-<li><p>Note that <m>A(1)= \int_2^1 f(t) \, dt</m>; don't forget that <m>\int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>.</p></li>
-<li><p>Don't miss our key conclusion from (a), which enables us to gain information from the derivative of <m>A</m> about where <m>A</m> is increasing, decreasing, concave up, and concave down.</p></li>
-<li><p>Compare the values of <m>A(1)</m> and <m>F(1)</m>; note that <m>F</m> could be equivalently defined by the rule <m>F(x) = \int_0^x f(t) \, dt - 1</m>.</p></li>
-<li><p>What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?  Between <m>C</m> and <m>f</m>?  Note, too, that we can write <m>B(x) = F(x) - F(3)</m>, where <m>F</m> is any antiderivative of <m>f</m>.</p></li>
 </ol>
 
 </p>
@@ -269,21 +255,6 @@ Suppose that <m>f(t) = \frac{t}{1+t^2}</m> and <m>F(x) = \int_0^x f(t) \, dt</m>
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Use computing technology appropriately to generate the desired graph.</p></li>
-<li><p>Again, recall the statement of the Second FTC.</p></li>
-<li><p>Where is <m>F'</m> positive?  <m>F'</m> negative?  Remember that <m>F</m> is increasing wherever <m>F'</m> is positive.</p></li>
-<li><p>Note that <m>F'' = f'</m>, which tells us that <m>F''(t) = \frac{1-t^2}{(1+t^2)^2}</m>.  Where is <m>F''</m> positive? negative?</p></li>
-<li><p>Remember that <m>F(5) = \int_0^5 \frac{t}{1+t^2} \, dt</m>.  Try a midpoint sum with at least 10 subintervals.</p></li>
-<li><p>Don't forget that <m>F(0) = 0</m>.  Use the values and information you've found in (b)-(e).</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <ol>
 <li><p>See the plot at below left.</p></li>
@@ -358,16 +329,6 @@ Evaluate each of the following derivatives and definite integrals. Clearly cite 
 </ol>
 
 </p>
-<hint>
-<p>
-
-<ol>
-<li><p>For</p></li>
-</ol>
-
-</p>
-</hint>
-
 <hint>
 <p>
 

@@ -80,20 +80,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>On <m>[0.4,0.8]</m>, the average velocity is <m>AV_{[0.4,0.8]} = \frac{s(0.8)-s(0.4)}{0.8-0.4}</m> ft/sec.  Each of the other average velocities is computed similarly.</p></li>
-
-          <li><p>Remember that the slope of a line can be found by taking <q>rise over run.</q>  In this context, the slope is found by computing <q>change in <m>s</m> over change in <m>t</m>.</q>  Note that each average velocity <m>\frac{s(b)-s(a)}{b-a}</m> can be viewed as the slope of a line between <m>(a,s(a))</m> and <m>(b,s(b))</m>.</p></li>
-
-          <li><p>While the curve <m>s(t)</m> is a parabola, how does it look up close on a very small interval?  What type of familiar function seems to emerge?</p></li>
-
-          <li><p><q>Instantaneous</q> velocity can be approximated by average velocity on a very small interval.  Are the numbers you computed in (a) getting close to a particular value as we look at smaller and smaller intervals surrounding <m>t = 0.8</m>?</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -143,20 +129,6 @@
           <li><p>Think about whether the ball is rising or falling.</p></li>
 
           <li><p>What is the average velocity of the ball on small intervals that contain <m>t = 0</m>?</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p><m>AV_{[1.5,2]} = \frac{s(2)-s(1.5)}{2-1.5}</m>.  Your result should be negative since <m>s(2) \lt  s(1.5)</m>.</p></li>
-
-          <li><p>To estimate the instantaneous velocity at <m>t = 1.5</m>, consider average velocities on the intervals <m>[1.499,1.5]</m> and <m>[1.5,1.501]</m>.</p></li>
-
-          <li><p>You should find in (a) that the instantaneous velocity at <m>t = 1.5</m> is negative, while earlier we found that the instantaneous velocity at <m>t = 0.5</m> is positive.  How are these signs connected to whether the ball is rising or falling?</p></li>
-
-          <li><p>Think about the line through the points <m>(0.999,s(0.999))</m> and <m>(1,s(1))</m> will look like given the <q>special</q> role of <m>(1,s(1))</m> on the graph of <m>s(t)</m>.</p></li>
         </ol>
         </p>
       </hint>
@@ -226,9 +198,6 @@
       <p>For the function given by <m>s(t) = 64 - 16(t-1)^2</m> from <xref ref="PA_1.1">Preview Activity</xref>, find the most simplified expression you can for the average velocity of the ball on the interval <m>[2, 2+h]</m>. Use your result to compute the average velocity on <m>[1.5,2]</m> and to estimate the instantaneous velocity at <m>t = 2</m>. Finally, compare your earlier work in <xref ref="A_1.1.1">Activity</xref>.</p>
       <hint>
         <p>Note that <m>s(2+h) = 64 - 16(2+h-1)^2 = 64 - 16(1+h)^2 = 64 - (16 + 32h + 16h^2) = 48 - 32h - 16h^2</m>.</p>
-      </hint>
-      <hint>
-        <p>Note that <m>s(2+h) = 64 - 16(2+h-1)^2 = 64 - 16(1+h)^2 = 64 - (16 + 32h + 16h^2) = 48 - 32h - 16h^2</m>, and then recall that <m>AV_{[2, 2+h]} = \frac{s(2+h) - s(2)}{h}</m>. Finally, you can use a negative value for <m>h</m> to help you find the desired average velocity.</p>
       </hint>
       <solution>
         <p>Observe first that <m>s(2+h) = 64 - 16(2+h-1)^2 = 64 - 16(1+h)^2 = 64 - (16 + 32h + 16h^2) = 48 - 32h - 16h^2</m>. Next, recall that <m>AV_{[2, 2+h]} = \frac{s(2+h) - s(2)}{h}</m>, so

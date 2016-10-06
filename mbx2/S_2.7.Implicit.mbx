@@ -204,19 +204,6 @@ line.</p></li>
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Does the graph pass the vertical line test?  Can you solve the degree 5 equation <m>x = y^5 - 5y^3 + 4y</m> for <m>y</m>?</p></li>
-<li><p>Note, for instance, that <m>\frac{d}{dx}[y^5] = 5y^4</m>.  After differentiating, factor to get a single instance of <m>\frac{dy}{dx}</m> on one side of the equation.</p></li>
-<li><p>Remember the meaning of <m>\left. \frac{dy}{dx} \right|_{(0,1)}</m> and that point-slope form of a line is <m>y - y_0 = m(x-x_0)</m>.</p></li>
-<li><p>A line is vertical if and only if its slope is undefined.  What point(s) make <m>\frac{dy}{dx}</m> undefined?</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -303,18 +290,6 @@ Use this fact to answer each of the following questions.
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Note that the numerator of <m>\frac{dy}{dx}</m> is a quadratic function of <m>x</m>.  What are its zeros?</p></li>
-<li><p>The denominator of <m>\frac{dy}{dx}</m> is a cubic function of <m>y</m>.  Use appropriate technology to determine the zeros of this function.</p></li>
-<li><p>When <m>x = 1</m>, then <m>y</m> must satisfy the equation <m>y(y^2-1)(y-2) = 0</m>.  Evaluate <m>\frac{dy}{dx}</m> at one such point and use your result appropriately.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -371,18 +346,6 @@ For each of the following curves, use implicit differentiation to find <m>dy/dx<
 <li><p>Note that <m>\frac{d}{dx}[6xy]</m> requires the product rule.</p></li>
 <li><p>With <m>y</m> being a function of <m>x</m>, <m>\frac{d}{dx}[\sin(y)]</m> requires the chain rule.</p></li>
 <li><p>To calculate <m>\frac{d}{dx}[x e^{-xy}]</m>, first use the product rule and temporarily defer computing <m>\frac{d}{dx}[e^{-xy}]</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Note that <m>\frac{d}{dx}[6xy]</m> requires the product rule; don't forget to use the chain rule for <m>\frac{d}{dx}[y^3]</m>.</p></li>
-<li><p>With <m>y</m> being a function of <m>x</m>, <m>\frac{d}{dx}[\sin(y)]</m> requires the chain rule.</p></li>
-<li><p>To calculate <m>\frac{d}{dx}[x e^{-xy}]</m>, first use the product rule; when you compute compute <m>\frac{d}{dx}[e^{-xy}]</m>, note that this uses the chain rule and that differentiating the inner function will again use the product rule.</p></li>
 </ol>
 
 </p>

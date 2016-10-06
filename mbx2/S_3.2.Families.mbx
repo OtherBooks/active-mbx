@@ -166,19 +166,6 @@ Consider the family of functions defined by <m>p(x) = x^3 - ax</m>, where <m>a \
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Note that <m>p'(x) = 3x^2 - a</m>.  When solving <m>p'(x) = 0</m>, think about two possible cases: when <m>a > 0</m> and when <m>a \lt  0</m>.</p></li>
-<li><p>Remember that any quadratic function can be zero at most two times.  How does the graph of <m>y = 3x^2 - a</m> look?</p></li>
-<li><p>Don't forget that <m>\frac{d}{dx}[a] = 0</m>.</p></li>
-<li><p>Think about how a typical cubic polynomial's graph behaves and use your work in (a) - (c).</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -217,20 +204,6 @@ Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx}
 <ol>
 <li><p>Expand to write <m>h(x) = a - ae^{-bx}</m> before differentiating.</p></li>
 <li><p>Remember that <m>e^{-bx}</m> is never zero and always positive, regardless of the value of <m>x</m>.</p></li>
-<li><p>Recall that <m>e^{-x} \to 0</m> as <m>x \to \infty</m> and <m>e^{-x} \to \infty</m> as <m>x \to -\infty</m>.</p></li>
-<li><p>Consider how <m>b</m> affects the value of <m>h'(x)</m>.</p></li>
-<li><p>Use your work in (a)-(d).</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Expand to write <m>h(x) = a - ae^{-bx}</m> before differentiating, and remember to treat <m>a</m> and <m>b</m> as constants.</p></li>
-<li><p>Remember that <m>e^{-bx}</m> is never zero and always positive, regardless of the value of <m>x</m>, and that <m>a</m> and <m>b</m> are positive constants.</p></li>
 <li><p>Recall that <m>e^{-x} \to 0</m> as <m>x \to \infty</m> and <m>e^{-x} \to \infty</m> as <m>x \to -\infty</m>.</p></li>
 <li><p>Consider how <m>b</m> affects the value of <m>h'(x)</m>.</p></li>
 <li><p>Use your work in (a)-(d).</p></li>
@@ -293,20 +266,6 @@ find all values of <m>t</m> such that <m>L''(t) = 0</m> and hence construct a se
 <li><p>Remember that <m>e^{-t} \to 0</m> as <m>t \to \infty</m> and <m>e^{-t} \to \infty</m> as <m>t \to -\infty</m>.</p></li>
 <li><p>Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x > 0</m>.</p></li>
 <li><p>Think about horizontal asymptotes, where <m>L</m> is increasing and decreasing, and concavity.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Use the chain rule, treating <m>A</m>, <m>c</m>, and <m>k</m> as constants.  Remember that <m>e^{-kt} > 0</m> for all values of <m>t</m>.</p></li>
-<li><p>Note that the only way <m>L''(t) = 0</m> is if <m>ce^{-kt}-1 = 0</m>.  Observe that since <m>ce^{-kt} \to 0</m> as <m>t \to \infty</m>, the quantity <m>ce^{-kt} - 1</m> will be positive to the left of where it is zero and negative to the right of where it is zero.</p></li>
-<li><p>Remember that <m>e^{-t} \to 0</m> as <m>t \to \infty</m> and <m>e^{-t} \to \infty</m> as <m>t \to -\infty</m>.</p></li>
-<li><p>Don't forget that <m>e^{\ln(x)} = x</m> for all <m>x > 0</m>.</p></li>
-<li><p>Think about horizontal asymptotes, where <m>L</m> is increasing and decreasing, and concavity.  In addition, find <m>L(0)</m> and plot both this point and the inflection point.</p></li>
 </ol>
 
 </p>

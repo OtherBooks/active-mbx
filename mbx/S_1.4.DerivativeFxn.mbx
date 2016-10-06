@@ -55,7 +55,7 @@
 
     <p>In <xref ref="F_1.4.ffprime">Figure</xref>, on the left we show a plot of <m>f(x) = 4x - x^2</m> together with a selection of tangent lines at the points we've considered above. On the right, we show a plot of <m>f'(x) = 4 - 2x</m> with emphasis on the heights of the derivative graph at the same selection of points. Notice the connection between colors in the left and right graph: the green tangent line on the original graph is tied to the green point on the right graph in the following way: <em>the slope of the tangent line</em> at a point on the lefthand graph is the same as the <em>height</em> at the corresponding point on the righthand graph. That is, at each respective value of <m>x</m>, the slope of the tangent line to the original function at that <m>x</m>-value is the same as the height of the derivative function at that <m>x</m>-value. Do note, however, that the units on the vertical axes are different: in the left graph, the vertical units are simply the output units of <m>f</m>. On the righthand graph of <m>y = f'(x)</m>, the units on the vertical axis are units of <m>f</m> per unit of <m>x</m>.</p>
 
-    <p>Of course, this relationship between the graph of a function <m>y = f(x)</m> and its derivative is a dynamic one. An excellent way to explore how the graph of <m>f(x)</m> generates the graph of <m>f'(x)</m> is through a java applet. See, for instance, the applets at \href{http://gvsu.edu/s/5C}{<c>http://gvsu.edu/s/5C</c>} or \href{http://gvsu.edu/s/5D}{<c>http://gvsu.edu/s/5D</c>}, via the sites of Austin and Renault<fn>David Austin, \href{http://gvsu.edu/s/5r}{<c>http://gvsu.edu/s/5r</c>}; Marc Renault, \href{http://gvsu.edu/s/5p}{<c>http://gvsu.edu/s/5p</c>}.</fn>.</p>
+    <p>Of course, this relationship between the graph of a function <m>y = f(x)</m> and its derivative is a dynamic one. An excellent way to explore how the graph of <m>f(x)</m> generates the graph of <m>f'(x)</m> is through a java applet. See, for instance, the applets at <url href="http://gvsu.edu/s/5C"><c>http://gvsu.edu/s/5C</c></url> or <url href="http://gvsu.edu/s/5D"><c>http://gvsu.edu/s/5D</c></url>, via the sites of Austin and Renault<fn>David Austin, <url href="http://gvsu.edu/s/5r"><c>http://gvsu.edu/s/5r</c></url>; Marc Renault, <url href="http://gvsu.edu/s/5p"><c>http://gvsu.edu/s/5p</c></url>.</fn>.</p>
 
     <p>In <xref ref="S_1.3.DerivativePt">Section</xref> when we first defined the derivative, we wrote the definition in terms of a value <m>a</m> to find <m>f'(a)</m>. As we have seen above, the letter <m>a</m> is merely a placeholder, and it often makes more sense to use <m>x</m> instead. For the record, here we restate the definition of the derivative<index><main>derivative</main><sub>definition</sub></index>.</p>
 
@@ -79,9 +79,6 @@
       <hint>
         <p>Points where the slope of the tangent line is equal to zero are particularly important. Try finding these points first in your effort to plot <m>y = f'(x)</m> and plotting those zero values on the axes where you'll graph <m>y = f'(x)</m>.</p>
       </hint>
-      <hint>
-        <p>Points where the slope of the tangent line is equal to zero are particularly important. Try finding these points first in your effort to plot <m>y = f'(x)</m> and plotting those zero values on the axes where you'll graph <m>y = f'(x)</m>. After doing so, think carefully as well about the questions: at this point, is <m>f'(x)</m> positive or negative? is <m>f'(x)</m> big or small. Use these ideas to help you sketch the derivative graph for the following functions.</p>
-      </hint>
       <solution>
         <image width="73%" source="images/1_4_Act1aSoln" />
         <fillin />
@@ -92,7 +89,7 @@
       </solution>
     </activity>
 
-    <p>For a dynamic investigation that allows you to experiment with graphing <m>f'</m> when given the graph of <m>f</m>, see \href{http://gvsu.edu/s/8y}{<c>http://gvsu.edu/s/8y</c>}.<fn>Marc Renault, Calculus Applets Using Geogebra.</fn></p>
+    <p>For a dynamic investigation that allows you to experiment with graphing <m>f'</m> when given the graph of <m>f</m>, see <url href="http://gvsu.edu/s/8y"><c>http://gvsu.edu/s/8y</c></url>.<fn>Marc Renault, Calculus Applets Using Geogebra.</fn></p>
 
     <p>Now, recall the opening example of this section: we began with the function <m>y = f(x) = 4x - x^2</m> and used the limit definition of the derivative to show that <m>f'(a) = 4 - 2a</m>, or equivalently that <m>f'(x) = 4 - 2x</m>. We subsequently graphed the functions <m>f</m> and <m>f'</m> as shown in <xref ref="F_1.4.ffprime">Figure</xref>. Following <xref ref="A_1.4.1">Activity</xref>, we now understand that we could have constructed a fairly accurate graph of <m>f'(x)</m> <em>without</em> knowing a formula for either <m>f</m> or <m>f'</m>. At the same time, it is ideal to know a formula for the derivative function whenever it is possible to find one.</p>
 
@@ -130,24 +127,6 @@
           <li><p><m>F(t+h) = \frac{1}{t+h}</m></p></li>
 
           <li><p><m>G(y+h) = \sqrt{y+h}</m></p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>The function is a horizontal line.</p></li>
-
-          <li><p>The function is a line with slope 1.</p></li>
-
-          <li><p><m>p(z+h) - p(z) = (z+h)^2 - z^2 = z^2 + 2zh + h^2 - z^2</m></p></li>
-
-          <li><p><m>q(s+h) - q(s) = (s+h)^3 - s^3 = s^3 + 3s^2h + 3sh^2 + h^3 - s^3</m></p></li>
-
-          <li><p>Find a common denominator for <m>\frac{1}{t+h} - \frac{1}{t}</m>.</p></li>
-
-          <li><p>Multiply the difference quotient by this form of 1: <m>\frac{\sqrt{y+h} + \sqrt{y}}{\sqrt{y+h} + \sqrt{y}}.</m></p></li>
         </ol>
         </p>
       </hint>

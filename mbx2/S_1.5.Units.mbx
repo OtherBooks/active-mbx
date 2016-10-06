@@ -171,20 +171,6 @@ A potato is placed in an oven, and the potato's temperature <m>F</m> (in degrees
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Think about quantities such as <m>\frac{F(45)-F(30)}{45-30}</m> and <m>\frac{F(15)-F(30)}{15-30}</m>.</p></li>
-<li><p>See the note in (a).</p></li>
-<li><p>What overall trend do you observe in the instantaneous rate of change of <m>F</m>, based on the overall trend in temperature <m>F</m>?</p></li>
-<li><p>Remember that the units on <m>F'</m> will be <q>degrees Fahrenheit per minute.</q></p></li>
-<li><p>Be careful to distinguish between the temperature, <m>F</m>, and the rate of change of temperature, <m>F'</m>, in your commentary.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -238,20 +224,6 @@ A company manufactures rope, and the total cost of producing <m>r</m> feet of ro
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>The total cost of producing 2000 feet of rope is <m>\ldots</m></p></li>
-<li><p>Remember that the units on any derivative are <q>units of output per unit of input</q> and that the input here is <m>r</m> feet.</p></li>
-<li><p>Since <m>C'(2000) = 0.35</m> dollars/foot, we expect that for each additional foot of rope, the cost will increase by <m>0.35</m> dollars.</p></li>
-<li><p>In manufacturing processes, there is often a decrease in cost per unit as the number of units increases.  What does that tell us to expect about the derivative of <m>C(r)</m>?</p></li>
-<li><p>If <m>C'(5000) = -0.1</m>, this would tell us that <m>C(r)</m> is a decreasing function at <m>r = 5000</m>, which means that the total cost to make <m>5001</m> feet of rope is less than the total cost to make <m>5000</m> feet of rope.  Is this possible?</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -287,18 +259,6 @@ Researchers at a major car company have found a function that relates gasoline c
 <li><p>Try a central difference.</p></li>
 <li><p>What is happening when the car is traveling at 80 km/hr?</p></li>
 <li><p>Remember that units on the derivative are <q>units of output per unit of input.</q></p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Remember that <m>f'(a) \approx \frac{f(a+h)-f(a-h)}{2h}</m> and use appropriate values of <m>a</m> and <m>h</m>.</p></li>
-<li><p>Complete the following sentence: <q>When the car is traveling at 80 kilometers per hour, it is using fuel at a rate of 0.015 <m>\ldots</m></q></p></li>
-<li><p>Remember that units on the derivative are <q>units of output per unit of input,</q> even when the input and/or output are rates themselves.</p></li>
 </ol>
 
 </p>

@@ -130,19 +130,6 @@ Evaluate each of the following limits. If you use L'Hopital's Rule, indicate whe
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Remember that <m>\ln(1) = 0</m>, so this limit takes on the indeterminate form <m>\frac{0}{0}</m>.</p></li>
-<li><p>Note that <m>x \to \pi</m>, not <m>x \to 0</m>, so this limit is not indeterminate.  The denominator tends to <m>\pi</m>; what does the numerator approach?</p></li>
-<li><p>Observe that <m>e^{x-1} \to 1</m> as <m>x \to 1</m>, so this limit is indeterminate in the form <m>\frac{0}{0}</m>.</p></li>
-<li><p>After one application of L'Hopital's Rule, you should find yet another indeterminate form, to which you can again apply the rule.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -232,18 +219,6 @@ without further information being provided, but that you can determine the sign 
 <li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.</p></li>
 <li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?</p></li>
 <li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Don't forget that <m>f'(a)</m> measures the slope of the tangent line to <m>y = f(x)</m> at the point <m>(a,f(a))</m>.  Think about whether or not L'Hopital's Rule applies to the limit under consideration.</p></li>
-<li><p>Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hopital's Rule?  If not, what are your options for evaluating the limit?</p></li>
-<li><p>Remember that L'Hopital's Rule can be applied more than once to a particular limit and that the sign of <m>f''(a)</m> is connected to to the concavity of the graph of <m>f</m> at the value <m>x = a</m>.</p></li>
 </ol>
 
 </p>
@@ -434,20 +409,6 @@ Evaluate each of the following limits. If you use L'Hopital's Rule, indicate whe
 <li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>.</p></li>
 <li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
 <li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Remember that <m>\ln(x) \to \infty</m> as <m>x \to infty</m>, so this limit is indeterminate.</p></li>
-<li><p>Both the numerator and denominator tend to <m>\infty</m> as <m>x \to \infty</m>.  Remember that L'Hopital's Rule can be applied more than once, if needed.</p></li>
-<li><p>Note that <m>x \to 0^+</m>, not <m>\infty</m>, and that <m>\ln(x) \to -\infty</m> as <m>x \to 0^+</m>.</p></li>
-<li><p>As <m>x \to \frac{\pi}{2}^-</m>, <m>\tan(x) \to \infty</m>.</p></li>
-<li><p>Observe that <m>e^{-x} = \frac{1}{e^x}</m>, so this limit can be rearranged to have indeterminate form <m>\frac{\infty}{\infty}.</m></p></li>
 </ol>
 
 </p>

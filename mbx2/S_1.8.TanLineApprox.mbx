@@ -54,7 +54,7 @@ which we can also express as <m>y = f'(a)(x-a) + f(a)</m>. Note well: there is a
 <image width="73%" source="images/1_8_TanLine" />
 </figure>
 <p>
-In <xref ref="F_1.8.TanLine">Figure</xref>, we see a labeled plot of the graph of a function <m>f</m> and its tangent line at the point <m>(a,f(a))</m>. Notice how when we zoom in we see the local linearity of <m>f</m> more clearly highlighted as the function and its tangent line are nearly indistinguishable up close. This can also be seen dynamically in the java applet at \href{http://gvsu.edu/s/6J}{<c>http://gvsu.edu/s/6J</c>}.
+In <xref ref="F_1.8.TanLine">Figure</xref>, we see a labeled plot of the graph of a function <m>f</m> and its tangent line at the point <m>(a,f(a))</m>. Notice how when we zoom in we see the local linearity of <m>f</m> more clearly highlighted as the function and its tangent line are nearly indistinguishable up close. This can also be seen dynamically in the java applet at <url href="http://gvsu.edu/s/6J"><c>http://gvsu.edu/s/6J</c></url>.
 </p>
 </subsection>
 
@@ -125,21 +125,6 @@ Suppose it is known that for a given differentiable function <m>y = g(x)</m>, it
 
 </p>
 </hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Follow the rule for <m>L</m> and note that you can easily compute <m>L'(x)</m>.</p></li>
-<li><p>Recall that the form of the local linearization is <m>L(x) = g(a) + g'(a)(x-a)</m>.  What is the value of <m>a</m> for the given function <m>L</m>?</p></li>
-<li><p>Observe that the value of <m>g'(-1)</m> tells you whether the function <m>g</m> increasing or decreasing at <m>a = -1</m>.</p></li>
-<li><p>Remember that <m>g(-1.03) \approx L(-1.03)</m> and you know a rule for <m>L(x)</m>.</p></li>
-<li><p>What does a positive second derivative tell you about the shape of a curve at a point?</p></li>
-<li><p>Use your work above, and think about the value, slope, and concavity of <m>y = g(x)</m> at <m>a = -1</m>.</p></li>
-</ol>
-
-</p>
-</hint>
 </activity>
 <p>
 As we saw in the example provided by <xref ref="A_1.8.1">Activity</xref>, the local linearization <m>y = L(x)</m> is a linear function that shares two important values with the function <m>y = f(x)</m> that it is derived from. In particular, observe that since <m>L(x) = f(a) + f'(a)(x-a)</m>, it follows that <m>L(a) = f(a)</m>. In addition, since <m>L</m> is a linear function, its derivative is its slope. Hence, <m>L'(x) = f'(a)</m> for every value of <m>x</m>, and specifically <m>L'(a) = f'(a)</m>. Therefore, we see that <m>L</m> is a linear function that has both the same value and the same slope as the function <m>f</m> at the point <m>(a,f(a))</m>.
@@ -199,21 +184,6 @@ Your task is to determine as much information as possible about <m>f</m> (especi
 <li><p>Is <m>f'</m> increasing, decreasing, or neither when <m>x = 2</m>?</p></li>
 <li><p>Draw <m>y = L(x)</m> first.  Then think about options for <m>f</m> relative to the graph of <m>L</m>.</p></li>
 <li><p>Does the tangent line lie above or below the graph of <m>y = f(x)</m> at <m>(2,3)</m>?</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Find the value of <m>f'(2)</m> from the given graph of <m>f</m>, and note that you are given that <m>f(2) = -1</m>.</p></li>
-<li><p>Remember that <m>f(2.07) \approx L(2.07)</m>.</p></li>
-<li><p>The graph of <m>y = f''(x)</m> is the derivative of the graph of <m>y = f'(x)</m>.  Where must <m>f''(x) = 0</m>?  Where is <m>f''(x)</m> positive?</p></li>
-<li><p>Is <m>f'</m> increasing, decreasing, or neither when <m>x = 2</m>?  Use the given graph of <m>y = f'(x)</m> to help you decide.</p></li>
-<li><p>Draw <m>y = L(x)</m> first.  Then think about options for <m>f</m> relative to the graph of <m>L</m>.  Is <m>f</m> concave up or concave down before <m>x = 2</m>?  after <m>x = 2</m>?</p></li>
-<li><p>Does the tangent line lie above or below the graph of <m>y = f(x)</m> at <m>(2,3)</m>?  You may have to consider values less than <m>x = 2</m> and values greater than <m>x = 2</m>.</p></li>
 </ol>
 
 </p>

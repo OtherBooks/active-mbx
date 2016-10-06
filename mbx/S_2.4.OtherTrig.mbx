@@ -114,20 +114,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Remember that one value of <m>x</m> for which <m>\cos(x) = 0</m> is <m>x = \frac{\pi}{2}</m>.  What are the others?</p></li>
-
-          <li><p>Don't forget that <m>\frac{d}{dx}[1] = 0</m>, and be careful with your signs.</p></li>
-
-          <li><p>Consider rewriting <m>\frac{\sin(x)}{\cos^2(x)}</m> as <m>\frac{1}{\cos(x)} \cdot \frac{\sin(x)}{\cos(x)}</m>.</p></li>
-
-          <li><p>Observe that <m>\cos(x)</m> is still present in the denominator of <m>h'(x)</m>.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -172,20 +158,6 @@
           <li><p>For what values of <m>x</m> is <m>\sin(x) = 0</m>?</p></li>
 
           <li><p>Don't forget that <m>\frac{d}{dx}[1] = 0</m>.</p></li>
-
-          <li><p>Consider rewriting <m>\frac{\cos(x)}{\sin^2(x)}</m> as <m>\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>.</p></li>
-
-          <li><p>Observe that <m>\sin(x)</m> is still present in the denominator of <m>h'(x)</m>.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Remember that one value of <m>x</m> for which <m>\sin(x) = 0</m> is <m>x = \pi</m>.  What are the others?</p></li>
-
-          <li><p>Don't forget that <m>\frac{d}{dx}[1] = 0</m>, and be careful with your signs.</p></li>
 
           <li><p>Consider rewriting <m>\frac{\cos(x)}{\sin^2(x)}</m> as <m>\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>.</p></li>
 
@@ -253,22 +225,6 @@
           <li><p>What is the overall structure of <m>g</m>?  What is the algebraic structure of the numerator of <m>g</m>?</p></li>
 
           <li><p>Keep in mind that the derivative of position tells us the instantaneous velocity.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Use the sum and constant multiple rules help you determine <m>f'(x)</m>.</p></li>
-
-          <li><p>Note that <m>p</m> is a sum of two functions and that each term in the sum is a product.</p></li>
-
-          <li><p>Observe that <m>h</m> is a sum of two functions; the first term in the sum is a quotient, while the second is a product.</p></li>
-
-          <li><p>What is the overall structure of <m>g</m>?  What is the algebraic structure of the numerator of <m>g</m>?</p></li>
-
-          <li><p>Keep in mind that the derivative of position tells us the instantaneous velocity, and observe that differentiating <m>s</m> will require the quotient rule.</p></li>
         </ol>
         </p>
       </hint>

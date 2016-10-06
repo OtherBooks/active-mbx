@@ -134,20 +134,6 @@ For each function given below, find its derivative.
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Try using the product rule.</p></li>
-<li><p>Note that <m>p</m> is a quotient of basic functions.</p></li>
-<li><p>Observe that <m>s</m> is a composite function with <m>f(y) = \ln(y)</m> as the outer function.</p></li>
-<li><p>What is the outer function in this composite function?  The inner function?</p></li>
-<li><p>The natural log function is being composed with itself.  What are the inner and outer functions?</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -292,21 +278,6 @@ The following prompts in this activity will lead you to develop the derivative o
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Recall that for any function and its inverse, writing <m>y = f^{-1}(x)</m> is equivalent to writing <m>f(y) = x</m>.</p></li>
-<li><p>Remember that <m>\frac{d}{dx}[\tan(u(x))] = \sec^2(u(x)) u'(x)</m>.</p></li>
-<li><p>This question is only asking you to substitute the expression for <m>r(x)</m> into what you found in (b).</p></li>
-<li><p>Let the vertical leg of the triangle be <m>x</m>.  What must the horizontal leg be?  From there, how can you find the hypotenuse?</p></li>
-<li><p>Recall that the cosine of an angle is the length of the adjacent leg over the length of they hypotenuse.</p></li>
-<li><p>Note that <m>\cos^2(\alpha) = (\cos(\alpha))^2.</m></p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -353,21 +324,6 @@ Determine the derivative of each of the following functions.
 </ol>
 
 </p>
-<hint>
-<p>
-
-<ol>
-<li><p>Use the sum rule followed by the product rule on each term in the sum.</p></li>
-<li><p>Use the chain rule first.  What rule is needed to differentiate <m>t\arcsin(t)</m>?</p></li>
-<li><p>Note that the chain rule is needed to differentiate <m>\arcsin(5z)</m>.</p></li>
-<li><p>You can use right triangle trigonometry to simplify the function first.</p></li>
-<li><p>Use the chain rule twice.</p></li>
-<li><p>Think about the overall structure of this function.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <hint>
 <p>
 

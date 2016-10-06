@@ -63,20 +63,7 @@ Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2.</m>
 
 <ol>
 <li><p>Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.</p></li>
-<li><p>\href{http://wolframalpha.com}{<c>http://wolframalfpha.com</c>} is a great choice.</p></li>
-<li><p>On the graph, look for the lowest and highest possible values of the function.</p></li>
-<li><p>Ask yourself the same questions as (a)-(c), simply using the new interval.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.</p></li>
-<li><p>\href{http://wolframalpha.com}{<c>http://wolframalfpha.com</c>} is a great choice.</p></li>
+<li><p><url href="http://wolframalpha.com"><c>http://wolframalfpha.com</c></url> is a great choice.</p></li>
 <li><p>On the graph, look for the lowest and highest possible values of the function.</p></li>
 <li><p>Ask yourself the same questions as (a)-(c), simply using the new interval.</p></li>
 </ol>
@@ -138,19 +125,6 @@ Find the <em>exact</em> absolute maximum and minimum of each function on the sta
 <li><p>The sine and cosine functions have the same value at <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.</p></li>
 <li><p>Upon finding <m>q'(x)</m>, factor its numerator.</p></li>
 <li><p>Remember that <m>e^{-(x-2)^2}</m> is never zero.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>After computing <m>h'(x)</m>, factor to write the derivative as a product.  Remember that <m>e^{-x} \ne 0</m> for all <m>x</m>.</p></li>
-<li><p>The sine and cosine functions have the same value at <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.  Which of these occur within the given interval?</p></li>
-<li><p>Upon finding <m>q'(x)</m>, factor its numerator.  Observe that even though <m>q'(2)</m> is not defined, <m>2</m> is not a critical number because <m>q(2)</m> is not defined; moreover, <m>2</m> is not in the interval under consideration.</p></li>
-<li><p>Remember that <m>e^{-(x-2)^2}</m> is never zero.  Note that the domain being considered is all real numbers.</p></li>
 </ol>
 
 </p>
@@ -301,21 +275,6 @@ squares are cut from each corner of the box and the remaining sides are folded u
 <li><p>Note that since <m>V</m> is a cubic function, <m>V'</m> is quadratic.</p></li>
 <li><p>Which critical numbers satisfy <m>1 \le x \le 3</m>?</p></li>
 <li><p>Evaluate the function at appropriate points.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Consider letting the length of one side of the removed squares be represented by <m>x</m>.  Note, then, that one side of the box will have length <m>10 - 2x</m>.</p></li>
-<li><p>Remember that the volume of a box is length <times /> width <times /> height.  Write each of length, width, and height in terms of <m>x</m>.</p></li>
-<li><p>Read the given information carefully and think about the picture.</p></li>
-<li><p>Note that since <m>V</m> is a cubic function, <m>V'</m> is quadratic, so you can find the critical numbers exactly.</p></li>
-<li><p>Which critical numbers satisfy <m>1 \le x \le 3</m>?</p></li>
-<li><p>Evaluate the function at appropriate points and see which is greatest and which is least.</p></li>
 </ol>
 
 </p>

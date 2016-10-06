@@ -23,19 +23,19 @@
 
         <li><p>Explain why <m>Q(2) = (5+Q(1)) \times 0.08</m> mg. Then show that
             <me>
-              Q(2) = (5 \times 0.08)\left(1+0.08\right) \\text{ mg } .
+              Q(2) = (5 \times 0.08)\left(1+0.08\right) \text{ mg } .
             </me>
           </p></li>
 
         <li><p>Explain why <m>Q(3) = (5+Q(2)) \times 0.08</m> mg. Then show that
             <me>
-              Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \\text{ mg } .
+              Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \text{ mg } .
             </me>
           </p></li>
 
         <li><p>Explain why <m>Q(4) = (5+Q(3)) \times 0.08</m> mg. Then show that
             <me>
-              Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \\text{ mg } .
+              Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \text{ mg } .
             </me>
           </p></li>
 
@@ -138,14 +138,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -189,7 +181,7 @@
 
     <p>We now apply equation <xref ref="eq_8.2_part_sum_geometric" /> to the example involving warfarin from <xref ref="PA_8.2">Preview Activity</xref>. Recall that
       <me>
-        Q(n)=(5 \times 0.08)\left(1+0.08+0.08^2+0.08^3+ \cdots + 0.08^{n-1}\right) \\text{ mg } ,
+        Q(n)=(5 \times 0.08)\left(1+0.08+0.08^2+0.08^3+ \cdots + 0.08^{n-1}\right) \text{ mg } ,
       </me>
       so <m>Q(n)</m> is a geometric sum with <m>a=5 \times 0.08 = 0.4</m> and <m>r = 0.08</m>. Thus,
       <me>
@@ -269,14 +261,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -384,14 +368,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>

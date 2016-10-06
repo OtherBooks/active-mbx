@@ -100,7 +100,7 @@ While all of the above ideas are important and we will add depth and perspective
 </p>
 
 <p>
-As we move from an average rate of change to an instantaneous one, we can think of one point as <q>sliding towards</q> another. In particular, provided the function has a derivative at <m>(a,f(a))</m>, the point <m>(a+h,f(a+h))</m> will approach <m>(a,f(a))</m> as <m>h \to 0</m>. Because this process of taking a limit is a dynamic one, it can be helpful to use computing technology to visualize what the limit is accomplishing. While there are many different options<fn>For a helpful collection of java applets, consider the work of David Austin of Grand Valley State University at \href{http://gvsu.edu/s/5r}{<c>http://gvsu.edu/s/5r</c>}, and the particularly relevant example at \href{http://gvsu.edu/s/5s}{<c>http://gvsu.edu/s/5s</c>}.  For applets that have been built in Geogebra, a nice example is the work of Marc Renault of Shippensburg University at \href{http://gvsu.edu/s/5p}{<c>http://gvsu.edu/s/5p</c>}, with the example at \href{http://gvsu.edu/s/5q}{<c>http://gvsu.edu/s/5q</c>} being especially fitting for our work in this section.  There are scores of other examples posted by other authors on the internet.</fn>, one of the best is a java applet in which the user is able to control the point that is moving. See the examples referenced in the footnote here, or consider building your own, perhaps using the fantastic free program Geogebra<fn>Available for free download from \href{http://geogebra.org}{<c>http://geogebra.org</c>}.</fn>.
+As we move from an average rate of change to an instantaneous one, we can think of one point as <q>sliding towards</q> another. In particular, provided the function has a derivative at <m>(a,f(a))</m>, the point <m>(a+h,f(a+h))</m> will approach <m>(a,f(a))</m> as <m>h \to 0</m>. Because this process of taking a limit is a dynamic one, it can be helpful to use computing technology to visualize what the limit is accomplishing. While there are many different options<fn>For a helpful collection of java applets, consider the work of David Austin of Grand Valley State University at <url href="http://gvsu.edu/s/5r"><c>http://gvsu.edu/s/5r</c></url>, and the particularly relevant example at <url href="http://gvsu.edu/s/5s"><c>http://gvsu.edu/s/5s</c></url>.  For applets that have been built in Geogebra, a nice example is the work of Marc Renault of Shippensburg University at <url href="http://gvsu.edu/s/5p"><c>http://gvsu.edu/s/5p</c></url>, with the example at <url href="http://gvsu.edu/s/5q"><c>http://gvsu.edu/s/5q</c></url> being especially fitting for our work in this section.  There are scores of other examples posted by other authors on the internet.</fn>, one of the best is a java applet in which the user is able to control the point that is moving. See the examples referenced in the footnote here, or consider building your own, perhaps using the fantastic free program Geogebra<fn>Available for free download from <url href="http://geogebra.org"><c>http://geogebra.org</c></url>.</fn>.
 </p>
 
 <p>
@@ -202,19 +202,6 @@ Consider the function <m>f</m> whose formula is <m>\displaystyle f(x) = 3 - 2x</
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Observe that the function <m>f</m> is of the form <m>f(x) = mx + b</m>.</p></li>
-<li><p>To compute the average rate of change of <m>f</m> on <m>[1,4]</m>, we calculate <m>\frac{f(4)-f(1)}{4-1}</m>.</p></li>
-<li><p>Note that <m>f(1+h) - f(1) = (3 - 2(1+h)) - (3-2) = 3 - 2 - 2h - 1 = -2h</m>.</p></li>
-<li><p>Remember that <m>f'(a)</m> represents the slope of the function <m>f</m> at the value <m>a</m>.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -263,20 +250,6 @@ A water balloon is tossed vertically in the air from a window. The balloon's hei
 <li><p>Note that <m>s(1+h) = -16(1+h)^2 + 16(1+h) + 32</m>.</p></li>
 <li><p>Think about a secant line and a tangent line.</p></li>
 <li><p>A line with positive slope is one that is rising; a line with negative slope is one that is falling.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Show that the quadratic function has <m>t</m>-intercepts at <m>(2,0)</m> and <m>(-1,0)</m>; <m>s</m>-intercept <m>(0,32)</m>; and vertex at the point where <m>t = \frac{1}{2}</m>.</p></li>
-<li><p>Compute <m>\frac{s(2)-s(1)}{2-1}</m>.</p></li>
-<li><p>Observe that <m>s(1+h) - s(1) = (-16(1+h)^2 + 16(1+h) + 32) - (-16(1)^2 + 16(1) + 32) = -16 - 32h - 16h^2 + 16 + 16h + 32 - 32</m> and combine like terms carefully.</p></li>
-<li><p>Consider the line through <m>(1,s(1))</m> and <m>(2,s(2))</m>, as well as the line through <m>(1,s(1))</m> with slope <m>s'(1)</m>.</p></li>
-<li><p>Observe that whenever the ball is rising, it's position function is rising, and thus the slope of its tangent line at any such point will be positive.</p></li>
 </ol>
 
 </p>
@@ -333,24 +306,6 @@ A rapidly growing city in Arizona has its population <m>P</m> at time <m>t</m>, 
 <li><p>Try using <m>h = 0.001, 0.0001, 0.00001</m> and <m>h = -0.001, -0.0001, -0.00001</m>.  Be careful not to round or use computing precision that is too limited.</p></li>
 <li><p>For the first line, think about the points <m>(2,P(2))</m> and <m>(4,P(4))</m>.</p></li>
 <li><p>Visualize the slope of the tangent line and how it changes as a point moves along the curve.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p><m>P(t)</m> is the standard exponential function, scaled by <m>25000</m>.</p></li>
-<li><p>Remember that <m>AV_{[2,4]} = \frac{P(4)-P(2)}{4-2}</m>, and that the units on <m>P</m> are people, while <m>t</m> is the number of decades after 2010.</p></li>
-<li><p>Note that
-<me>
-  P'(2) = \lim_{h \to 0} \frac{P(2+h)-P(2)}{h} = \lim_{h \to 0} \frac{25000 e^{2+h}-25000e^2}{h}.
-</me></p></li>
-<li><p>Try using <m>h = 0.001, 0.0001, 0.00001</m> and <m>h = -0.001, -0.0001, -0.00001</m>.  Be careful not to round or use computing precision that is too limited.  Think about how using the two values of <m>h</m> nearest 0 together could give you the most accurate result.</p></li>
-<li><p>For the first line, think about the points <m>(2,P(2))</m> and <m>(4,P(4))</m>.  For the second, try the line through <m>(2,P(2))</m> with slope <m>P'(2)</m>.</p></li>
-<li><p>Visualize the slope of the tangent line and how it changes as a point moves along the curve.  Does the slope of the tangent line increase, decrease, or stay the same as the point of tangency moves along the curve from right to left?</p></li>
 </ol>
 
 </p>

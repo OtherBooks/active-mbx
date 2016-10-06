@@ -325,14 +325,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -349,7 +341,7 @@
               </md>
               It appears that the odd derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the even derivatives are <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>. Since the even numbers can be represented in the form <m>2k</m> where <m>k</m> is an integer we have
               <me>
-                f^{k}(0) = 0 \\text{ if }  k \\text{ is odd }  \ \ \ \\text{ and }  \ \ \ f^{2k}(0) = (-1)^k.
+                f^{k}(0) = 0 \text{ if }  k \text{ is odd }  \ \ \ \text{ and }  \ \ \ f^{2k}(0) = (-1)^k.
               </me>
             </p></li>
 
@@ -377,7 +369,7 @@
               </md>
               It appears that the even derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the odd derivatives are <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>. Since the odd numbers can be represented in the form <m>2k+1</m> where <m>k</m> is an integer we have
               <me>
-                f^{k}(0) = 0 \\text{ if }  k \\text{ is even }  \ \ \ \\text{ and }  \ \ \ f^{2k+1}(0) = (-1)^k.
+                f^{k}(0) = 0 \text{ if }  k \text{ is even }  \ \ \ \text{ and }  \ \ \ f^{2k+1}(0) = (-1)^k.
               </me>
             </p></li>
 
@@ -492,14 +484,6 @@
         </ol>
         </p>
       </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
       <solution>
         <p>
 
@@ -516,7 +500,7 @@
               </md>
               It appears that the odd derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the even derivatives are <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>. Since the even numbers can be represented in the form <m>2k</m> where <m>k</m> is an integer we have
               <me>
-                f^{k}(0) = 0 \\text{ if }  k \\text{ is odd }  \ \ \ \\text{ and }  \ \ \ f^{2k}(0) = (-1)^k.
+                f^{k}(0) = 0 \text{ if }  k \text{ is odd }  \ \ \ \text{ and }  \ \ \ f^{2k}(0) = (-1)^k.
               </me>
             </p></li>
 
@@ -544,7 +528,7 @@
               </md>
               It appears that the even derivatives of <m>f(x)</m> are all plus or minus <m>\sin(x)</m> and so have values of 0 at <m>x=0</m> and the odd derivatives are <m>\pm \cos(x)</m> and have alternating values of 1 and <m>-1</m> at <m>x-0</m>. Since the odd numbers can be represented in the form <m>2k+1</m> where <m>k</m> is an integer we have
               <me>
-                f^{k}(0) = 0 \\text{ if }  k \\text{ is even }  \ \ \ \\text{ and }  \ \ \ f^{2k+1}(0) = (-1)^k.
+                f^{k}(0) = 0 \text{ if }  k \text{ is even }  \ \ \ \text{ and }  \ \ \ f^{2k+1}(0) = (-1)^k.
               </me>
             </p></li>
 
@@ -605,14 +589,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -751,14 +727,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -906,7 +874,7 @@
 
     <p>So <m>P_{10}(2)</m> approximates <m>\sin(2)</m> to within at most 0.00005130671797. A computer algebra system tells us that
       <me>
-        P_{10}(2) \approx 0.9093474427 \ \ \\text{ and }  \ \ \sin(2) \approx 0.9092974268
+        P_{10}(2) \approx 0.9093474427 \ \ \text{ and }  \ \ \sin(2) \approx 0.9092974268
       </me>
       with an actual difference of about 0.0000500159.</p>
 
@@ -917,14 +885,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Big hints for each of the prompts above.</p></li>
         </ol>
         </p>
       </hint>
@@ -1004,7 +964,7 @@
 
         <p>A computer algebra system gives
           <me>
-            P_{27}(2) \approx 0.9092974268256816953960 \ \ \\text{ and }  \sin(2) \approx 0.9092974268256816953960
+            P_{27}(2) \approx 0.9092974268256816953960 \ \ \text{ and }  \sin(2) \approx 0.9092974268256816953960
           </me>
           and we can see that these agree to 20 places.</p>
       </solution>
@@ -1070,57 +1030,6 @@
 
         <ol>
           <li><p>Small hints for each of the prompts above.</p></li>
-        </ol>
-        </p>
-      </hint>
-      <hint>
-        <p>
-
-        <ol>
-          <li><p>Since the derivatives of <m>\cos(x)</m> are all either <m>\pm \cos(x)</m> or <m>\pm \sin(x)</m>, we see that all of the derivatives of <m>\cos(x)</m> are bounded above by 1. If <m>P_n(x)</m> is the <m>n</m>th order Taylor polynomial for <m>\cos(x)</m>, then for any <m>x</m> we have
-              <me>
-                \left|P_n(x) - f(x)\right| \leq (1)\frac{|x|^{n+1}}{(n+1)!}.
-              </me>
-              Since
-              <me>
-                \lim_{n \to \infty} \frac{|x|^{n+1}}{(n+1)!} = 0,
-              </me>
-              we conclude that <m>P_n(x) \to f(x)</m> as <m>n \to \infty</m> for all <m>x</m> and the Taylor series for <m>\cos(x)</m> converges to <m>\cos(x)</m> for every real number <m>x</m>.</p></li>
-
-          <li><p>\begin{alphalist2}</p></li>
-
-          <li><p>Let <m>c</m> be a nonnegative number. The derivatives of <m>e^x</m> are all equal to <m>e^x</m>. Now <m>e^x</m> is an increasing function so <m>e^x \lt  e^c</m> for all <m>x</m> in the interval <m>[0,c]</m>. So if <m>P_n(x)</m> is the <m>n</m>th order Taylor polynomial centered at 0 for <m>e^x</m>, then for any <m>x</m> in <m>[0,c]</m> we have
-              <me>
-                \left|P_n(x) - f(x)\right| \leq 1\frac{e^c|x|^{n+1}}{(n+1)!}.
-              </me>
-              Since
-              <me>
-                \lim_{n \to \infty} e^c\frac{|x|^{n+1}}{(n+1)!} = e^c\lim_{n \to \infty} \frac{|x|^{n+1}}{(n+1)!} = 0,
-              </me>
-              we conclude that <m>P_n(x) \to f(x)</m> as <m>n \to \infty</m> for all nonnegative <m>x</m>.</p></li>
-
-          <li><p>Let <m>c</m> be a negative number. The derivatives of <m>e^x</m> are all equal to <m>e^x</m>. Now <m>e^x</m> is an increasing function so <m>e^x \lt  1</m> for all <m>x</m> in the interval <m>[c,0]</m>. So if <m>P_n(x)</m> is the <m>n</m>th order Taylor polynomial centered at 0 for <m>e^x</m>, then for any <m>x</m> in <m>[c,0]</m> we have
-              <me>
-                \left|P_n(x) - f(x)\right| \leq 1\frac{(1)|x|^{n+1}}{(n+1)!}.
-              </me>
-              Since
-              <me>
-                \lim_{n \to \infty} \frac{|x|^{n+1}}{(n+1)!} = 0,
-              </me>
-              we conclude that <m>P_n(x) \to f(x)</m> as <m>n \to \infty</m> for all negative <m>x</m>.</p></li>
-
-          <li><p>Since the Taylor series centered at 0 for <m>e^x</m> converges to <m>e^x</m> for all nonnegative and all negative numbers, we conclude that the Taylor series centered at 0 for <m>e^x</m> converges to <m>e^x</m> for all real numbers <m>x</m>.
-                  \end{alphalist2}</p></li>
-
-          <li><p>Since <m>e^x</m> is increasing on <m>[0,5]</m> we know that <m>e^x \lt  e^5</m> on <m>[0,5]</m>. Now <m>e^5 \lt  243</m>, so
-              <me>
-                \left|P_n(5) - e^5\right| \leq 243\frac{|5|^{n+1}}{(n+1)!}.
-              </me>
-              We want a value of <m>n</m> that makes this error term less than <m>10^{-8}</m>. Testing various values of <m>n</m> gives us
-              <me>
-                243\frac{|5|^{28+1}}{(28+1)!} \approx 5.119146745 \times 10^{-9}
-              </me>
-              so we can choose <m>n=28</m>. A computer algebra system shows that <m>P_{28}(5) \approx 148.413159102551</m> while <m>e^5 \approx 148.413159102577</m> and we can see that these two approximations agree to 8 decimal places.</p></li>
         </ol>
         </p>
       </hint>
@@ -1213,8 +1122,8 @@
       <exercise>
         <statement>
           <p>Based on the examples we have seen, we might expect that the Taylor series for a function <m>f</m> always converges to the values <m>f(x)</m> on its interval of convergence. We explore that idea in more detail in this exercise. Let <m>f(x) =
-              \begin{cases}e^{-1/x^2} \amp \\text{ if }  x \neq 0, \\
-              0   \amp \\text{ if }  x = 0.
+              \begin{cases}e^{-1/x^2} \amp \text{ if }  x \neq 0, \\
+              0   \amp \text{ if }  x = 0.
           \end{cases}</m>
 
           <ol>

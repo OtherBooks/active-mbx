@@ -16,7 +16,7 @@
 <p>
 Just as we can use definite integrals to add the areas of rectangular slices to find the exact area that lies between two curves, we can also employ integrals to determine the volume of certain regions that have cross-sections of a particular consistent shape. As a very elementary example, consider a cylinder of radius 2 and height 3, as pictured in <xref ref="F_6.2.Intro">Figure</xref>. While we know that we can compute the area of any circular cylinder by the formula <m>V = \pi r^2 h</m>, if we think about slicing the cylinder into thin pieces, we see that each is a cylinder of radius <m>r = 2</m> and height (thickness) <m>\triangle x</m>. Hence, the volume of a representative slice is
 <me>
-  V_{{\\text{ slice } }} = \pi \cdot 2^2 \cdot \triangle x.
+  V_{{\text{ slice } }} = \pi \cdot 2^2 \cdot \triangle x.
 </me>
 </p>
 
@@ -198,16 +198,6 @@ In each of the following questions, draw a careful, labeled sketch of the region
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -281,16 +271,6 @@ In each of the following questions, draw a careful, labeled sketch of the region
 </p>
 </hint>
 
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
 <solution>
 <p>
 
@@ -351,16 +331,6 @@ In each of the following questions, draw a careful, labeled sketch of the region
 
 <ol>
 <li><p>Small hints for each of the prompts above.</p></li>
-</ol>
-
-</p>
-</hint>
-
-<hint>
-<p>
-
-<ol>
-<li><p>Big hints for each of the prompts above.</p></li>
 </ol>
 
 </p>
